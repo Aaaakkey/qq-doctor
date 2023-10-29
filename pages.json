@@ -6,7 +6,12 @@
 		    {
 		        "navigationBarTitleText": "",
 		        "enablePullDownRefresh": false,
-				"navigationStyle": "custom"
+				"navigationStyle": "custom",
+				"disableSwipeBack": true,
+				"app-plus": {//app平台
+						"bounce": "none"//禁止滚动
+						
+					}
 		    }
 		    
 		},
@@ -17,6 +22,90 @@
 			}
 		}    
         
+        ,{
+            "path" : "pages/login/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {//app平台
+						"bounce": "none"//禁止滚动
+					
+					
+					}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/passwordLogin/passwordLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {//app平台
+						"bounce": "none",//禁止滚动
+						"animationType": "none",
+								"animationDuration": 300
+					
+					}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/phoneLogin/phoneLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {//app平台
+						"bounce": "none"//禁止滚动
+						
+					
+						
+					}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/userAgreement/userAgreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+			
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/privacyPolicy/privacyPolicy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+			
+            }
+            
+        }
+
+        ,{
+            "path" : "pages/registrationWizard/slideWizard/slideWizard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {//app平台
+						"bounce": "none"//禁止滚动
+						
+					
+						
+					}
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

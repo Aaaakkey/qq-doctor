@@ -1,0 +1,111 @@
+/* 水平间距 */
+/* 水平间距 */
+.container[data-v-96390ece] {
+  display: flex;
+  flex-direction: column;
+  width: 23.4375rem;
+  height: 100vh;
+  opacity: 1;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #020A19;
+}
+.bgicon[data-v-96390ece] {
+  height: 69%;
+}
+.bgicon .icon[data-v-96390ece] {
+  height: 100%;
+  width: 160%;
+  left: -13.125rem;
+  z-index: 0;
+}
+.f1[data-v-96390ece] {
+  display: flex;
+  height: 27%;
+  background: #020A19;
+  flex-direction: column;
+}
+.f1 .f11[data-v-96390ece] {
+  width: 100%;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+}
+.f1 .f11 .t1[data-v-96390ece] {
+  transform: translateY(-2.5rem);
+  color: #FFFFFF;
+  height: 50%;
+  font-size: 1.875rem;
+  text-indent: 4.375rem;
+  font-weight: 600;
+}
+.f1 .f11 .t1 .t11[data-v-96390ece] {
+  font-family: Montserrat;
+}
+.f1 .f11 .t2[data-v-96390ece] {
+  transform: translateY(-5.3125rem);
+  color: #FFFFFF;
+  height: 50%;
+  font-size: 1.875rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-indent: 4.375rem;
+}
+.f1 .f2[data-v-96390ece] {
+  height: 35%;
+  text-indent: 4.375rem;
+  color: #FFFFFF;
+  font-size: 0.78125rem;
+  font-weight: 540;
+}
+.f1 .f3[data-v-96390ece] {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.f1 .f3 .f31[data-v-96390ece] {
+  height: 100%;
+}
+.f1 .f3 .f31 .b1[data-v-96390ece] {
+  height: 3.1875rem;
+  text-align: center;
+  width: 7.625rem;
+  background: #8AEEEE;
+  font-size: 0.9375rem;
+  border-radius: 1.40625rem;
+  color: #000000;
+  margin-right: 0.46875rem;
+  margin-left: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f1 .f3 .f31 .b1 .t3[data-v-96390ece] {
+  font-weight: 550;
+  font-family: Montserrat;
+}
+.f1 .f3 .f32[data-v-96390ece] {
+  height: 100%;
+}
+.f1 .f3 .f32 .b2[data-v-96390ece] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.1875rem;
+  text-align: center;
+  width: 7.625rem;
+  font-size: 0.9375rem;
+  color: #FFFFFF;
+  background: #020A19;
+  margin-left: 0.46875rem;
+  border-radius: 1.40625rem;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 0.0625rem;
+}
+.f1 .f3 .f32 .b2 .t4[data-v-96390ece] {
+  font-weight: 500;
+  font-family: Montserrat;
+}

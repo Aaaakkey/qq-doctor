@@ -1,0 +1,108 @@
+/* 水平间距 */
+/* 水平间距 */
+.container.data-v-96390ece {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 100vh;
+  border-radius: 23px;
+  opacity: 1;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #020A19;
+}
+.bgicon.data-v-96390ece {
+  height: 69%;
+}
+.bgicon .icon.data-v-96390ece {
+  height: 100%;
+  width: 160%;
+  left: -420rpx;
+  z-index: 0;
+}
+.f1.data-v-96390ece {
+  display: flex;
+  height: 27%;
+  background: #020A19;
+  flex-direction: column;
+}
+.f1 .f11.data-v-96390ece {
+  width: 100%;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+}
+.f1 .f11 .t1.data-v-96390ece {
+  transform: translateY(-80rpx);
+  color: #FFFFFF;
+  height: 50%;
+  font-size: 60rpx;
+  text-indent: 140rpx;
+  font-weight: 600;
+}
+.f1 .f11 .t1 .t11.data-v-96390ece {
+  font-family: Montserrat;
+}
+.f1 .f11 .t2.data-v-96390ece {
+  transform: translateY(-170rpx);
+  color: #FFFFFF;
+  height: 50%;
+  font-size: 60rpx;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-indent: 140rpx;
+}
+.f1 .f2.data-v-96390ece {
+  height: 35%;
+  text-indent: 140rpx;
+  color: #FFFFFF;
+  font-size: 25rpx;
+  font-weight: 540;
+}
+.f1 .f3.data-v-96390ece {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.f1 .f3 .f31.data-v-96390ece {
+  height: 100%;
+}
+.f1 .f3 .f31 .b1.data-v-96390ece {
+  height: 102rpx;
+  text-align: center;
+  width: 244rpx;
+  background: #8AEEEE;
+  font-size: 30rpx;
+  border-radius: 45rpx;
+  color: #000000;
+  margin-right: 15rpx;
+  margin-left: 20rpx;
+}
+.f1 .f3 .f31 .b1 .t3.data-v-96390ece {
+  transform: translateY(8rpx);
+  font-weight: 550;
+  font-family: Montserrat;
+}
+.f1 .f3 .f32.data-v-96390ece {
+  height: 100%;
+}
+.f1 .f3 .f32 .b2.data-v-96390ece {
+  height: 102rpx;
+  text-align: center;
+  width: 244rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  background: #020A19;
+  margin-left: 15rpx;
+  border-radius: 45rpx;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 2rpx;
+}
+.f1 .f3 .f32 .b2 .t4.data-v-96390ece {
+  transform: translateY(6rpx);
+  font-weight: 500;
+  font-family: Montserrat;
+}

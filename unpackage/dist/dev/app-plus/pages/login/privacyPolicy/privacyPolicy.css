@@ -1,0 +1,56 @@
+/* 水平间距 */
+/* 水平间距 */
+.privacyPolicy[data-v-a8203ef9] {
+  width: 100vw;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /*  padding: 20rpx; */
+  background-color: #fff;
+}
+.title[data-v-a8203ef9] {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 2vh;
+  background-color: #fff;
+}
+.title .titleContent[data-v-a8203ef9] {
+  padding-top: 0.3125rem;
+  padding-left: 0.9375rem;
+}
+.content[data-v-a8203ef9] {
+  flex: 1;
+  max-height: 80vh;
+  padding: 0.625rem;
+  border: 0.03125rem solid #ccc;
+  border-radius: 0.1875rem;
+  overflow: auto;
+  background-color: #fff;
+}
+.privacyPolicy-content[data-v-a8203ef9] {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #333;
+}
+.wrapp[data-v-a8203ef9] {
+  display: flex;
+  justify-content: center;
+}
+.wrapp .privacyPolicy-button[data-v-a8203ef9] {
+  width: 70vw;
+  background: #8AEEEE;
+  border-radius: 1.875rem;
+  color: #000000;
+  font-weight: 600;
+  font-family: Montserrat;
+  height: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
