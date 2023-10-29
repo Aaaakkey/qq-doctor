@@ -1,0 +1,99 @@
+/* 水平间距 */
+/* 水平间距 */
+.container.data-v-be2e578e {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 100vh;
+  border-radius: 23px;
+  opacity: 1;
+  background: #020A19;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.content.data-v-be2e578e {
+  height: 69%;
+  background: url(../../../static/img/login/bg1.jpg);
+  background-size: 160% 100%;
+  background-position: -420rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .a1.data-v-be2e578e {
+  height: 20%;
+}
+.content .t1.data-v-be2e578e {
+  height: 10%;
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.content .i1.data-v-be2e578e {
+  height: 14%;
+  width: 70%;
+}
+.content .i1 .i11.data-v-be2e578e {
+  background-color: white;
+  height: 102rpx;
+  border-radius: 40rpx;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 4rpx;
+  text-align: left;
+  font-size: 30rpx;
+}
+.content .i2.data-v-be2e578e {
+  width: 100%;
+  display: flex;
+  flex: row;
+  height: 109rpx;
+  justify-content: center;
+}
+.content .i2 .i21.data-v-be2e578e {
+  height: 102rpx;
+  width: 70%;
+  border-radius: 20%;
+  display: flex;
+  z-index: 1;
+  background-color: white;
+  border-radius: 40rpx;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 4rpx;
+  font-size: 30rpx;
+  transform: translateX(112rpx);
+}
+.content .i2 .btn1.data-v-be2e578e {
+  height: 113rpx;
+  background-color: aqua;
+  font-size: 30rpx;
+  color: #979797;
+  border-radius: 50rpx;
+  z-index: 2;
+  transform: translateX(-90rpx);
+}
+.content .i3.data-v-be2e578e {
+  background: white;
+  height: 28%;
+  width: 100%;
+}
+.content .i4.data-v-be2e578e {
+  background-color: aqua;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.f1.data-v-be2e578e {
+  display: flex;
+  height: 27%;
+  background: #020A19;
+  flex-direction: column;
+}
+.f1 .f11.data-v-be2e578e {
+  height: 30%;
+  background-color: rebeccapurple;
+}
