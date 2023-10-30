@@ -105,6 +105,14 @@
 					}
             }
             
+        },
+        {
+        	"path" : "pages/nearbyHospital/locationPermissions/locationPermissions",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
         }
     ],
 	"globalStyle": {
