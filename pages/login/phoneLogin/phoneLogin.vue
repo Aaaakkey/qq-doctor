@@ -33,11 +33,11 @@
 		</view>
 
 		<view class="f2">
-			<navigator url="/pages/login/start/start">
-				<button type="default" class="btn2">
+
+				<button type="default" class="btn2"  @click.native="navTo()">
 					<view class="f22">登录</view>
 				</button>
-			</navigator>
+
 		</view>
 
 		<view class="f3">
@@ -59,7 +59,11 @@
 			}
 		},
 		methods: {
-
+            navTo(){
+				uni.reLaunch({
+					url:"/pages/main/mainfront"
+				})
+			}
 		}
 	}
 </script>

@@ -18,9 +18,12 @@
 		
 		
 		<view class="buttonNextWrapp">
-			<button class="buttonNext" >
-				<view class="" style="font-size: 32rpx; line-height: 22px; font-weight: 600;">开始您的体验</view>
-			</button>
+		
+				<button class="buttonNext" @click.native="navTo()" >
+					<view class="" style="font-size: 32rpx; line-height: 22px; font-weight: 600;">开始您的体验</view>
+				</button>
+	
+		
 		</view>
 	</div>
 </template>
@@ -37,6 +40,11 @@
 				// 下一步按钮点击事件
 				this.current += 1;
 			},
+			navTo(){
+				uni.reLaunch({
+					url:"/pages/main/mainfront"
+				})
+			}
 		},
 	}
 </script>

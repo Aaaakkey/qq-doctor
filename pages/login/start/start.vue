@@ -21,16 +21,18 @@
 				<text class="f21">呵护您的健康生活</text>
 			</view>
 			<view class="f3">
-			
+
 				<view class="f31">
-					<navigator url="/pages/login/passwordLogin/passwordLogin"  animation-type="slide-in-bottom" animation-duration="300" >
+					<navigator url="/pages/login/passwordLogin/passwordLogin" animation-type="slide-in-bottom"
+						animation-duration="300">
 						<button class="b1">
 							<view class="t3">登录</view>
 						</button>
 					</navigator>
-					</view>
+				</view>
 				<view class="f32">
-					<navigator url="/pages/login/register/register" animation-type="slide-in-bottom" animation-duration="300" >
+					<navigator url="/pages/login/register/register" animation-type="slide-in-bottom"
+						animation-duration="300">
 						<button type="default" class="b2">
 							<view class="t4">创建账户</view>
 						</button>
@@ -154,7 +156,7 @@
 
 			.f31 {
 				height: 100%;
-               
+
 				.b1 {
 					height: 102rpx;
 					text-align: center;
@@ -170,7 +172,7 @@
 					align-items: center;
 
 					.t3 {
-						
+
 						font-weight: 550;
 						font-family: Montserrat;
 					}
@@ -205,7 +207,7 @@
 					border-width: 2rpx;
 
 					.t4 {
-				
+
 						font-weight: 500;
 						font-family: Montserrat;
 					}

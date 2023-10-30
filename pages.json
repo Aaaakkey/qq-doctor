@@ -10,7 +10,6 @@
 				"disableSwipeBack": true,
 				"app-plus": {//app平台
 						"bounce": "none"//禁止滚动
-						
 					}
 		    }
 		    
@@ -113,8 +112,13 @@
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false,
-				"navigationBarBackgroundColor": "#ffffff",
-				"navigationStyle": "custom"
+				"navigationBarBackgroundColor": "#8AEEEE",
+				"navigationBarTextStyle": "black",
+				"style" :
+				{
+				    "navigationBarTitleText": "输入附件医院名",
+				    "enablePullDownRefresh": false
+				} 
 			}
 		
 		}, {

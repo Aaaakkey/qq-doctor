@@ -54,7 +54,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.container {
 		overflow: hidden;
 		overflow-y: auto;

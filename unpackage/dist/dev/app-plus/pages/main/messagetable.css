@@ -1,0 +1,19 @@
+/* 水平间距 */
+/* 水平间距 */
+.MessageLine[data-v-8b1e6fc4] {
+  width: 12.5rem;
+  padding: 0.3125rem 0.625rem;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* 水平间距 */
+/* 水平间距 */
+.message-table[data-v-160538d4] {
+  width: 23.4375rem;
+  height: 3.75rem;
+  background-color: #ffffff;
+  border-bottom: 1px #E3E3E3 solid;
+}

@@ -30,14 +30,14 @@
 		</view>
 
 		<view class="f2">
-			<navigator url="/pages/login/start/start">
-				<button type="default" class="btn2">
+	<!-- 		<navigator url="/pages/login/start/start"> -->
+				<button type="default" class="btn2"  @click.native="navTo()">
 					<view class="f22">
 					
 						登录
 						</view>
 				</button>
-			</navigator>
+<!-- 			</navigator> -->
 		</view>
 
 		<view class="f3">
@@ -57,12 +57,17 @@
 			return {
 				agreementChecked: false,
 				password: '',
-				passwordNotShowFlag: false
+				passwordNotShowFlag: true
 			}
 		},
 		methods: {
 			togglePasswordVisibility() {
 				this.passwordNotShowFlag = !this.passwordNotShowFlag;
+			},
+			navTo(){
+				uni.reLaunch({
+					url:"/pages/main/mainfront"
+				})
 			}
 		}
 	}
