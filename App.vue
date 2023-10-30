@@ -29,4 +29,7 @@
 		color: #333;
 		padding: 10px;
 	}
+	view{
+			box-sizing: border-box;
+	}
 </style>
