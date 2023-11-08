@@ -1,0 +1,350 @@
+/* 水平间距 */
+/* 水平间距 */
+.uni-tag[data-v-1f94d070] {
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 4px 7px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #8f939c;
+  border-width: 0.03125rem;
+  border-style: solid;
+  border-color: #8f939c;
+}
+.uni-tag--default[data-v-1f94d070] {
+  font-size: 12px;
+}
+.uni-tag--default--inverted[data-v-1f94d070] {
+  color: #8f939c;
+  border-color: #8f939c;
+}
+.uni-tag--small[data-v-1f94d070] {
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.uni-tag--mini[data-v-1f94d070] {
+  padding: 1px 3px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.uni-tag--primary[data-v-1f94d070] {
+  background-color: #2979ff;
+  border-color: #2979ff;
+  color: #fff;
+}
+.uni-tag--success[data-v-1f94d070] {
+  color: #fff;
+  background-color: #18bc37;
+  border-color: #18bc37;
+}
+.uni-tag--warning[data-v-1f94d070] {
+  color: #fff;
+  background-color: #f3a73f;
+  border-color: #f3a73f;
+}
+.uni-tag--error[data-v-1f94d070] {
+  color: #fff;
+  background-color: #e43d33;
+  border-color: #e43d33;
+}
+.uni-tag--primary--inverted[data-v-1f94d070] {
+  color: #2979ff;
+  border-color: #2979ff;
+}
+.uni-tag--success--inverted[data-v-1f94d070] {
+  color: #18bc37;
+  border-color: #18bc37;
+}
+.uni-tag--warning--inverted[data-v-1f94d070] {
+  color: #f3a73f;
+  border-color: #f3a73f;
+}
+.uni-tag--error--inverted[data-v-1f94d070] {
+  color: #e43d33;
+  border-color: #e43d33;
+}
+.uni-tag--inverted[data-v-1f94d070] {
+  background-color: #fff;
+}
+.uni-tag--circle[data-v-1f94d070] {
+  border-radius: 15px !important;
+}
+.uni-tag--mark[data-v-1f94d070] {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+.uni-tag--disabled[data-v-1f94d070] {
+  opacity: 0.5;
+}
+.uni-tag-text[data-v-1f94d070] {
+  color: #fff;
+  font-size: 14px;
+}
+.uni-tag-text--primary[data-v-1f94d070] {
+  color: #2979ff;
+}
+.uni-tag-text--success[data-v-1f94d070] {
+  color: #18bc37;
+}
+.uni-tag-text--warning[data-v-1f94d070] {
+  color: #f3a73f;
+}
+.uni-tag-text--error[data-v-1f94d070] {
+  color: #e43d33;
+}
+.uni-tag-text--small[data-v-1f94d070] {
+  font-size: 12px;
+}
+/* 水平间距 */
+/* 水平间距 */
+.collectiveDepartmentOne[data-v-8597a248] {
+  height: 3.125rem;
+  width: 100%;
+  background: #FBF6F6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border: 1px solid #D8D8D8;
+}
+.collectiveDepartmentOne .departmentNameWrapp .departmentName[data-v-8597a248] {
+  font-size: 0.625rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.hospDep[data-v-b90a9c61] {
+  height: 100%;
+  width: 96%;
+  background: #FBF6F6;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.302);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.9375rem;
+}
+.hospDep .departmentName[data-v-b90a9c61] {
+  padding-top: 0.875rem;
+  padding-left: 0.625rem;
+}
+.hospDep .collectiveDepartmentWrapp[data-v-b90a9c61] {
+  border-top-style: solid;
+  border-width: 0.0625rem;
+  border-color: #FFBD86;
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hospDep .collectiveDepartmentWrapp .collectiveDepartmentOneWrapp[data-v-b90a9c61] {
+  height: 3.125rem;
+  width: 33.33333%;
+}
+/* 水平间距 */
+/* 水平间距 */
+.hsopWrapp[data-v-0897b0d1] {
+  margin-top: 0.375rem;
+}
+.hsopWrapp .hsopName[data-v-0897b0d1] {
+  margin-left: 0.625rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.tag-viewWrapp[data-v-0897b0d1] {
+  margin-top: 0.71875rem;
+  display: flex;
+  flex-direction: row;
+}
+.tag-viewWrapp .tag-view[data-v-0897b0d1] {
+  margin-left: 0.3125rem;
+}
+.hospIntroduction[data-v-0897b0d1] {
+  margin-top: 0.53125rem;
+  margin-left: 0.53125rem;
+}
+.hospIntroduction .introduction1[data-v-0897b0d1] {
+  color: dodgerblue;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.hospIntroduction .introduction2[data-v-0897b0d1] {
+  color: #AAAAAA;
+  font-weight: normal;
+  font-size: 0.9375rem;
+}
+.addressAndPhone[data-v-0897b0d1] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+}
+.addressAndPhone .addressWrapp[data-v-0897b0d1] {
+  background-color: #61CEFF;
+  height: 1.5rem;
+  width: 19.0625rem;
+  border-radius: 0.46875rem;
+}
+.addressAndPhone .addressWrapp .address[data-v-0897b0d1] {
+  margin-left: 0.625rem;
+  font-size: 0.9375rem;
+  font-weight: normal;
+}
+.addressAndPhone .phoneWrapp[data-v-0897b0d1] {
+  width: 3.1875rem;
+  height: 1.5625rem;
+  background-color: #61CEFF;
+  border-radius: 0.46875rem;
+  margin-left: 0.25rem;
+  display: flex;
+  justify-content: center;
+}
+.addressAndPhone .phoneWrapp .phone[data-v-0897b0d1] {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.funWrapp[data-v-0897b0d1] {
+  height: 6.125rem;
+  width: 100%;
+  background-color: #61CEFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1.09375rem;
+  background: #D8D8D8;
+}
+.funWrapp .registerWrapp[data-v-0897b0d1] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.5625rem;
+  height: 4rem;
+  border-radius: 0.9375rem;
+  background: #FFFFFF;
+  box-shadow: 2px 5px 4px rgba(1, 1, 1, 0.5);
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+.funWrapp .registerWrapp .registerIcon[data-v-0897b0d1] {
+  height: 2.1875rem;
+  width: 2.1875rem;
+}
+.funWrapp .visitWrapp[data-v-0897b0d1] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.5625rem;
+  height: 4rem;
+  border-radius: 0.9375rem;
+  background: #FFFFFF;
+  box-shadow: 2px 5px 4px rgba(1, 1, 1, 0.5);
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+.funWrapp .visitWrapp .visitIcon[data-v-0897b0d1] {
+  height: 2.1875rem;
+  width: 2.1875rem;
+}
+.funWrapp .consultationWrapp[data-v-0897b0d1] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.5625rem;
+  height: 4rem;
+  border-radius: 0.9375rem;
+  background: #FFFFFF;
+  box-shadow: 2px 5px 4px rgba(1, 1, 1, 0.5);
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+.funWrapp .consultationWrapp .consultationIcon[data-v-0897b0d1] {
+  height: 2.1875rem;
+  width: 2.1875rem;
+}
+.funWrapp .informationWrapp[data-v-0897b0d1] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.5625rem;
+  height: 4rem;
+  border-radius: 0.9375rem;
+  background: #FFFFFF;
+  box-shadow: 2px 5px 4px rgba(1, 1, 1, 0.5);
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+.funWrapp .informationWrapp .informationIcon[data-v-0897b0d1] {
+  height: 2.1875rem;
+  width: 2.1875rem;
+}
+.noticeWrapp[data-v-0897b0d1] {
+  background: #D8D8D8;
+  width: 100%;
+  height: 100%;
+  padding-left: 0.78125rem;
+  padding-bottom: 0.46875rem;
+}
+.noticeWrapp .notice .notice1[data-v-0897b0d1] {
+  color: #FB6D3A;
+  font-size: 1.125rem;
+  font-weight: 550;
+  font-family: Fotor HelloFont GongYiTi;
+}
+.noticeWrapp .noticeContent .noticeContent1[data-v-0897b0d1] {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: #000000;
+  font-family: HelloFont ID DianKai;
+}
+.noticeWrapp .prompt .promptText[data-v-0897b0d1] {
+  color: #9E9E9E;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-family: HelloFont ID DianKai;
+}
+.hospitalDepartmentsTextWrapp[data-v-0897b0d1] {
+  background: rgba(255, 189, 134, 0.5);
+  padding-bottom: 0.625rem;
+  padding-top: 0.15625rem;
+}
+.hospitalDepartmentsTextWrapp .overallInformationWrapp[data-v-0897b0d1] {
+  padding-left: 0.78125rem;
+}
+.hospitalDepartmentsTextWrapp .overallInformationWrapp .departmentsText1[data-v-0897b0d1] {
+  color: #000000;
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+.hospitalDepartmentsTextWrapp .overallInformationWrapp .departmentsText2[data-v-0897b0d1] {
+  color: #9E9E9E;
+  font-size: 0.875rem;
+  font-family: HelloFont ID DianKai;
+  font-weight: normal;
+}
+.hospitalDepartmentsTextWrapp .overallInformationWrapp .departmentsText3[data-v-0897b0d1] {
+  color: #9E9E9E;
+  font-size: 0.875rem;
+  font-family: HelloFont ID DianKai;
+  font-weight: normal;
+}
+.hospitalDepartmentsWrapp[data-v-0897b0d1] {
+  background: rgba(255, 189, 134, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

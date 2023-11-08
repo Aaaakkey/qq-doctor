@@ -1,0 +1,20 @@
+/* 水平间距 */
+/* 水平间距 */
+.hospNameTextWrapp[data-v-36d2ceac] {
+  height: 3rem;
+  width: 100%;
+  background: rgba(138, 238, 238, 0.1804);
+  line-height: 3rem;
+  text-align: center;
+}
+.hospNameTextWrapp .hospNameText[data-v-36d2ceac] {
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+.hospDecWrapp[data-v-36d2ceac] {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}

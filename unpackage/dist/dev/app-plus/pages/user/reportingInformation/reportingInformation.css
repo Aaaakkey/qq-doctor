@@ -1,0 +1,41 @@
+/* 水平间距 */
+/* 水平间距 */
+.phoneWrapp[data-v-9a3c0da9] {
+  margin-top: 0.875rem;
+}
+.phoneWrapp .phoneText1[data-v-9a3c0da9] {
+  margin-left: 0.46875rem;
+  color: #000000;
+  font-size: 1.40625rem;
+  font-family: HelloFont ID DianKai;
+}
+.phoneWrapp .phoneNum[data-v-9a3c0da9] {
+  color: #9E9E9E;
+  margin-top: 0.625rem;
+  margin-left: 1.5625rem;
+}
+.emailWrapp[data-v-9a3c0da9] {
+  margin-top: 0.625rem;
+}
+.emailWrapp .emailText1[data-v-9a3c0da9] {
+  margin-left: 0.46875rem;
+  color: #000000;
+  font-size: 1.40625rem;
+  font-family: HelloFont ID DianKai;
+}
+.emailWrapp .emailNum[data-v-9a3c0da9] {
+  color: #9E9E9E;
+  margin-top: 0.625rem;
+  margin-left: 1.5625rem;
+}
+.otherTextWrapp[data-v-9a3c0da9] {
+  margin-top: 1.25rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.3125rem;
+  color: #404345;
+  font-size: 1.25rem;
+}
+
+body {
+	background-color:#F7F7F7;
+}

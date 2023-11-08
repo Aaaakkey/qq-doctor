@@ -1,0 +1,17 @@
+/* 水平间距 */
+/* 水平间距 */
+.depNameTextWrapp[data-v-e3353ff3] {
+  height: 3rem;
+  width: 100%;
+  background: rgba(138, 238, 238, 0.1804);
+  line-height: 3rem;
+  text-align: center;
+}
+.depNameTextWrapp .depNameText[data-v-e3353ff3] {
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+.depDecWrapp[data-v-e3353ff3] {
+  height: 100%;
+  width: 100%;
+}

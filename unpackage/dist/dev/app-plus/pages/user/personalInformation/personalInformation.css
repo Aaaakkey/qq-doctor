@@ -1,0 +1,158 @@
+/* 水平间距 */
+/* 水平间距 */
+.informationWrapp[data-v-77af710c] {
+  margin-top: 0.875rem;
+  height: 7.375rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+.informationWrapp .information[data-v-77af710c] {
+  width: 21.5rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 4px black;
+  display: flex;
+  flex-direction: column;
+}
+.informationWrapp .information .informationUp[data-v-77af710c] {
+  height: 50%;
+  width: 100%;
+  border-bottom-style: solid;
+  padding-left: 0.9375rem;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.informationWrapp .information .informationUp .informationUpText1[data-v-77af710c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 3.6875rem;
+}
+.informationWrapp .information .informationUp .headIconWrapp[data-v-77af710c] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.informationWrapp .information .informationUp .headIconWrapp .headIcon[data-v-77af710c] {
+  height: 3.3125rem;
+  width: 3.4375rem;
+  border-radius: 100%;
+  margin-right: 0.78125rem;
+}
+.informationWrapp .information .informationDownWrapp[data-v-77af710c] {
+  height: 50%;
+  width: 100%;
+  line-height: 3.6875rem;
+  padding-left: 0.9375rem;
+}
+.informationWrapp .information .informationDownWrapp .informationDown[data-v-77af710c] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.informationWrapp .information .informationDownWrapp .informationDown .informationDownText1[data-v-77af710c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.informationWrapp .information .informationDownWrapp .informationDown .informationDownText2[data-v-77af710c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.information2Wrapp[data-v-77af710c] {
+  margin-top: 0.875rem;
+  height: 7.375rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+.information2Wrapp .information2[data-v-77af710c] {
+  width: 21.5rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 4px black;
+  display: flex;
+  flex-direction: column;
+}
+.information2Wrapp .information2 .information2Up[data-v-77af710c] {
+  height: 50%;
+  width: 100%;
+  border-bottom-style: solid;
+  padding-left: 0.9375rem;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.information2Wrapp .information2 .information2Up .information2UpText1[data-v-77af710c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 3.6875rem;
+}
+.information2Wrapp .information2 .information2Up .headIcon2Wrapp[data-v-77af710c] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.information2Wrapp .information2 .information2Up .headIcon2Wrapp .passwordWrapp[data-v-77af710c] {
+  line-height: 3.6875rem;
+  font-size: 0.9375rem;
+  padding-right: 0.3125rem;
+  transform: translateY(0.25rem);
+}
+.information2Wrapp .information2 .information2Up .headIcon2Wrapp .headIcon2[data-v-77af710c] {
+  height: 3.3125rem;
+  width: 3.4375rem;
+  border-radius: 100%;
+  margin-right: 0.78125rem;
+}
+.information2Wrapp .information2 .information2DownWrapp[data-v-77af710c] {
+  height: 50%;
+  width: 100%;
+  line-height: 3.6875rem;
+  padding-left: 0.9375rem;
+}
+.information2Wrapp .information2 .information2DownWrapp .information2Down[data-v-77af710c] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.information2Wrapp .information2 .information2DownWrapp .information2Down .information2DownText1[data-v-77af710c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.information2Wrapp .information2 .information2DownWrapp .information2Down .information2DownText2[data-v-77af710c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.goRight2Icon[data-v-77af710c] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+
+body {
+		background-color: #F7F7F7;
+}

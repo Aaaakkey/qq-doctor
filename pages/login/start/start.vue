@@ -1,10 +1,7 @@
 <template>
 	<view class="container">
-
-
 		<view class="bgicon">
-
-			<image class="icon" src="../../../static/img/login/bg1.jpg" mode="scaleToFill"></image>
+			<image class="icon" src="/static/img/login/bg1.jpg" mode="scaleToFill"></image>
 
 		</view>
 
@@ -39,7 +36,7 @@
 					</navigator>
 				</view>
 			</view>
-
+        <!-- <view style="height: 20vh; width:100%; background-color: rebeccapurple;"></view> -->
 		</view>
 	</view>
 </template>
@@ -59,6 +56,7 @@
 
 <style lang="scss" scoped>
 	.container {
+
 		display: flex;
 		flex-direction: column;
 		width: 750rpx;

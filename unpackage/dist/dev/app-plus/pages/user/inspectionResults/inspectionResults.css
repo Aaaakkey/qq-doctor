@@ -1,0 +1,73 @@
+/* 水平间距 */
+/* 水平间距 */
+.CTResWrapp[data-v-581a172f] {
+  width: 100%;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+}
+.resText[data-v-581a172f] {
+  margin-top: 2.3125rem;
+  color: #000000;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.CTIconWrapp[data-v-581a172f] {
+  margin-top: 0.9375rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.CTIconWrapp .CTIcon1Wrapp .CTIcon1[data-v-581a172f] {
+  height: 11.75rem;
+  width: 8.875rem;
+}
+.CTIconWrapp .goRightWrapp[data-v-581a172f] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.CTIconWrapp .goRightWrapp .goRightIcon[data-v-581a172f] {
+  height: 0.95125rem;
+  width: 1.3125rem;
+}
+.CTIconWrapp .CTIcon2Wrapp .CTIcon2[data-v-581a172f] {
+  height: 11.75rem;
+  width: 8.875rem;
+}
+.noticWrapp .noticeText[data-v-581a172f] {
+  margin-left: 1.5625rem;
+}
+.noticWrapp .noticeText .notice1[data-v-581a172f] {
+  margin-top: 0.625rem;
+  color: #FFBB24;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.noticWrapp .noticeText .notice2[data-v-581a172f] {
+  width: 90%;
+  margin-top: 0.9375rem;
+  color: #000000;
+  font-size: 0.9375rem;
+}
+.downLoadWrapp[data-v-581a172f] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.downLoadWrapp .downLoadIcon[data-v-581a172f] {
+  height: 3rem;
+  width: 3rem;
+}
+.downLoadWrapp .downLoadText[data-v-581a172f] {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.3125rem;
+  color: #5E5E69;
+  font-size: 0.875rem;
+}
+
+body {
+	background-color:#F7F7F7;
+}

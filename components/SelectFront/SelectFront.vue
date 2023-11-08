@@ -3,6 +3,7 @@
 
 		<image src="../../static/img/select-image1.png" mode="aspectFill" class="left-image"></image>
 		<view class="select-block">
+			
 			<text class="context">
 				{{selectfrontword}}
 			</text>

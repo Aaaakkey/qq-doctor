@@ -14,7 +14,7 @@
   height: 0%;
   display: flex;
   flex-direction: column;
-  justify-self: start;
+  justify-self: flex-start;
 }
 .nav1 .i1[data-v-44c963fe] {
   height: 1.5625rem;
@@ -60,7 +60,7 @@
   display: flex;
   flex: row;
   height: 3.40625rem;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .content .i2 .i21[data-v-44c963fe] {

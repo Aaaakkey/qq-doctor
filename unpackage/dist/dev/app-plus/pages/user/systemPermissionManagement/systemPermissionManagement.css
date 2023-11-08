@@ -1,0 +1,109 @@
+/* 水平间距 */
+/* 水平间距 */
+.spmText1[data-v-21d66e5c] {
+  color: #404345;
+  font-size: 0.875rem;
+  margin-top: 0.875rem;
+  margin-left: 1.25rem;
+}
+.cameraAndStorageWrapp[data-v-21d66e5c] {
+  margin-top: 0.875rem;
+  height: 8.21875rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+.cameraAndStorageWrapp .cameraInformation[data-v-21d66e5c] {
+  width: 21.5rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 4px black;
+  display: flex;
+  flex-direction: column;
+}
+.cameraAndStorageWrapp .cameraInformation .cameraInfo[data-v-21d66e5c] {
+  height: 50%;
+  width: 100%;
+  border-bottom-style: solid;
+  padding-left: 0.9375rem;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cameraAndStorageWrapp .cameraInformation .cameraInfo .cameraInfoTextWrapp .cameraInfoText1[data-v-21d66e5c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.cameraAndStorageWrapp .cameraInformation .cameraInfo .cameraInfoTextWrapp .cameraInfoText2[data-v-21d66e5c] {
+  font-size: 0.75rem;
+  color: #979797;
+}
+.cameraAndStorageWrapp .cameraInformation .cameraInfo .goRightWrapp[data-v-21d66e5c] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cameraAndStorageWrapp .cameraInformation .cameraInfo .goRightWrapp .stateText1[data-v-21d66e5c] {
+  color: #9E9E9E;
+  font-size: 1rem;
+  margin-right: 0.3125rem;
+}
+.cameraAndStorageWrapp .cameraInformation .cameraInfo .goRightWrapp .goRight2Icon[data-v-21d66e5c] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation[data-v-21d66e5c] {
+  height: 50%;
+  width: 100%;
+  padding-left: 0.9375rem;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo[data-v-21d66e5c] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo .storageInfoTextWrapp[data-v-21d66e5c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo .storageInfoTextWrapp .storageInfoText1[data-v-21d66e5c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo .storageInfoTextWrapp .storageInfoText2[data-v-21d66e5c] {
+  font-size: 0.75rem;
+  color: #979797;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo .goRightWrapp[data-v-21d66e5c] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 4.6875rem;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo .goRightWrapp .stateText2[data-v-21d66e5c] {
+  color: #9E9E9E;
+  font-size: 1rem;
+  margin-right: 0.3125rem;
+}
+.cameraAndStorageWrapp .cameraInformation .storageInformation .storageInfo .goRight2Icon[data-v-21d66e5c] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}

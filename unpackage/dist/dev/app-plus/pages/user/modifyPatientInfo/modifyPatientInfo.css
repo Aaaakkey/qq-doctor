@@ -1,0 +1,230 @@
+/* 水平间距 */
+/* 水平间距 */
+.modifyPatientinformationWrapp[data-v-63afc291] {
+  margin-top: 0.875rem;
+  height: 16.25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+.modifyPatientinformationWrapp .modifyInformation[data-v-63afc291] {
+  width: 21.5rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 4px black;
+  display: flex;
+  flex-direction: column;
+}
+.modifyPatientinformationWrapp .modifyInformation .information1[data-v-63afc291] {
+  height: 33.333%;
+  width: 100%;
+  border-bottom-style: solid;
+  padding-left: 0.9375rem;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.modifyPatientinformationWrapp .modifyInformation .information1 .informationUpText1[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 5.3125rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information1 .nameTextWrapp[data-v-63afc291] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.modifyPatientinformationWrapp .modifyInformation .information1 .nameTextWrapp .nameText[data-v-63afc291] {
+  margin-right: 2.5rem;
+  font-size: 1.09375rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information1 .nameTextWrapp .headIcon[data-v-63afc291] {
+  height: 3.3125rem;
+  width: 3.4375rem;
+  border-radius: 100%;
+  margin-right: 0.78125rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information1 .nameTextWrapp .goRight2Icon[data-v-63afc291] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+.modifyPatientinformationWrapp .modifyInformation .information2[data-v-63afc291] {
+  height: 33.333%;
+  width: 100%;
+  line-height: 3.6875rem;
+  border-bottom-style: solid;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  padding-left: 0.9375rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information2 .informationDown[data-v-63afc291] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.modifyPatientinformationWrapp .modifyInformation .information2 .informationDown .informationDownText1[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 5.3125rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information2 .informationDown .informationDownText2[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 5.3125rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information2 .informationDown .informationDownText2 .nameText[data-v-63afc291] {
+  margin-right: 2.5rem;
+  font-size: 1.09375rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information2 .informationDown .goRight2Icon[data-v-63afc291] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+.modifyPatientinformationWrapp .modifyInformation .information3[data-v-63afc291] {
+  height: 33.333%;
+  width: 100%;
+  border-bottom-style: solid;
+  padding-left: 0.9375rem;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.modifyPatientinformationWrapp .modifyInformation .information3 .information3Text1[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 3.6875rem;
+  line-height: 5.3125rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information3 .headIconWrapp[data-v-63afc291] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.modifyPatientinformationWrapp .modifyInformation .information3 .headIconWrapp .headIcon[data-v-63afc291] {
+  height: 3.3125rem;
+  width: 3.4375rem;
+  border-radius: 100%;
+  margin-right: 1.5625rem;
+}
+.modifyPatientinformationWrapp .modifyInformation .information3 .headIconWrapp .goRight2Icon[data-v-63afc291] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+.idAndMIWrapp[data-v-63afc291] {
+  margin-top: 0.875rem;
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+.idAndMIWrapp .modifyInformation2[data-v-63afc291] {
+  width: 21.5rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 4px black;
+  display: flex;
+  flex-direction: column;
+}
+.idAndMIWrapp .modifyInformation2 .information4[data-v-63afc291] {
+  height: 50%;
+  width: 100%;
+  border-bottom-style: solid;
+  padding-left: 0.9375rem;
+  border-color: #D8D8D8;
+  border-width: 0.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.idAndMIWrapp .modifyInformation2 .information4 .information4UpText1[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 5.3125rem;
+}
+.idAndMIWrapp .modifyInformation2 .information4 .MITextWrapp[data-v-63afc291] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.idAndMIWrapp .modifyInformation2 .information4 .MITextWrapp .MIText[data-v-63afc291] {
+  margin-right: 0.625rem;
+  font-size: 1.09375rem;
+  transform: translateY(0.125rem);
+}
+.idAndMIWrapp .modifyInformation2 .information4 .MITextWrapp .headIcon[data-v-63afc291] {
+  height: 3.3125rem;
+  width: 3.4375rem;
+  border-radius: 100%;
+  margin-right: 0.78125rem;
+}
+.idAndMIWrapp .modifyInformation2 .information4 .MITextWrapp .goRight2Icon[data-v-63afc291] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+.idAndMIWrapp .modifyInformation2 .information5[data-v-63afc291] {
+  height: 50%;
+  width: 100%;
+  line-height: 3.6875rem;
+  padding-left: 0.9375rem;
+}
+.idAndMIWrapp .modifyInformation2 .information5 .information5Down[data-v-63afc291] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.idAndMIWrapp .modifyInformation2 .information5 .information5Down .information5DownText1[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 5.3125rem;
+}
+.idAndMIWrapp .modifyInformation2 .information5 .information5Down .information5DownText2[data-v-63afc291] {
+  color: #000000;
+  font-feature-settings: "kern" on;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 5.3125rem;
+}
+.idAndMIWrapp .modifyInformation2 .information5 .information5Down .information5DownText2 .idText[data-v-63afc291] {
+  margin-right: 0.625rem;
+  font-size: 1.09375rem;
+}
+.idAndMIWrapp .modifyInformation2 .information5 .information5Down .goRight2Icon[data-v-63afc291] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+  transform: translateY(0.125rem);
+}
+
+body {
+	background-color:#F7F7F7;
+}

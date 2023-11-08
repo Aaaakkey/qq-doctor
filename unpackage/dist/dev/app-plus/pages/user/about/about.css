@@ -1,0 +1,55 @@
+/* 水平间距 */
+/* 水平间距 */
+.logoAndVersionWrapp[data-v-d6b522c7] {
+  margin-bottom: 1.875rem;
+  margin-top: 2.75rem;
+  height: 10.3125rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoAndVersionWrapp .logoWrapp[data-v-d6b522c7] {
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.logoAndVersionWrapp .logoWrapp .logoIcon[data-v-d6b522c7] {
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 0.625rem;
+}
+.logoAndVersionWrapp .logoTextWrapp[data-v-d6b522c7] {
+  margin-top: 0.875rem;
+  font-size: 1.125rem;
+  font-family: HelloFont ID DianKai;
+}
+.logoAndVersionWrapp .versionTextWrapp .verisionText[data-v-d6b522c7] {
+  color: #9E9E9E;
+  font-size: 0.75rem;
+}
+.qualificationsWrapp[data-v-d6b522c7] {
+  margin-top: 0.78125rem;
+  height: 3rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: #9E9E9E;
+  border-width: 0.125rem;
+  font-size: 1.125rem;
+}
+.qualificationsWrapp .qualificationsText[data-v-d6b522c7] {
+  margin-left: 0.8125rem;
+}
+.qualificationsWrapp .goRight2Icon[data-v-d6b522c7] {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin-right: 0.9375rem;
+}
+
+body {
+	background-color:#F7F7F7;
+}

@@ -85,7 +85,7 @@
 		height: 0%;
 		display: flex;
 		flex-direction: column;
-		justify-self: start;
+		justify-self: flex-start;
 
 		.i1 {
 			height: 50rpx;
@@ -139,7 +139,7 @@
 			display: flex;
 			flex: row;
 			height: 109rpx;
-			justify-content: start;
+			justify-content: flex-start;
 			align-items: center;
 
 			.i21 {

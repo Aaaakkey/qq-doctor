@@ -1,0 +1,96 @@
+/* 水平间距 */
+/* 水平间距 */
+.CTWrapp[data-v-9a76732d] {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.CTListWrapp[data-v-9a76732d] {
+  margin-top: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  background: #F7F7F7;
+  align-items: center;
+}
+.CTListWrapp .CTOne[data-v-9a76732d] {
+  width: 21.25rem;
+  height: 7.6875rem;
+  background-color: white;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 4px black;
+}
+.CTListWrapp .CTOne .CTOneTextWrapp[data-v-9a76732d] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.CTListWrapp .CTOne .CTOneTextWrapp .text1[data-v-9a76732d] {
+  color: #9E9E9E;
+  font-size: 0.9375rem;
+  padding-left: 1rem;
+  padding-top: 0.6875rem;
+}
+.CTListWrapp .CTOne .CTOneTextWrapp .text2[data-v-9a76732d] {
+  color: #9E9E9E;
+  font-size: 0.9375rem;
+  padding-right: 0.6875rem;
+  padding-top: 0.6875rem;
+}
+.CTListWrapp .CTOneCentralSectionWrapp[data-v-9a76732d] {
+  height: 4.1875rem;
+  width: 21.25rem;
+  display: flex;
+  flex-direction: row;
+}
+.CTListWrapp .CTOneCentralSectionWrapp .CTOneIconWrapp .CTOneIcon[data-v-9a76732d] {
+  height: 3.3125rem;
+  width: 2.5rem;
+  margin-left: 1.4375rem;
+  margin-top: 0.1875rem;
+}
+.CTListWrapp .CTOneCentralSectionWrapp .CTOneCentralSectionRightWrapp[data-v-9a76732d] {
+  display: flex;
+  flex-direction: column;
+}
+.CTListWrapp .CTOneCentralSectionWrapp .CTOneCentralSectionRightWrapp .CTOneCentralSectionRightText[data-v-9a76732d] {
+  padding-left: 2.0625rem;
+  color: #AAAAAA;
+  font-size: 0.75rem;
+  margin-top: 0.3125rem;
+}
+.CTListWrapp .CTOneCentralSectionWrapp .CTOneCentralSectionRightWrapp .resButtonWrapp .resButton[data-v-9a76732d] {
+  height: 1.625rem;
+  width: 4.6875rem;
+  font-size: 0.75rem;
+  color: #FFBB24;
+  border-style: solid;
+  border-color: #FFBB24;
+  border-radius: 0.9375rem;
+  border-width: 0.09375rem;
+  text-align: center;
+  margin-left: 12.0625rem;
+  line-height: 1.3125rem;
+}
+.CTListWrapp .serviceAndRateWrapp[data-v-9a76732d] {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 0.3125rem;
+}
+.CTListWrapp .serviceAndRateWrapp .serviceAndRateText1[data-v-9a76732d] {
+  color: #FFBB24;
+  font-size: 0.75rem;
+  margin-right: 1.25rem;
+}
+.CTListWrapp .serviceAndRateWrapp .serviceAndRateText2[data-v-9a76732d] {
+  color: #9E9E9E;
+  font-size: 0.75rem;
+  margin-right: 1.25rem;
+}
+
+body {
+	background-color:#F7F7F7;
+}
