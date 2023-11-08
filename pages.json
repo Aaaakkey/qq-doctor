@@ -1,15 +1,17 @@
 {
-	"pages": [{
-			"path": "pages/login/start/start",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false,
+	"pages": [
+		{
+		    "path" : "pages/login/start/start",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
 				"navigationStyle": "custom",
 
 				"disableSwipeBack": true,
 				"app-plus": { //app平台
 					"bounce": "none" //禁止滚动
-				
+
 				}
 			}
 
@@ -54,7 +56,22 @@
 				}
 			}
 
-		}, {
+		},
+		{
+			"path": "pages/main/messagetable",
+			"style": {
+				
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false,
+				"app-plus": { //app平台
+					"bounce": "none" //禁止滚动
+				}
+			}
+		
+		}
+		
+	
+		, {
 			"path": "pages/login/userAgreement/userAgreement",
 			"style": {
 				"navigationBarTitleText": "",
@@ -101,13 +118,13 @@
 				// "navigationBarBackgroundColor": "red",
 					// "navigationStyle": "custom",
 				// "navigationBarTextStyle": ,
-				
-			
+
+
 			},
 			"app-plus": { //app平台
-			
-	
-			
+
+
+
 			}
 
 		}, {
@@ -126,7 +143,7 @@
 				"enablePullDownRefresh": false,
 				"navigationBarBackgroundColor": "#ffffff",
 					"navigationStyle": "custom"
-				
+
 			},
 			"navigationStyle": "custom"
 
@@ -138,293 +155,427 @@
 				"navigationBarBackgroundColor": "#F7F7F7"
 			},
 			"navigationStyle": "custom"
-		}, {
+		},
+		{
 			"path": "pages/main/doctordetail",
 			"style": {
 				"navigationBarTitleText": "医生详情",
 				"enablePullDownRefresh": false
 			}
-		}, {
-			"path": "pages/main/messagetable",
+		},
+		{
+			"path": "pages/main/onlineform",
 			"style": {
-				"navigationBarTitleText": "消息",
+				"navigationBarTitleText": "线上表单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/addpatient",
+			"style": {
+				"navigationBarTitleText": "病人信息添加",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/onlineorder",
+			"style": {
+				"navigationBarTitleText": "线上预约订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/onlineordersuccess",
+			"style": {
+				"navigationBarTitleText": "线上预约成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/vaccine",
+			"style": {
+				"navigationBarTitleText": "疫苗",
+				"enablePullDownRefresh": false
+
+
+			}
+		},
+		{
+			"path": "components/FuncSelectFront/FuncSelectFront",
+			"style": {}
+		},
+		{
+			"path": "components/FuncSelectContext/FuncSelectContext",
+			"style": {}
+		}, {
+			"path": "pages/main/vaccinedetail",
+			"style": {
+				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
 
-		},
-		{
-			"path" : "pages/map/nearHosp/nearHosp",
-			"style" : 
-			{
-				"navigationBarTitleText": "附近医院",
-				"enablePullDownRefresh" : false,
-				"scrollIndicator": "none"
+		}, {
+			"path": "pages/main/vaccinedetailaction",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
 			}
-		},
-		{
-			"path" : "pages/map/hospDetails/hospDetails",
-			"style" : 
-			{
-				
-				"navigationBarTitleText": "医院信息",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/map/depDetails/depDetails",
-			"style" : 
-			{
-				"navigationBarTitleText": "科室信息",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/map/hospAll/hospAll",
-			"style" : 
-			{
-				"navigationBarTitleText": "介绍信息",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/map/depAll/depAll",
-			"style" : 
-			{
-				"navigationBarTitleText": "介绍信息",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/map/docList/docList",
-			"style" : 
-			{
-					"navigationBarTitleText": "医院医生列表",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/main/visitTime/visitTime",
-			"style" : 
-			{
-				"navigationBarTitleText" : "出诊时间",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/collect/collect",
-			"style" : 
-			{
-				"navigationBarTitleText" : "收藏",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/footprint/footprint",
-			"style" : 
-			{
-				"navigationBarTitleText" : "足迹",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/CTInspectionSheet/CTInspectionSheet",
-			"style" : 
-			{
-				"navigationBarTitleText" : "CT检验单",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/inspectionResults/inspectionResults",
-			"style" : 
-			{
-				"navigationBarTitleText" : "检验结果",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/customerService/customerService",
-			"style" : 
-			{
-				"navigationBarTitleText" : "客服",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/personalInformation/personalInformation",
-			"style" : 
-			{
-				"navigationBarTitleText" : "个人信息",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/patientInformation/patientInformation",
-			"style" : 
-			{
-				"navigationBarTitleText" : "病人信息",
-				"enablePullDownRefresh" : false,
-					"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/modifyPatientInfo/modifyPatientInfo",
-			"style" : 
-			{
-				"navigationBarTitleText" : "病人信息修改",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/commonPage/commonPage",
-			"style" : 
-			{
-				"navigationBarTitleText" : "通用",
-				"enablePullDownRefresh" : false,
-					"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/privacyManagement/privacyManagement",
-			"style" : 
-			{
-				"navigationBarTitleText" : "隐私管理",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/privacyPolicy/privacyPolicy",
-			"style" : 
-			{
-				"navigationBarTitleText" : "隐私政策",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/systemPermissionManagement/systemPermissionManagement",
-			"style" : 
-			{
-				"navigationBarTitleText" : "系统权限管理",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/personalInformationCollection/personalInformationCollection",
-			"style" : 
-			{
-				"navigationBarTitleText" : "个人信息收集清单",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/about/about",
-			"style" : 
-			{
-				"navigationBarTitleText" : "关于企桥医建",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/businessLicense/businessLicense",
-			"style" : 
-			{
-				"navigationBarTitleText" : "营业执照",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/reportingInformation/reportingInformation",
-			"style" : 
-			{
-				"navigationBarTitleText" : "举报信息",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/copyrightInformation/copyrightInformation",
-			"style" : 
-			{
-				"navigationBarTitleText" : "版权信息",
-				"enablePullDownRefresh" : false,
-				"backgroundColor": "#F7F7F7"
-			}
-		},
-		{
-			"path" : "pages/user/modifyPatientInfo/patienName",
-			"style" : 
-			{
-				"navigationBarTitleText" : "",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/personalInformation/userName",
-			"style" : 
-			{
-				"navigationBarTitleText" : "设置昵称",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/personalInformation/modifyPassword",
-			"style" : 
-			{
-				"navigationBarTitleText" : "修改密码",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/user/personalInformation/modifyPhone",
-			"style" : 
-			{
-				"navigationBarTitleText" : "修改手机号",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/order/orderDetail/orderDetail",
-			"style" : 
-			{
-				"navigationBarTitleText" : "订单详情",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/order/evaluativeInformation/evaluativeInformation",
-			"style" : 
-			{
-				"navigationBarTitleText" : "评价信息",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/order/evaluateOrders/evaluateOrders",
-			"style" : 
-			{
-				"navigationBarTitleText" : "评价订单",
-				"enablePullDownRefresh" : false
-			}
-		},
-		{
-			"path" : "pages/order/diagnosticResults/diagnosticResults",
-			"style" : 
-			{
-				"navigationBarTitleText" : "诊断结果",
-				"enablePullDownRefresh" : false
-			}
-		}
-	
 
-	],
+		}, {
+			"path": "pages/main/article",
+			"style": {
+				"navigationBarTitleText": "文章",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/diseaseknowledge",
+			"style": {
+				"navigationBarTitleText": "疾病知识",
+				"enablePullDownRefresh": false
+
+
+
+			}
+
+		}, {
+			"path": "pages/main/check",
+			"style": {
+				"navigationBarTitleText": "检查",
+				"enablePullDownRefresh": false
+
+
+			}
+
+		}, {
+			"path": "pages/main/checkdetail",
+			"style": {
+				"navigationBarTitleText": "默认",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/main/treatment",
+            "style" :
+            {
+                "navigationBarTitleText": "治疗",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/main/diseaseknowledgedetail",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/main/treatmentdetail",
+            "style" :
+            {
+                "navigationBarTitleText": "治疗",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/main/doctoronline",
+            "style" :
+            {
+                "navigationBarTitleText": "直播大厅",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/main/isbn",
+            "style" :
+            {
+                "navigationBarTitleText": "科普号",
+                "enablePullDownRefresh": false
+            }
+
+        }
+
+
+        ,{
+            "path" : "pages/main/onlineformtime",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
+        },
+		{
+			"path": "pages/user/about/about",
+			"style" :
+			{
+			    "navigationBarTitleText": "关于企桥医健",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/businessLicense/businessLicense",
+			"style" :
+			{
+			    "navigationBarTitleText": "营业执照",
+			    "enablePullDownRefresh": false
+			}
+			
+		},
+		{
+			"path": "pages/user/collect/collect",
+			"style" :
+			{
+			    "navigationBarTitleText": "收藏",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/commonPage/commonPage",
+			"style" :
+			{
+			    "navigationBarTitleText": "通用",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/copyrightInformation/copyrightInformation",
+			"style" :
+			{
+			    "navigationBarTitleText": "版权信息",
+			    "enablePullDownRefresh": false
+			}
+		},
+		
+		// CT  CT
+	   {
+		   "path": "pages/user/CTInspectionSheet/CTInspectionSheet",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "CT检验单",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/customerService/customerService",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "客服",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/footprint/footprint",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "足迹",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/inspectionResults/inspectionResults",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "检验结果",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/modifyPatientInfo/modifyPatientInfo",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "病人信息修改",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/modifyPatientInfo/patienName",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/patientInformation/patientInformation",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "版权信息",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/personalInformation/personalInformation",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "个人信息",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/personalInformation/userName",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "昵称",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/personalInformation/modifyPhone",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "修改手机号",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/personalInformation/modifyPassword",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "修改密码",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/personalInformationCollection/personalInformationCollection",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "个人信息收集清单",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/privacyManagement/privacyManagement",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "隐私管理",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/privacyPolicy/privacyPolicy",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "隐私政策",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/reportingInformation/reportingInformation",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "举报信息",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/user/systemPermissionManagement/systemPermissionManagement",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "系统权限管理",
+		       "enablePullDownRefresh": false
+		   }
+		  
+	   },
+	   {
+		   "path": "pages/order/diagnosticResults/diagnosticResults",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "诊断结果",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/order/evaluateOrders/evaluateOrders",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "评价订单",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/order/evaluativeInformation/evaluativeInformation",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "评价信息",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/order/orderDetail/orderDetail",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "订单详情",
+		       "enablePullDownRefresh": false
+		   }
+		   
+	   },
+	   {
+		   "path": "pages/map/depAll/depAll",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "科室介绍",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/map/depDetails/depDetails",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "医院详情",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/map/docList/docList",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "医院医生列表",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/map/hospAll/hospAll",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "介绍信息",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/map/hospDetails/hospDetails",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "医院信息",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/map/nearHosp/nearHosp",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "附近医院",
+		       "enablePullDownRefresh": false
+		   }
+	   },
+	   {
+		   "path": "pages/main/visitTime/visitTime",
+		   "style" :
+		   {
+		       "navigationBarTitleText": "出诊时间",
+		       "enablePullDownRefresh": false
+		   }
+	   }
+	   
+		
+		
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -465,5 +616,15 @@
 			}
 		],
 		"backgroundColor": "#FFFFFF"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
 	}
 }

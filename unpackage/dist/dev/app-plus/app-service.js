@@ -38,13 +38,13 @@ if (uni.restoreGlobal) {
     }
     return target;
   };
-  const _sfc_main$1b = {
+  const _sfc_main$1j = {
     data() {
       return {};
     },
     methods: {}
   };
-  function _sfc_render$1a(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$1i(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "container" }, [
       vue.createElementVNode("view", { class: "bgicon" }, [
         vue.createElementVNode("image", {
@@ -96,8 +96,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesLoginStartStart = /* @__PURE__ */ _export_sfc(_sfc_main$1b, [["render", _sfc_render$1a], ["__scopeId", "data-v-96390ece"], ["__file", "F:/code/qq-doctor/pages/login/start/start.vue"]]);
-  const _sfc_main$1a = {
+  const PagesLoginStartStart = /* @__PURE__ */ _export_sfc(_sfc_main$1j, [["render", _sfc_render$1i], ["__scopeId", "data-v-96390ece"], ["__file", "F:/code/qq-doctor/pages/login/start/start.vue"]]);
+  const _sfc_main$1i = {
     data() {
       return {
         agreementChecked: false
@@ -105,7 +105,7 @@ if (uni.restoreGlobal) {
     },
     methods: {}
   };
-  function _sfc_render$19(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$1h(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "container" }, [
       vue.createElementVNode("view", { class: "nav1" }, [
         vue.createElementVNode("navigator", { url: "/pages/login/start/start" }, [
@@ -188,8 +188,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesLoginRegisterRegister = /* @__PURE__ */ _export_sfc(_sfc_main$1a, [["render", _sfc_render$19], ["__scopeId", "data-v-be2e578e"], ["__file", "F:/code/qq-doctor/pages/login/register/register.vue"]]);
-  const _sfc_main$19 = {
+  const PagesLoginRegisterRegister = /* @__PURE__ */ _export_sfc(_sfc_main$1i, [["render", _sfc_render$1h], ["__scopeId", "data-v-be2e578e"], ["__file", "F:/code/qq-doctor/pages/login/register/register.vue"]]);
+  const _sfc_main$1h = {
     data() {
       return {
         agreementChecked: false,
@@ -208,7 +208,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$18(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$1g(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "container" }, [
       vue.createElementVNode("view", { class: "nav1" }, [
         vue.createElementVNode("navigator", { url: "/pages/login/start/start" }, [
@@ -279,8 +279,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesLoginPasswordLoginPasswordLogin = /* @__PURE__ */ _export_sfc(_sfc_main$19, [["render", _sfc_render$18], ["__scopeId", "data-v-57b412fb"], ["__file", "F:/code/qq-doctor/pages/login/passwordLogin/passwordLogin.vue"]]);
-  const _sfc_main$18 = {
+  const PagesLoginPasswordLoginPasswordLogin = /* @__PURE__ */ _export_sfc(_sfc_main$1h, [["render", _sfc_render$1g], ["__scopeId", "data-v-57b412fb"], ["__file", "F:/code/qq-doctor/pages/login/passwordLogin/passwordLogin.vue"]]);
+  const _sfc_main$1g = {
     data() {
       return {
         agreementChecked: false
@@ -294,7 +294,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$17(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$1f(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "container" }, [
       vue.createElementVNode("view", { class: "nav1" }, [
         vue.createElementVNode("navigator", { url: "/pages/login/start/start" }, [
@@ -365,14 +365,460 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesLoginPhoneLoginPhoneLogin = /* @__PURE__ */ _export_sfc(_sfc_main$18, [["render", _sfc_render$17], ["__scopeId", "data-v-44c963fe"], ["__file", "F:/code/qq-doctor/pages/login/phoneLogin/phoneLogin.vue"]]);
-  const _sfc_main$17 = {
+  const PagesLoginPhoneLoginPhoneLogin = /* @__PURE__ */ _export_sfc(_sfc_main$1g, [["render", _sfc_render$1f], ["__scopeId", "data-v-44c963fe"], ["__file", "F:/code/qq-doctor/pages/login/phoneLogin/phoneLogin.vue"]]);
+  const _sfc_main$1f = {
+    name: "DoctorBaseInfo",
+    data() {
+      return {};
+    },
+    props: {
+      item: {
+        type: Object,
+        default() {
+          return {
+            pic: "../../static/img/doctor2.png",
+            name: "赵熙蒙",
+            hospital: "赣州市第一人民医院",
+            depart: "眼科"
+          };
+        }
+      }
+    }
+  };
+  function _sfc_render$1e(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createElementVNode("view", { class: "DoctorBaseInfo-doctor" }, [
+        vue.createElementVNode("view", { class: "DoctorBaseInfo-doctor-left" }, [
+          vue.createElementVNode("image", {
+            src: $props.item.pic
+          }, null, 8, ["src"])
+        ]),
+        vue.createElementVNode("view", { class: "DoctorBaseInfo-doctor-right" }, [
+          vue.createElementVNode(
+            "view",
+            { class: "DoctorBaseInfo-doctor-right-text1" },
+            vue.toDisplayString($props.item.name) + "医生 ",
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode(
+            "view",
+            { class: "DoctorBaseInfo-doctor-right-text2" },
+            vue.toDisplayString($props.item.hospital) + vue.toDisplayString($props.item.depart),
+            1
+            /* TEXT */
+          )
+        ])
+      ])
+    ]);
+  }
+  const __easycom_0$d = /* @__PURE__ */ _export_sfc(_sfc_main$1f, [["render", _sfc_render$1e], ["__scopeId", "data-v-02b9e5eb"], ["__file", "F:/code/qq-doctor/components/DoctorBaseInfo/DoctorBaseInfo.vue"]]);
+  function formatAppLog(type, filename, ...args) {
+    if (uni.__log__) {
+      uni.__log__(type, filename, ...args);
+    } else {
+      console[type].apply(console, [...args, filename]);
+    }
+  }
+  function resolveEasycom(component, easycom) {
+    return shared.isString(component) ? easycom : component;
+  }
+  function parseTime(time, pattern) {
+    if (arguments.length === 0 || !time) {
+      return null;
+    }
+    const format = pattern || "{y}-{m}-{d} {h}:{i}:{s}";
+    let date;
+    if (typeof time === "object") {
+      date = time;
+    } else {
+      if (typeof time === "string" && /^[0-9]+$/.test(time)) {
+        time = parseInt(time);
+      } else if (typeof time === "string") {
+        time = time.replace(new RegExp(/-/gm), "/").replace("T", " ").replace(new RegExp(/\.[\d]{3}/gm), "");
+      }
+      if (typeof time === "number" && time.toString().length === 10) {
+        time = time * 1e3;
+      }
+      date = new Date(time);
+    }
+    const formatObj = {
+      y: date.getFullYear(),
+      m: date.getMonth() + 1,
+      d: date.getDate(),
+      h: date.getHours(),
+      i: date.getMinutes(),
+      s: date.getSeconds(),
+      a: date.getDay()
+    };
+    const time_str = format.replace(/{(y|m|d|h|i|s|a)+}/g, (result, key) => {
+      let value = formatObj[key];
+      if (key === "a") {
+        return ["日", "一", "二", "三", "四", "五", "六"][value];
+      }
+      if (result.length > 0 && value < 10) {
+        value = "0" + value;
+      }
+      return value || 0;
+    });
+    return time_str;
+  }
+  function getGreeting() {
+    const date = /* @__PURE__ */ new Date();
+    const hours = date.getHours();
+    if (hours >= 0 && hours < 12) {
+      return 0;
+    } else if (hours >= 12 && hours < 18) {
+      return 1;
+    } else {
+      return 2;
+    }
+  }
+  function getDateList() {
+    const dateList = [];
+    const today = /* @__PURE__ */ new Date();
+    today.setHours(0, 0, 0, 0);
+    for (let i2 = -1; i2 <= 6; i2++) {
+      const date = new Date(today);
+      date.setDate(date.getDate() + i2);
+      const day = date.getDate();
+      dateList.push(day);
+    }
+    return dateList;
+  }
+  function getThreeDate() {
+    const today = /* @__PURE__ */ new Date();
+    const threeDays = [];
+    for (let i2 = 0; i2 < 3; i2++) {
+      const date = new Date(today);
+      date.setDate(today.getDate() + i2);
+      const month = date.getMonth() + 1;
+      const day = date.getDate();
+      threeDays.push(`${month}月${day}日`);
+    }
+    return threeDays;
+  }
+  const _sfc_main$1e = {
+    name: "MessageLine",
+    data() {
+      return {};
+    },
+    props: {
+      item: {
+        type: Object,
+        default() {
+          return {
+            message: "默认消息",
+            sender: "0",
+            time: "1698672207",
+            picurl: ""
+          };
+        }
+      },
+      user: {
+        type: Object,
+        default() {
+          return {
+            name: "赵熙蒙",
+            picurl: "../../static/img/doctor2.png"
+          };
+        }
+      }
+    },
+    computed: {
+      transTime() {
+        return parseTime(this.item.time);
+      }
+    }
+  };
+  function _sfc_render$1d(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "messageline-body" }, [
+      $props.item.picurl == "" ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 0,
+        class: "messageline-block"
+      }, [
+        vue.createElementVNode("view", { class: "messageline-context" }, [
+          vue.createElementVNode(
+            "view",
+            { class: "messageline-time" },
+            vue.toDisplayString($options.transTime),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("view", { class: "messageline" }, [
+            vue.createElementVNode(
+              "view",
+              { class: "messageline-text" },
+              vue.toDisplayString($props.item.message),
+              1
+              /* TEXT */
+            )
+          ])
+        ]),
+        vue.createElementVNode("view", { class: "messageline-image" }, [
+          vue.createElementVNode("image", {
+            src: $props.user.picurl
+          }, null, 8, ["src"])
+        ])
+      ])) : (vue.openBlock(), vue.createElementBlock("view", {
+        key: 1,
+        class: "picline-block"
+      }, [
+        vue.createElementVNode("view", { class: "picline-context" }, [
+          vue.createElementVNode(
+            "view",
+            { class: "picline-time" },
+            vue.toDisplayString($options.transTime),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("view", { class: "picline-block-image" }, [
+            vue.createElementVNode("image", {
+              src: $props.item.picurl,
+              mode: "aspectFill"
+            }, null, 8, ["src"])
+          ])
+        ]),
+        vue.createElementVNode("view", { class: "picline-image" }, [
+          vue.createElementVNode("image", {
+            src: $props.user.picurl
+          }, null, 8, ["src"])
+        ])
+      ]))
+    ]);
+  }
+  const __easycom_1$8 = /* @__PURE__ */ _export_sfc(_sfc_main$1e, [["render", _sfc_render$1d], ["__scopeId", "data-v-8b1e6fc4"], ["__file", "F:/code/qq-doctor/components/MessageLine/MessageLine.vue"]]);
+  const _sfc_main$1d = {
+    name: "ReceiveLine",
+    data() {
+      return {};
+    },
+    props: {
+      item: {
+        type: Object,
+        default() {
+          return {
+            message: "默认消息",
+            sender: "1",
+            time: "1698672207"
+          };
+        }
+      },
+      user: {
+        type: Object,
+        default() {
+          return {
+            name: "安俊禹",
+            picurl: "../../static/img/doctor3.png"
+          };
+        }
+      }
+    },
+    computed: {
+      transTime() {
+        return parseTime(this.item.time);
+      }
+    }
+  };
+  function _sfc_render$1c(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "receiveline-body" }, [
+      $props.item.picurl == "" ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 0,
+        class: "receiveline-block"
+      }, [
+        vue.createElementVNode("view", { class: "receiveline-image" }, [
+          vue.createElementVNode("image", {
+            src: $props.user.picurl,
+            mode: ""
+          }, null, 8, ["src"])
+        ]),
+        vue.createElementVNode("view", { class: "receive-context" }, [
+          vue.createElementVNode(
+            "view",
+            { class: "receiveline-time" },
+            vue.toDisplayString($options.transTime),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("view", { class: "receiveline" }, [
+            vue.createElementVNode(
+              "view",
+              { class: "receiveline-text" },
+              vue.toDisplayString($props.item.message),
+              1
+              /* TEXT */
+            )
+          ])
+        ])
+      ])) : (vue.openBlock(), vue.createElementBlock("view", {
+        key: 1,
+        class: "recpicline-block"
+      }, [
+        vue.createElementVNode("view", { class: "recpicline-image" }, [
+          vue.createElementVNode("image", {
+            src: $props.user.picurl
+          }, null, 8, ["src"])
+        ]),
+        vue.createElementVNode("view", { class: "recpicline-context" }, [
+          vue.createElementVNode(
+            "view",
+            { class: "recpicline-time" },
+            vue.toDisplayString($options.transTime),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("view", { class: "recpicline-block-image" }, [
+            vue.createElementVNode("image", {
+              src: $props.item.picurl,
+              mode: ""
+            }, null, 8, ["src"])
+          ])
+        ])
+      ]))
+    ]);
+  }
+  const __easycom_2$3 = /* @__PURE__ */ _export_sfc(_sfc_main$1d, [["render", _sfc_render$1c], ["__scopeId", "data-v-1155e762"], ["__file", "F:/code/qq-doctor/components/ReceiveLine/ReceiveLine.vue"]]);
+  const _sfc_main$1c = {
+    name: "MessageTab",
+    data() {
+      return {};
+    }
+  };
+  function _sfc_render$1b(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "message-tab" }, [
+      vue.createElementVNode("view", { class: "message-tab-block" }, [
+        vue.createElementVNode("view", { class: "message-tab-image" }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/talk.png",
+            mode: ""
+          })
+        ]),
+        vue.createElementVNode("input", {
+          class: "send-input",
+          "confirm-type": "send"
+        }),
+        vue.createElementVNode("view", { class: "message-tab-image" }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/smile.png",
+            mode: ""
+          })
+        ]),
+        vue.createElementVNode("view", { class: "message-tab-image1" }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/pic.png",
+            mode: ""
+          })
+        ])
+      ])
+    ]);
+  }
+  const __easycom_3$3 = /* @__PURE__ */ _export_sfc(_sfc_main$1c, [["render", _sfc_render$1b], ["__scopeId", "data-v-9ea06745"], ["__file", "F:/code/qq-doctor/components/MessageTab/MessageTab.vue"]]);
+  const _sfc_main$1b = {
+    data() {
+      return {
+        doctormessageinfo: {
+          pic: "../../static/img/doctor3.png",
+          name: "安俊禹",
+          hospital: "赣州市第一人民医院",
+          depart: "眼科"
+        },
+        messageList: [
+          {
+            message: "安子哥你怎么了？安子哥你怎么了？安子哥你怎么了？安子哥你怎么了？安子哥你怎么了？安子哥你怎么了？安子哥你怎么了？",
+            sender: 0,
+            time: "1698672207",
+            picurl: "../../static/img/sendpic.png"
+          },
+          {
+            message: "我想当香蕉猫了",
+            sender: 1,
+            time: "1698672209",
+            picurl: ""
+          },
+          {
+            message: "香蕉猫是什么？",
+            sender: 0,
+            time: "1698672307",
+            picurl: ""
+          },
+          {
+            message: "",
+            sender: 1,
+            time: "1698672317",
+            picurl: "../../static/img/sendpic.png"
+          },
+          {
+            message: "这个我也不知道",
+            sender: 1,
+            time: "1698672317",
+            picurl: ""
+          },
+          {
+            message: "这个我也不知道",
+            sender: 1,
+            time: "1698672317",
+            picurl: ""
+          },
+          {
+            message: "这个我也不知道",
+            sender: 1,
+            time: "1698672317",
+            picurl: ""
+          }
+        ]
+      };
+    },
+    computed: {
+      filteredMyMessages() {
+        return this.messageList.filter((message) => message.sender === 0);
+      },
+      filteredOtherMessages() {
+        return this.messageList.filter((message) => message.sender === 1);
+      }
+    }
+  };
+  function _sfc_render$1a(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_DoctorBaseInfo = resolveEasycom(vue.resolveDynamicComponent("DoctorBaseInfo"), __easycom_0$d);
+    const _component_MessageLine = resolveEasycom(vue.resolveDynamicComponent("MessageLine"), __easycom_1$8);
+    const _component_ReceiveLine = resolveEasycom(vue.resolveDynamicComponent("ReceiveLine"), __easycom_2$3);
+    const _component_MessageTab = resolveEasycom(vue.resolveDynamicComponent("MessageTab"), __easycom_3$3);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "message-table" }, [
+      vue.createVNode(_component_DoctorBaseInfo, { item: $data.doctormessageinfo }, null, 8, ["item"]),
+      vue.createElementVNode("view", { class: "message-table-begin-nullblock" }),
+      (vue.openBlock(true), vue.createElementBlock(
+        vue.Fragment,
+        null,
+        vue.renderList($data.messageList, (item) => {
+          return vue.openBlock(), vue.createElementBlock(
+            vue.Fragment,
+            null,
+            [
+              item.sender === 0 ? (vue.openBlock(), vue.createElementBlock("view", { key: 0 }, [
+                vue.createVNode(_component_MessageLine, { item }, null, 8, ["item"])
+              ])) : vue.createCommentVNode("v-if", true),
+              item.sender === 1 ? (vue.openBlock(), vue.createElementBlock("view", { key: 1 }, [
+                vue.createVNode(_component_ReceiveLine, { item }, null, 8, ["item"])
+              ])) : vue.createCommentVNode("v-if", true)
+            ],
+            64
+            /* STABLE_FRAGMENT */
+          );
+        }),
+        256
+        /* UNKEYED_FRAGMENT */
+      )),
+      vue.createElementVNode("view", { class: "message-table-end-nullblock" }),
+      vue.createVNode(_component_MessageTab)
+    ]);
+  }
+  const PagesMainMessagetable = /* @__PURE__ */ _export_sfc(_sfc_main$1b, [["render", _sfc_render$1a], ["__scopeId", "data-v-160538d4"], ["__file", "F:/code/qq-doctor/pages/main/messagetable.vue"]]);
+  const _sfc_main$1a = {
     methods: {
       onAgree() {
       }
     }
   };
-  function _sfc_render$16(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$19(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "user-agreement" }, [
       vue.createElementVNode("view", { class: "title" }, [
         vue.createElementVNode("view", {
@@ -399,14 +845,14 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesLoginUserAgreementUserAgreement = /* @__PURE__ */ _export_sfc(_sfc_main$17, [["render", _sfc_render$16], ["__scopeId", "data-v-249c4fe7"], ["__file", "F:/code/qq-doctor/pages/login/userAgreement/userAgreement.vue"]]);
-  const _sfc_main$16 = {
+  const PagesLoginUserAgreementUserAgreement = /* @__PURE__ */ _export_sfc(_sfc_main$1a, [["render", _sfc_render$19], ["__scopeId", "data-v-249c4fe7"], ["__file", "F:/code/qq-doctor/pages/login/userAgreement/userAgreement.vue"]]);
+  const _sfc_main$19 = {
     methods: {
       onAgree() {
       }
     }
   };
-  function _sfc_render$15(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$18(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "privacyPolicy" }, [
       vue.createElementVNode("view", { class: "title" }, [
         vue.createElementVNode("view", {
@@ -433,8 +879,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesLoginPrivacyPolicyPrivacyPolicy = /* @__PURE__ */ _export_sfc(_sfc_main$16, [["render", _sfc_render$15], ["__scopeId", "data-v-a8203ef9"], ["__file", "F:/code/qq-doctor/pages/login/privacyPolicy/privacyPolicy.vue"]]);
-  const _sfc_main$15 = {
+  const PagesLoginPrivacyPolicyPrivacyPolicy = /* @__PURE__ */ _export_sfc(_sfc_main$19, [["render", _sfc_render$18], ["__scopeId", "data-v-a8203ef9"], ["__file", "F:/code/qq-doctor/pages/login/privacyPolicy/privacyPolicy.vue"]]);
+  const _sfc_main$18 = {
     props: {
       current: Number
       //
@@ -451,7 +897,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$14(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$17(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("div", { class: "firstStep" }, [
       vue.createElementVNode("view", { class: "containerUp" }, [
         vue.createElementVNode("image", {
@@ -479,18 +925,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_0$d = /* @__PURE__ */ _export_sfc(_sfc_main$15, [["render", _sfc_render$14], ["__scopeId", "data-v-dcaec3a2"], ["__file", "F:/code/qq-doctor/components/stepOne/stepOne.vue"]]);
-  function formatAppLog(type, filename, ...args) {
-    if (uni.__log__) {
-      uni.__log__(type, filename, ...args);
-    } else {
-      console[type].apply(console, [...args, filename]);
-    }
-  }
-  function resolveEasycom(component, easycom) {
-    return shared.isString(component) ? easycom : component;
-  }
-  const _sfc_main$14 = {
+  const __easycom_0$c = /* @__PURE__ */ _export_sfc(_sfc_main$18, [["render", _sfc_render$17], ["__scopeId", "data-v-dcaec3a2"], ["__file", "F:/code/qq-doctor/components/stepOne/stepOne.vue"]]);
+  const _sfc_main$17 = {
     props: {
       current: Number
       //
@@ -505,7 +941,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$13(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$16(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("div", { class: "secondStep" }, [
       vue.createCommentVNode(' 		<view class="goBackIcon">\r\n			<navigator url="/pages/registrationWizard/firstStep/firstStep">\r\n				<image mode="scaleToFill" class="i1" src="../../../static/img/guide/goback.png"></image>\r\n			</navigator>\r\n		</view> '),
       vue.createElementVNode("view", { class: "containerUp" }, [
@@ -536,8 +972,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_1$6 = /* @__PURE__ */ _export_sfc(_sfc_main$14, [["render", _sfc_render$13], ["__scopeId", "data-v-bb0d5cf2"], ["__file", "F:/code/qq-doctor/components/stepTwo/stepTwo.vue"]]);
-  const _sfc_main$13 = {
+  const __easycom_1$7 = /* @__PURE__ */ _export_sfc(_sfc_main$17, [["render", _sfc_render$16], ["__scopeId", "data-v-bb0d5cf2"], ["__file", "F:/code/qq-doctor/components/stepTwo/stepTwo.vue"]]);
+  const _sfc_main$16 = {
     props: {
       current: Number
       //
@@ -552,7 +988,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$12(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$15(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("div", { class: "thirdStep" }, [
       vue.createElementVNode("view", { class: "containerUp" }, [
         vue.createElementVNode("image", {
@@ -582,8 +1018,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$13, [["render", _sfc_render$12], ["__scopeId", "data-v-7ad89ffa"], ["__file", "F:/code/qq-doctor/components/stepThree/stepThree.vue"]]);
-  const _sfc_main$12 = {
+  const __easycom_2$2 = /* @__PURE__ */ _export_sfc(_sfc_main$16, [["render", _sfc_render$15], ["__scopeId", "data-v-7ad89ffa"], ["__file", "F:/code/qq-doctor/components/stepThree/stepThree.vue"]]);
+  const _sfc_main$15 = {
     data() {
       return {
         current: 0
@@ -601,7 +1037,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$11(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$14(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("div", { class: "fourthStep" }, [
       vue.createElementVNode("view", { class: "containerUp" }, [
         vue.createElementVNode("image", {
@@ -631,8 +1067,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_3$1 = /* @__PURE__ */ _export_sfc(_sfc_main$12, [["render", _sfc_render$11], ["__scopeId", "data-v-fcd045e2"], ["__file", "F:/code/qq-doctor/components/stepFour/stepFour.vue"]]);
-  const _sfc_main$11 = {
+  const __easycom_3$2 = /* @__PURE__ */ _export_sfc(_sfc_main$15, [["render", _sfc_render$14], ["__scopeId", "data-v-fcd045e2"], ["__file", "F:/code/qq-doctor/components/stepFour/stepFour.vue"]]);
+  const _sfc_main$14 = {
     name: "UniSwiperDot",
     emits: ["clickItem"],
     props: {
@@ -704,7 +1140,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$10(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$13(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "uni-swiper__warp" }, [
       vue.renderSlot(_ctx.$slots, "default", {}, void 0, true),
       $props.mode === "default" ? (vue.openBlock(), vue.createElementBlock(
@@ -864,8 +1300,8 @@ if (uni.restoreGlobal) {
       )) : vue.createCommentVNode("v-if", true)
     ]);
   }
-  const __easycom_4 = /* @__PURE__ */ _export_sfc(_sfc_main$11, [["render", _sfc_render$10], ["__scopeId", "data-v-0667e3db"], ["__file", "F:/code/qq-doctor/uni_modules/uni-swiper-dot/components/uni-swiper-dot/uni-swiper-dot.vue"]]);
-  const _sfc_main$10 = {
+  const __easycom_4 = /* @__PURE__ */ _export_sfc(_sfc_main$14, [["render", _sfc_render$13], ["__scopeId", "data-v-0667e3db"], ["__file", "F:/code/qq-doctor/uni_modules/uni-swiper-dot/components/uni-swiper-dot/uni-swiper-dot.vue"]]);
+  const _sfc_main$13 = {
     data() {
       return {
         info: [
@@ -895,11 +1331,11 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$$(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_stepOne = resolveEasycom(vue.resolveDynamicComponent("stepOne"), __easycom_0$d);
-    const _component_stepTwo = resolveEasycom(vue.resolveDynamicComponent("stepTwo"), __easycom_1$6);
-    const _component_stepThree = resolveEasycom(vue.resolveDynamicComponent("stepThree"), __easycom_2$1);
-    const _component_stepFour = resolveEasycom(vue.resolveDynamicComponent("stepFour"), __easycom_3$1);
+  function _sfc_render$12(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_stepOne = resolveEasycom(vue.resolveDynamicComponent("stepOne"), __easycom_0$c);
+    const _component_stepTwo = resolveEasycom(vue.resolveDynamicComponent("stepTwo"), __easycom_1$7);
+    const _component_stepThree = resolveEasycom(vue.resolveDynamicComponent("stepThree"), __easycom_2$2);
+    const _component_stepFour = resolveEasycom(vue.resolveDynamicComponent("stepFour"), __easycom_3$2);
     const _component_uni_swiper_dot = resolveEasycom(vue.resolveDynamicComponent("uni-swiper-dot"), __easycom_4);
     return vue.openBlock(), vue.createElementBlock("view", { class: "container" }, [
       vue.createVNode(_component_uni_swiper_dot, {
@@ -959,8 +1395,8 @@ if (uni.restoreGlobal) {
       }, 8, ["info", "current", "mode"])
     ]);
   }
-  const PagesRegistrationWizardSlideWizardSlideWizard = /* @__PURE__ */ _export_sfc(_sfc_main$10, [["render", _sfc_render$$], ["__file", "F:/code/qq-doctor/pages/registrationWizard/slideWizard/slideWizard.vue"]]);
-  const _sfc_main$$ = {
+  const PagesRegistrationWizardSlideWizardSlideWizard = /* @__PURE__ */ _export_sfc(_sfc_main$13, [["render", _sfc_render$12], ["__file", "F:/code/qq-doctor/pages/registrationWizard/slideWizard/slideWizard.vue"]]);
+  const _sfc_main$12 = {
     name: "selectfront",
     props: {
       selectfrontword: {
@@ -971,8 +1407,8 @@ if (uni.restoreGlobal) {
       return {};
     }
   };
-  function _sfc_render$_(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "container" }, [
+  function _sfc_render$11(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "select-front" }, [
       vue.createElementVNode("image", {
         src: "/static/img/select-image1.png",
         mode: "aspectFill",
@@ -994,19 +1430,8 @@ if (uni.restoreGlobal) {
       })
     ]);
   }
-  const __easycom_0$c = /* @__PURE__ */ _export_sfc(_sfc_main$$, [["render", _sfc_render$_], ["__scopeId", "data-v-759a3c2f"], ["__file", "F:/code/qq-doctor/components/SelectFront/SelectFront.vue"]]);
-  function getGreeting() {
-    const date = /* @__PURE__ */ new Date();
-    const hours = date.getHours();
-    if (hours >= 0 && hours < 12) {
-      return 0;
-    } else if (hours >= 12 && hours < 18) {
-      return 1;
-    } else {
-      return 2;
-    }
-  }
-  const _sfc_main$_ = {
+  const __easycom_0$b = /* @__PURE__ */ _export_sfc(_sfc_main$12, [["render", _sfc_render$11], ["__scopeId", "data-v-759a3c2f"], ["__file", "F:/code/qq-doctor/components/SelectFront/SelectFront.vue"]]);
+  const _sfc_main$11 = {
     name: "todayorder",
     props: {
       item: {
@@ -1028,7 +1453,7 @@ if (uni.restoreGlobal) {
     onLoad() {
     }
   };
-  function _sfc_render$Z(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$10(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "today-order" }, [
       vue.createElementVNode("view", { class: "today-block" }, [
         vue.createElementVNode("view", { class: "today-block-left" }, [
@@ -1087,8 +1512,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_1$5 = /* @__PURE__ */ _export_sfc(_sfc_main$_, [["render", _sfc_render$Z], ["__scopeId", "data-v-8878a3e9"], ["__file", "F:/code/qq-doctor/components/TodayOrder/TodayOrder.vue"]]);
-  const _sfc_main$Z = {
+  const __easycom_1$6 = /* @__PURE__ */ _export_sfc(_sfc_main$11, [["render", _sfc_render$10], ["__scopeId", "data-v-8878a3e9"], ["__file", "F:/code/qq-doctor/components/TodayOrder/TodayOrder.vue"]]);
+  const _sfc_main$10 = {
     name: "funcselect",
     data() {
       return {};
@@ -1104,7 +1529,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$Y(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$$(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "func-select" }, [
       vue.createElementVNode("image", { src: $props.pic }, null, 8, ["src"]),
       vue.createElementVNode(
@@ -1116,18 +1541,23 @@ if (uni.restoreGlobal) {
       )
     ]);
   }
-  const __easycom_2 = /* @__PURE__ */ _export_sfc(_sfc_main$Z, [["render", _sfc_render$Y], ["__scopeId", "data-v-b5005949"], ["__file", "F:/code/qq-doctor/components/FuncSelect/FuncSelect.vue"]]);
-  const _sfc_main$Y = {
+  const __easycom_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$10, [["render", _sfc_render$$], ["__scopeId", "data-v-b5005949"], ["__file", "F:/code/qq-doctor/components/FuncSelect/FuncSelect.vue"]]);
+  const _sfc_main$$ = {
     props: {
       item: {
-        id: "1",
-        pic: "../../static/img/doctor2.png",
-        name: "赵熙蒙",
-        depart: "眼科",
-        hospital: "赣州市第一人民医院",
-        evaluate: "5",
-        evaluatenum: "762",
-        status: "0"
+        type: Object,
+        default() {
+          return {
+            id: "1",
+            pic: "../../static/img/doctor2.png",
+            name: "赵熙蒙",
+            depart: "眼科",
+            hospital: "赣州市第一人民医院",
+            evaluate: "5",
+            evaluatenum: "762",
+            status: "0"
+          };
+        }
       }
     },
     data() {
@@ -1151,7 +1581,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$X(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$_(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "doctor-info" }, [
       vue.createElementVNode("image", {
         src: $props.item.pic,
@@ -1205,8 +1635,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_3 = /* @__PURE__ */ _export_sfc(_sfc_main$Y, [["render", _sfc_render$X], ["__scopeId", "data-v-ea8344e9"], ["__file", "F:/code/qq-doctor/components/DoctorInfo/DoctorInfo.vue"]]);
-  const _sfc_main$X = {
+  const __easycom_3$1 = /* @__PURE__ */ _export_sfc(_sfc_main$$, [["render", _sfc_render$_], ["__scopeId", "data-v-ea8344e9"], ["__file", "F:/code/qq-doctor/components/DoctorInfo/DoctorInfo.vue"]]);
+  const _sfc_main$_ = {
     data() {
       return {
         time: 0,
@@ -1244,15 +1674,50 @@ if (uni.restoreGlobal) {
         uni.navigateTo({
           url: `../../pages/main/doctordetail?did=${id}`
         });
+      },
+      goVac() {
+        uni.navigateTo({
+          url: "/pages/main/vaccine"
+        });
+      },
+      goDis() {
+        uni.navigateTo({
+          url: "/pages/main/diseaseknowledge"
+        });
+      },
+      goHos() {
+        uni.switchTab({
+          url: "/pages/map/mapfront"
+        });
+      },
+      goChe() {
+        uni.navigateTo({
+          url: "/pages/main/check"
+        });
+      },
+      goTreat() {
+        uni.navigateTo({
+          url: "/pages/main/treatment"
+        });
+      },
+      goOnl() {
+        uni.navigateTo({
+          url: "/pages/main/doctoronline"
+        });
+      },
+      goIsbn() {
+        uni.navigateTo({
+          url: "/pages/main/isbn"
+        });
       }
     }
   };
-  function _sfc_render$W(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_SelectFront = resolveEasycom(vue.resolveDynamicComponent("SelectFront"), __easycom_0$c);
-    const _component_TodayOrder = resolveEasycom(vue.resolveDynamicComponent("TodayOrder"), __easycom_1$5);
-    const _component_FuncSelect = resolveEasycom(vue.resolveDynamicComponent("FuncSelect"), __easycom_2);
-    const _component_DoctorInfo = resolveEasycom(vue.resolveDynamicComponent("DoctorInfo"), __easycom_3);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
+  function _sfc_render$Z(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_SelectFront = resolveEasycom(vue.resolveDynamicComponent("SelectFront"), __easycom_0$b);
+    const _component_TodayOrder = resolveEasycom(vue.resolveDynamicComponent("TodayOrder"), __easycom_1$6);
+    const _component_FuncSelect = resolveEasycom(vue.resolveDynamicComponent("FuncSelect"), __easycom_2$1);
+    const _component_DoctorInfo = resolveEasycom(vue.resolveDynamicComponent("DoctorInfo"), __easycom_3$1);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "mainfront" }, [
       vue.createVNode(_component_SelectFront, { selectfrontword: "请输入您的病症或者病情" }),
       vue.createElementVNode("view", { class: "nullblock" }),
       vue.createElementVNode("view", { class: "title" }, [
@@ -1288,35 +1753,41 @@ if (uni.restoreGlobal) {
         /* STABLE_FRAGMENT */
       )),
       vue.createElementVNode("view", { class: "func-block" }, [
-        vue.createVNode(_component_FuncSelect),
+        vue.createVNode(_component_FuncSelect, { onClick: $options.goOnl }, null, 8, ["onClick"]),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func2.png",
-          word: "疾病知识"
-        }),
+          word: "疾病知识",
+          onClick: $options.goDis
+        }, null, 8, ["onClick"]),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func3.png",
           word: "诊断结果"
         }),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func4.png",
-          word: "附近医院"
-        }),
+          word: "附近医院",
+          onClick: $options.goHos
+        }, null, 8, ["onClick"]),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func5.png",
-          word: "检查"
-        }),
+          word: "检查",
+          onClick: $options.goChe
+        }, null, 8, ["onClick"]),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func6.png",
-          word: "治疗"
-        }),
+          word: "治疗",
+          onClick: $options.goTreat
+        }, null, 8, ["onClick"]),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func7.png",
-          word: "科普号"
-        }),
+          word: "科普号",
+          onClick: $options.goIsbn
+        }, null, 8, ["onClick"]),
         vue.createVNode(_component_FuncSelect, {
           pic: "../../static/img/func8.png",
-          word: "疫苗"
-        })
+          word: "疫苗",
+          onClick: $options.goVac
+        }, null, 8, ["onClick"])
       ]),
       vue.createElementVNode("view", { class: "mid-word" }, [
         vue.createElementVNode("text", { class: "mid-word1" }, "本地医生"),
@@ -1340,8 +1811,8 @@ if (uni.restoreGlobal) {
       ))
     ]);
   }
-  const PagesMainMainfront = /* @__PURE__ */ _export_sfc(_sfc_main$X, [["render", _sfc_render$W], ["__scopeId", "data-v-c9934975"], ["__file", "F:/code/qq-doctor/pages/main/mainfront.vue"]]);
-  const _sfc_main$W = {
+  const PagesMainMainfront = /* @__PURE__ */ _export_sfc(_sfc_main$_, [["render", _sfc_render$Z], ["__scopeId", "data-v-c9934975"], ["__file", "F:/code/qq-doctor/pages/main/mainfront.vue"]]);
+  const _sfc_main$Z = {
     name: "selectfront",
     props: {
       selectfrontword: String,
@@ -1362,7 +1833,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$V(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$Y(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "SFBcontainerWrapp" }, [
       vue.createCommentVNode('   <view class="sfbTob">\r\n			<view class="">{{title}}</view>\r\n			\r\n		</view> '),
       vue.createElementVNode("view", { class: "SFBcontainer" }, [
@@ -1388,7 +1859,7 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_0$b = /* @__PURE__ */ _export_sfc(_sfc_main$W, [["render", _sfc_render$V], ["__scopeId", "data-v-528a3c29"], ["__file", "F:/code/qq-doctor/components/SelectFrontBlue/SelectFrontBlue.vue"]]);
+  const __easycom_0$a = /* @__PURE__ */ _export_sfc(_sfc_main$Z, [["render", _sfc_render$Y], ["__scopeId", "data-v-528a3c29"], ["__file", "F:/code/qq-doctor/components/SelectFrontBlue/SelectFrontBlue.vue"]]);
   const icons = {
     "id": "2852637",
     "name": "uniui图标库",
@@ -2564,7 +3035,7 @@ if (uni.restoreGlobal) {
     const reg = /^[0-9]*$/g;
     return typeof val === "number" || reg.test(val) ? val + "px" : val;
   };
-  const _sfc_main$V = {
+  const _sfc_main$Y = {
     name: "UniIcons",
     emits: ["click"],
     props: {
@@ -2608,7 +3079,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$U(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$X(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock(
       "text",
       {
@@ -2621,8 +3092,8 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE */
     );
   }
-  const __easycom_0$a = /* @__PURE__ */ _export_sfc(_sfc_main$V, [["render", _sfc_render$U], ["__scopeId", "data-v-d31e1c47"], ["__file", "F:/code/qq-doctor/uni_modules/uni-icons/components/uni-icons/uni-icons.vue"]]);
-  const _sfc_main$U = {
+  const __easycom_0$9 = /* @__PURE__ */ _export_sfc(_sfc_main$Y, [["render", _sfc_render$X], ["__scopeId", "data-v-d31e1c47"], ["__file", "F:/code/qq-doctor/uni_modules/uni-icons/components/uni-icons/uni-icons.vue"]]);
+  const _sfc_main$X = {
     name: "UniRate",
     props: {
       isFill: {
@@ -2828,8 +3299,8 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$T(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$a);
+  function _sfc_render$W(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$9);
     return vue.openBlock(), vue.createElementBlock("view", null, [
       vue.createElementVNode(
         "view",
@@ -2890,8 +3361,8 @@ if (uni.restoreGlobal) {
       )
     ]);
   }
-  const __easycom_0$9 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["render", _sfc_render$T], ["__scopeId", "data-v-5c8fbdf3"], ["__file", "F:/code/qq-doctor/uni_modules/uni-rate/components/uni-rate/uni-rate.vue"]]);
-  const _sfc_main$T = {
+  const __easycom_0$8 = /* @__PURE__ */ _export_sfc(_sfc_main$X, [["render", _sfc_render$W], ["__scopeId", "data-v-5c8fbdf3"], ["__file", "F:/code/qq-doctor/uni_modules/uni-rate/components/uni-rate/uni-rate.vue"]]);
+  const _sfc_main$W = {
     props: {
       item: {
         hid: "2",
@@ -2912,8 +3383,8 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$S(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_rate = resolveEasycom(vue.resolveDynamicComponent("uni-rate"), __easycom_0$9);
+  function _sfc_render$V(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_rate = resolveEasycom(vue.resolveDynamicComponent("uni-rate"), __easycom_0$8);
     return vue.openBlock(), vue.createElementBlock("view", { class: "hospInfoWrapp" }, [
       vue.createCommentVNode(" 医院图片 "),
       vue.createElementVNode("image", {
@@ -2982,8 +3453,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const __easycom_1$4 = /* @__PURE__ */ _export_sfc(_sfc_main$T, [["render", _sfc_render$S], ["__scopeId", "data-v-9da5c65f"], ["__file", "F:/code/qq-doctor/components/hospitalInfo/hospitalInfo.vue"]]);
-  const _sfc_main$S = {
+  const __easycom_1$5 = /* @__PURE__ */ _export_sfc(_sfc_main$W, [["render", _sfc_render$V], ["__scopeId", "data-v-9da5c65f"], ["__file", "F:/code/qq-doctor/components/hospitalInfo/hospitalInfo.vue"]]);
+  const _sfc_main$V = {
     data() {
       return {
         // // 医院信息列表、
@@ -3050,9 +3521,9 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$R(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_SelectFrontBlue = resolveEasycom(vue.resolveDynamicComponent("SelectFrontBlue"), __easycom_0$b);
-    const _component_hospitalInfo = resolveEasycom(vue.resolveDynamicComponent("hospitalInfo"), __easycom_1$4);
+  function _sfc_render$U(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_SelectFrontBlue = resolveEasycom(vue.resolveDynamicComponent("SelectFrontBlue"), __easycom_0$a);
+    const _component_hospitalInfo = resolveEasycom(vue.resolveDynamicComponent("hospitalInfo"), __easycom_1$5);
     return vue.openBlock(), vue.createElementBlock("view", null, [
       vue.createVNode(_component_SelectFrontBlue, {
         prompt: "  请输入医院名",
@@ -3094,18 +3565,18 @@ if (uni.restoreGlobal) {
       ))
     ]);
   }
-  const PagesMapMapfront = /* @__PURE__ */ _export_sfc(_sfc_main$S, [["render", _sfc_render$R], ["__scopeId", "data-v-f549c52e"], ["__file", "F:/code/qq-doctor/pages/map/mapfront.vue"]]);
-  const _sfc_main$R = {
+  const PagesMapMapfront = /* @__PURE__ */ _export_sfc(_sfc_main$V, [["render", _sfc_render$U], ["__scopeId", "data-v-f549c52e"], ["__file", "F:/code/qq-doctor/pages/map/mapfront.vue"]]);
+  const _sfc_main$U = {
     data() {
       return {};
     },
     methods: {}
   };
-  function _sfc_render$Q(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$T(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view");
   }
-  const PagesMedicalMedicalfront = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["render", _sfc_render$Q], ["__file", "F:/code/qq-doctor/pages/medical/medicalfront.vue"]]);
-  const _sfc_main$Q = {
+  const PagesMedicalMedicalfront = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["render", _sfc_render$T], ["__file", "F:/code/qq-doctor/pages/medical/medicalfront.vue"]]);
+  const _sfc_main$T = {
     name: "UniSegmentedControl",
     emits: ["clickItem"],
     props: {
@@ -3154,7 +3625,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$P(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$S(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock(
       "view",
       {
@@ -3199,8 +3670,8 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE */
     );
   }
-  const __easycom_0$8 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["render", _sfc_render$P], ["__scopeId", "data-v-86aa1171"], ["__file", "F:/code/qq-doctor/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue"]]);
-  const _sfc_main$P = {
+  const __easycom_0$7 = /* @__PURE__ */ _export_sfc(_sfc_main$T, [["render", _sfc_render$S], ["__scopeId", "data-v-86aa1171"], ["__file", "F:/code/qq-doctor/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue"]]);
+  const _sfc_main$S = {
     name: "UniSection",
     emits: ["click"],
     props: {
@@ -3259,7 +3730,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$O(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$R(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "uni-section" }, [
       vue.createElementVNode("view", {
         class: "uni-section-header",
@@ -3316,8 +3787,8 @@ if (uni.restoreGlobal) {
       )
     ]);
   }
-  const __easycom_1$3 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["render", _sfc_render$O], ["__scopeId", "data-v-637fd36b"], ["__file", "F:/code/qq-doctor/uni_modules/uni-section/components/uni-section/uni-section.vue"]]);
-  const _sfc_main$O = {
+  const __easycom_1$4 = /* @__PURE__ */ _export_sfc(_sfc_main$S, [["render", _sfc_render$R], ["__scopeId", "data-v-637fd36b"], ["__file", "F:/code/qq-doctor/uni_modules/uni-section/components/uni-section/uni-section.vue"]]);
+  const _sfc_main$R = {
     data() {
       return {
         items: ["全部", "待付款", "待就诊", "待评价", "退款"],
@@ -3365,9 +3836,9 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$N(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_segmented_control = resolveEasycom(vue.resolveDynamicComponent("uni-segmented-control"), __easycom_0$8);
-    const _component_uni_section = resolveEasycom(vue.resolveDynamicComponent("uni-section"), __easycom_1$3);
+  function _sfc_render$Q(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_segmented_control = resolveEasycom(vue.resolveDynamicComponent("uni-segmented-control"), __easycom_0$7);
+    const _component_uni_section = resolveEasycom(vue.resolveDynamicComponent("uni-section"), __easycom_1$4);
     return vue.openBlock(), vue.createElementBlock("view", null, [
       vue.createElementVNode("view", { class: "uni-padding-wrap" }, [
         vue.createElementVNode("view", { class: "seachWrapp" }, [
@@ -4526,8 +4997,8 @@ if (uni.restoreGlobal) {
       })
     ]);
   }
-  const PagesOrderOrderfront = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["render", _sfc_render$N], ["__scopeId", "data-v-2a87ebe1"], ["__file", "F:/code/qq-doctor/pages/order/orderfront.vue"]]);
-  const _sfc_main$N = {
+  const PagesOrderOrderfront = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["render", _sfc_render$Q], ["__scopeId", "data-v-2a87ebe1"], ["__file", "F:/code/qq-doctor/pages/order/orderfront.vue"]]);
+  const _sfc_main$Q = {
     data() {
       return {};
     },
@@ -4589,7 +5060,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$M(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$P(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "userFront" }, [
       vue.createCommentVNode(" 头像 用户名  客服"),
       vue.createElementVNode("view", { class: "headWrapp" }, [
@@ -4792,8 +5263,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  const PagesUserUserfront = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["render", _sfc_render$M], ["__scopeId", "data-v-cb1bd7c9"], ["__file", "F:/code/qq-doctor/pages/user/userfront.vue"]]);
-  const _sfc_main$M = {
+  const PagesUserUserfront = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["render", _sfc_render$P], ["__scopeId", "data-v-cb1bd7c9"], ["__file", "F:/code/qq-doctor/pages/user/userfront.vue"]]);
+  const _sfc_main$P = {
     data() {
       return {
         item: {
@@ -4818,11 +5289,21 @@ if (uni.restoreGlobal) {
         uni.navigateTo({
           url: `/pages/main/messagetable?did=${did}`
         });
+      },
+      getOnlineForm(did) {
+        uni.navigateTo({
+          url: `/pages/main/onlineform?did=${did}&way=online`
+        });
+      },
+      getAppoint(did) {
+        uni.navigateTo({
+          url: `/pages/main/onlineform?did=${did}&way=appoint`
+        });
       }
     }
   };
-  function _sfc_render$L(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
+  function _sfc_render$O(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "doctor-detail" }, [
       vue.createElementVNode("image", {
         src: $data.item.picurl
       }, null, 8, ["src"]),
@@ -4912,2947 +5393,3317 @@ if (uni.restoreGlobal) {
         }, [
           vue.createElementVNode("image", { src: "/static/img/connect1.png" })
         ]),
-        vue.createElementVNode("view", { class: "doctor-detail-clicks-2" }, [
+        vue.createElementVNode("view", {
+          class: "doctor-detail-clicks-2",
+          onClick: _cache[1] || (_cache[1] = ($event) => $options.getOnlineForm($data.did))
+        }, [
           vue.createElementVNode("view", { class: "doctor-detail-click" }, "线上预约")
         ]),
-        vue.createElementVNode("view", { class: "doctor-detail-clicks-2" }, [
+        vue.createElementVNode("view", {
+          class: "doctor-detail-clicks-2",
+          onClick: _cache[2] || (_cache[2] = ($event) => $options.getAppoint($data.did))
+        }, [
           vue.createElementVNode("view", { class: "doctor-detail-click" }, "挂号预约")
         ])
       ])
     ]);
   }
-  const PagesMainDoctordetail = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["render", _sfc_render$L], ["__scopeId", "data-v-c2efb099"], ["__file", "F:/code/qq-doctor/pages/main/doctordetail.vue"]]);
-  const _sfc_main$L = {
-    name: "MessageLine",
+  const PagesMainDoctordetail = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["render", _sfc_render$O], ["__scopeId", "data-v-c2efb099"], ["__file", "F:/code/qq-doctor/pages/main/doctordetail.vue"]]);
+  const _sfc_main$O = {
+    data() {
+      return {
+        did: "",
+        doctor: {
+          pic: "../../static/img/doctor2.png",
+          name: "赵熙蒙",
+          hospital: "赣州市第一人民医院",
+          depart: "眼科"
+        },
+        patients: [{
+          patientId: "001",
+          pic: "../../static/img/patient1.png",
+          name: "周嘉兴"
+        }, {
+          patientId: "002",
+          pic: "../../static/img/patient2.png",
+          name: "赵熙蒙"
+        }, {
+          patientId: "003",
+          pic: "../../static/img/patient3.jpg",
+          name: "安俊禹"
+        }],
+        selectPatient: "001",
+        way: "",
+        name: "线上表单",
+        seletedTime: ""
+      };
+    },
+    onLoad(e2) {
+      this.did = e2.did;
+      this.way = e2.way;
+      if (e2.way == "online") {
+        this.name = "线上表单";
+      } else {
+        this.name = "挂号表单";
+      }
+      uni.setNavigationBarTitle({
+        title: this.name
+      });
+    },
+    onShow() {
+      uni.$on("dataBack", (data) => {
+        formatAppLog("log", "at pages/main/onlineform.vue:89", data);
+      });
+    },
+    methods: {
+      formSubmit: function(e2) {
+        formatAppLog("log", "at pages/main/onlineform.vue:95", "form发生了submit事件，携带数据为：" + JSON.stringify(e2.detail.value));
+        uni.navigateTo({
+          url: `/pages/main/onlineorder?id=4935975230644435337&way=${this.way}`
+        });
+      },
+      addPatient() {
+        uni.navigateTo({
+          url: "/pages/user/addpatient"
+        });
+      },
+      changePatient(item) {
+        this.selectPatient = item.patientId;
+      },
+      goTime() {
+        uni.navigateTo({
+          url: `/pages/main/onlineformtime?way=${this.way}?did=${this.did}`
+        });
+      }
+    }
+  };
+  function _sfc_render$N(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "onlineform" }, [
+      vue.createElementVNode("view", { class: "online-doctor-block" }, [
+        vue.createElementVNode("view", { class: "online-doctor-image" }, [
+          vue.createElementVNode("image", {
+            src: $data.doctor.pic,
+            mode: "aspectFill"
+          }, null, 8, ["src"])
+        ]),
+        vue.createElementVNode("view", { class: "online-doctor-text" }, [
+          vue.createElementVNode(
+            "view",
+            { class: "online-doctor-name" },
+            vue.toDisplayString($data.doctor.name) + "医生",
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode(
+            "view",
+            { class: "online-doctor-dep" },
+            vue.toDisplayString($data.doctor.depart) + " " + vue.toDisplayString($data.doctor.hospital) + "医生",
+            1
+            /* TEXT */
+          )
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "online-submit" }, [
+        vue.createElementVNode(
+          "form",
+          {
+            onSubmit: _cache[2] || (_cache[2] = (...args) => $options.formSubmit && $options.formSubmit(...args))
+          },
+          [
+            vue.createElementVNode("view", { class: "online-submit-title1" }, "预约信息"),
+            vue.createElementVNode("input", {
+              type: "text",
+              placeholder: "姓名",
+              name: "name",
+              class: "online-submit-input"
+            }),
+            vue.createElementVNode("input", {
+              type: "tel",
+              placeholder: "电话",
+              name: "phone",
+              class: "online-submit-input"
+            }),
+            vue.createElementVNode("input", {
+              type: "text",
+              placeholder: "时间",
+              name: "time",
+              class: "online-submit-input",
+              onClick: _cache[0] || (_cache[0] = ($event) => $options.goTime()),
+              "v-model": this.seletedTime
+            }, null, 8, ["v-model"]),
+            vue.createElementVNode("view", { class: "online-submit-title2" }, "病人信息"),
+            vue.createElementVNode("view", { class: "online-patient" }, [
+              vue.createElementVNode("view", {
+                class: "online-patient-add",
+                onClick: _cache[1] || (_cache[1] = ($event) => $options.addPatient())
+              }, [
+                vue.createElementVNode("view", { class: "online-patiend-add-image" }, [
+                  vue.createElementVNode("image", {
+                    src: "/static/img/add.png",
+                    mode: ""
+                  })
+                ]),
+                vue.createElementVNode("view", { class: "online-patiend-add-text" }, "添加")
+              ]),
+              vue.createElementVNode("scroll-view", {
+                class: "online-patient-view",
+                "scroll-x": ""
+              }, [
+                (vue.openBlock(true), vue.createElementBlock(
+                  vue.Fragment,
+                  null,
+                  vue.renderList($data.patients, (item, index) => {
+                    return vue.openBlock(), vue.createElementBlock("view", { class: "online-patient-view-block" }, [
+                      vue.createElementVNode("view", {
+                        class: "online-patient-view-block-image",
+                        onClick: ($event) => $options.changePatient(item)
+                      }, [
+                        vue.createElementVNode("image", {
+                          src: item.pic,
+                          mode: ""
+                        }, null, 8, ["src"])
+                      ], 8, ["onClick"]),
+                      vue.createElementVNode(
+                        "view",
+                        { class: "online-patient-view-block-word" },
+                        vue.toDisplayString(item.name),
+                        1
+                        /* TEXT */
+                      )
+                    ]);
+                  }),
+                  256
+                  /* UNKEYED_FRAGMENT */
+                ))
+              ])
+            ]),
+            vue.createElementVNode("button", {
+              "form-type": "submit",
+              class: "online-patient-submit"
+            }, "预约")
+          ],
+          32
+          /* HYDRATE_EVENTS */
+        )
+      ])
+    ]);
+  }
+  const PagesMainOnlineform = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["render", _sfc_render$N], ["__scopeId", "data-v-fb5b5931"], ["__file", "F:/code/qq-doctor/pages/main/onlineform.vue"]]);
+  const _sfc_main$N = {
     data() {
       return {};
+    }
+  };
+  function _sfc_render$M(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view");
+  }
+  const PagesUserAddpatient = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["render", _sfc_render$M], ["__file", "F:/code/qq-doctor/pages/user/addpatient.vue"]]);
+  const _sfc_main$M = {
+    data() {
+      return {
+        orderInfo: {
+          orderId: "4935975230644435337",
+          name: "赵熙蒙",
+          phone: "18683927916",
+          patientName: "周嘉兴",
+          pic: "../../static/img/patient1.png",
+          price: "41.00"
+        },
+        remainingTime: 15 * 60,
+        // 初始剩余时间为15分钟，单位为秒,
+        payway: [{
+          pic: "../../static/img/wechat.png",
+          way: "微信支付",
+          value: "wechat"
+        }, {
+          pic: "../../static/img/alipay.png",
+          way: "支付宝支付",
+          value: "alipay"
+        }],
+        selected: "0",
+        selectedValue: "wechat",
+        way: "",
+        orderId: ""
+      };
+    },
+    onLoad(e2) {
+      this.way = e2.way;
+      this.orderId = e2.id;
+      if (this.way == "online") {
+        uni.setNavigationBarTitle({
+          title: "线上预约订单"
+        });
+      } else {
+        uni.setNavigationBarTitle({
+          title: "挂号预约订单"
+        });
+      }
+      const timer = setInterval(() => {
+        this.remainingTime--;
+        if (this.remainingTime === 0) {
+          clearInterval(timer);
+        }
+      }, 1e3);
+    },
+    methods: {
+      radioSelect(event) {
+        for (let i2 = 0; i2 < this.payway.length; i2++) {
+          if (this.payway[i2].value === event.detail.value) {
+            this.selected = i2;
+            break;
+          }
+        }
+        this.selectedValue = event.detail.value;
+      },
+      payForOrder(orderId, price) {
+        uni.redirectTo({
+          url: `/pages/main/onlineordersuccess?id=${this.orderId}&way=${this.way}`
+        });
+      }
+    }
+  };
+  function _sfc_render$L(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "onlineorder" }, [
+      vue.createElementVNode("view", { class: "onlineorder-info" }, [
+        vue.createElementVNode("view", { class: "onlineorder-info-left" }, [
+          vue.createElementVNode("view", { style: { "margin-left": "40rpx", "font-size": "32rpx", "margin-top": "10rpx" } }, "订单信息"),
+          vue.createElementVNode(
+            "view",
+            { style: { "margin-bottom": "10rpx", "margin-top": "30rpx", "margin-left": "80rpx", "font-size": "26rpx" } },
+            " 姓名:" + vue.toDisplayString($data.orderInfo.name),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode(
+            "view",
+            { style: { "margin-left": "80rpx", "font-size": "26rpx" } },
+            " 电话:" + vue.toDisplayString($data.orderInfo.phone),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("view", { style: { "margin-left": "80rpx", "margin-top": "10rpx font-size: 26rpx" } }, [
+            vue.createTextVNode(" 订单号: "),
+            vue.createElementVNode("p"),
+            vue.createElementVNode(
+              "view",
+              { style: { "font-size": "26rpx" } },
+              vue.toDisplayString($data.orderInfo.orderId),
+              1
+              /* TEXT */
+            )
+          ]),
+          vue.createElementVNode(
+            "view",
+            { style: { "margin-left": "80rpx", "color": "#9E9E9E", "margin-top": "50rpx", "font-size": "26rpx" } },
+            " 请在" + vue.toDisplayString($data.remainingTime) + "之内支付订单",
+            1
+            /* TEXT */
+          )
+        ]),
+        vue.createElementVNode("view", { class: "onlineorder-info-right" }, [
+          vue.createElementVNode("view", { style: { "margin-bottom": "10rpx" } }, "病人信息:"),
+          vue.createElementVNode("image", {
+            src: $data.orderInfo.pic,
+            mode: ""
+          }, null, 8, ["src"]),
+          vue.createElementVNode(
+            "view",
+            { style: { "margin-left": "50rpx", "color": "#9e9e9e" } },
+            vue.toDisplayString($data.orderInfo.patientName),
+            1
+            /* TEXT */
+          )
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "onlineorder-pay" }, [
+        vue.createElementVNode("scroll-view", { "scroll-y": "" }, [
+          vue.createElementVNode(
+            "radio-group",
+            {
+              name: "payway",
+              onChange: _cache[0] || (_cache[0] = (...args) => $options.radioSelect && $options.radioSelect(...args))
+            },
+            [
+              (vue.openBlock(true), vue.createElementBlock(
+                vue.Fragment,
+                null,
+                vue.renderList($data.payway, (item, index) => {
+                  return vue.openBlock(), vue.createElementBlock("view", {
+                    class: "onlineorder-pay-way",
+                    key: item.value
+                  }, [
+                    vue.createElementVNode("view", { class: "onlineorder-pay-way-context" }, [
+                      vue.createElementVNode("image", {
+                        src: item.pic
+                      }, null, 8, ["src"]),
+                      vue.createTextVNode(
+                        " " + vue.toDisplayString(item.way),
+                        1
+                        /* TEXT */
+                      )
+                    ]),
+                    vue.createElementVNode("label", { class: "onlineorder-pay-way-radio" }, [
+                      vue.createElementVNode("radio", {
+                        value: item.value,
+                        color: "#FFCB45",
+                        checked: index == this.selected
+                      }, null, 8, ["value", "checked"])
+                    ])
+                  ]);
+                }),
+                128
+                /* KEYED_FRAGMENT */
+              ))
+            ],
+            32
+            /* HYDRATE_EVENTS */
+          )
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "onlineorder-pay-submit" }, [
+        vue.createElementVNode(
+          "view",
+          { class: "onlineorder-pay-submit-text" },
+          "总计:" + vue.toDisplayString($data.orderInfo.price),
+          1
+          /* TEXT */
+        ),
+        vue.createElementVNode("view", {
+          class: "onlineorder-pay-submit-button",
+          onClick: _cache[1] || (_cache[1] = ($event) => $options.payForOrder($data.orderInfo.orderId, $data.orderInfo.price))
+        }, "支付 ")
+      ])
+    ]);
+  }
+  const PagesMainOnlineorder = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["render", _sfc_render$L], ["__scopeId", "data-v-1249d3e6"], ["__file", "F:/code/qq-doctor/pages/main/onlineorder.vue"]]);
+  const _sfc_main$L = {
+    data() {
+      return {
+        way: "",
+        orderId: ""
+      };
+    },
+    methods: {
+      backMainFront() {
+        uni.switchTab({
+          url: "/pages/main/mainfront"
+        });
+      }
+    },
+    onLoad(e2) {
+      this.way = e2.way;
+      this.orderId = e2.id;
+      if (this.way == "online") {
+        uni.setNavigationBarTitle({
+          title: "线上预约成功"
+        });
+      } else {
+        uni.setNavigationBarTitle({
+          title: "挂号预约成功"
+        });
+      }
     }
   };
   function _sfc_render$K(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "MessageLine" });
+    return vue.openBlock(), vue.createElementBlock("view", { class: "online-order-success" }, [
+      vue.createElementVNode("view", { class: "online-order-success-title" }, " 您的线上预约订单已支付,稍后您可以去您的订单中心查看 "),
+      vue.createElementVNode("view", { style: { "margin-top": "120rpx", "font-weight": "900", "font-size": "42rpx" } }, "订单号:"),
+      vue.createElementVNode("view", { style: { "margin-top": "20rpx" } }, "4935975230644435337"),
+      vue.createElementVNode("view", { style: { "font-weight": "900", "margin-top": "20rpx", "margin-right": "140rpx" } }, " 姓名: 赵熙蒙 "),
+      vue.createElementVNode("view", { style: { "font-weight": "900", "margin-top": "20rpx", "margin-right": "33rpx" } }, " 手机号: 18683927916 "),
+      vue.createElementVNode("view", { style: { "font-weight": "900", "margin-top": "20rpx", "margin-left": "90rpx", "margin-bottom": "300rpx" } }, " 时间段: 2023年10月23日18:00 "),
+      vue.createElementVNode("button", {
+        "form-type": "submit",
+        class: "online-success-submit"
+      }, "补充ct图监测病变"),
+      vue.createElementVNode("button", {
+        "form-type": "submit",
+        class: "online-success-submit",
+        style: { "background-color": "#B1B1B1" },
+        onClick: _cache[0] || (_cache[0] = (...args) => $options.backMainFront && $options.backMainFront(...args))
+      }, "返回主页")
+    ]);
   }
-  const __easycom_0$7 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["render", _sfc_render$K], ["__scopeId", "data-v-8b1e6fc4"], ["__file", "F:/code/qq-doctor/components/MessageLine/MessageLine.vue"]]);
+  const PagesMainOnlineordersuccess = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["render", _sfc_render$K], ["__file", "F:/code/qq-doctor/pages/main/onlineordersuccess.vue"]]);
   const _sfc_main$K = {
+    name: "FuncSelectFront",
     data() {
       return {};
+    },
+    props: {
+      word: {
+        type: String,
+        default: "搜索"
+      }
     }
   };
   function _sfc_render$J(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_MessageLine = resolveEasycom(vue.resolveDynamicComponent("MessageLine"), __easycom_0$7);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createElementVNode("view", { class: "message-table" }),
-      vue.createVNode(_component_MessageLine)
+    return vue.openBlock(), vue.createElementBlock("view", { class: "func-selelct-front" }, [
+      vue.createElementVNode("view", { class: "func-select-block" }, [
+        vue.createElementVNode("view", { class: "func-select-block-image" }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/query.png",
+            mode: ""
+          })
+        ]),
+        vue.createElementVNode("input", {
+          type: "text",
+          placeholder: $props.word,
+          name: "selectvalue",
+          "confirm-type": "search"
+        }, null, 8, ["placeholder"])
+      ])
     ]);
   }
-  const PagesMainMessagetable = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["render", _sfc_render$J], ["__scopeId", "data-v-160538d4"], ["__file", "F:/code/qq-doctor/pages/main/messagetable.vue"]]);
+  const ComponentsFuncSelectFrontFuncSelectFront = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["render", _sfc_render$J], ["__file", "F:/code/qq-doctor/components/FuncSelectFront/FuncSelectFront.vue"]]);
   const _sfc_main$J = {
-    name: "UniTag",
-    emits: ["click"],
+    name: "UniIndexedList",
+    emits: ["itemClick"],
     props: {
-      type: {
-        // 标签类型default、primary、success、warning、error、royal
-        type: String,
-        default: "default"
-      },
-      size: {
-        // 标签大小 normal, small
-        type: String,
-        default: "normal"
-      },
-      // 标签内容
-      text: {
-        type: String,
-        default: ""
-      },
-      disabled: {
-        // 是否为禁用状态
-        type: [Boolean, String],
+      loaded: {
+        type: Boolean,
         default: false
       },
-      inverted: {
-        // 是否为空心
-        type: [Boolean, String],
-        default: false
+      idx: {
+        type: Number,
+        default: 0
       },
-      circle: {
-        // 是否为圆角样式
-        type: [Boolean, String],
-        default: false
+      list: {
+        type: Object,
+        default() {
+          return {};
+        }
       },
-      mark: {
-        // 是否为标记样式
-        type: [Boolean, String],
+      showSelect: {
+        type: Boolean,
         default: false
-      },
-      customStyle: {
-        type: String,
-        default: ""
-      }
-    },
-    computed: {
-      classes() {
-        const {
-          type,
-          disabled,
-          inverted,
-          circle,
-          mark,
-          size,
-          isTrue
-        } = this;
-        const classArr = [
-          "uni-tag--" + type,
-          "uni-tag--" + size,
-          isTrue(disabled) ? "uni-tag--disabled" : "",
-          isTrue(inverted) ? "uni-tag--" + type + "--inverted" : "",
-          isTrue(circle) ? "uni-tag--circle" : "",
-          isTrue(mark) ? "uni-tag--mark" : "",
-          // type === 'default' ? 'uni-tag--default' : 'uni-tag-text',
-          isTrue(inverted) ? "uni-tag--inverted uni-tag-text--" + type : "",
-          size === "small" ? "uni-tag-text--small" : ""
-        ];
-        return classArr.join(" ");
       }
     },
     methods: {
-      isTrue(value) {
-        return value === true || value === "true";
-      },
-      onClick() {
-        if (this.isTrue(this.disabled))
-          return;
-        this.$emit("click");
+      onClick(idx, index) {
+        this.$emit("itemClick", {
+          idx,
+          index
+        });
       }
     }
   };
   function _sfc_render$I(_ctx, _cache, $props, $setup, $data, $options) {
-    return $props.text ? (vue.openBlock(), vue.createElementBlock(
-      "text",
-      {
+    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$9);
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      $props.loaded || $props.list.itemIndex < 15 ? (vue.openBlock(), vue.createElementBlock("view", {
         key: 0,
-        class: vue.normalizeClass(["uni-tag", $options.classes]),
-        style: vue.normalizeStyle($props.customStyle),
-        onClick: _cache[0] || (_cache[0] = (...args) => $options.onClick && $options.onClick(...args))
-      },
-      vue.toDisplayString($props.text),
-      7
-      /* TEXT, CLASS, STYLE */
-    )) : vue.createCommentVNode("v-if", true);
-  }
-  const __easycom_0$6 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["render", _sfc_render$I], ["__scopeId", "data-v-1f94d070"], ["__file", "F:/code/qq-doctor/uni_modules/uni-tag/components/uni-tag/uni-tag.vue"]]);
-  const _sfc_main$I = {
-    props: {
-      item: {
-        hid: "1",
-        label: ["公立", "三甲", "综合医院", "收藏数|江西第八名"],
-        des: "	赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有..."
-      }
-    },
-    name: "hospitalSrecah",
-    data() {
-      return {};
-    }
-  };
-  function _sfc_render$H(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_tag = resolveEasycom(vue.resolveDynamicComponent("uni-tag"), __easycom_0$6);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createElementVNode("view", { class: "hospSearch" }, [
-        vue.createCommentVNode("第一行 医院名称 "),
-        vue.createElementVNode("view", { class: "searchTextWrapp" }, [
-          vue.createElementVNode("text", { class: "searchText" }, "赣州市第一人民医院")
-        ]),
-        vue.createCommentVNode(" 第二行 标签 "),
-        vue.createElementVNode("view", { class: "hospTagWrapp" }, [
-          vue.createElementVNode("view", {
-            class: "",
-            style: { "margin-left": "8rpx" }
-          }),
-          (vue.openBlock(true), vue.createElementBlock(
-            vue.Fragment,
-            null,
-            vue.renderList($props.item.label, (tag, index) => {
-              return vue.openBlock(), vue.createElementBlock("view", {
-                class: "tag-view",
-                key: index
-              }, [
-                vue.createVNode(_component_uni_tag, {
-                  text: tag,
-                  mark: true,
-                  size: "mini",
-                  "custom-style": "background-color: #808080; border-color: #808080; color: #fff;"
-                }, null, 8, ["text"])
-              ]);
-            }),
-            128
-            /* KEYED_FRAGMENT */
-          ))
-        ]),
-        vue.createCommentVNode(" 详细信息 "),
-        vue.createElementVNode("view", { class: "detailedInformationWrapp" }, [
-          vue.createElementVNode("text", { class: "detailedText" }, " 赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有 ... ")
-        ])
-      ])
-    ]);
-  }
-  const __easycom_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["render", _sfc_render$H], ["__scopeId", "data-v-a7e180a8"], ["__file", "F:/code/qq-doctor/components/hospitalSrecah/hospitalSrecah.vue"]]);
-  const _sfc_main$H = {
-    data() {
-      return {
-        // hid: "3",
-        // pic: "../../static/img/nearHosp/hosp2.png",
-        // hospital: "赣州市第三人民医院",
-        // distance: "4",
-        // evaluate: "3",
-        // status: "1",
-        // address: "江西省赣州市章贡区786号"
-        hospitalSrecahList: [
-          {
-            hid: "1",
-            label: ["公立", "三甲", "综合医院", "收藏数|江西第八名"],
-            des: "	赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有..."
-          },
-          {
-            hid: "2",
-            label: ["公立", "收藏数|江西第七名"],
-            des: "	赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有..."
-          },
-          {
-            hid: "3",
-            label: ["公立", "收藏数|江西第九名"],
-            des: "	赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有..."
-          }
-        ]
-      };
-    },
-    methods: {
-      navDetail(hid) {
-        uni.navigateTo({
-          url: "/pages/map/hospDetails/hospDetails?hid=" + hid
-        });
-      }
-    }
-  };
-  function _sfc_render$G(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_SelectFrontBlue = resolveEasycom(vue.resolveDynamicComponent("SelectFrontBlue"), __easycom_0$b);
-    const _component_hospitalSrecah = resolveEasycom(vue.resolveDynamicComponent("hospitalSrecah"), __easycom_1$2);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 搜索框   后面修改prompt 根据搜索事件 "),
-      vue.createVNode(_component_SelectFrontBlue, {
-        prompt: "  赣州市第一人民医院",
-        class: "setFront"
-      }),
-      vue.createCommentVNode(" 空白填充 "),
-      vue.createElementVNode("view", { style: { "height": "125rpx", "width": "100%" } }),
-      vue.createCommentVNode(" 搜索结果数量 "),
-      vue.createElementVNode("view", { class: "searchNumWrapp" }, [
-        vue.createElementVNode("view", { class: "searchNum" }, [
-          vue.createElementVNode("text", { class: "searchNumText1" }, [
-            vue.createTextVNode("为您找到相关结果约 "),
-            vue.createElementVNode(
-              "text",
-              { class: "searchNumText2" },
-              vue.toDisplayString($data.hospitalSrecahList.length),
-              1
-              /* TEXT */
-            ),
-            vue.createTextVNode(" 个")
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 空白填充 "),
-      vue.createElementVNode("view", {
-        class: "",
-        style: { "height": "30rpx", "width": "100%" }
-      }),
-      (vue.openBlock(true), vue.createElementBlock(
-        vue.Fragment,
-        null,
-        vue.renderList($data.hospitalSrecahList, (item) => {
-          return vue.openBlock(), vue.createElementBlock("view", {
-            class: "hospSearchWrapp",
-            key: item.hid
-          }, [
-            vue.createVNode(_component_hospitalSrecah, {
-              item,
-              onClick: ($event) => $options.navDetail(item.hid)
-            }, null, 8, ["item", "onClick"])
-          ]);
-        }),
-        128
-        /* KEYED_FRAGMENT */
-      ))
-    ]);
-  }
-  const PagesMapNearHospNearHosp = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["render", _sfc_render$G], ["__scopeId", "data-v-205a2d5a"], ["__file", "F:/code/qq-doctor/pages/map/nearHosp/nearHosp.vue"]]);
-  const _sfc_main$G = {
-    props: {
-      name: String
-    },
-    name: "collectiveDepartment",
-    data() {
-      return {};
-    },
-    methods: {
-      navToDocDeta() {
-        uni.navigateTo({
-          url: "/pages/map/depDetails/depDetails"
-        });
-      }
-    }
-  };
-  function _sfc_render$F(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", {
-      class: "collectiveDepartmentOne",
-      onClick: _cache[0] || (_cache[0] = ($event) => $options.navToDocDeta())
-    }, [
-      vue.createElementVNode("view", { class: "departmentNameWrapp" }, [
-        vue.createElementVNode(
+        class: "uni-indexed-list__title-wrapper"
+      }, [
+        $props.list.items && $props.list.items.length > 0 ? (vue.openBlock(), vue.createElementBlock(
           "text",
-          { class: "departmentName" },
-          vue.toDisplayString($props.name),
+          {
+            key: 0,
+            class: "uni-indexed-list__title"
+          },
+          vue.toDisplayString($props.list.key),
           1
           /* TEXT */
-        )
-      ])
-    ]);
-  }
-  const __easycom_0$5 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["render", _sfc_render$F], ["__scopeId", "data-v-8597a248"], ["__file", "F:/code/qq-doctor/components/collectiveDepartment/collectiveDepartment.vue"]]);
-  const _sfc_main$F = {
-    props: {
-      item: {
-        absName: "内科",
-        depNameList: ["心血管内科", "消化内科", "呼吸与危重症医学科", "肾内科", "血液内科", "神经内科"]
-      }
-    },
-    name: "hospitalDepartments",
-    data() {
-      return {
-        depNameListNow: this.item.depNameList
-      };
-    }
-  };
-  function _sfc_render$E(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_collectiveDepartment = resolveEasycom(vue.resolveDynamicComponent("collectiveDepartment"), __easycom_0$5);
-    return vue.openBlock(), vue.createElementBlock("view", { class: "hospDep" }, [
-      vue.createCommentVNode(" 科室名称 "),
-      vue.createElementVNode("view", { class: "departmentName" }, [
-        vue.createElementVNode(
-          "text",
-          { class: "departmentNameText" },
-          vue.toDisplayString($props.item.absName),
-          1
-          /* TEXT */
-        )
-      ]),
-      vue.createCommentVNode(" 具体科室信息列表 "),
-      vue.createElementVNode("view", { class: "collectiveDepartmentWrapp" }, [
-        vue.createCommentVNode(" 展示所有的具体科室信息 "),
+        )) : vue.createCommentVNode("v-if", true)
+      ])) : vue.createCommentVNode("v-if", true),
+      ($props.loaded || $props.list.itemIndex < 15) && $props.list.items && $props.list.items.length > 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 1,
+        class: "uni-indexed-list__list"
+      }, [
         (vue.openBlock(true), vue.createElementBlock(
           vue.Fragment,
           null,
-          vue.renderList($data.depNameListNow, (name, indexName) => {
+          vue.renderList($props.list.items, (item, index) => {
             return vue.openBlock(), vue.createElementBlock("view", {
-              class: "collectiveDepartmentOneWrapp",
-              key: indexName
+              key: index,
+              class: "uni-indexed-list__item",
+              "hover-class": "uni-indexed-list__item--hover"
             }, [
-              vue.createVNode(_component_collectiveDepartment, { name }, null, 8, ["name"])
+              vue.createElementVNode("view", {
+                class: "uni-indexed-list__item-container",
+                onClick: ($event) => $options.onClick($props.idx, index)
+              }, [
+                vue.createElementVNode(
+                  "view",
+                  {
+                    class: vue.normalizeClass(["uni-indexed-list__item-border", { "uni-indexed-list__item-border--last": index === $props.list.items.length - 1 }])
+                  },
+                  [
+                    $props.showSelect ? (vue.openBlock(), vue.createElementBlock("view", {
+                      key: 0,
+                      style: { "margin-right": "20rpx" }
+                    }, [
+                      vue.createVNode(_component_uni_icons, {
+                        type: item.checked ? "checkbox-filled" : "circle",
+                        color: item.checked ? "#007aff" : "#C0C0C0",
+                        size: "24"
+                      }, null, 8, ["type", "color"])
+                    ])) : vue.createCommentVNode("v-if", true),
+                    vue.createElementVNode(
+                      "text",
+                      { class: "uni-indexed-list__item-content" },
+                      vue.toDisplayString(item.name),
+                      1
+                      /* TEXT */
+                    )
+                  ],
+                  2
+                  /* CLASS */
+                )
+              ], 8, ["onClick"])
             ]);
           }),
           128
           /* KEYED_FRAGMENT */
         ))
+      ])) : vue.createCommentVNode("v-if", true)
+    ]);
+  }
+  const indexedListItem = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["render", _sfc_render$I], ["__scopeId", "data-v-d26f185a"], ["__file", "F:/code/qq-doctor/uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list-item.vue"]]);
+  function throttle(func, delay) {
+    var prev = Date.now();
+    return function() {
+      var context = this;
+      var args = arguments;
+      var now = Date.now();
+      if (now - prev >= delay) {
+        func.apply(context, args);
+        prev = Date.now();
+      }
+    };
+  }
+  function touchMove(e2) {
+    let pageY = e2.touches[0].pageY;
+    let index = Math.floor((pageY - this.winOffsetY) / this.itemHeight);
+    if (this.touchmoveIndex === index) {
+      return false;
+    }
+    let item = this.lists[index];
+    if (item) {
+      this.scrollViewId = "uni-indexed-list-" + index;
+      this.touchmoveIndex = index;
+    }
+  }
+  const throttleTouchMove = throttle(touchMove, 40);
+  const _sfc_main$I = {
+    name: "UniIndexedList",
+    components: {
+      indexedListItem
+    },
+    emits: ["click"],
+    props: {
+      options: {
+        type: Array,
+        default() {
+          return [];
+        }
+      },
+      showSelect: {
+        type: Boolean,
+        default: false
+      }
+    },
+    data() {
+      return {
+        lists: [],
+        winHeight: 0,
+        itemHeight: 0,
+        winOffsetY: 0,
+        touchmove: false,
+        touchmoveIndex: -1,
+        scrollViewId: "",
+        touchmovable: true,
+        loaded: false,
+        isPC: false
+      };
+    },
+    watch: {
+      options: {
+        handler: function() {
+          this.setList();
+        },
+        deep: true
+      }
+    },
+    mounted() {
+      setTimeout(() => {
+        this.setList();
+      }, 50);
+      setTimeout(() => {
+        this.loaded = true;
+      }, 300);
+    },
+    methods: {
+      setList() {
+        let index = 0;
+        this.lists = [];
+        this.options.forEach((value) => {
+          if (value.data.length === 0) {
+            return;
+          }
+          let indexBefore = index;
+          let items = value.data.map((item) => {
+            let obj = {};
+            obj["key"] = value.letter;
+            obj["name"] = item;
+            obj["itemIndex"] = index;
+            index++;
+            obj.checked = item.checked ? item.checked : false;
+            return obj;
+          });
+          this.lists.push({
+            title: value.letter,
+            key: value.letter,
+            items,
+            itemIndex: indexBefore
+          });
+        });
+        uni.createSelectorQuery().in(this).select("#list").boundingClientRect().exec((ret) => {
+          this.winOffsetY = ret[0].top;
+          this.winHeight = ret[0].height;
+          this.itemHeight = this.winHeight / this.lists.length;
+        });
+      },
+      touchStart(e2) {
+        this.touchmove = true;
+        let pageY = this.isPC ? e2.pageY : e2.touches[0].pageY;
+        let index = Math.floor((pageY - this.winOffsetY) / this.itemHeight);
+        let item = this.lists[index];
+        if (item) {
+          this.scrollViewId = "uni-indexed-list-" + index;
+          this.touchmoveIndex = index;
+        }
+      },
+      touchMove(e2) {
+        throttleTouchMove.call(this, e2);
+      },
+      touchEnd() {
+        this.touchmove = false;
+      },
+      /**
+       * 兼容 PC @tian
+       */
+      mousedown(e2) {
+        if (!this.isPC)
+          return;
+        this.touchStart(e2);
+      },
+      mousemove(e2) {
+        if (!this.isPC)
+          return;
+        this.touchMove(e2);
+      },
+      mouseleave(e2) {
+        if (!this.isPC)
+          return;
+        this.touchEnd(e2);
+      },
+      onClick(e2) {
+        let {
+          idx,
+          index
+        } = e2;
+        let obj = {};
+        for (let key in this.lists[idx].items[index]) {
+          obj[key] = this.lists[idx].items[index][key];
+        }
+        let select = [];
+        if (this.showSelect) {
+          this.lists[idx].items[index].checked = !this.lists[idx].items[index].checked;
+          this.lists.forEach((value, idx2) => {
+            value.items.forEach((item, index2) => {
+              if (item.checked) {
+                let obj2 = {};
+                for (let key in this.lists[idx2].items[index2]) {
+                  obj2[key] = this.lists[idx2].items[index2][key];
+                }
+                select.push(obj2);
+              }
+            });
+          });
+        }
+        this.$emit("click", {
+          item: obj,
+          select
+        });
+      }
+    }
+  };
+  function _sfc_render$H(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_indexed_list_item = vue.resolveComponent("indexed-list-item");
+    return vue.openBlock(), vue.createElementBlock(
+      "view",
+      {
+        class: "uni-indexed-list",
+        ref: "list",
+        id: "list"
+      },
+      [
+        vue.createElementVNode("scroll-view", {
+          "scroll-into-view": $data.scrollViewId,
+          class: "uni-indexed-list__scroll",
+          "scroll-y": ""
+        }, [
+          (vue.openBlock(true), vue.createElementBlock(
+            vue.Fragment,
+            null,
+            vue.renderList($data.lists, (list, idx) => {
+              return vue.openBlock(), vue.createElementBlock("view", {
+                key: idx,
+                id: "uni-indexed-list-" + idx
+              }, [
+                vue.createVNode(_component_indexed_list_item, {
+                  list,
+                  loaded: $data.loaded,
+                  idx,
+                  showSelect: $props.showSelect,
+                  onItemClick: $options.onClick
+                }, null, 8, ["list", "loaded", "idx", "showSelect", "onItemClick"])
+              ], 8, ["id"]);
+            }),
+            128
+            /* KEYED_FRAGMENT */
+          ))
+        ], 8, ["scroll-into-view"]),
+        vue.createElementVNode(
+          "view",
+          {
+            class: "uni-indexed-list__menu",
+            onTouchstart: _cache[0] || (_cache[0] = (...args) => $options.touchStart && $options.touchStart(...args)),
+            onTouchmove: _cache[1] || (_cache[1] = vue.withModifiers((...args) => $options.touchMove && $options.touchMove(...args), ["stop", "prevent"])),
+            onTouchend: _cache[2] || (_cache[2] = (...args) => $options.touchEnd && $options.touchEnd(...args)),
+            onMousedown: _cache[3] || (_cache[3] = vue.withModifiers((...args) => $options.mousedown && $options.mousedown(...args), ["stop"])),
+            onMousemove: _cache[4] || (_cache[4] = vue.withModifiers((...args) => $options.mousemove && $options.mousemove(...args), ["stop", "prevent"])),
+            onMouseleave: _cache[5] || (_cache[5] = vue.withModifiers((...args) => $options.mouseleave && $options.mouseleave(...args), ["stop"]))
+          },
+          [
+            (vue.openBlock(true), vue.createElementBlock(
+              vue.Fragment,
+              null,
+              vue.renderList($data.lists, (list, key) => {
+                return vue.openBlock(), vue.createElementBlock(
+                  "view",
+                  {
+                    key,
+                    class: vue.normalizeClass(["uni-indexed-list__menu-item", $data.touchmoveIndex == key ? "uni-indexed-list__menu--active" : ""])
+                  },
+                  [
+                    vue.createElementVNode(
+                      "text",
+                      {
+                        class: vue.normalizeClass(["uni-indexed-list__menu-text", $data.touchmoveIndex == key ? "uni-indexed-list__menu-text--active" : ""])
+                      },
+                      vue.toDisplayString(list.key),
+                      3
+                      /* TEXT, CLASS */
+                    )
+                  ],
+                  2
+                  /* CLASS */
+                );
+              }),
+              128
+              /* KEYED_FRAGMENT */
+            ))
+          ],
+          32
+          /* HYDRATE_EVENTS */
+        ),
+        $data.touchmove ? (vue.openBlock(), vue.createElementBlock("view", {
+          key: 0,
+          class: "uni-indexed-list__alert-wrapper"
+        }, [
+          vue.createElementVNode(
+            "text",
+            { class: "uni-indexed-list__alert" },
+            vue.toDisplayString($data.lists[$data.touchmoveIndex].key),
+            1
+            /* TEXT */
+          )
+        ])) : vue.createCommentVNode("v-if", true)
+      ],
+      512
+      /* NEED_PATCH */
+    );
+  }
+  const __easycom_0$6 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["render", _sfc_render$H], ["__scopeId", "data-v-476e099e"], ["__file", "F:/code/qq-doctor/uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list.vue"]]);
+  const _sfc_main$H = {
+    name: "FuncSelectContext",
+    data() {
+      return {
+        selectedItem: 0
+      };
+    },
+    props: {
+      items: {
+        type: Array,
+        default() {
+          return [
+            {
+              title: "一类疫苗（免费）",
+              vaccines: [
+                {
+                  letter: "B",
+                  data: [
+                    "百白破疫苗"
+                  ]
+                },
+                {
+                  letter: "J",
+                  data: [
+                    "甲肝疫苗",
+                    "脊髓灰质炎疫苗"
+                  ]
+                },
+                {
+                  letter: "K",
+                  data: [
+                    "卡介苗"
+                  ]
+                },
+                {
+                  letter: "L",
+                  data: [
+                    "流脑疫苗"
+                  ]
+                },
+                {
+                  letter: "M",
+                  data: [
+                    "麻腮风疫苗"
+                  ]
+                },
+                {
+                  letter: "Y",
+                  data: [
+                    "乙肝疫苗",
+                    "乙脑疫苗"
+                  ]
+                }
+              ]
+            },
+            {
+              title: "二类疫苗（免费）",
+              vaccines: [
+                {
+                  letter: "B",
+                  data: [
+                    "百白破疫苗"
+                  ]
+                },
+                {
+                  letter: "J",
+                  data: [
+                    "甲肝疫苗",
+                    "脊髓灰质炎疫苗"
+                  ]
+                },
+                {
+                  letter: "K",
+                  data: [
+                    "卡介苗"
+                  ]
+                },
+                {
+                  letter: "L",
+                  data: [
+                    "流脑疫苗"
+                  ]
+                },
+                {
+                  letter: "M",
+                  data: [
+                    "麻腮风疫苗"
+                  ]
+                },
+                {
+                  letter: "Y",
+                  data: [
+                    "乙肝疫苗",
+                    "乙脑疫苗"
+                  ]
+                }
+              ]
+            }
+          ];
+        }
+      },
+      selected: {
+        type: String,
+        default() {
+          return "";
+        }
+      }
+    },
+    methods: {
+      changeSelected(index) {
+        this.selectedItem = index;
+      },
+      selectList() {
+        return this.items[this.selectedItem].vaccines;
+      },
+      getDetail(e2) {
+        if (this.selected == "疫苗") {
+          uni.navigateTo({
+            url: `/pages/main/vaccinedetail?name=${e2.item.name}`
+          });
+        } else if (this.selected == "疾病知识") {
+          uni.navigateTo({
+            url: `/pages/main/diseaseknowledgedetail?name=${e2.item.name}`
+          });
+        }
+      }
+    }
+  };
+  function _sfc_render$G(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_indexed_list = resolveEasycom(vue.resolveDynamicComponent("uni-indexed-list"), __easycom_0$6);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "func-select-context" }, [
+      vue.createElementVNode("scroll-view", {
+        class: "func-select-context-left",
+        "scroll-y": ""
+      }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($props.items, (item, index) => {
+            return vue.openBlock(), vue.createElementBlock("view", {
+              class: vue.normalizeClass(["func-select-context-left-block", { "selected": index === $data.selectedItem }]),
+              key: index,
+              onClick: ($event) => $options.changeSelected(index)
+            }, [
+              vue.createElementVNode(
+                "view",
+                { class: "func-select-context-left-block-text" },
+                vue.toDisplayString(item.title),
+                1
+                /* TEXT */
+              )
+            ], 10, ["onClick"]);
+          }),
+          128
+          /* KEYED_FRAGMENT */
+        ))
+      ]),
+      vue.createElementVNode("view", { class: "func-select-context-right" }, [
+        vue.createVNode(_component_uni_indexed_list, {
+          options: $options.selectList(),
+          class: "func-select-context-right-context",
+          onClick: $options.getDetail
+        }, null, 8, ["options", "onClick"])
       ])
     ]);
   }
-  const __easycom_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["render", _sfc_render$E], ["__scopeId", "data-v-b90a9c61"], ["__file", "F:/code/qq-doctor/components/hospitalDepartments/hospitalDepartments.vue"]]);
-  const _sfc_main$E = {
+  const ComponentsFuncSelectContextFuncSelectContext = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["render", _sfc_render$G], ["__scopeId", "data-v-18221e6b"], ["__file", "F:/code/qq-doctor/components/FuncSelectContext/FuncSelectContext.vue"]]);
+  const _sfc_main$G = {
     data() {
       return {
-        label: ["公立", "三甲", "综合医院", "收藏数|江西第八名"],
-        depList: [
+        word: "搜索疫苗",
+        value: "疫苗"
+      };
+    },
+    methods: {}
+  };
+  function _sfc_render$F(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_FuncSelectFront = resolveEasycom(vue.resolveDynamicComponent("FuncSelectFront"), ComponentsFuncSelectFrontFuncSelectFront);
+    const _component_FuncSelectContext = resolveEasycom(vue.resolveDynamicComponent("FuncSelectContext"), ComponentsFuncSelectContextFuncSelectContext);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "vaccine" }, [
+      vue.createVNode(_component_FuncSelectFront, { word: $data.word }, null, 8, ["word"]),
+      vue.createVNode(_component_FuncSelectContext, { selected: $data.value }, null, 8, ["selected"])
+    ]);
+  }
+  const PagesMainVaccine = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["render", _sfc_render$F], ["__scopeId", "data-v-d5b672a6"], ["__file", "F:/code/qq-doctor/pages/main/vaccine.vue"]]);
+  const _sfc_main$F = {
+    name: "DiseaseFunc",
+    data() {
+      return {};
+    },
+    props: {
+      name: {
+        type: String,
+        default() {
+          return "百白破疫苗";
+        }
+      },
+      list: {
+        type: Array,
+        default() {
+          return [
+            {
+              pic: "../../static/img/desc.png",
+              name: "介绍"
+            },
+            {
+              pic: "../../static/img/getwork.png",
+              name: "作用功效"
+            },
+            {
+              pic: "../../static/img/vaccne.png",
+              name: "接种指导"
+            },
+            {
+              pic: "../../static/img/baderror.png",
+              name: "不良反应"
+            }
+          ];
+        }
+      }
+    },
+    methods: {
+      goDetail(name) {
+        var urlname = this.name + name;
+        uni.navigateTo({
+          url: `/pages/main/vaccinedetailaction?name=${urlname}`
+        });
+      }
+    }
+  };
+  function _sfc_render$E(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "disease-func" }, [
+      vue.createElementVNode(
+        "view",
+        { class: "disease-func-title" },
+        vue.toDisplayString($props.name),
+        1
+        /* TEXT */
+      ),
+      vue.createElementVNode("view", { class: "disease-func-block" }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($props.list, (item) => {
+            return vue.openBlock(), vue.createElementBlock("view", {
+              class: "disease-func-block-context",
+              onClick: ($event) => $options.goDetail(item.name)
+            }, [
+              vue.createElementVNode("view", { class: "disease-func-block-context-image" }, [
+                vue.createElementVNode("image", {
+                  src: item.pic,
+                  mode: ""
+                }, null, 8, ["src"])
+              ]),
+              vue.createElementVNode(
+                "view",
+                { class: "disease-func-block-context-text" },
+                vue.toDisplayString(item.name),
+                1
+                /* TEXT */
+              )
+            ], 8, ["onClick"]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])
+    ]);
+  }
+  const __easycom_0$5 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["render", _sfc_render$E], ["__scopeId", "data-v-ca1dad8d"], ["__file", "F:/code/qq-doctor/components/DiseaseFunc/DiseaseFunc.vue"]]);
+  const _sfc_main$E = {
+    name: "DiseaseContext",
+    data() {
+      return {
+        selectedBlock: 0,
+        articleList: [
           {
-            absName: "内科",
-            depNameList: ["心血管内科", "消化内科", "呼吸与危重症医学科", "肾内科", "血液内科", "神经内科"]
+            articleId: "00000001",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "7890",
+            isStar: "1"
           },
           {
-            absName: "外科",
-            depNameList: ["心血管内科", "消化内科", "呼吸与危重症医学科", "肾内科", "血液内科", "神经内科"]
+            articleId: "00000002",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "789",
+            isStar: "0"
           },
           {
-            absName: "五官科",
-            depNameList: ["心血管内科", "消化内科", "呼吸与危重症医学科", "肾内科", "血液内科", "神经内科"]
+            articleId: "00000003",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "788",
+            isStar: "1"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          },
+          {
+            articleId: "00000004",
+            title: "百白破疫苗是预防什么的？",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            star: "78",
+            isStar: "0"
+          }
+        ],
+        videoList: [
+          {
+            videoId: "00000001",
+            title: "孩子阳了之后什么时候可以打疫苗?",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            pic: "../../static/img/doctor2.png",
+            watch: "365",
+            video: "视频地址"
+          },
+          {
+            videoId: "00000001",
+            title: "孩子阳了之后什么时候可以打疫苗?",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            pic: "../../static/img/doctor2.png",
+            watch: "365",
+            video: "视频地址"
+          },
+          {
+            videoId: "00000001",
+            title: "孩子阳了之后什么时候可以打疫苗?",
+            pubName: "赵熙蒙",
+            pubId: "111111111",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            pic: "../../static/img/doctor2.png",
+            watch: "365",
+            video: "视频地址"
           }
         ]
       };
     },
     methods: {
-      navToHospAll() {
+      getStar() {
+      },
+      deleteStar() {
+      },
+      goArticle(ai, pi) {
         uni.navigateTo({
-          url: "/pages/map/hospAll/hospAll"
+          url: `/pages/main/article?ai=${ai}&pi=${pi}`
         });
       }
     }
   };
   function _sfc_render$D(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_tag = resolveEasycom(vue.resolveDynamicComponent("uni-tag"), __easycom_0$6);
-    const _component_hospitalDepartments = resolveEasycom(vue.resolveDynamicComponent("hospitalDepartments"), __easycom_1$1);
-    return vue.openBlock(), vue.createElementBlock("view", { class: "hospDetails" }, [
-      vue.createCommentVNode(" 医院名称 "),
-      vue.createElementVNode("view", { class: "hsopWrapp" }, [
-        vue.createElementVNode("text", { class: "hsopName" }, " 赣州市第一人民医院 ")
+    return vue.openBlock(), vue.createElementBlock("view", { class: "disease-context" }, [
+      vue.createElementVNode("view", { class: "disease-context-title" }, [
+        vue.createElementVNode(
+          "view",
+          {
+            class: vue.normalizeClass(["disease-context-title-block", { active: $data.selectedBlock === 0 }]),
+            onClick: _cache[0] || (_cache[0] = ($event) => $data.selectedBlock = 0)
+          },
+          [
+            vue.createElementVNode("view", { class: "disease-context-title-block-text" }, [
+              vue.createTextVNode(" 科普文章 "),
+              vue.withDirectives(vue.createElementVNode(
+                "view",
+                { class: "disease-context-title-block-indicator" },
+                null,
+                512
+                /* NEED_PATCH */
+              ), [
+                [vue.vShow, $data.selectedBlock === 0]
+              ])
+            ])
+          ],
+          2
+          /* CLASS */
+        ),
+        vue.createElementVNode(
+          "view",
+          {
+            class: vue.normalizeClass(["disease-context-title-block", { active: $data.selectedBlock === 1 }]),
+            onClick: _cache[1] || (_cache[1] = ($event) => $data.selectedBlock = 1)
+          },
+          [
+            vue.createElementVNode("view", { class: "disease-context-title-block-text" }, [
+              vue.createTextVNode(" 科普小视频 "),
+              vue.withDirectives(vue.createElementVNode(
+                "view",
+                { class: "disease-context-title-block-indicator" },
+                null,
+                512
+                /* NEED_PATCH */
+              ), [
+                [vue.vShow, $data.selectedBlock === 1]
+              ])
+            ])
+          ],
+          2
+          /* CLASS */
+        )
       ]),
-      vue.createCommentVNode(" 标签 "),
-      vue.createElementVNode("view", { class: "tag-viewWrapp" }, [
-        vue.createCommentVNode(" 标签左侧空白填充 "),
-        vue.createElementVNode("view", {
-          class: "",
-          style: { "width": "8rpx" }
-        }),
+      $data.selectedBlock == 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 0,
+        class: "disease-context-block"
+      }, [
         (vue.openBlock(true), vue.createElementBlock(
           vue.Fragment,
           null,
-          vue.renderList($data.label, (tag, index) => {
+          vue.renderList($data.articleList, (item) => {
             return vue.openBlock(), vue.createElementBlock("view", {
-              class: "tag-view",
-              key: index
+              class: "disease-context-article",
+              onClick: ($event) => $options.goArticle(item.articleId, item.pubId)
             }, [
-              vue.createVNode(_component_uni_tag, {
-                text: tag,
-                mark: true,
-                size: "mini",
-                "custom-style": "background-color: #808080; border-color: #808080; color: #fff;"
-              }, null, 8, ["text"])
-            ]);
-          }),
-          128
-          /* KEYED_FRAGMENT */
-        ))
-      ]),
-      vue.createCommentVNode(" 医院介绍 "),
-      vue.createElementVNode("view", { class: "hospIntroduction" }, [
-        vue.createElementVNode("view", { class: "" }, [
-          vue.createElementVNode("text", { class: "introduction1" }, "医院介绍 "),
-          vue.createCommentVNode(" 后面用Jscript 加入对文字长度判断 多的用省略号代替 "),
-          vue.createElementVNode("text", { class: "introduction2" }, "赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有在职职工3500余人，编制床位3600张。医院是南昌大学附属医院，国家支持的区域性医疗中心医疗中...")
-        ]),
-        vue.createElementVNode("view", {
-          class: "",
-          style: { "margin-left": "81%", "font-size": "30rpx", "transform": "translateY(-40rpx)", "height": "10rpx", "color": "#5AA9FF" },
-          onClick: _cache[0] || (_cache[0] = ($event) => $options.navToHospAll())
-        }, "查看全部")
-      ]),
-      vue.createCommentVNode(" 医院地址和拨打电话 "),
-      vue.createElementVNode("view", { class: "addressAndPhone" }, [
-        vue.createCommentVNode(" 后面用Jscript 加入对文字长度判断 多的用省略号代替 "),
-        vue.createElementVNode("view", { class: "addressWrapp" }, [
-          vue.createElementVNode("text", { class: "address" }, "北院:江西省赣州市章贡区红旗大道...")
-        ]),
-        vue.createCommentVNode(" 电话图标 "),
-        vue.createElementVNode("view", { class: "phoneWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/phone.png",
-            mode: "",
-            class: "phone"
-          })
-        ])
-      ]),
-      vue.createCommentVNode(" 预约挂号等功能 "),
-      vue.createElementVNode("view", { class: "funWrapp" }, [
-        vue.createCommentVNode(" 挂号预约 "),
-        vue.createElementVNode("view", { class: "registerWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/guahao.png",
-            mode: "",
-            class: "registerIcon"
-          }),
-          vue.createElementVNode("text", null, "挂号预约")
-        ]),
-        vue.createCommentVNode(" 出诊查询 "),
-        vue.createElementVNode("view", { class: "visitWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/chuzhem.png",
-            mode: "",
-            class: "visitIcon"
-          }),
-          vue.createElementVNode("text", null, "出诊查询")
-        ]),
-        vue.createCommentVNode("在线问诊"),
-        vue.createElementVNode("view", { class: "consultationWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/wenzhen.png",
-            mode: "",
-            class: "consultationIcon"
-          }),
-          vue.createElementVNode("text", null, "在线问诊")
-        ]),
-        vue.createCommentVNode(" 介绍信息 "),
-        vue.createElementVNode("view", { class: "informationWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/xinxi.png",
-            mode: "",
-            class: "informationIcon"
-          }),
-          vue.createElementVNode("text", null, "介绍信息")
-        ])
-      ]),
-      vue.createCommentVNode(" 医院公告 "),
-      vue.createElementVNode("view", { class: "noticeWrapp" }, [
-        vue.createElementVNode("view", { class: "notice" }, [
-          vue.createElementVNode("text", { class: "notice1" }, "医院公告")
-        ]),
-        vue.createElementVNode("view", { class: "noticeContent" }, [
-          vue.createElementVNode("text", { class: "noticeContent1" }, "官方暂无公告。")
-        ]),
-        vue.createElementVNode("view", { class: "prompt" }, [
-          vue.createElementVNode("text", { class: "promptText" }, "本页面信息又企桥医健在线负责更新,对真实性负责。")
-        ])
-      ]),
-      vue.createCommentVNode(" 医院科室 "),
-      vue.createElementVNode("view", { class: "hospitalDepartmentsTextWrapp" }, [
-        vue.createElementVNode("view", { class: "overallInformationWrapp" }, [
-          vue.createElementVNode("text", { class: "departmentsText1" }, " 医院科室 "),
-          vue.createElementVNode("text", { class: "departmentsText2" }, " 56个科室 "),
-          vue.createElementVNode("text", { class: "departmentsText3" }, " 640名医生 ")
-        ])
-      ]),
-      vue.createCommentVNode(" 医院科室列表 "),
-      (vue.openBlock(true), vue.createElementBlock(
-        vue.Fragment,
-        null,
-        vue.renderList($data.depList, (item, indexDep) => {
-          return vue.openBlock(), vue.createElementBlock("view", {
-            class: "hospitalDepartmentsWrapp",
-            key: indexDep
-          }, [
-            vue.createVNode(_component_hospitalDepartments, { item }, null, 8, ["item"])
-          ]);
-        }),
-        128
-        /* KEYED_FRAGMENT */
-      ))
-    ]);
-  }
-  const PagesMapHospDetailsHospDetails = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["render", _sfc_render$D], ["__scopeId", "data-v-0897b0d1"], ["__file", "F:/code/qq-doctor/pages/map/hospDetails/hospDetails.vue"]]);
-  const _sfc_main$D = {
-    data() {
-      return {
-        docList: [{
-          headIconUrl: "../../../static/img/docDetais/touxiang.png",
-          name: "赵熙蒙"
-        }],
-        list: ["1", "2", "3", "4", "5", "6"]
-      };
-    },
-    methods: {
-      navToDepAll() {
-        uni.navigateTo({
-          url: "/pages/map/depAll/depAll"
-        });
-      },
-      navToDocList() {
-        uni.navigateTo({
-          url: "/pages/map/docList/docList"
-        });
-      }
-    }
-  };
-  function _sfc_render$C(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 医院名称 "),
-      vue.createElementVNode("view", { class: "hospNameWrapp" }, [
-        vue.createElementVNode("text", { class: "hospNameText" }, "赣州市第一人民医院")
-      ]),
-      vue.createCommentVNode(" 科室名称 "),
-      vue.createElementVNode("view", { class: "depNameWrapp" }, [
-        vue.createElementVNode("text", null, "心血管内科")
-      ]),
-      vue.createCommentVNode(" 科室介绍 "),
-      vue.createElementVNode("view", { class: "depDescWrapp" }, [
-        vue.createElementVNode("view", { class: "depDescTextWrapp" }, [
-          vue.createElementVNode("text", { class: "depDescText1" }, "科室介绍 "),
-          vue.createCommentVNode(" 后面用Jscript 加入对文字长度判断 多的用省略号代替 "),
-          vue.createElementVNode("text", { class: "depDescText2" }, "现收录科室医生35名,其中6位正高级专家、10位副高级专家,现已有20位医生开通了在线问诊服务,累计帮助了12890名患者,获得了3740次患者好评,科室人才梯队结构合理 现有医学后博士1名,博士2名,硕士10名,高级职称医师15名 省卫生系统学科带头人培养5名......")
-        ]),
-        vue.createElementVNode("view", {
-          class: "",
-          style: { "margin-left": "81%", "font-size": "30rpx", "color": "#5AA9FF" },
-          onClick: _cache[0] || (_cache[0] = ($event) => $options.navToDepAll())
-        }, "查看全部")
-      ]),
-      vue.createCommentVNode(" 医院地址和拨打电话 "),
-      vue.createElementVNode("view", { class: "addressAndPhone" }, [
-        vue.createCommentVNode(" 后面用Jscript 加入对文字长度判断 多的用省略号代替 "),
-        vue.createElementVNode("view", { class: "addressWrapp" }, [
-          vue.createElementVNode("text", { class: "address" }, "北院:江西省赣州市章贡区红旗大道...")
-        ]),
-        vue.createCommentVNode(" 电话图标 "),
-        vue.createElementVNode("view", { class: "phoneWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/phone.png",
-            mode: "",
-            class: "phone"
-          })
-        ])
-      ]),
-      vue.createCommentVNode(" 预约挂号等功能 "),
-      vue.createElementVNode("view", { class: "funWrapp" }, [
-        vue.createCommentVNode(" 挂号预约 "),
-        vue.createElementVNode("view", { class: "registerWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/guahao.png",
-            mode: "",
-            class: "registerIcon"
-          }),
-          vue.createElementVNode("text", null, "挂号预约")
-        ]),
-        vue.createCommentVNode(" 出诊查询 "),
-        vue.createElementVNode("view", { class: "visitWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/chuzhem.png",
-            mode: "",
-            class: "visitIcon"
-          }),
-          vue.createElementVNode("text", null, "出诊查询")
-        ]),
-        vue.createCommentVNode("在线问诊"),
-        vue.createElementVNode("view", { class: "consultationWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/wenzhen.png",
-            mode: "",
-            class: "consultationIcon"
-          }),
-          vue.createElementVNode("text", null, "在线问诊")
-        ]),
-        vue.createCommentVNode(" 介绍信息 "),
-        vue.createElementVNode("view", { class: "informationWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/img/nearHosp/xinxi.png",
-            mode: "",
-            class: "informationIcon"
-          }),
-          vue.createElementVNode("text", null, "介绍信息")
-        ])
-      ]),
-      vue.createCommentVNode(" 医院公告 "),
-      vue.createElementVNode("view", { class: "noticeWrapp" }, [
-        vue.createElementVNode("view", { class: "notice" }, [
-          vue.createElementVNode("text", { class: "notice1" }, "科室公告")
-        ]),
-        vue.createElementVNode("view", { class: "noticeContent" }, [
-          vue.createElementVNode("text", { class: "noticeContent1" }, "官方暂无公告。")
-        ]),
-        vue.createElementVNode("view", { class: "prompt" }, [
-          vue.createElementVNode("text", { class: "promptText" }, "本页面信息又企桥医健在线负责更新,对真实性负责。")
-        ])
-      ]),
-      vue.createCommentVNode(" 科室医生 "),
-      vue.createElementVNode("view", { class: "hospitalDocTextWrapp" }, [
-        vue.createElementVNode("view", { class: "overallInformationWrapp" }, [
-          vue.createElementVNode("text", { class: "hospitalDocText1" }, " 科室医生 "),
-          vue.createElementVNode("text", { class: "hospitalDocText2" }, " 35名医生 ")
-        ]),
-        vue.createCommentVNode(" 后面添加点击事件  点击之后显示所有的医生 "),
-        vue.createCommentVNode(' 		<view class="allTextWrapp">\r\n				<text class="allText">查看全部</text>\r\n			</view> ')
-      ]),
-      vue.createCommentVNode(" 展示所有的医生信息 "),
-      vue.createElementVNode("view", { class: "allDocWrapp" }, [
-        vue.createCommentVNode(" 单个医生 "),
-        (vue.openBlock(true), vue.createElementBlock(
-          vue.Fragment,
-          null,
-          vue.renderList($data.list, (item, index) => {
-            return vue.openBlock(), vue.createElementBlock("view", {
-              class: "docOneWrapp",
-              key: index
-            }, [
-              vue.createElementVNode("view", { class: "docOne" }, [
-                vue.createCommentVNode(" 医生头像 "),
-                vue.createElementVNode("view", { class: "headSculptureWrapp" }, [
-                  vue.createElementVNode("image", {
-                    src: "/static/img/docDetais/touxiang.png",
+              vue.createElementVNode("view", { class: "disease-context-article-left" }, [
+                vue.createElementVNode(
+                  "view",
+                  { style: { "font-weight": "700" } },
+                  vue.toDisplayString(item.title),
+                  1
+                  /* TEXT */
+                ),
+                vue.createElementVNode(
+                  "view",
+                  { style: { "font-size": "26rpx", "color": "#9e9e9e" } },
+                  vue.toDisplayString(item.pubName) + " " + vue.toDisplayString(item.manager),
+                  1
+                  /* TEXT */
+                ),
+                vue.createElementVNode(
+                  "view",
+                  { style: { "font-size": "26rpx", "color": "#9e9e9e" } },
+                  vue.toDisplayString(item.hospital) + " " + vue.toDisplayString(item.depart),
+                  1
+                  /* TEXT */
+                )
+              ]),
+              vue.createElementVNode("view", { class: "disease-context-article-right" }, [
+                vue.createElementVNode("view", null, [
+                  item.isStar == 0 ? (vue.openBlock(), vue.createElementBlock("image", {
+                    key: 0,
+                    src: "/static/img/artheart.png",
                     mode: "",
-                    class: "headSculpture"
-                  })
+                    onClick: _cache[2] || (_cache[2] = ($event) => $options.getStar())
+                  })) : vue.createCommentVNode("v-if", true),
+                  item.isStar == 1 ? (vue.openBlock(), vue.createElementBlock("image", {
+                    key: 1,
+                    src: "/static/img/arthearts.png",
+                    mode: "",
+                    onClick: _cache[3] || (_cache[3] = ($event) => $options.deleteStar())
+                  })) : vue.createCommentVNode("v-if", true)
                 ]),
-                vue.createCommentVNode(" 医生姓名 "),
-                vue.createElementVNode("view", { class: "docNameTextWrapp" }, [
-                  vue.createElementVNode("text", { class: "docNameText" }, "赵熙蒙")
-                ]),
-                vue.createCommentVNode(" 医生职务 "),
-                vue.createElementVNode("view", { class: "docDutiesTextWrapp" }, [
-                  vue.createElementVNode("text", { class: "docDutiesText1" }, " 主任医师 "),
-                  vue.createElementVNode("text", { class: "docDutiesText2" }, " 教授 ")
-                ]),
-                vue.createCommentVNode("  对应科室"),
-                vue.createElementVNode("view", { class: "correspondingDepartmentTextWrapp" }, [
-                  vue.createElementVNode("text", { class: "correspondingDepartmentText1" }, " 院长 "),
-                  vue.createElementVNode("text", { class: "correspondingDepartmentText2" }, " 心血内科专家 ")
+                vue.createElementVNode(
+                  "view",
+                  null,
+                  vue.toDisplayString(item.star),
+                  1
+                  /* TEXT */
+                )
+              ])
+            ], 8, ["onClick"]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])) : vue.createCommentVNode("v-if", true),
+      $data.selectedBlock == 1 ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 1,
+        class: "disease-context-block"
+      }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.videoList, (item) => {
+            return vue.openBlock(), vue.createElementBlock("view", { class: "disease-context-video" }, [
+              vue.createElementVNode("view", { class: "disease-context-video-left" }, [
+                vue.createElementVNode("image", {
+                  src: item.pic,
+                  mode: ""
+                }, null, 8, ["src"])
+              ]),
+              vue.createElementVNode("view", { class: "disease-context-video-right" }, [
+                vue.createElementVNode(
+                  "view",
+                  { style: { "font-size": "32rpx", "font-weight": "900", "margin-bottom": "20rpx" } },
+                  vue.toDisplayString(item.title),
+                  1
+                  /* TEXT */
+                ),
+                vue.createElementVNode(
+                  "view",
+                  { style: { "font-size": "26rpx", "color": "#9e9e9e" } },
+                  vue.toDisplayString(item.pubName) + " " + vue.toDisplayString(item.manager),
+                  1
+                  /* TEXT */
+                ),
+                vue.createElementVNode(
+                  "view",
+                  { style: { "font-size": "26rpx", "color": "#9e9e9e" } },
+                  vue.toDisplayString(item.hospital) + " " + vue.toDisplayString(item.depart),
+                  1
+                  /* TEXT */
+                ),
+                vue.createElementVNode("view", { style: { "display": "flex", "align-items": "center", "font-size": "22rpx" } }, [
+                  vue.createElementVNode("image", {
+                    src: "/static/img/cemara.png",
+                    mode: "",
+                    style: { "margin-right": "10rpx" }
+                  }),
+                  vue.createElementVNode(
+                    "text",
+                    { style: { "color": "#9e9e9e" } },
+                    vue.toDisplayString(item.watch) + "已观看",
+                    1
+                    /* TEXT */
+                  )
                 ])
               ])
             ]);
           }),
-          128
-          /* KEYED_FRAGMENT */
+          256
+          /* UNKEYED_FRAGMENT */
         ))
-      ])
+      ])) : vue.createCommentVNode("v-if", true),
+      vue.createElementVNode("view", { style: { "width": "700rpx", "height": "20rpx" } })
     ]);
   }
-  const PagesMapDepDetailsDepDetails = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["render", _sfc_render$C], ["__scopeId", "data-v-5d674a48"], ["__file", "F:/code/qq-doctor/pages/map/depDetails/depDetails.vue"]]);
+  const __easycom_1$3 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["render", _sfc_render$D], ["__scopeId", "data-v-74d09da9"], ["__file", "F:/code/qq-doctor/components/DiseaseContext/DiseaseContext.vue"]]);
+  const _sfc_main$D = {
+    data() {
+      return {
+        name: ""
+      };
+    },
+    onLoad(e2) {
+      uni.setNavigationBarTitle({
+        title: e2.name
+      });
+      this.name = e2.name;
+    }
+  };
+  function _sfc_render$C(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_DiseaseFunc = resolveEasycom(vue.resolveDynamicComponent("DiseaseFunc"), __easycom_0$5);
+    const _component_DiseaseContext = resolveEasycom(vue.resolveDynamicComponent("DiseaseContext"), __easycom_1$3);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "vaccinedetail" }, [
+      vue.createVNode(_component_DiseaseFunc, { name: $data.name }, null, 8, ["name"]),
+      vue.createVNode(_component_DiseaseContext)
+    ]);
+  }
+  const PagesMainVaccinedetail = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["render", _sfc_render$C], ["__file", "F:/code/qq-doctor/pages/main/vaccinedetail.vue"]]);
   const _sfc_main$C = {
     data() {
-      return {};
+      return {
+        title: ""
+      };
+    },
+    onLoad(e2) {
+      uni.setNavigationBarTitle({
+        title: e2.name
+      });
+      this.title = e2.name;
     }
   };
   function _sfc_render$B(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode("医院名称 "),
-      vue.createElementVNode("view", { class: "hospNameTextWrapp" }, [
-        vue.createElementVNode("text", { class: "hospNameText" }, "心血管内科")
-      ]),
-      vue.createCommentVNode(" 医院详情 "),
-      vue.createElementVNode("view", { class: "hospDecWrapp" }, [
-        vue.createElementVNode("text", { style: { "padding-left": "40rpx" } }),
-        vue.createElementVNode("text", null, " 现收录科室医生35名,其中6位正高级专家、10位副高级专家,现已有20位医生开通了在线问诊服务,累计帮助了12890名患者,获得了3740次患者好评,科室人才梯队结构合理 现有医学后博士1名,博士2名,硕士10名,高级职称医师15名 省卫生系统学科带头人培养5名... 现收录科室医生35名,其中6位正高级专家、10位副高级专家,现已有20位医生开通了在线问诊服务,累计帮助了12890名患者,获得了3740次患者好评,科室人才梯队结构合理 现有医学后博士1名,博士2名,硕士10名,高级职称医师15名 省卫生系统学科带头人培养5名... 现收录科室医生35名,其中6位正高级专家、10位副高级专家,现已有20位医生开通了在线问诊服务,累计帮助了12890名患者,获得了3740次患者好评,科室人才梯队结构合理 现有医学后博士1名,博士2名,硕士10名,高级职称医师15名 省卫生系统学科带头人培养5名... 现收录科室医生35名,其中6位正高级专家、10位副高级专家,现已有20位医生开通了在线问诊服务,累计帮助了12890名患者,获得了3740次患者好评,科室人才梯队结构合理 现有医学后博士1名,博士2名,硕士10名,高级职称医师15名 省卫生系统学科带头人培养5名... ")
+    return vue.openBlock(), vue.createElementBlock("view", { class: "vaccinedetailaction" }, [
+      vue.createElementVNode("view", { class: "vaccinedetailaction-context" }, [
+        vue.createElementVNode(
+          "view",
+          { class: "vaccinedetailaction-context-title" },
+          vue.toDisplayString($data.title),
+          1
+          /* TEXT */
+        ),
+        vue.createElementVNode("view", { class: "vaccinedetailaction-context-text" }, " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ")
       ])
     ]);
   }
-  const PagesMapHospAllHospAll = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["render", _sfc_render$B], ["__scopeId", "data-v-36d2ceac"], ["__file", "F:/code/qq-doctor/pages/map/hospAll/hospAll.vue"]]);
+  const PagesMainVaccinedetailaction = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["render", _sfc_render$B], ["__scopeId", "data-v-22157a4c"], ["__file", "F:/code/qq-doctor/pages/main/vaccinedetailaction.vue"]]);
   const _sfc_main$B = {
     data() {
-      return {};
-    }
-  };
-  function _sfc_render$A(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode("科室名称 "),
-      vue.createElementVNode("view", { class: "depNameTextWrapp" }, [
-        vue.createElementVNode("text", { class: "depNameText" }, "心血管科")
-      ]),
-      vue.createCommentVNode(" 科室详情 "),
-      vue.createElementVNode("view", { class: "depDecWrapp" }, [
-        vue.createElementVNode("text", { style: { "padding-left": "40rpx" } }),
-        vue.createElementVNode("text", null, " 赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有在职职工3500余人，编制床位3600张。医院是南昌大学附属医院，国家支持的区域性医疗中心。医院通过了JCI评审，是中国医院协会地（市）级医院分会副主委单位、江省医院协会地（市）县级医院分会主委单位。 赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有在职职工3500余人，编制床位3600张。医院是南昌大学附属医院，国家支持的区域性医疗中心。医院通过了JCI评审，是中国医院协会地（市）级医院分会副主委单位、江西省医院协会地（市）县级医院分会主委位。 赣州市人民医院位于赣州市章贡区梅关大道16号，是集医疗、教学、科研、保健、康复于一体的三级甲等综合医院。医院占地面积378亩，建筑面积35万平方米。拥有在职职工3500余人，编制床位3600张。医院是南昌大学附属医院，国家支持的区域性医疗中心。医院通过了JCI评审，是中国医院协会地（市）级医院分会副主委单位、江西省医院协会地（市）县级医院分会主。拥有在职职工3500余人，编制床位3600张。医院是南昌大学附属医院，国家支持的区域性医疗中心。医院通过了JCI评审，是中国医院协会地（市）级医院分会副主委单位...... ")
-      ])
-    ]);
-  }
-  const PagesMapDepAllDepAll = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["render", _sfc_render$A], ["__scopeId", "data-v-e3353ff3"], ["__file", "F:/code/qq-doctor/pages/map/depAll/depAll.vue"]]);
-  const _sfc_main$A = {
-    data() {
       return {
-        list: [
-          "1",
-          "2",
-          "3"
-        ],
-        list2: ["1", "2", "3"],
-        scrollTop: 0,
-        old: {
-          scrollTop: 0
+        articleInfo: {
+          articleId: "00000001",
+          title: "免疫力低下有哪些表现？我们应该怎么办呢?",
+          star: "256",
+          watch: "205",
+          time: "2023-10-23",
+          context: `1.频繁感染：免疫系统主要负责抵御病原体的入侵，当免疫力低下时，易受到细菌、病毒和真菌感染的侵袭，可能经常出现感冒、咳嗽、发烧、皮肤感染等。2. 慢性疲劳： 免疫力低下时， 身体需要更多的能量来对抗病原体， 这可能导致疲劳感增加， 精力不足， 难以及时恢复。3. 恶心和食欲不振： 免疫力低下可能导致消化系统的问题， 出现恶心、 呕吐和食欲不振等症状。4. 加重的过敏反应： 免疫系统在免疫力低下时可能无法有效地识别和应对过敏原， 导致过敏反应加重， 如过敏性鼻炎、 皮疹、 荨麻疹等。5. 慢性炎症： 免疫力低下可能导致身体处于慢性炎症状态， 出现持续性疼痛、 关节肿痛、 红肿等症状。 `
+        },
+        pubInfo: {
+          pubId: "00000002",
+          pubName: "赵熙蒙",
+          pic: "../../static/img/doctor2.png",
+          manager: "主任医师",
+          hospital: "江西理工大学医学院",
+          depart: "中医内科"
         }
       };
     },
     methods: {
-      scroll: function(e2) {
-        this.old.scrollTop = e2.detail.scrollTop;
-      },
-      navToDocDesc() {
-        formatAppLog("log", "at pages/map/docList/docList.vue:100", "111");
+      goDoctorMain(id) {
+        uni.navigateTo({
+          url: `/pages/main/doctordetail?id=${id}`
+        });
       }
     }
   };
-  function _sfc_render$z(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_SelectFrontBlue = resolveEasycom(vue.resolveDynamicComponent("SelectFrontBlue"), __easycom_0$b);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 搜索框       之后修改搜索框的搜索事件!!!!!!!!!! "),
-      vue.createVNode(_component_SelectFrontBlue, { prompt: "  请输入医生的姓名" }),
-      vue.createCommentVNode(" 空白填充 "),
-      vue.createElementVNode("view", {
-        class: "",
-        style: { "height": "146rpx", "width": "100%" }
-      }),
-      vue.createCommentVNode(" 展示搜索的总结果 "),
-      vue.createElementVNode("view", { class: "resWrapp" }, [
-        vue.createElementVNode("view", { class: "res" }, [
-          vue.createElementVNode("text", { class: "resText1" }, [
-            vue.createTextVNode("搜索到"),
-            vue.createElementVNode("text", { class: "resText2" }, "赣州市第一人民医院"),
-            vue.createTextVNode("医生"),
-            vue.createElementVNode("text", {
-              text: "",
-              class: "resText2"
-            }, "35"),
-            vue.createTextVNode("名 ")
-          ])
+  function _sfc_render$A(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "article" }, [
+      vue.createElementVNode("view", { class: "article-logo" }, [
+        vue.createElementVNode("view", { class: "article-logo-context" }, " 原创 ")
+      ]),
+      vue.createElementVNode(
+        "view",
+        { class: "article-title" },
+        vue.toDisplayString($data.articleInfo.title),
+        1
+        /* TEXT */
+      ),
+      vue.createElementVNode("view", { class: "article-doctor-info" }, [
+        vue.createElementVNode("view", { class: "article-doctor-image" }, [
+          vue.createElementVNode("image", {
+            src: $data.pubInfo.pic
+          }, null, 8, ["src"])
+        ]),
+        vue.createElementVNode("view", { class: "article-doctor-context" }, [
+          vue.createElementVNode(
+            "view",
+            { style: { "color": "#4485fd", "margin-bottom": "5rpx", "font-size": "26rpx" } },
+            vue.toDisplayString($data.pubInfo.pubName) + " " + vue.toDisplayString($data.pubInfo.manager),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode(
+            "view",
+            { style: { "margin-bottom": "5rpx", "font-weight": "600", "font-size": "26rpx" } },
+            vue.toDisplayString($data.pubInfo.hospital) + " " + vue.toDisplayString($data.pubInfo.depart),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode(
+            "view",
+            { style: { "color": "#9e9e9e", "font-size": "26rpx" } },
+            vue.toDisplayString($data.articleInfo.time) + " " + vue.toDisplayString($data.articleInfo.watch) + "人已读",
+            1
+            /* TEXT */
+          )
+        ]),
+        vue.createElementVNode("view", { class: "article-doctor-star" }, [
+          vue.createElementVNode("view", null, [
+            vue.createElementVNode("image", { src: "/static/img/articlestar.png" })
+          ]),
+          vue.createElementVNode(
+            "view",
+            { style: { "color": "#9e9e9e", "margin-left": "4rpx" } },
+            vue.toDisplayString($data.articleInfo.star),
+            1
+            /* TEXT */
+          )
         ])
       ]),
-      vue.createCommentVNode(" 展示医生列表 "),
+      vue.createElementVNode(
+        "view",
+        { class: "article-context" },
+        vue.toDisplayString($data.articleInfo.context),
+        1
+        /* TEXT */
+      ),
+      vue.createElementVNode("view", { class: "article-doctor-baseinfo" }, [
+        vue.createElementVNode("view", { class: "article-doctor-baseinfo-top" }, [
+          vue.createElementVNode("view", { class: "article-doctor-baseinfo-top-left" }, [
+            vue.createElementVNode("image", {
+              src: $data.pubInfo.pic,
+              mode: ""
+            }, null, 8, ["src"])
+          ]),
+          vue.createElementVNode("view", { class: "article-doctor-baseinfo-top-right" }, [
+            vue.createElementVNode(
+              "view",
+              { style: { "color": "#4485fd" } },
+              vue.toDisplayString($data.pubInfo.pubName) + " " + vue.toDisplayString($data.pubInfo.manager),
+              1
+              /* TEXT */
+            ),
+            vue.createElementVNode(
+              "view",
+              { style: { "font-weight": "600" } },
+              vue.toDisplayString($data.pubInfo.hospital) + " " + vue.toDisplayString($data.pubInfo.depart),
+              1
+              /* TEXT */
+            )
+          ])
+        ]),
+        vue.createElementVNode("view", { class: "article-doctor-baseinfo-down" }, [
+          vue.createElementVNode("view", {
+            class: "article-doctor-baseinfo-down-context",
+            onClick: _cache[0] || (_cache[0] = ($event) => $options.goDoctorMain($data.pubInfo.pubId))
+          }, "去主页")
+        ])
+      ])
+    ]);
+  }
+  const PagesMainArticle = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["render", _sfc_render$A], ["__scopeId", "data-v-c6f782df"], ["__file", "F:/code/qq-doctor/pages/main/article.vue"]]);
+  const _sfc_main$A = {
+    data() {
+      return {
+        selected: "疾病知识",
+        word: "搜索疾病",
+        selectList: [
+          {
+            title: "常见疾病",
+            vaccines: [
+              {
+                letter: "#",
+                data: [
+                  "2型糖尿病"
+                ]
+              },
+              {
+                letter: "A",
+                data: [
+                  "矮小症",
+                  "艾滋病",
+                  "阿拉基综合征"
+                ]
+              },
+              {
+                letter: "B",
+                data: [
+                  "疤痕",
+                  "白带异常",
+                  "白癜风",
+                  "白内障",
+                  "白塞氏病",
+                  "白细胞减少症",
+                  "白血病",
+                  "瘢痕疙瘩",
+                  "包茎",
+                  "包皮龟头炎",
+                  "包皮过长",
+                  "苯丙酮尿症"
+                ]
+              },
+              {
+                letter: "L",
+                data: [
+                  "流脑疫苗"
+                ]
+              },
+              {
+                letter: "M",
+                data: [
+                  "麻腮风疫苗"
+                ]
+              },
+              {
+                letter: "Y",
+                data: [
+                  "乙肝疫苗",
+                  "乙脑疫苗"
+                ]
+              }
+            ]
+          },
+          {
+            title: "内科",
+            vaccines: [
+              {
+                letter: "B",
+                data: [
+                  "百白破疫苗"
+                ]
+              },
+              {
+                letter: "J",
+                data: [
+                  "甲肝疫苗",
+                  "脊髓灰质炎疫苗"
+                ]
+              },
+              {
+                letter: "K",
+                data: [
+                  "卡介苗"
+                ]
+              },
+              {
+                letter: "L",
+                data: [
+                  "流脑疫苗"
+                ]
+              },
+              {
+                letter: "M",
+                data: [
+                  "麻腮风疫苗"
+                ]
+              },
+              {
+                letter: "Y",
+                data: [
+                  "乙肝疫苗",
+                  "乙脑疫苗"
+                ]
+              }
+            ]
+          },
+          {
+            title: "外科",
+            vaccines: []
+          },
+          {
+            title: "妇产科学",
+            vaccines: []
+          },
+          {
+            title: "儿科学",
+            vaccines: []
+          },
+          {
+            title: "骨科学",
+            vaccines: []
+          },
+          {
+            title: "眼科学",
+            vaccines: []
+          },
+          {
+            title: "口腔科学",
+            vaccines: []
+          },
+          {
+            title: "耳鼻口咽喉头颈科",
+            vaccines: []
+          },
+          {
+            title: "肿瘤科",
+            vaccines: []
+          },
+          {
+            title: "皮肤性病科",
+            vaccines: []
+          },
+          {
+            title: "男科",
+            vaccines: []
+          },
+          {
+            title: "皮肤美容",
+            vaccines: []
+          }
+        ]
+      };
+    }
+  };
+  function _sfc_render$z(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_FuncSelectFront = resolveEasycom(vue.resolveDynamicComponent("FuncSelectFront"), ComponentsFuncSelectFrontFuncSelectFront);
+    const _component_FuncSelectContext = resolveEasycom(vue.resolveDynamicComponent("FuncSelectContext"), ComponentsFuncSelectContextFuncSelectContext);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "diseaseknowledge" }, [
+      vue.createVNode(_component_FuncSelectFront, { word: $data.word }, null, 8, ["word"]),
+      vue.createVNode(_component_FuncSelectContext, {
+        items: $data.selectList,
+        selected: $data.selected
+      }, null, 8, ["items", "selected"])
+    ]);
+  }
+  const PagesMainDiseaseknowledge = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["render", _sfc_render$z], ["__file", "F:/code/qq-doctor/pages/main/diseaseknowledge.vue"]]);
+  const _sfc_main$z = {
+    name: "FuncSelectAllContext",
+    data() {
+      return {};
+    },
+    props: {
+      items: {
+        type: Array,
+        default() {
+          return [
+            {
+              letter: "B",
+              data: [
+                "百白破疫苗"
+              ]
+            },
+            {
+              letter: "J",
+              data: [
+                "甲肝疫苗",
+                "脊髓灰质炎疫苗"
+              ]
+            },
+            {
+              letter: "K",
+              data: [
+                "卡介苗"
+              ]
+            },
+            {
+              letter: "L",
+              data: [
+                "流脑疫苗"
+              ]
+            },
+            {
+              letter: "M",
+              data: [
+                "麻腮风疫苗"
+              ]
+            },
+            {
+              letter: "Y",
+              data: [
+                "乙肝疫苗",
+                "乙脑疫苗"
+              ]
+            }
+          ];
+        }
+      },
+      selected: {
+        type: String,
+        default() {
+          return "";
+        }
+      }
+    },
+    methods: {
+      getDetail(e2) {
+        if (this.selected == "检查") {
+          uni.navigateTo({
+            url: `/pages/main/checkdetail?name=${e2.item.name}`
+          });
+        } else if (this.selected == "治疗") {
+          uni.navigateTo({
+            url: `/pages/main/treatmentdetail?name=${e2.item.name}`
+          });
+        }
+      }
+    }
+  };
+  function _sfc_render$y(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_indexed_list = resolveEasycom(vue.resolveDynamicComponent("uni-indexed-list"), __easycom_0$6);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "func-select-all-context" }, [
+      vue.createVNode(_component_uni_indexed_list, {
+        options: $props.items,
+        class: "func-select-all-context",
+        onClick: $options.getDetail
+      }, null, 8, ["options", "onClick"])
+    ]);
+  }
+  const __easycom_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["render", _sfc_render$y], ["__scopeId", "data-v-76442ca7"], ["__file", "F:/code/qq-doctor/components/FuncSelectAllContext/FuncSelectAllContext.vue"]]);
+  const _sfc_main$y = {
+    data() {
+      return {
+        word: "搜索检查",
+        selectList: [
+          {
+            letter: "B",
+            data: [
+              "备孕",
+              "病例诊断"
+            ]
+          },
+          {
+            letter: "C",
+            data: [
+              "肠镜",
+              "产前检查",
+              "超声诊断"
+            ]
+          },
+          {
+            letter: "D",
+            data: [
+              "大肠便血",
+              "穿刺活检术"
+            ]
+          },
+          {
+            letter: "F",
+            data: [
+              "反射诊断",
+              "肺功能检查",
+              "妇科检查"
+            ]
+          },
+          {
+            letter: "G",
+            data: [
+              "肝功能",
+              "肝脏超声检查"
+            ]
+          }
+        ],
+        value: "检查"
+      };
+    }
+  };
+  function _sfc_render$x(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_FuncSelectFront = resolveEasycom(vue.resolveDynamicComponent("FuncSelectFront"), ComponentsFuncSelectFrontFuncSelectFront);
+    const _component_FuncSelectAllContext = resolveEasycom(vue.resolveDynamicComponent("FuncSelectAllContext"), __easycom_1$2);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "check" }, [
+      vue.createVNode(_component_FuncSelectFront, { word: $data.word }, null, 8, ["word"]),
+      vue.createElementVNode("view", { style: { "width": "750rpx", "height": "200rpx" } }),
+      vue.createVNode(_component_FuncSelectAllContext, {
+        items: $data.selectList,
+        selected: $data.value
+      }, null, 8, ["items", "selected"])
+    ]);
+  }
+  const PagesMainCheck = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["render", _sfc_render$x], ["__scopeId", "data-v-b0048a74"], ["__file", "F:/code/qq-doctor/pages/main/check.vue"]]);
+  const _sfc_main$x = {
+    data() {
+      return {
+        name: "",
+        list: [
+          {
+            pic: "../../static/img/desc.png",
+            name: "介绍"
+          },
+          {
+            pic: "../../static/img/corre.png",
+            name: "相关疾病"
+          },
+          {
+            pic: "../../static/img/jczb.png",
+            name: "检查准备"
+          },
+          {
+            pic: "../../static/img/jcfs.png",
+            name: "检查方式"
+          }
+        ]
+      };
+    },
+    onLoad(e2) {
+      uni.setNavigationBarTitle({
+        title: e2.name
+      });
+      this.name = e2.name;
+    }
+  };
+  function _sfc_render$w(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_DiseaseFunc = resolveEasycom(vue.resolveDynamicComponent("DiseaseFunc"), __easycom_0$5);
+    const _component_DiseaseContext = resolveEasycom(vue.resolveDynamicComponent("DiseaseContext"), __easycom_1$3);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "checkdetail" }, [
+      vue.createVNode(_component_DiseaseFunc, {
+        list: $data.list,
+        name: $data.name
+      }, null, 8, ["list", "name"]),
+      vue.createVNode(_component_DiseaseContext)
+    ]);
+  }
+  const PagesMainCheckdetail = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["render", _sfc_render$w], ["__file", "F:/code/qq-doctor/pages/main/checkdetail.vue"]]);
+  const _sfc_main$w = {
+    data() {
+      return {
+        value: "治疗",
+        word: "搜索治疗",
+        selectList: [
+          {
+            letter: "B",
+            data: [
+              "白内障超声乳化吸除术",
+              "瓣膜修复术",
+              "瓣膜置换术",
+              "半椎体切除术",
+              "包皮环切术",
+              "拔牙",
+              "鼻内镜下鼻窦手术",
+              "扁平足成形术",
+              "变性手术",
+              "鼻部整形",
+              "鼻侧切开术",
+              "鼻内镜手术",
+              "避孕",
+              "鼻再造",
+              "鼻整形修复"
+            ]
+          },
+          {
+            letter: "C",
+            data: [
+              "肠镜",
+              "产前检查",
+              "超声诊断"
+            ]
+          },
+          {
+            letter: "D",
+            data: [
+              "大肠便血",
+              "穿刺活检术"
+            ]
+          },
+          {
+            letter: "F",
+            data: [
+              "反射诊断",
+              "肺功能检查",
+              "妇科检查"
+            ]
+          },
+          {
+            letter: "G",
+            data: [
+              "肝功能",
+              "肝脏超声检查"
+            ]
+          }
+        ]
+      };
+    },
+    methods: {}
+  };
+  function _sfc_render$v(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_FuncSelectFront = resolveEasycom(vue.resolveDynamicComponent("FuncSelectFront"), ComponentsFuncSelectFrontFuncSelectFront);
+    const _component_FuncSelectAllContext = resolveEasycom(vue.resolveDynamicComponent("FuncSelectAllContext"), __easycom_1$2);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "treatment" }, [
+      vue.createVNode(_component_FuncSelectFront, { word: $data.word }, null, 8, ["word"]),
+      vue.createElementVNode("view", { style: { "width": "750rpx", "height": "200rpx" } }),
+      vue.createVNode(_component_FuncSelectAllContext, {
+        items: $data.selectList,
+        selected: $data.value
+      }, null, 8, ["items", "selected"])
+    ]);
+  }
+  const PagesMainTreatment = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["render", _sfc_render$v], ["__file", "F:/code/qq-doctor/pages/main/treatment.vue"]]);
+  const _sfc_main$v = {
+    data() {
+      return {
+        name: "",
+        list: [
+          {
+            pic: "../../static/img/desc.png",
+            name: "介绍"
+          },
+          {
+            pic: "../../static/img/fbyy.png",
+            name: "发病原因"
+          },
+          {
+            pic: "../../static/img/zzbx.png",
+            name: "症状表现"
+          },
+          {
+            pic: "../../static/img/rhyf.png",
+            name: "如何预防"
+          }
+        ]
+      };
+    },
+    onLoad(e2) {
+      uni.setNavigationBarTitle({
+        title: e2.name
+      });
+      this.name = e2.name;
+    }
+  };
+  function _sfc_render$u(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_DiseaseFunc = resolveEasycom(vue.resolveDynamicComponent("DiseaseFunc"), __easycom_0$5);
+    const _component_DiseaseContext = resolveEasycom(vue.resolveDynamicComponent("DiseaseContext"), __easycom_1$3);
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createVNode(_component_DiseaseFunc, {
+        list: $data.list,
+        name: $data.name
+      }, null, 8, ["list", "name"]),
+      vue.createVNode(_component_DiseaseContext)
+    ]);
+  }
+  const PagesMainDiseaseknowledgedetail = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["render", _sfc_render$u], ["__file", "F:/code/qq-doctor/pages/main/diseaseknowledgedetail.vue"]]);
+  const _sfc_main$u = {
+    data() {
+      return {
+        name: "",
+        list: [
+          {
+            pic: "../../static/img/desc.png",
+            name: "介绍"
+          },
+          {
+            pic: "../../static/img/corre.png",
+            name: "相关疾病"
+          },
+          {
+            pic: "../../static/img/zlzb.png",
+            name: "治疗准备"
+          },
+          {
+            pic: "../../static/img/jj.png",
+            name: "禁忌"
+          }
+        ]
+      };
+    },
+    onLoad(e2) {
+      uni.setNavigationBarTitle({
+        title: e2.name
+      });
+      this.name = e2.name;
+    }
+  };
+  function _sfc_render$t(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_DiseaseFunc = resolveEasycom(vue.resolveDynamicComponent("DiseaseFunc"), __easycom_0$5);
+    const _component_DiseaseContext = resolveEasycom(vue.resolveDynamicComponent("DiseaseContext"), __easycom_1$3);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "treatmentdetail" }, [
+      vue.createVNode(_component_DiseaseFunc, {
+        list: $data.list,
+        name: $data.name
+      }, null, 8, ["list", "name"]),
+      vue.createVNode(_component_DiseaseContext)
+    ]);
+  }
+  const PagesMainTreatmentdetail = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["render", _sfc_render$t], ["__file", "F:/code/qq-doctor/pages/main/treatmentdetail.vue"]]);
+  const _sfc_main$t = {
+    name: "OnlineDayBlock",
+    data() {
+      return {
+        selectedDate: "6"
+      };
+    },
+    props: {
+      dataInfoList: {
+        type: Array
+      }
+    },
+    methods: {
+      selectDate(date) {
+        this.selectedDate = date;
+      }
+    }
+  };
+  function _sfc_render$s(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("div", { class: "online-day-block" }, [
       (vue.openBlock(true), vue.createElementBlock(
         vue.Fragment,
         null,
-        vue.renderList($data.list, (item, index) => {
-          return vue.openBlock(), vue.createElementBlock("view", {
-            class: "docListWrapp",
-            key: index
+        vue.renderList($props.dataInfoList, (item) => {
+          return vue.openBlock(), vue.createElementBlock("div", {
+            class: "online-day-block-select",
+            key: item.date,
+            onClick: ($event) => $options.selectDate(item.date)
           }, [
-            vue.createCommentVNode(" 科室名称 "),
-            vue.createElementVNode("view", { class: "depNameWrapp" }, [
-              vue.createElementVNode("text", { class: "depNameText" }, "内科")
-            ]),
-            vue.createCommentVNode(" 医生列表 "),
             vue.createElementVNode(
-              "scroll-view",
+              "div",
               {
-                class: "docList",
-                "show-scrollbar": "false",
-                "scroll-x": "true",
-                onScroll: _cache[1] || (_cache[1] = (...args) => $options.scroll && $options.scroll(...args))
+                class: vue.normalizeClass(["online-day-block-select-block", { "selected-day": item.date === $data.selectedDate }])
               },
               [
-                (vue.openBlock(true), vue.createElementBlock(
-                  vue.Fragment,
-                  null,
-                  vue.renderList($data.list2, (item2, index2) => {
-                    return vue.openBlock(), vue.createElementBlock("view", {
-                      class: "docOneWrapp",
-                      key: index2
-                    }, [
-                      vue.createElementVNode("view", {
-                        class: "docOne",
-                        onClick: _cache[0] || (_cache[0] = ($event) => $options.navToDocDesc())
-                      }, [
-                        vue.createCommentVNode(" 医生头像 "),
-                        vue.createElementVNode("view", { class: "headSculptureWrapp" }, [
-                          vue.createElementVNode("image", {
-                            src: "/static/img/docDetais/touxiang.png",
-                            mode: "",
-                            class: "headSculpture"
-                          })
-                        ]),
-                        vue.createCommentVNode(" 医生姓名 "),
-                        vue.createElementVNode("view", { class: "docNameTextWrapp" }, [
-                          vue.createElementVNode("text", { class: "docNameText" }, "赵熙蒙")
-                        ]),
-                        vue.createCommentVNode(" 医生职务 "),
-                        vue.createElementVNode("view", { class: "docDutiesTextWrapp" }, [
-                          vue.createElementVNode("text", { class: "docDutiesText1" }, " 主任医师 "),
-                          vue.createElementVNode("text", { class: "docDutiesText2" }, " 教授 ")
-                        ]),
-                        vue.createCommentVNode("  对应科室"),
-                        vue.createElementVNode("view", { class: "correspondingDepartmentTextWrapp" }, [
-                          vue.createElementVNode("text", { class: "correspondingDepartmentText1" }, " 院长 "),
-                          vue.createElementVNode("text", { class: "correspondingDepartmentText2" }, " 心血内科专家 ")
-                        ])
-                      ])
-                    ]);
-                  }),
-                  128
-                  /* KEYED_FRAGMENT */
-                ))
+                vue.createElementVNode(
+                  "div",
+                  { class: "date" },
+                  vue.toDisplayString(item.date) + "号",
+                  1
+                  /* TEXT */
+                ),
+                vue.createElementVNode(
+                  "div",
+                  { class: "num" },
+                  vue.toDisplayString(item.num) + "场",
+                  1
+                  /* TEXT */
+                )
               ],
-              32
-              /* HYDRATE_EVENTS */
+              2
+              /* CLASS */
             )
-          ]);
+          ], 8, ["onClick"]);
         }),
         128
         /* KEYED_FRAGMENT */
       ))
     ]);
   }
-  const PagesMapDocListDocList = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["render", _sfc_render$z], ["__scopeId", "data-v-6bae08d3"], ["__file", "F:/code/qq-doctor/pages/map/docList/docList.vue"]]);
-  var calendar = {
-    /**
-        * 农历1900-2100的润大小信息表
-        * @Array Of Property
-        * @return Hex
-        */
-    lunarInfo: [
-      19416,
-      19168,
-      42352,
-      21717,
-      53856,
-      55632,
-      91476,
-      22176,
-      39632,
-      21970,
-      // 1900-1909
-      19168,
-      42422,
-      42192,
-      53840,
-      119381,
-      46400,
-      54944,
-      44450,
-      38320,
-      84343,
-      // 1910-1919
-      18800,
-      42160,
-      46261,
-      27216,
-      27968,
-      109396,
-      11104,
-      38256,
-      21234,
-      18800,
-      // 1920-1929
-      25958,
-      54432,
-      59984,
-      28309,
-      23248,
-      11104,
-      100067,
-      37600,
-      116951,
-      51536,
-      // 1930-1939
-      54432,
-      120998,
-      46416,
-      22176,
-      107956,
-      9680,
-      37584,
-      53938,
-      43344,
-      46423,
-      // 1940-1949
-      27808,
-      46416,
-      86869,
-      19872,
-      42416,
-      83315,
-      21168,
-      43432,
-      59728,
-      27296,
-      // 1950-1959
-      44710,
-      43856,
-      19296,
-      43748,
-      42352,
-      21088,
-      62051,
-      55632,
-      23383,
-      22176,
-      // 1960-1969
-      38608,
-      19925,
-      19152,
-      42192,
-      54484,
-      53840,
-      54616,
-      46400,
-      46752,
-      103846,
-      // 1970-1979
-      38320,
-      18864,
-      43380,
-      42160,
-      45690,
-      27216,
-      27968,
-      44870,
-      43872,
-      38256,
-      // 1980-1989
-      19189,
-      18800,
-      25776,
-      29859,
-      59984,
-      27480,
-      23232,
-      43872,
-      38613,
-      37600,
-      // 1990-1999
-      51552,
-      55636,
-      54432,
-      55888,
-      30034,
-      22176,
-      43959,
-      9680,
-      37584,
-      51893,
-      // 2000-2009
-      43344,
-      46240,
-      47780,
-      44368,
-      21977,
-      19360,
-      42416,
-      86390,
-      21168,
-      43312,
-      // 2010-2019
-      31060,
-      27296,
-      44368,
-      23378,
-      19296,
-      42726,
-      42208,
-      53856,
-      60005,
-      54576,
-      // 2020-2029
-      23200,
-      30371,
-      38608,
-      19195,
-      19152,
-      42192,
-      118966,
-      53840,
-      54560,
-      56645,
-      // 2030-2039
-      46496,
-      22224,
-      21938,
-      18864,
-      42359,
-      42160,
-      43600,
-      111189,
-      27936,
-      44448,
-      // 2040-2049
-      /** Add By JJonline@JJonline.Cn**/
-      84835,
-      37744,
-      18936,
-      18800,
-      25776,
-      92326,
-      59984,
-      27424,
-      108228,
-      43744,
-      // 2050-2059
-      41696,
-      53987,
-      51552,
-      54615,
-      54432,
-      55888,
-      23893,
-      22176,
-      42704,
-      21972,
-      // 2060-2069
-      21200,
-      43448,
-      43344,
-      46240,
-      46758,
-      44368,
-      21920,
-      43940,
-      42416,
-      21168,
-      // 2070-2079
-      45683,
-      26928,
-      29495,
-      27296,
-      44368,
-      84821,
-      19296,
-      42352,
-      21732,
-      53600,
-      // 2080-2089
-      59752,
-      54560,
-      55968,
-      92838,
-      22224,
-      19168,
-      43476,
-      41680,
-      53584,
-      62034,
-      // 2090-2099
-      54560
-    ],
-    // 2100
-    /**
-        * 公历每个月份的天数普通表
-        * @Array Of Property
-        * @return Number
-        */
-    solarMonth: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
-    /**
-        * 天干地支之天干速查表
-        * @Array Of Property trans["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"]
-        * @return Cn string
-        */
-    Gan: ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"],
-    /**
-        * 天干地支之地支速查表
-        * @Array Of Property
-        * @trans["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"]
-        * @return Cn string
-        */
-    Zhi: ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"],
-    /**
-        * 天干地支之地支速查表<=>生肖
-        * @Array Of Property
-        * @trans["鼠","牛","虎","兔","龙","蛇","马","羊","猴","鸡","狗","猪"]
-        * @return Cn string
-        */
-    Animals: ["鼠", "牛", "虎", "兔", "龙", "蛇", "马", "羊", "猴", "鸡", "狗", "猪"],
-    /**
-        * 24节气速查表
-        * @Array Of Property
-        * @trans["小寒","大寒","立春","雨水","惊蛰","春分","清明","谷雨","立夏","小满","芒种","夏至","小暑","大暑","立秋","处暑","白露","秋分","寒露","霜降","立冬","小雪","大雪","冬至"]
-        * @return Cn string
-        */
-    solarTerm: ["小寒", "大寒", "立春", "雨水", "惊蛰", "春分", "清明", "谷雨", "立夏", "小满", "芒种", "夏至", "小暑", "大暑", "立秋", "处暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至"],
-    /**
-        * 1900-2100各年的24节气日期速查表
-        * @Array Of Property
-        * @return 0x string For splice
-        */
-    sTermInfo: [
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c3598082c95f8c965cc920f",
-      "97bd0b06bdb0722c965ce1cfcc920f",
-      "b027097bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c359801ec95f8c965cc920f",
-      "97bd0b06bdb0722c965ce1cfcc920f",
-      "b027097bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c359801ec95f8c965cc920f",
-      "97bd0b06bdb0722c965ce1cfcc920f",
-      "b027097bd097c36b0b6fc9274c91aa",
-      "9778397bd19801ec9210c965cc920e",
-      "97b6b97bd19801ec95f8c965cc920f",
-      "97bd09801d98082c95f8e1cfcc920f",
-      "97bd097bd097c36b0b6fc9210c8dc2",
-      "9778397bd197c36c9210c9274c91aa",
-      "97b6b97bd19801ec95f8c965cc920e",
-      "97bd09801d98082c95f8e1cfcc920f",
-      "97bd097bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36c9210c9274c91aa",
-      "97b6b97bd19801ec95f8c965cc920e",
-      "97bcf97c3598082c95f8e1cfcc920f",
-      "97bd097bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36c9210c9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c3598082c95f8c965cc920f",
-      "97bd097bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c3598082c95f8c965cc920f",
-      "97bd097bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c359801ec95f8c965cc920f",
-      "97bd097bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c359801ec95f8c965cc920f",
-      "97bd097bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf97c359801ec95f8c965cc920f",
-      "97bd097bd07f595b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9210c8dc2",
-      "9778397bd19801ec9210c9274c920e",
-      "97b6b97bd19801ec95f8c965cc920f",
-      "97bd07f5307f595b0b0bc920fb0722",
-      "7f0e397bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36c9210c9274c920e",
-      "97b6b97bd19801ec95f8c965cc920f",
-      "97bd07f5307f595b0b0bc920fb0722",
-      "7f0e397bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36c9210c9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bd07f1487f595b0b0bc920fb0722",
-      "7f0e397bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf7f1487f595b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf7f1487f595b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf7f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c965cc920e",
-      "97bcf7f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b97bd19801ec9210c9274c920e",
-      "97bcf7f0e47f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "9778397bd097c36b0b6fc9210c91aa",
-      "97b6b97bd197c36c9210c9274c920e",
-      "97bcf7f0e47f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "9778397bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36c9210c9274c920e",
-      "97b6b7f0e47f531b0723b0b6fb0722",
-      "7f0e37f5307f595b0b0bc920fb0722",
-      "7f0e397bd097c36b0b6fc9210c8dc2",
-      "9778397bd097c36b0b70c9274c91aa",
-      "97b6b7f0e47f531b0723b0b6fb0721",
-      "7f0e37f1487f595b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc9210c8dc2",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f595b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "9778397bd097c36b0b6fc9274c91aa",
-      "97b6b7f0e47f531b0723b0787b0721",
-      "7f0e27f0e47f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "9778397bd097c36b0b6fc9210c91aa",
-      "97b6b7f0e47f149b0723b0787b0721",
-      "7f0e27f0e47f531b0723b0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "9778397bd097c36b0b6fc9210c8dc2",
-      "977837f0e37f149b0723b0787b0721",
-      "7f07e7f0e47f531b0723b0b6fb0722",
-      "7f0e37f5307f595b0b0bc920fb0722",
-      "7f0e397bd097c35b0b6fc9210c8dc2",
-      "977837f0e37f14998082b0787b0721",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e37f1487f595b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc9210c8dc2",
-      "977837f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "977837f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd097c35b0b6fc920fb0722",
-      "977837f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "977837f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "977837f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f149b0723b0787b0721",
-      "7f0e27f0e47f531b0b0bb0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "977837f0e37f14998082b0723b06bd",
-      "7f07e7f0e37f149b0723b0787b0721",
-      "7f0e27f0e47f531b0723b0b6fb0722",
-      "7f0e397bd07f595b0b0bc920fb0722",
-      "977837f0e37f14898082b0723b02d5",
-      "7ec967f0e37f14998082b0787b0721",
-      "7f07e7f0e47f531b0723b0b6fb0722",
-      "7f0e37f1487f595b0b0bb0b6fb0722",
-      "7f0e37f0e37f14898082b0723b02d5",
-      "7ec967f0e37f14998082b0787b0721",
-      "7f07e7f0e47f531b0723b0b6fb0722",
-      "7f0e37f1487f531b0b0bb0b6fb0722",
-      "7f0e37f0e37f14898082b0723b02d5",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e37f1487f531b0b0bb0b6fb0722",
-      "7f0e37f0e37f14898082b072297c35",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e37f0e37f14898082b072297c35",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e37f0e366aa89801eb072297c35",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f149b0723b0787b0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722",
-      "7f0e37f0e366aa89801eb072297c35",
-      "7ec967f0e37f14998082b0723b06bd",
-      "7f07e7f0e47f149b0723b0787b0721",
-      "7f0e27f0e47f531b0723b0b6fb0722",
-      "7f0e37f0e366aa89801eb072297c35",
-      "7ec967f0e37f14998082b0723b06bd",
-      "7f07e7f0e37f14998083b0787b0721",
-      "7f0e27f0e47f531b0723b0b6fb0722",
-      "7f0e37f0e366aa89801eb072297c35",
-      "7ec967f0e37f14898082b0723b02d5",
-      "7f07e7f0e37f14998082b0787b0721",
-      "7f07e7f0e47f531b0723b0b6fb0722",
-      "7f0e36665b66aa89801e9808297c35",
-      "665f67f0e37f14898082b0723b02d5",
-      "7ec967f0e37f14998082b0787b0721",
-      "7f07e7f0e47f531b0723b0b6fb0722",
-      "7f0e36665b66a449801e9808297c35",
-      "665f67f0e37f14898082b0723b02d5",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e36665b66a449801e9808297c35",
-      "665f67f0e37f14898082b072297c35",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e26665b66a449801e9808297c35",
-      "665f67f0e37f1489801eb072297c35",
-      "7ec967f0e37f14998082b0787b06bd",
-      "7f07e7f0e47f531b0723b0b6fb0721",
-      "7f0e27f1487f531b0b0bb0b6fb0722"
-    ],
-    /**
-        * 数字转中文速查表
-        * @Array Of Property
-        * @trans ['日','一','二','三','四','五','六','七','八','九','十']
-        * @return Cn string
-        */
-    nStr1: ["日", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"],
-    /**
-        * 日期转农历称呼速查表
-        * @Array Of Property
-        * @trans ['初','十','廿','卅']
-        * @return Cn string
-        */
-    nStr2: ["初", "十", "廿", "卅"],
-    /**
-        * 月份转农历称呼速查表
-        * @Array Of Property
-        * @trans ['正','一','二','三','四','五','六','七','八','九','十','冬','腊']
-        * @return Cn string
-        */
-    nStr3: ["正", "二", "三", "四", "五", "六", "七", "八", "九", "十", "冬", "腊"],
-    /**
-        * 返回农历y年一整年的总天数
-        * @param lunar Year
-        * @return Number
-        * @eg:var count = calendar.lYearDays(1987) ;//count=387
-        */
-    lYearDays: function(y2) {
-      var i2;
-      var sum = 348;
-      for (i2 = 32768; i2 > 8; i2 >>= 1) {
-        sum += this.lunarInfo[y2 - 1900] & i2 ? 1 : 0;
-      }
-      return sum + this.leapDays(y2);
-    },
-    /**
-        * 返回农历y年闰月是哪个月；若y年没有闰月 则返回0
-        * @param lunar Year
-        * @return Number (0-12)
-        * @eg:var leapMonth = calendar.leapMonth(1987) ;//leapMonth=6
-        */
-    leapMonth: function(y2) {
-      return this.lunarInfo[y2 - 1900] & 15;
-    },
-    /**
-        * 返回农历y年闰月的天数 若该年没有闰月则返回0
-        * @param lunar Year
-        * @return Number (0、29、30)
-        * @eg:var leapMonthDay = calendar.leapDays(1987) ;//leapMonthDay=29
-        */
-    leapDays: function(y2) {
-      if (this.leapMonth(y2)) {
-        return this.lunarInfo[y2 - 1900] & 65536 ? 30 : 29;
-      }
-      return 0;
-    },
-    /**
-        * 返回农历y年m月（非闰月）的总天数，计算m为闰月时的天数请使用leapDays方法
-        * @param lunar Year
-        * @return Number (-1、29、30)
-        * @eg:var MonthDay = calendar.monthDays(1987,9) ;//MonthDay=29
-        */
-    monthDays: function(y2, m2) {
-      if (m2 > 12 || m2 < 1) {
-        return -1;
-      }
-      return this.lunarInfo[y2 - 1900] & 65536 >> m2 ? 30 : 29;
-    },
-    /**
-        * 返回公历(!)y年m月的天数
-        * @param solar Year
-        * @return Number (-1、28、29、30、31)
-        * @eg:var solarMonthDay = calendar.leapDays(1987) ;//solarMonthDay=30
-        */
-    solarDays: function(y2, m2) {
-      if (m2 > 12 || m2 < 1) {
-        return -1;
-      }
-      var ms2 = m2 - 1;
-      if (ms2 == 1) {
-        return y2 % 4 == 0 && y2 % 100 != 0 || y2 % 400 == 0 ? 29 : 28;
-      } else {
-        return this.solarMonth[ms2];
-      }
-    },
-    /**
-       * 农历年份转换为干支纪年
-       * @param  lYear 农历年的年份数
-       * @return Cn string
-       */
-    toGanZhiYear: function(lYear) {
-      var ganKey = (lYear - 3) % 10;
-      var zhiKey = (lYear - 3) % 12;
-      if (ganKey == 0)
-        ganKey = 10;
-      if (zhiKey == 0)
-        zhiKey = 12;
-      return this.Gan[ganKey - 1] + this.Zhi[zhiKey - 1];
-    },
-    /**
-       * 公历月、日判断所属星座
-       * @param  cMonth [description]
-       * @param  cDay [description]
-       * @return Cn string
-       */
-    toAstro: function(cMonth, cDay) {
-      var s2 = "魔羯水瓶双鱼白羊金牛双子巨蟹狮子处女天秤天蝎射手魔羯";
-      var arr = [20, 19, 21, 21, 21, 22, 23, 23, 23, 23, 22, 22];
-      return s2.substr(cMonth * 2 - (cDay < arr[cMonth - 1] ? 2 : 0), 2) + "座";
-    },
-    /**
-        * 传入offset偏移量返回干支
-        * @param offset 相对甲子的偏移量
-        * @return Cn string
-        */
-    toGanZhi: function(offset) {
-      return this.Gan[offset % 10] + this.Zhi[offset % 12];
-    },
-    /**
-        * 传入公历(!)y年获得该年第n个节气的公历日期
-        * @param y公历年(1900-2100)；n二十四节气中的第几个节气(1~24)；从n=1(小寒)算起
-        * @return day Number
-        * @eg:var _24 = calendar.getTerm(1987,3) ;//_24=4;意即1987年2月4日立春
-        */
-    getTerm: function(y2, n2) {
-      if (y2 < 1900 || y2 > 2100) {
-        return -1;
-      }
-      if (n2 < 1 || n2 > 24) {
-        return -1;
-      }
-      var _table = this.sTermInfo[y2 - 1900];
-      var _info = [
-        parseInt("0x" + _table.substr(0, 5)).toString(),
-        parseInt("0x" + _table.substr(5, 5)).toString(),
-        parseInt("0x" + _table.substr(10, 5)).toString(),
-        parseInt("0x" + _table.substr(15, 5)).toString(),
-        parseInt("0x" + _table.substr(20, 5)).toString(),
-        parseInt("0x" + _table.substr(25, 5)).toString()
-      ];
-      var _calday = [
-        _info[0].substr(0, 1),
-        _info[0].substr(1, 2),
-        _info[0].substr(3, 1),
-        _info[0].substr(4, 2),
-        _info[1].substr(0, 1),
-        _info[1].substr(1, 2),
-        _info[1].substr(3, 1),
-        _info[1].substr(4, 2),
-        _info[2].substr(0, 1),
-        _info[2].substr(1, 2),
-        _info[2].substr(3, 1),
-        _info[2].substr(4, 2),
-        _info[3].substr(0, 1),
-        _info[3].substr(1, 2),
-        _info[3].substr(3, 1),
-        _info[3].substr(4, 2),
-        _info[4].substr(0, 1),
-        _info[4].substr(1, 2),
-        _info[4].substr(3, 1),
-        _info[4].substr(4, 2),
-        _info[5].substr(0, 1),
-        _info[5].substr(1, 2),
-        _info[5].substr(3, 1),
-        _info[5].substr(4, 2)
-      ];
-      return parseInt(_calday[n2 - 1]);
-    },
-    /**
-        * 传入农历数字月份返回汉语通俗表示法
-        * @param lunar month
-        * @return Cn string
-        * @eg:var cnMonth = calendar.toChinaMonth(12) ;//cnMonth='腊月'
-        */
-    toChinaMonth: function(m2) {
-      if (m2 > 12 || m2 < 1) {
-        return -1;
-      }
-      var s2 = this.nStr3[m2 - 1];
-      s2 += "月";
-      return s2;
-    },
-    /**
-        * 传入农历日期数字返回汉字表示法
-        * @param lunar day
-        * @return Cn string
-        * @eg:var cnDay = calendar.toChinaDay(21) ;//cnMonth='廿一'
-        */
-    toChinaDay: function(d2) {
-      var s2;
-      switch (d2) {
-        case 10:
-          s2 = "初十";
-          break;
-        case 20:
-          s2 = "二十";
-          break;
-        case 30:
-          s2 = "三十";
-          break;
-        default:
-          s2 = this.nStr2[Math.floor(d2 / 10)];
-          s2 += this.nStr1[d2 % 10];
-      }
-      return s2;
-    },
-    /**
-        * 年份转生肖[!仅能大致转换] => 精确划分生肖分界线是“立春”
-        * @param y year
-        * @return Cn string
-        * @eg:var animal = calendar.getAnimal(1987) ;//animal='兔'
-        */
-    getAnimal: function(y2) {
-      return this.Animals[(y2 - 4) % 12];
-    },
-    /**
-        * 传入阳历年月日获得详细的公历、农历object信息 <=>JSON
-        * @param y  solar year
-        * @param m  solar month
-        * @param d  solar day
-        * @return JSON object
-        * @eg:__f__('log','at uni_modules/uni-calendar/components/uni-calendar/calendar.js:381',calendar.solar2lunar(1987,11,01));
-        */
-    solar2lunar: function(y2, m2, d2) {
-      if (y2 < 1900 || y2 > 2100) {
-        return -1;
-      }
-      if (y2 == 1900 && m2 == 1 && d2 < 31) {
-        return -1;
-      }
-      if (!y2) {
-        var objDate = /* @__PURE__ */ new Date();
-      } else {
-        var objDate = new Date(y2, parseInt(m2) - 1, d2);
-      }
-      var i2;
-      var leap = 0;
-      var temp = 0;
-      var y2 = objDate.getFullYear();
-      var m2 = objDate.getMonth() + 1;
-      var d2 = objDate.getDate();
-      var offset = (Date.UTC(objDate.getFullYear(), objDate.getMonth(), objDate.getDate()) - Date.UTC(1900, 0, 31)) / 864e5;
-      for (i2 = 1900; i2 < 2101 && offset > 0; i2++) {
-        temp = this.lYearDays(i2);
-        offset -= temp;
-      }
-      if (offset < 0) {
-        offset += temp;
-        i2--;
-      }
-      var isTodayObj = /* @__PURE__ */ new Date();
-      var isToday = false;
-      if (isTodayObj.getFullYear() == y2 && isTodayObj.getMonth() + 1 == m2 && isTodayObj.getDate() == d2) {
-        isToday = true;
-      }
-      var nWeek = objDate.getDay();
-      var cWeek = this.nStr1[nWeek];
-      if (nWeek == 0) {
-        nWeek = 7;
-      }
-      var year = i2;
-      var leap = this.leapMonth(i2);
-      var isLeap = false;
-      for (i2 = 1; i2 < 13 && offset > 0; i2++) {
-        if (leap > 0 && i2 == leap + 1 && isLeap == false) {
-          --i2;
-          isLeap = true;
-          temp = this.leapDays(year);
-        } else {
-          temp = this.monthDays(year, i2);
-        }
-        if (isLeap == true && i2 == leap + 1) {
-          isLeap = false;
-        }
-        offset -= temp;
-      }
-      if (offset == 0 && leap > 0 && i2 == leap + 1) {
-        if (isLeap) {
-          isLeap = false;
-        } else {
-          isLeap = true;
-          --i2;
-        }
-      }
-      if (offset < 0) {
-        offset += temp;
-        --i2;
-      }
-      var month = i2;
-      var day = offset + 1;
-      var sm = m2 - 1;
-      var gzY = this.toGanZhiYear(year);
-      var firstNode = this.getTerm(y2, m2 * 2 - 1);
-      var secondNode = this.getTerm(y2, m2 * 2);
-      var gzM = this.toGanZhi((y2 - 1900) * 12 + m2 + 11);
-      if (d2 >= firstNode) {
-        gzM = this.toGanZhi((y2 - 1900) * 12 + m2 + 12);
-      }
-      var isTerm = false;
-      var Term = null;
-      if (firstNode == d2) {
-        isTerm = true;
-        Term = this.solarTerm[m2 * 2 - 2];
-      }
-      if (secondNode == d2) {
-        isTerm = true;
-        Term = this.solarTerm[m2 * 2 - 1];
-      }
-      var dayCyclical = Date.UTC(y2, sm, 1, 0, 0, 0, 0) / 864e5 + 25567 + 10;
-      var gzD = this.toGanZhi(dayCyclical + d2 - 1);
-      var astro = this.toAstro(m2, d2);
-      return { "lYear": year, "lMonth": month, "lDay": day, "Animal": this.getAnimal(year), "IMonthCn": (isLeap ? "闰" : "") + this.toChinaMonth(month), "IDayCn": this.toChinaDay(day), "cYear": y2, "cMonth": m2, "cDay": d2, "gzYear": gzY, "gzMonth": gzM, "gzDay": gzD, "isToday": isToday, "isLeap": isLeap, "nWeek": nWeek, "ncWeek": "星期" + cWeek, "isTerm": isTerm, "Term": Term, "astro": astro };
-    },
-    /**
-        * 传入农历年月日以及传入的月份是否闰月获得详细的公历、农历object信息 <=>JSON
-        * @param y  lunar year
-        * @param m  lunar month
-        * @param d  lunar day
-        * @param isLeapMonth  lunar month is leap or not.[如果是农历闰月第四个参数赋值true即可]
-        * @return JSON object
-        * @eg:__f__('log','at uni_modules/uni-calendar/components/uni-calendar/calendar.js:500',calendar.lunar2solar(1987,9,10));
-        */
-    lunar2solar: function(y2, m2, d2, isLeapMonth) {
-      var isLeapMonth = !!isLeapMonth;
-      var leapMonth = this.leapMonth(y2);
-      this.leapDays(y2);
-      if (isLeapMonth && leapMonth != m2) {
-        return -1;
-      }
-      if (y2 == 2100 && m2 == 12 && d2 > 1 || y2 == 1900 && m2 == 1 && d2 < 31) {
-        return -1;
-      }
-      var day = this.monthDays(y2, m2);
-      var _day = day;
-      if (isLeapMonth) {
-        _day = this.leapDays(y2, m2);
-      }
-      if (y2 < 1900 || y2 > 2100 || d2 > _day) {
-        return -1;
-      }
-      var offset = 0;
-      for (var i2 = 1900; i2 < y2; i2++) {
-        offset += this.lYearDays(i2);
-      }
-      var leap = 0;
-      var isAdd = false;
-      for (var i2 = 1; i2 < m2; i2++) {
-        leap = this.leapMonth(y2);
-        if (!isAdd) {
-          if (leap <= i2 && leap > 0) {
-            offset += this.leapDays(y2);
-            isAdd = true;
-          }
-        }
-        offset += this.monthDays(y2, i2);
-      }
-      if (isLeapMonth) {
-        offset += day;
-      }
-      var stmap = Date.UTC(1900, 1, 30, 0, 0, 0);
-      var calObj = new Date((offset + d2 - 31) * 864e5 + stmap);
-      var cY = calObj.getUTCFullYear();
-      var cM = calObj.getUTCMonth() + 1;
-      var cD = calObj.getUTCDate();
-      return this.solar2lunar(cY, cM, cD);
+  const __easycom_0$4 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["render", _sfc_render$s], ["__scopeId", "data-v-e7af92e1"], ["__file", "F:/code/qq-doctor/components/OnlineDayBlock/OnlineDayBlock.vue"]]);
+  const _sfc_main$s = {
+    name: "OnlineOn",
+    data() {
+      return {};
     }
   };
-  class Calendar {
-    constructor({
-      date,
-      selected,
-      startDate,
-      endDate,
-      range
-    } = {}) {
-      this.date = this.getDate(/* @__PURE__ */ new Date());
-      this.selected = selected || [];
-      this.startDate = startDate;
-      this.endDate = endDate;
-      this.range = range;
-      this.cleanMultipleStatus();
-      this.weeks = {};
+  function _sfc_render$r(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "online-on" }, [
+      vue.createElementVNode("view", { class: "online-on-title" }, "义诊中"),
+      vue.createElementVNode("view", { class: "online-on-context" }, [
+        vue.createElementVNode("view", null, [
+          vue.createElementVNode("image", { src: "/static/img/doctor2.png" })
+        ]),
+        vue.createElementVNode("view", { style: { "color": "#4485fd", "font-weight": "600", "font-size": "28rpx" } }, "呼吸重症医学科"),
+        vue.createElementVNode("view", { style: { "font-size": "26rpx" } }, "赵熙蒙医生"),
+        vue.createElementVNode("view", { style: { "font-size": "26rpx", "color": "#9e9e9e" } }, "赣州市第一人民医院")
+      ])
+    ]);
+  }
+  const __easycom_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["render", _sfc_render$r], ["__scopeId", "data-v-2504236a"], ["__file", "F:/code/qq-doctor/components/OnlineOn/OnlineOn.vue"]]);
+  const _sfc_main$r = {
+    name: "OnlineBefore",
+    data() {
+      return {};
     }
-    /**
-     * 设置日期
-     * @param {Object} date
-     */
-    setDate(date) {
-      this.selectDate = this.getDate(date);
-      this._getWeek(this.selectDate.fullDate);
+  };
+  function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "online-before" }, [
+      vue.createElementVNode("view", { class: "online-before-title" }, "义诊预告"),
+      vue.createElementVNode("view", { class: "online-before-context" }, [
+        vue.createElementVNode("view", { class: "online-before-context-top" }, [
+          vue.createElementVNode("view", null, [
+            vue.createElementVNode("image", { src: "/static/img/doctor2.png" })
+          ]),
+          vue.createElementVNode("view", { class: "online-before-context-top-right" }, [
+            vue.createElementVNode("view", { style: { "color": "#4485fd", "font-weight": "600", "font-size": "28rpx" } }, "呼吸重症医学科"),
+            vue.createElementVNode("view", { style: { "font-size": "26rpx", "margin-top": "10rpx" } }, "赵熙蒙医生")
+          ])
+        ]),
+        vue.createElementVNode("view", { class: "online-before-context-bottom" }, [
+          vue.createElementVNode("view", { style: { "font-size": "26rpx", "color": "#9e9e9e" } }, "赣州市第一人民医院"),
+          vue.createElementVNode("view", { style: { "font-size": "28rpx", "font-weight": "900", "color": "#ffb547" } }, "义诊11月06日17:30开始"),
+          vue.createElementVNode("view", { style: { "width": "160rpx", "height": "50rpx", "background-color": "#fef9eb", "margin-top": "10rpx", "margin-left": "65rpx", "border": "#4485fd 2px solid", "text-align": "center", "color": "#4485fd", "font-size": "28rpx" } }, "立即预约")
+        ])
+      ])
+    ]);
+  }
+  const __easycom_2 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["render", _sfc_render$q], ["__scopeId", "data-v-c2298192"], ["__file", "F:/code/qq-doctor/components/OnlineBefore/OnlineBefore.vue"]]);
+  const _sfc_main$q = {
+    name: "OnlineAfter",
+    data() {
+      return {};
     }
-    /**
-     * 清理多选状态
-     */
-    cleanMultipleStatus() {
-      this.multipleStatus = {
-        before: "",
-        after: "",
-        data: []
-      };
-    }
-    /**
-     * 重置开始日期
-     */
-    resetSatrtDate(startDate) {
-      this.startDate = startDate;
-    }
-    /**
-     * 重置结束日期
-     */
-    resetEndDate(endDate) {
-      this.endDate = endDate;
-    }
-    /**
-     * 获取任意时间
-     */
-    getDate(date, AddDayCount = 0, str = "day") {
-      if (!date) {
-        date = /* @__PURE__ */ new Date();
-      }
-      if (typeof date !== "object") {
-        date = date.replace(/-/g, "/");
-      }
-      const dd = new Date(date);
-      switch (str) {
-        case "day":
-          dd.setDate(dd.getDate() + AddDayCount);
-          break;
-        case "month":
-          if (dd.getDate() === 31 && AddDayCount > 0) {
-            dd.setDate(dd.getDate() + AddDayCount);
-          } else {
-            const preMonth = dd.getMonth();
-            dd.setMonth(preMonth + AddDayCount);
-            const nextMonth = dd.getMonth();
-            if (AddDayCount < 0 && preMonth !== 0 && nextMonth - preMonth > AddDayCount) {
-              dd.setMonth(nextMonth + (nextMonth - preMonth + AddDayCount));
-            }
-            if (AddDayCount > 0 && nextMonth - preMonth > AddDayCount) {
-              dd.setMonth(nextMonth - (nextMonth - preMonth - AddDayCount));
-            }
-          }
-          break;
-        case "year":
-          dd.setFullYear(dd.getFullYear() + AddDayCount);
-          break;
-      }
-      const y2 = dd.getFullYear();
-      const m2 = dd.getMonth() + 1 < 10 ? "0" + (dd.getMonth() + 1) : dd.getMonth() + 1;
-      const d2 = dd.getDate() < 10 ? "0" + dd.getDate() : dd.getDate();
+  };
+  function _sfc_render$p(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "online-after" }, [
+      vue.createElementVNode("view", { class: "online-after-title" }, "义诊回放"),
+      vue.createElementVNode("view", { class: "online-after-context" }, [
+        vue.createElementVNode("view", { class: "online-after-context-top" }, [
+          vue.createElementVNode("view", null, [
+            vue.createElementVNode("image", { src: "/static/img/doctor2.png" })
+          ]),
+          vue.createElementVNode("view", { class: "online-after-context-top-right" }, [
+            vue.createElementVNode("view", { style: { "color": "#4485fd", "font-weight": "600", "font-size": "28rpx" } }, "呼吸重症医学科"),
+            vue.createElementVNode("view", { style: { "font-size": "26rpx", "margin-top": "10rpx" } }, "赵熙蒙医生")
+          ])
+        ]),
+        vue.createElementVNode("view", { class: "online-after-context-bottom" }, [
+          vue.createElementVNode("view", { style: { "font-size": "26rpx", "color": "#9e9e9e" } }, "赣州市第一人民医院"),
+          vue.createElementVNode("view", { style: { "width": "160rpx", "height": "50rpx", "background-color": "#fef9eb", "margin-top": "30rpx", "border": "#4485fd 2px solid", "text-align": "center", "color": "#4485fd", "font-size": "28rpx" } }, "义诊回放")
+        ])
+      ])
+    ]);
+  }
+  const __easycom_3 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["render", _sfc_render$p], ["__scopeId", "data-v-e2f30d3b"], ["__file", "F:/code/qq-doctor/components/OnlineAfter/OnlineAfter.vue"]]);
+  const _sfc_main$p = {
+    data() {
       return {
-        fullDate: y2 + "-" + m2 + "-" + d2,
-        year: y2,
-        month: m2,
-        date: d2,
-        day: dd.getDay()
-      };
-    }
-    /**
-     * 获取上月剩余天数
-     */
-    _getLastMonthDays(firstDay, full) {
-      let dateArr = [];
-      for (let i2 = firstDay; i2 > 0; i2--) {
-        const beforeDate = new Date(full.year, full.month - 1, -i2 + 1).getDate();
-        dateArr.push({
-          date: beforeDate,
-          month: full.month - 1,
-          lunar: this.getlunar(full.year, full.month - 1, beforeDate),
-          disable: true
-        });
-      }
-      return dateArr;
-    }
-    /**
-     * 获取本月天数
-     */
-    _currentMonthDys(dateData, full) {
-      let dateArr = [];
-      let fullDate = this.date.fullDate;
-      for (let i2 = 1; i2 <= dateData; i2++) {
-        let nowDate = full.year + "-" + (full.month < 10 ? full.month : full.month) + "-" + (i2 < 10 ? "0" + i2 : i2);
-        let isDay = fullDate === nowDate;
-        let info = this.selected && this.selected.find((item) => {
-          if (this.dateEqual(nowDate, item.date)) {
-            return item;
-          }
-        });
-        let disableBefore = true;
-        let disableAfter = true;
-        if (this.startDate) {
-          disableBefore = this.dateCompare(this.startDate, nowDate);
-        }
-        if (this.endDate) {
-          disableAfter = this.dateCompare(nowDate, this.endDate);
-        }
-        let multiples = this.multipleStatus.data;
-        let checked = false;
-        let multiplesStatus = -1;
-        if (this.range) {
-          if (multiples) {
-            multiplesStatus = multiples.findIndex((item) => {
-              return this.dateEqual(item, nowDate);
-            });
-          }
-          if (multiplesStatus !== -1) {
-            checked = true;
-          }
-        }
-        let data = {
-          fullDate: nowDate,
-          year: full.year,
-          date: i2,
-          multiple: this.range ? checked : false,
-          beforeMultiple: this.dateEqual(this.multipleStatus.before, nowDate),
-          afterMultiple: this.dateEqual(this.multipleStatus.after, nowDate),
-          month: full.month,
-          lunar: this.getlunar(full.year, full.month, i2),
-          disable: !(disableBefore && disableAfter),
-          isDay
-        };
-        if (info) {
-          data.extraInfo = info;
-        }
-        dateArr.push(data);
-      }
-      return dateArr;
-    }
-    /**
-     * 获取下月天数
-     */
-    _getNextMonthDays(surplus, full) {
-      let dateArr = [];
-      for (let i2 = 1; i2 < surplus + 1; i2++) {
-        dateArr.push({
-          date: i2,
-          month: Number(full.month) + 1,
-          lunar: this.getlunar(full.year, Number(full.month) + 1, i2),
-          disable: true
-        });
-      }
-      return dateArr;
-    }
-    /**
-     * 获取当前日期详情
-     * @param {Object} date
-     */
-    getInfo(date) {
-      if (!date) {
-        date = /* @__PURE__ */ new Date();
-      }
-      const dateInfo = this.canlender.find((item) => item.fullDate === this.getDate(date).fullDate);
-      return dateInfo;
-    }
-    /**
-     * 比较时间大小
-     */
-    dateCompare(startDate, endDate) {
-      startDate = new Date(startDate.replace("-", "/").replace("-", "/"));
-      endDate = new Date(endDate.replace("-", "/").replace("-", "/"));
-      if (startDate <= endDate) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-    /**
-     * 比较时间是否相等
-     */
-    dateEqual(before, after) {
-      before = new Date(before.replace("-", "/").replace("-", "/"));
-      after = new Date(after.replace("-", "/").replace("-", "/"));
-      if (before.getTime() - after.getTime() === 0) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-    /**
-     * 获取日期范围内所有日期
-     * @param {Object} begin
-     * @param {Object} end
-     */
-    geDateAll(begin, end) {
-      var arr = [];
-      var ab = begin.split("-");
-      var ae2 = end.split("-");
-      var db = /* @__PURE__ */ new Date();
-      db.setFullYear(ab[0], ab[1] - 1, ab[2]);
-      var de2 = /* @__PURE__ */ new Date();
-      de2.setFullYear(ae2[0], ae2[1] - 1, ae2[2]);
-      var unixDb = db.getTime() - 24 * 60 * 60 * 1e3;
-      var unixDe = de2.getTime() - 24 * 60 * 60 * 1e3;
-      for (var k = unixDb; k <= unixDe; ) {
-        k = k + 24 * 60 * 60 * 1e3;
-        arr.push(this.getDate(new Date(parseInt(k))).fullDate);
-      }
-      return arr;
-    }
-    /**
-     * 计算阴历日期显示
-     */
-    getlunar(year, month, date) {
-      return calendar.solar2lunar(year, month, date);
-    }
-    /**
-     * 设置打点
-     */
-    setSelectInfo(data, value) {
-      this.selected = value;
-      this._getWeek(data);
-    }
-    /**
-     *  获取多选状态
-     */
-    setMultiple(fullDate) {
-      let {
-        before,
-        after
-      } = this.multipleStatus;
-      if (!this.range)
-        return;
-      if (before && after) {
-        this.multipleStatus.before = "";
-        this.multipleStatus.after = "";
-        this.multipleStatus.data = [];
-      } else {
-        if (!before) {
-          this.multipleStatus.before = fullDate;
-        } else {
-          this.multipleStatus.after = fullDate;
-          if (this.dateCompare(this.multipleStatus.before, this.multipleStatus.after)) {
-            this.multipleStatus.data = this.geDateAll(this.multipleStatus.before, this.multipleStatus.after);
-          } else {
-            this.multipleStatus.data = this.geDateAll(this.multipleStatus.after, this.multipleStatus.before);
-          }
-        }
-      }
-      this._getWeek(fullDate);
-    }
-    /**
-     * 获取每周数据
-     * @param {Object} dateData
-     */
-    _getWeek(dateData) {
-      const {
-        year,
-        month
-      } = this.getDate(dateData);
-      let firstDay = new Date(year, month - 1, 1).getDay();
-      let currentDay = new Date(year, month, 0).getDate();
-      let dates = {
-        lastMonthDays: this._getLastMonthDays(firstDay, this.getDate(dateData)),
-        // 上个月末尾几天
-        currentMonthDys: this._currentMonthDys(currentDay, this.getDate(dateData)),
-        // 本月天数
-        nextMonthDays: [],
-        // 下个月开始几天
-        weeks: []
-      };
-      let canlender = [];
-      const surplus = 42 - (dates.lastMonthDays.length + dates.currentMonthDys.length);
-      dates.nextMonthDays = this._getNextMonthDays(surplus, this.getDate(dateData));
-      canlender = canlender.concat(dates.lastMonthDays, dates.currentMonthDys, dates.nextMonthDays);
-      let weeks = {};
-      for (let i2 = 0; i2 < canlender.length; i2++) {
-        if (i2 % 7 === 0) {
-          weeks[parseInt(i2 / 7)] = new Array(7);
-        }
-        weeks[parseInt(i2 / 7)][i2 % 7] = canlender[i2];
-      }
-      this.canlender = canlender;
-      this.weeks = weeks;
-    }
-    //静态方法
-    // static init(date) {
-    // 	if (!this.instance) {
-    // 		this.instance = new Calendar(date);
-    // 	}
-    // 	return this.instance;
-    // }
-  }
-  const isObject = (val) => val !== null && typeof val === "object";
-  const defaultDelimiters = ["{", "}"];
-  class BaseFormatter {
-    constructor() {
-      this._caches = /* @__PURE__ */ Object.create(null);
-    }
-    interpolate(message, values, delimiters = defaultDelimiters) {
-      if (!values) {
-        return [message];
-      }
-      let tokens = this._caches[message];
-      if (!tokens) {
-        tokens = parse(message, delimiters);
-        this._caches[message] = tokens;
-      }
-      return compile(tokens, values);
-    }
-  }
-  const RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
-  const RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
-  function parse(format, [startDelimiter, endDelimiter]) {
-    const tokens = [];
-    let position = 0;
-    let text = "";
-    while (position < format.length) {
-      let char = format[position++];
-      if (char === startDelimiter) {
-        if (text) {
-          tokens.push({ type: "text", value: text });
-        }
-        text = "";
-        let sub = "";
-        char = format[position++];
-        while (char !== void 0 && char !== endDelimiter) {
-          sub += char;
-          char = format[position++];
-        }
-        const isClosed = char === endDelimiter;
-        const type = RE_TOKEN_LIST_VALUE.test(sub) ? "list" : isClosed && RE_TOKEN_NAMED_VALUE.test(sub) ? "named" : "unknown";
-        tokens.push({ value: sub, type });
-      } else {
-        text += char;
-      }
-    }
-    text && tokens.push({ type: "text", value: text });
-    return tokens;
-  }
-  function compile(tokens, values) {
-    const compiled = [];
-    let index = 0;
-    const mode = Array.isArray(values) ? "list" : isObject(values) ? "named" : "unknown";
-    if (mode === "unknown") {
-      return compiled;
-    }
-    while (index < tokens.length) {
-      const token = tokens[index];
-      switch (token.type) {
-        case "text":
-          compiled.push(token.value);
-          break;
-        case "list":
-          compiled.push(values[parseInt(token.value, 10)]);
-          break;
-        case "named":
-          if (mode === "named") {
-            compiled.push(values[token.value]);
-          } else {
-            {
-              console.warn(`Type of token '${token.type}' and format of value '${mode}' don't match!`);
-            }
-          }
-          break;
-        case "unknown":
+        datainfoList: [
           {
-            console.warn(`Detect 'unknown' type of token!`);
+            date: "5",
+            num: "27"
+          },
+          {
+            date: "6",
+            num: "13"
+          },
+          {
+            date: "7",
+            num: "35"
+          },
+          {
+            date: "8",
+            num: "11"
+          },
+          {
+            date: "9",
+            num: "23"
+          },
+          {
+            date: "10",
+            num: "10"
+          },
+          {
+            date: "11",
+            num: "5"
           }
-          break;
-      }
-      index++;
-    }
-    return compiled;
-  }
-  const LOCALE_ZH_HANS = "zh-Hans";
-  const LOCALE_ZH_HANT = "zh-Hant";
-  const LOCALE_EN = "en";
-  const LOCALE_FR = "fr";
-  const LOCALE_ES = "es";
-  const hasOwnProperty = Object.prototype.hasOwnProperty;
-  const hasOwn = (val, key) => hasOwnProperty.call(val, key);
-  const defaultFormatter = new BaseFormatter();
-  function include(str, parts) {
-    return !!parts.find((part) => str.indexOf(part) !== -1);
-  }
-  function startsWith(str, parts) {
-    return parts.find((part) => str.indexOf(part) === 0);
-  }
-  function normalizeLocale(locale, messages2) {
-    if (!locale) {
-      return;
-    }
-    locale = locale.trim().replace(/_/g, "-");
-    if (messages2 && messages2[locale]) {
-      return locale;
-    }
-    locale = locale.toLowerCase();
-    if (locale === "chinese") {
-      return LOCALE_ZH_HANS;
-    }
-    if (locale.indexOf("zh") === 0) {
-      if (locale.indexOf("-hans") > -1) {
-        return LOCALE_ZH_HANS;
-      }
-      if (locale.indexOf("-hant") > -1) {
-        return LOCALE_ZH_HANT;
-      }
-      if (include(locale, ["-tw", "-hk", "-mo", "-cht"])) {
-        return LOCALE_ZH_HANT;
-      }
-      return LOCALE_ZH_HANS;
-    }
-    let locales = [LOCALE_EN, LOCALE_FR, LOCALE_ES];
-    if (messages2 && Object.keys(messages2).length > 0) {
-      locales = Object.keys(messages2);
-    }
-    const lang = startsWith(locale, locales);
-    if (lang) {
-      return lang;
-    }
-  }
-  class I18n {
-    constructor({ locale, fallbackLocale, messages: messages2, watcher, formater }) {
-      this.locale = LOCALE_EN;
-      this.fallbackLocale = LOCALE_EN;
-      this.message = {};
-      this.messages = {};
-      this.watchers = [];
-      if (fallbackLocale) {
-        this.fallbackLocale = fallbackLocale;
-      }
-      this.formater = formater || defaultFormatter;
-      this.messages = messages2 || {};
-      this.setLocale(locale || LOCALE_EN);
-      if (watcher) {
-        this.watchLocale(watcher);
-      }
-    }
-    setLocale(locale) {
-      const oldLocale = this.locale;
-      this.locale = normalizeLocale(locale, this.messages) || this.fallbackLocale;
-      if (!this.messages[this.locale]) {
-        this.messages[this.locale] = {};
-      }
-      this.message = this.messages[this.locale];
-      if (oldLocale !== this.locale) {
-        this.watchers.forEach((watcher) => {
-          watcher(this.locale, oldLocale);
-        });
-      }
-    }
-    getLocale() {
-      return this.locale;
-    }
-    watchLocale(fn) {
-      const index = this.watchers.push(fn) - 1;
-      return () => {
-        this.watchers.splice(index, 1);
+        ]
       };
-    }
-    add(locale, message, override = true) {
-      const curMessages = this.messages[locale];
-      if (curMessages) {
-        if (override) {
-          Object.assign(curMessages, message);
-        } else {
-          Object.keys(message).forEach((key) => {
-            if (!hasOwn(curMessages, key)) {
-              curMessages[key] = message[key];
-            }
-          });
-        }
-      } else {
-        this.messages[locale] = message;
-      }
-    }
-    f(message, values, delimiters) {
-      return this.formater.interpolate(message, values, delimiters).join("");
-    }
-    t(key, locale, values) {
-      let message = this.message;
-      if (typeof locale === "string") {
-        locale = normalizeLocale(locale, this.messages);
-        locale && (message = this.messages[locale]);
-      } else {
-        values = locale;
-      }
-      if (!hasOwn(message, key)) {
-        console.warn(`Cannot translate the value of keypath ${key}. Use the value of keypath as default.`);
-        return key;
-      }
-      return this.formater.interpolate(message[key], values).join("");
-    }
-  }
-  function watchAppLocale(appVm, i18n) {
-    if (appVm.$watchLocale) {
-      appVm.$watchLocale((newLocale) => {
-        i18n.setLocale(newLocale);
-      });
-    } else {
-      appVm.$watch(() => appVm.$locale, (newLocale) => {
-        i18n.setLocale(newLocale);
-      });
-    }
-  }
-  function getDefaultLocale() {
-    if (typeof uni !== "undefined" && uni.getLocale) {
-      return uni.getLocale();
-    }
-    if (typeof global !== "undefined" && global.getLocale) {
-      return global.getLocale();
-    }
-    return LOCALE_EN;
-  }
-  function initVueI18n(locale, messages2 = {}, fallbackLocale, watcher) {
-    if (typeof locale !== "string") {
-      [locale, messages2] = [
-        messages2,
-        locale
-      ];
-    }
-    if (typeof locale !== "string") {
-      locale = getDefaultLocale();
-    }
-    if (typeof fallbackLocale !== "string") {
-      fallbackLocale = typeof __uniConfig !== "undefined" && __uniConfig.fallbackLocale || LOCALE_EN;
-    }
-    const i18n = new I18n({
-      locale,
-      fallbackLocale,
-      messages: messages2,
-      watcher
-    });
-    let t2 = (key, values) => {
-      if (typeof getApp !== "function") {
-        t2 = function(key2, values2) {
-          return i18n.t(key2, values2);
-        };
-      } else {
-        let isWatchedAppLocale = false;
-        t2 = function(key2, values2) {
-          const appVm = getApp().$vm;
-          if (appVm) {
-            appVm.$locale;
-            if (!isWatchedAppLocale) {
-              isWatchedAppLocale = true;
-              watchAppLocale(appVm, i18n);
-            }
-          }
-          return i18n.t(key2, values2);
-        };
-      }
-      return t2(key, values);
-    };
-    return {
-      i18n,
-      f(message, values, delimiters) {
-        return i18n.f(message, values, delimiters);
-      },
-      t(key, values) {
-        return t2(key, values);
-      },
-      add(locale2, message, override = true) {
-        return i18n.add(locale2, message, override);
-      },
-      watch(fn) {
-        return i18n.watchLocale(fn);
-      },
-      getLocale() {
-        return i18n.getLocale();
-      },
-      setLocale(newLocale) {
-        return i18n.setLocale(newLocale);
-      }
-    };
-  }
-  const en$1 = {
-    "uni-calender.ok": "ok",
-    "uni-calender.cancel": "cancel",
-    "uni-calender.today": "today",
-    "uni-calender.MON": "MON",
-    "uni-calender.TUE": "TUE",
-    "uni-calender.WED": "WED",
-    "uni-calender.THU": "THU",
-    "uni-calender.FRI": "FRI",
-    "uni-calender.SAT": "SAT",
-    "uni-calender.SUN": "SUN"
+    },
+    onLoad() {
+      getDateList();
+    },
+    methods: {}
   };
-  const zhHans$1 = {
-    "uni-calender.ok": "确定",
-    "uni-calender.cancel": "取消",
-    "uni-calender.today": "今日",
-    "uni-calender.SUN": "日",
-    "uni-calender.MON": "一",
-    "uni-calender.TUE": "二",
-    "uni-calender.WED": "三",
-    "uni-calender.THU": "四",
-    "uni-calender.FRI": "五",
-    "uni-calender.SAT": "六"
-  };
-  const zhHant$1 = {
-    "uni-calender.ok": "確定",
-    "uni-calender.cancel": "取消",
-    "uni-calender.today": "今日",
-    "uni-calender.SUN": "日",
-    "uni-calender.MON": "一",
-    "uni-calender.TUE": "二",
-    "uni-calender.WED": "三",
-    "uni-calender.THU": "四",
-    "uni-calender.FRI": "五",
-    "uni-calender.SAT": "六"
-  };
-  const i18nMessages = {
-    en: en$1,
-    "zh-Hans": zhHans$1,
-    "zh-Hant": zhHant$1
-  };
-  const { t: t$3 } = initVueI18n(i18nMessages);
-  const _sfc_main$z = {
-    emits: ["change"],
+  function _sfc_render$o(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_OnlineDayBlock = resolveEasycom(vue.resolveDynamicComponent("OnlineDayBlock"), __easycom_0$4);
+    const _component_OnlineOn = resolveEasycom(vue.resolveDynamicComponent("OnlineOn"), __easycom_1$1);
+    const _component_OnlineBefore = resolveEasycom(vue.resolveDynamicComponent("OnlineBefore"), __easycom_2);
+    const _component_OnlineAfter = resolveEasycom(vue.resolveDynamicComponent("OnlineAfter"), __easycom_3);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "doctoronline" }, [
+      vue.createVNode(_component_OnlineDayBlock, { dataInfoList: $data.datainfoList }, null, 8, ["dataInfoList"]),
+      vue.createVNode(_component_OnlineOn),
+      vue.createVNode(_component_OnlineBefore),
+      vue.createVNode(_component_OnlineAfter)
+    ]);
+  }
+  const PagesMainDoctoronline = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["render", _sfc_render$o], ["__file", "F:/code/qq-doctor/pages/main/doctoronline.vue"]]);
+  const _sfc_main$o = {
+    name: "IsbnArticle",
+    data() {
+      return {};
+    },
     props: {
-      weeks: {
+      item: {
         type: Object,
         default() {
-          return {};
+          return {
+            title: "针对多形性未分化肉瘤赠药临床试验脂质体多柔比星（多美素）+卡瑞利珠瑞利珠瑞利珠瑞利珠",
+            pic: "../../static/img/doctor2.png",
+            context: "入组实验注意事项入组标准入组实验注意事项入组标准入组实验注意事项入组标准入组实验注意事项入组标准入组实验注意事项入组标准",
+            name: "赵熙蒙",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            talknum: "25",
+            starnum: "125",
+            video: "",
+            contextpic: "../../static/img/doctor2.png"
+          };
         }
-      },
-      calendar: {
-        type: Object,
-        default: () => {
-          return {};
-        }
-      },
-      selected: {
-        type: Array,
-        default: () => {
-          return [];
-        }
-      },
-      lunar: {
-        type: Boolean,
-        default: false
       }
+    }
+  };
+  function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "isbn-article" }, [
+      vue.createElementVNode("view", { class: "isbn-article-top" }, [
+        vue.createElementVNode("image", {
+          src: $props.item.pic,
+          mode: ""
+        }, null, 8, ["src"]),
+        vue.createElementVNode("view", { class: "isbn-article-top-text" }, [
+          vue.createElementVNode(
+            "view",
+            { style: { "font-size": "24rpx", "margin-left": "10rpx" } },
+            vue.toDisplayString($props.item.name) + " " + vue.toDisplayString($props.item.manager) + " " + vue.toDisplayString($props.item.hospital) + " " + vue.toDisplayString($props.item.depart),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode(
+            "view",
+            { style: { "font-size": "24rpx", "color": "#9e9e9e", "margin-top": "10rpx", "margin-left": "10rpx" } },
+            "来自" + vue.toDisplayString($props.item.name) + "医生的科普号",
+            1
+            /* TEXT */
+          )
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "isbn-article-context" }, [
+        vue.createElementVNode(
+          "view",
+          { class: "isbn-article-context-title" },
+          vue.toDisplayString($props.item.title),
+          1
+          /* TEXT */
+        ),
+        vue.createElementVNode("view", { class: "isbn-article-context-text" }, [
+          vue.createElementVNode(
+            "view",
+            { style: { "overflow": "hidden", "text-overflow": "ellipsis", "display": "-webkit-box", "-webkit-line-clamp": "3", "-webkit-box-orient": "vertical", "font-size": "26rpx" } },
+            vue.toDisplayString($props.item.context),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("view", null, [
+            vue.createElementVNode("image", {
+              src: $props.item.contextpic,
+              mode: ""
+            }, null, 8, ["src"])
+          ])
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "isbn-article-bottom" }, [
+        vue.createElementVNode("view", {
+          class: "isbn-article-bottom-block",
+          style: { "border-right": "1px #d8d8d8 solid", "margin": "20rpx 0rpx" }
+        }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/share.png",
+            mode: ""
+          }),
+          vue.createElementVNode("view", { class: "isbn-article-bottom-block-word" }, "分享")
+        ]),
+        vue.createElementVNode("view", {
+          class: "isbn-article-bottom-block",
+          style: { "border-right": "1px #d8d8d8 solid", "margin": "20rpx 0rpx" }
+        }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/kppl.png",
+            mode: ""
+          }),
+          vue.createElementVNode(
+            "view",
+            { class: "isbn-article-bottom-block-word" },
+            vue.toDisplayString($props.item.talknum),
+            1
+            /* TEXT */
+          )
+        ]),
+        vue.createElementVNode("view", { class: "isbn-article-bottom-block" }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/articlestar.png",
+            mode: ""
+          }),
+          vue.createElementVNode(
+            "view",
+            { class: "isbn-article-bottom-block-word" },
+            vue.toDisplayString($props.item.starnum),
+            1
+            /* TEXT */
+          )
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "isbn-article-next" })
+    ]);
+  }
+  const __easycom_0$3 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["render", _sfc_render$n], ["__scopeId", "data-v-2b194b98"], ["__file", "F:/code/qq-doctor/components/IsbnArticle/IsbnArticle.vue"]]);
+  const _sfc_main$n = {
+    data() {
+      return {
+        onlineList: [
+          {
+            name: "赵熙蒙",
+            date: "10月22日"
+          },
+          {
+            name: "赵熙蒙",
+            date: "10月23日"
+          }
+        ],
+        jxlist: [
+          {
+            title: "针对多形性未分化肉瘤赠药临床试验——    脂质体多柔比星（多美素）+卡瑞利珠...",
+            pic: "../../static/img/doctor2.png",
+            context: "入组实验注意事项入组标准 1.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...",
+            name: "赵熙蒙",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            talknum: "25",
+            starnum: "125",
+            video: "",
+            contextpic: "../../static/img/doctor2.png"
+          },
+          {
+            title: "看看我的视频",
+            pic: "../../static/img/doctor2.png",
+            context: "",
+            name: "赵熙蒙",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            talknum: "25",
+            starnum: "125",
+            video: "视频页....",
+            contextpic: ""
+          }
+        ],
+        gzlist: [
+          {
+            title: "针对多形性未分化肉瘤赠药临床试验——    脂质体多柔比星（多美素）+卡瑞利珠...",
+            pic: "../../static/img/doctor2.png",
+            context: "入组实验注意事项入组标准 1.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...",
+            name: "gz赵熙蒙",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            talknum: "25",
+            starnum: "125",
+            video: "",
+            contextpic: "../../static/img/doctor2.png"
+          },
+          {
+            title: "看看我的视频",
+            pic: "../../static/img/doctor2.png",
+            context: "",
+            name: "gz赵熙蒙",
+            manager: "主任医师",
+            hospital: "江西理工大学医学院",
+            depart: "中医内科",
+            talknum: "25",
+            starnum: "125",
+            video: "视频页....",
+            contextpic: ""
+          }
+        ],
+        autoplay: true,
+        interval: 5e3,
+        selected: "0"
+      };
     },
-    computed: {
-      todayText() {
-        return t$3("uni-calender.today");
+    methods: {
+      goDetail() {
+        uni.navigateTo({
+          url: "/pages/main/doctoronline"
+        });
+      },
+      changeSelect(id) {
+        this.selected = id;
+      }
+    }
+  };
+  function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_IsbnArticle = resolveEasycom(vue.resolveDynamicComponent("IsbnArticle"), __easycom_0$3);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "isbn" }, [
+      vue.createElementVNode("view", { class: "isbn-top" }, [
+        vue.createElementVNode("swiper", {
+          class: "isbn-swiper",
+          circular: "",
+          autoplay: $data.autoplay,
+          interval: $data.interval,
+          vertical: "true"
+        }, [
+          (vue.openBlock(true), vue.createElementBlock(
+            vue.Fragment,
+            null,
+            vue.renderList($data.onlineList, (item) => {
+              return vue.openBlock(), vue.createElementBlock("swiper-item", null, [
+                vue.createElementVNode("view", { class: "isbn-swiper-item" }, [
+                  vue.createElementVNode("view", { style: { "width": "120rpx" } }, [
+                    vue.createElementVNode("image", { src: "/static/img/online.png" })
+                  ]),
+                  vue.createElementVNode("view", { style: { "width": "550rpx", "font-size": "32rpx", "margin-bottom": "5rpx" } }, [
+                    vue.createTextVNode(
+                      vue.toDisplayString(item.name) + "医生将于",
+                      1
+                      /* TEXT */
+                    ),
+                    vue.createElementVNode(
+                      "text",
+                      { style: { "color": "#ffbb24" } },
+                      vue.toDisplayString(item.date),
+                      1
+                      /* TEXT */
+                    ),
+                    vue.createTextVNode("进行义诊")
+                  ])
+                ])
+              ]);
+            }),
+            256
+            /* UNKEYED_FRAGMENT */
+          ))
+        ], 8, ["autoplay", "interval"]),
+        vue.createElementVNode("view", { class: "isbn-swiper-right" }, [
+          vue.createElementVNode("image", {
+            src: "/static/img/zbgd.png",
+            mode: "",
+            onClick: _cache[0] || (_cache[0] = (...args) => $options.goDetail && $options.goDetail(...args))
+          })
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "isbn-select" }, [
+        vue.createElementVNode(
+          "view",
+          {
+            class: vue.normalizeClass(["isbn-select-block", { "isbn-select-block-click": "0" == $data.selected }]),
+            style: { "border-right": "1rpx solid #d8d8d8" },
+            onClick: _cache[1] || (_cache[1] = ($event) => $options.changeSelect(0))
+          },
+          "精选",
+          2
+          /* CLASS */
+        ),
+        vue.createElementVNode(
+          "view",
+          {
+            class: vue.normalizeClass(["isbn-select-block", { "isbn-select-block-click": "1" == $data.selected }]),
+            onClick: _cache[2] || (_cache[2] = ($event) => $options.changeSelect(1))
+          },
+          "关注",
+          2
+          /* CLASS */
+        )
+      ]),
+      this.selected == 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 0,
+        class: "isbn-jx"
+      }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.jxlist, (item) => {
+            return vue.openBlock(), vue.createBlock(_component_IsbnArticle, { item }, null, 8, ["item"]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])) : vue.createCommentVNode("v-if", true),
+      this.selected == 1 ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 1,
+        class: "isbn-gz"
+      }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.gzlist, (item) => {
+            return vue.openBlock(), vue.createBlock(_component_IsbnArticle, { item }, null, 8, ["item"]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])) : vue.createCommentVNode("v-if", true)
+    ]);
+  }
+  const PagesMainIsbn = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$m], ["__scopeId", "data-v-c0d29b98"], ["__file", "F:/code/qq-doctor/pages/main/isbn.vue"]]);
+  const _sfc_main$m = {
+    data() {
+      return {
+        way: "",
+        did: "",
+        doctor: {
+          did: "0315111",
+          pic: "../../static/img/doctor2.png",
+          name: "赵熙蒙",
+          hospital: "赣州市第一人民医院",
+          depart: "眼科"
+        },
+        dataList: null,
+        timeList: [
+          {
+            date: "11月8日",
+            name: "今天",
+            leave: {
+              value: "7",
+              list: [
+                {
+                  time: "早上",
+                  clock: ["8.00", "9.00", "10.00", "11.00", "12:00"]
+                },
+                {
+                  time: "下午",
+                  clock: ["14.00", "15.00", "18.00"]
+                },
+                {
+                  time: "晚上",
+                  clock: ["20:00"]
+                }
+              ]
+            }
+          },
+          {
+            date: "11月9日",
+            name: "明天",
+            leave: {
+              value: "6",
+              list: [
+                {
+                  time: "早上",
+                  clock: ["8.00", "9.00", "10.00", "11.00"]
+                },
+                {
+                  time: "下午",
+                  clock: ["14.00", "15.00", "18.00"]
+                }
+              ]
+            }
+          },
+          {
+            date: "11月8日",
+            name: "后天",
+            leave: {
+              value: "5",
+              list: [
+                {
+                  time: "早上",
+                  clock: ["9.00", "10.00", "11.00"]
+                },
+                {
+                  time: "下午",
+                  clock: ["14.00", "15.00"]
+                }
+              ]
+            }
+          }
+        ],
+        seleted: "0",
+        seletedClock: ""
+      };
+    },
+    onLoad(e2) {
+      this.dataList = getThreeDate();
+      this.way = e2.way;
+      if (this.way == "online") {
+        uni.setNavigationBarTitle({
+          title: "线上预约时间"
+        });
+      } else {
+        uni.setNavigationBarTitle({
+          title: "挂号预约时间"
+        });
       }
     },
     methods: {
-      choiceDate(weeks) {
-        this.$emit("change", weeks);
+      changeSeleted(index) {
+        this.seleted = index;
+      },
+      changeSeletedClock(clock) {
+        this.seletedClock = clock;
+      },
+      nviback() {
+        uni.navigateBack({
+          delta: 1,
+          success() {
+            uni.$emit("dataBack", { time: this.seleted + this.seletedClock });
+          }
+        });
       }
     }
   };
-  function _sfc_render$y(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock(
-      "view",
-      {
-        class: vue.normalizeClass(["uni-calendar-item__weeks-box", {
-          "uni-calendar-item--disable": $props.weeks.disable,
-          "uni-calendar-item--isDay": $props.calendar.fullDate === $props.weeks.fullDate && $props.weeks.isDay,
-          "uni-calendar-item--checked": $props.calendar.fullDate === $props.weeks.fullDate && !$props.weeks.isDay,
-          "uni-calendar-item--before-checked": $props.weeks.beforeMultiple,
-          "uni-calendar-item--multiple": $props.weeks.multiple,
-          "uni-calendar-item--after-checked": $props.weeks.afterMultiple
-        }]),
-        onClick: _cache[0] || (_cache[0] = ($event) => $options.choiceDate($props.weeks))
-      },
-      [
-        vue.createElementVNode("view", { class: "uni-calendar-item__weeks-box-item" }, [
-          $props.selected && $props.weeks.extraInfo ? (vue.openBlock(), vue.createElementBlock("text", {
-            key: 0,
-            class: "uni-calendar-item__weeks-box-circle"
-          })) : vue.createCommentVNode("v-if", true),
+  function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "online-form-time" }, [
+      vue.createElementVNode("view", { class: "online-doctor-block" }, [
+        vue.createElementVNode("view", { class: "online-doctor-image" }, [
+          vue.createElementVNode("image", {
+            src: $data.doctor.pic,
+            mode: "aspectFill"
+          }, null, 8, ["src"])
+        ]),
+        vue.createElementVNode("view", { class: "online-doctor-text" }, [
           vue.createElementVNode(
-            "text",
-            {
-              class: vue.normalizeClass(["uni-calendar-item__weeks-box-text", {
-                "uni-calendar-item--isDay-text": $props.weeks.isDay,
-                "uni-calendar-item--isDay": $props.calendar.fullDate === $props.weeks.fullDate && $props.weeks.isDay,
-                "uni-calendar-item--checked": $props.calendar.fullDate === $props.weeks.fullDate && !$props.weeks.isDay,
-                "uni-calendar-item--before-checked": $props.weeks.beforeMultiple,
-                "uni-calendar-item--multiple": $props.weeks.multiple,
-                "uni-calendar-item--after-checked": $props.weeks.afterMultiple,
-                "uni-calendar-item--disable": $props.weeks.disable
-              }])
-            },
-            vue.toDisplayString($props.weeks.date),
-            3
-            /* TEXT, CLASS */
+            "view",
+            { class: "online-doctor-name" },
+            vue.toDisplayString($data.doctor.name) + "医生",
+            1
+            /* TEXT */
           ),
-          !$props.lunar && !$props.weeks.extraInfo && $props.weeks.isDay ? (vue.openBlock(), vue.createElementBlock(
-            "text",
-            {
-              key: 1,
-              class: vue.normalizeClass(["uni-calendar-item__weeks-lunar-text", {
-                "uni-calendar-item--isDay-text": $props.weeks.isDay,
-                "uni-calendar-item--isDay": $props.calendar.fullDate === $props.weeks.fullDate && $props.weeks.isDay,
-                "uni-calendar-item--checked": $props.calendar.fullDate === $props.weeks.fullDate && !$props.weeks.isDay,
-                "uni-calendar-item--before-checked": $props.weeks.beforeMultiple,
-                "uni-calendar-item--multiple": $props.weeks.multiple,
-                "uni-calendar-item--after-checked": $props.weeks.afterMultiple
-              }])
-            },
-            vue.toDisplayString($options.todayText),
-            3
-            /* TEXT, CLASS */
-          )) : vue.createCommentVNode("v-if", true),
-          $props.lunar && !$props.weeks.extraInfo ? (vue.openBlock(), vue.createElementBlock(
-            "text",
-            {
-              key: 2,
-              class: vue.normalizeClass(["uni-calendar-item__weeks-lunar-text", {
-                "uni-calendar-item--isDay-text": $props.weeks.isDay,
-                "uni-calendar-item--isDay": $props.calendar.fullDate === $props.weeks.fullDate && $props.weeks.isDay,
-                "uni-calendar-item--checked": $props.calendar.fullDate === $props.weeks.fullDate && !$props.weeks.isDay,
-                "uni-calendar-item--before-checked": $props.weeks.beforeMultiple,
-                "uni-calendar-item--multiple": $props.weeks.multiple,
-                "uni-calendar-item--after-checked": $props.weeks.afterMultiple,
-                "uni-calendar-item--disable": $props.weeks.disable
-              }])
-            },
-            vue.toDisplayString($props.weeks.isDay ? $options.todayText : $props.weeks.lunar.IDayCn === "初一" ? $props.weeks.lunar.IMonthCn : $props.weeks.lunar.IDayCn),
-            3
-            /* TEXT, CLASS */
-          )) : vue.createCommentVNode("v-if", true),
-          $props.weeks.extraInfo && $props.weeks.extraInfo.info ? (vue.openBlock(), vue.createElementBlock(
-            "text",
-            {
-              key: 3,
-              class: vue.normalizeClass(["uni-calendar-item__weeks-lunar-text", {
-                "uni-calendar-item--extra": $props.weeks.extraInfo.info,
-                "uni-calendar-item--isDay-text": $props.weeks.isDay,
-                "uni-calendar-item--isDay": $props.calendar.fullDate === $props.weeks.fullDate && $props.weeks.isDay,
-                "uni-calendar-item--checked": $props.calendar.fullDate === $props.weeks.fullDate && !$props.weeks.isDay,
-                "uni-calendar-item--before-checked": $props.weeks.beforeMultiple,
-                "uni-calendar-item--multiple": $props.weeks.multiple,
-                "uni-calendar-item--after-checked": $props.weeks.afterMultiple,
-                "uni-calendar-item--disable": $props.weeks.disable
-              }])
-            },
-            vue.toDisplayString($props.weeks.extraInfo.info),
-            3
-            /* TEXT, CLASS */
-          )) : vue.createCommentVNode("v-if", true)
+          vue.createElementVNode(
+            "view",
+            { class: "online-doctor-dep" },
+            vue.toDisplayString($data.doctor.depart) + " " + vue.toDisplayString($data.doctor.hospital) + "医生",
+            1
+            /* TEXT */
+          )
         ])
-      ],
-      2
-      /* CLASS */
-    );
+      ]),
+      vue.createElementVNode("scroll-view", {
+        class: "online-time-select",
+        "scroll-x": "true",
+        "enable-flex": "true"
+      }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.timeList, (item, index) => {
+            return vue.openBlock(), vue.createElementBlock("view", {
+              class: vue.normalizeClass(["online-time-select-block", { "online-time-seleted": index == this.seleted }]),
+              onClick: ($event) => $options.changeSeleted(index)
+            }, [
+              vue.createElementVNode(
+                "view",
+                { style: { "font-size": "36rpx", "margin-top": "20rpx" } },
+                vue.toDisplayString(item.name) + "," + vue.toDisplayString(item.date),
+                1
+                /* TEXT */
+              ),
+              item.leave.value !== "0" ? (vue.openBlock(), vue.createElementBlock(
+                "view",
+                {
+                  key: 0,
+                  style: { "font-size": "26rpx", "color": "#677294", "margin-top": "3rpx" }
+                },
+                " 剩余" + vue.toDisplayString(item.leave.value) + "个时间段 ",
+                1
+                /* TEXT */
+              )) : (vue.openBlock(), vue.createElementBlock("view", {
+                key: 1,
+                style: { "font-size": "26rpx", "color": "#677294", "margin-top": "3rpx" }
+              }, "无预约时间段"))
+            ], 10, ["onClick"]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ]),
+      this.seleted == 0 ? (vue.openBlock(), vue.createElementBlock("view", { key: 0 }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList(this.timeList[this.seleted].leave.list, (item) => {
+            return vue.openBlock(), vue.createElementBlock("view", { class: "online-time-change" }, [
+              vue.createElementVNode(
+                "view",
+                { style: { "font-size": "36rpx" } },
+                vue.toDisplayString(item.time),
+                1
+                /* TEXT */
+              ),
+              vue.createElementVNode("view", { class: "online-time-select-area" }, [
+                (vue.openBlock(true), vue.createElementBlock(
+                  vue.Fragment,
+                  null,
+                  vue.renderList(item.clock, (clock) => {
+                    return vue.openBlock(), vue.createElementBlock("view", {
+                      class: vue.normalizeClass(["online-time-block", { "online-time-block-seleted": clock == this.seletedClock }]),
+                      onClick: ($event) => $options.changeSeletedClock(clock)
+                    }, vue.toDisplayString(clock), 11, ["onClick"]);
+                  }),
+                  256
+                  /* UNKEYED_FRAGMENT */
+                ))
+              ])
+            ]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])) : vue.createCommentVNode("v-if", true),
+      this.seleted == 1 ? (vue.openBlock(), vue.createElementBlock("view", { key: 1 }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList(this.timeList[this.seleted].leave.list, (item) => {
+            return vue.openBlock(), vue.createElementBlock("view", { class: "online-time-change" }, [
+              vue.createElementVNode(
+                "view",
+                { style: { "font-size": "36rpx" } },
+                vue.toDisplayString(item.time),
+                1
+                /* TEXT */
+              ),
+              vue.createElementVNode("view", { class: "online-time-select-area" }, [
+                (vue.openBlock(true), vue.createElementBlock(
+                  vue.Fragment,
+                  null,
+                  vue.renderList(item.clock, (clock) => {
+                    return vue.openBlock(), vue.createElementBlock("view", {
+                      class: vue.normalizeClass(["online-time-block", { "online-time-block-seleted": clock == this.seletedClock }]),
+                      onClick: ($event) => $options.changeSeletedClock(clock)
+                    }, vue.toDisplayString(clock), 11, ["onClick"]);
+                  }),
+                  256
+                  /* UNKEYED_FRAGMENT */
+                ))
+              ])
+            ]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])) : vue.createCommentVNode("v-if", true),
+      this.seleted == 2 ? (vue.openBlock(), vue.createElementBlock("view", { key: 2 }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList(this.timeList[this.seleted].leave.list, (item) => {
+            return vue.openBlock(), vue.createElementBlock("view", { class: "online-time-change" }, [
+              vue.createElementVNode(
+                "view",
+                { style: { "font-size": "36rpx" } },
+                vue.toDisplayString(item.time),
+                1
+                /* TEXT */
+              ),
+              vue.createElementVNode("view", { class: "online-time-select-area" }, [
+                (vue.openBlock(true), vue.createElementBlock(
+                  vue.Fragment,
+                  null,
+                  vue.renderList(item.clock, (clock) => {
+                    return vue.openBlock(), vue.createElementBlock("view", {
+                      class: vue.normalizeClass(["online-time-block", { "online-time-block-seleted": clock == this.seletedClock }]),
+                      onClick: ($event) => $options.changeSeletedClock(clock)
+                    }, vue.toDisplayString(clock), 11, ["onClick"]);
+                  }),
+                  256
+                  /* UNKEYED_FRAGMENT */
+                ))
+              ])
+            ]);
+          }),
+          256
+          /* UNKEYED_FRAGMENT */
+        ))
+      ])) : vue.createCommentVNode("v-if", true),
+      vue.createElementVNode("view", {
+        class: "online-time-clock-select",
+        onClick: _cache[0] || (_cache[0] = (...args) => $options.nviback && $options.nviback(...args))
+      }, " 确认 ")
+    ]);
   }
-  const CalendarItem = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["render", _sfc_render$y], ["__scopeId", "data-v-65626c58"], ["__file", "F:/code/qq-doctor/uni_modules/uni-calendar/components/uni-calendar/uni-calendar-item.vue"]]);
-  const { t: t$2 } = initVueI18n(i18nMessages);
-  const _sfc_main$y = {
-    components: {
-      CalendarItem
+  const PagesMainOnlineformtime = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["render", _sfc_render$l], ["__scopeId", "data-v-7f0c8ba1"], ["__file", "F:/code/qq-doctor/pages/main/onlineformtime.vue"]]);
+  const _sfc_main$l = {
+    data() {
+      return {};
     },
-    emits: ["close", "confirm", "change", "monthSwitch"],
+    methods: {
+      navToBusinessLicense() {
+        uni.navigateTo({
+          url: "/pages/user/businessLicense/businessLicense"
+        });
+      },
+      navToReportingInformation() {
+        uni.navigateTo({
+          url: "/pages/user/reportingInformation/reportingInformation"
+        });
+      },
+      navToCopyrightInformation() {
+        uni.navigateTo({
+          url: "/pages/user/copyrightInformation/copyrightInformation"
+        });
+      }
+    }
+  };
+  function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createCommentVNode(" logo "),
+      vue.createElementVNode("view", { class: "logoAndVersionWrapp" }, [
+        vue.createCommentVNode(" logo "),
+        vue.createElementVNode("view", { class: "logoWrapp" }, [
+          vue.createElementVNode("image", {
+            src: "/static/logo.png",
+            mode: "",
+            class: "logoIcon"
+          })
+        ]),
+        vue.createElementVNode("view", { class: "logoTextWrapp" }, [
+          vue.createElementVNode("text", { class: "logoText" }, "您身边的健康呵护人")
+        ]),
+        vue.createElementVNode("view", { class: "versionTextWrapp" }, [
+          vue.createElementVNode("text", { class: "verisionText" }, "企桥医健V1.0.1 Release")
+        ])
+      ]),
+      vue.createCommentVNode(" 企桥医健资质 "),
+      vue.createElementVNode("view", { class: "qualificationsWrapp" }, [
+        vue.createElementVNode("text", { class: "qualificationsText" }, "企桥医健资质"),
+        vue.createElementVNode("image", {
+          src: "/static/img/user/goRight2.png",
+          mode: "",
+          class: "goRight2Icon",
+          onClick: _cache[0] || (_cache[0] = ($event) => $options.navToBusinessLicense())
+        })
+      ]),
+      vue.createCommentVNode(" 举报信息 "),
+      vue.createElementVNode("view", { class: "qualificationsWrapp" }, [
+        vue.createElementVNode("text", { class: "qualificationsText" }, "举报信息"),
+        vue.createElementVNode("image", {
+          src: "/static/img/user/goRight2.png",
+          mode: "",
+          class: "goRight2Icon",
+          onClick: _cache[1] || (_cache[1] = ($event) => $options.navToReportingInformation())
+        })
+      ]),
+      vue.createCommentVNode(" 版权信息 "),
+      vue.createElementVNode("view", { class: "qualificationsWrapp" }, [
+        vue.createElementVNode("text", { class: "qualificationsText" }, "版权信息"),
+        vue.createElementVNode("image", {
+          src: "/static/img/user/goRight2.png",
+          mode: "",
+          class: "goRight2Icon",
+          onClick: _cache[2] || (_cache[2] = ($event) => $options.navToCopyrightInformation())
+        })
+      ])
+    ]);
+  }
+  const PagesUserAboutAbout = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$k], ["__scopeId", "data-v-d6b522c7"], ["__file", "F:/code/qq-doctor/pages/user/about/about.vue"]]);
+  const _sfc_main$k = {
+    data() {
+      return {};
+    }
+  };
+  function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createTextVNode(" 后面更改 "),
+      vue.createCommentVNode(" 营业执照 "),
+      vue.createElementVNode("view", { class: "businessLicenseWrapp" }, [
+        vue.createElementVNode("image", {
+          src: "/static/img/user/bL.jpg",
+          mode: "",
+          class: "bLIcon"
+        })
+      ])
+    ]);
+  }
+  const PagesUserBusinessLicenseBusinessLicense = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$j], ["__scopeId", "data-v-4d17e3a8"], ["__file", "F:/code/qq-doctor/pages/user/businessLicense/businessLicense.vue"]]);
+  const _sfc_main$j = {
     props: {
-      date: {
-        type: String,
-        default: ""
-      },
-      selected: {
-        type: Array,
-        default() {
-          return [];
-        }
-      },
-      lunar: {
-        type: Boolean,
-        default: false
-      },
-      startDate: {
-        type: String,
-        default: ""
-      },
-      endDate: {
-        type: String,
-        default: ""
-      },
-      range: {
-        type: Boolean,
-        default: false
-      },
-      insert: {
-        type: Boolean,
-        default: true
-      },
-      showMonth: {
-        type: Boolean,
-        default: true
-      },
-      clearDate: {
-        type: Boolean,
-        default: true
+      item: {
+        hid: "2",
+        pic: "../../static/img/nearHosp/hosp2.png",
+        hospital: "赣州市第二人民医院",
+        distance: 2.5,
+        evaluate: "5",
+        status: "0",
+        address: "江西省赣州市章贡区789号"
       }
     },
     data() {
-      return {
-        show: false,
-        weeks: [],
-        calendar: {},
-        nowDate: "",
-        aniMaskShow: false
-      };
-    },
-    computed: {
-      /**
-       * for i18n
-       */
-      okText() {
-        return t$2("uni-calender.ok");
-      },
-      cancelText() {
-        return t$2("uni-calender.cancel");
-      },
-      todayText() {
-        return t$2("uni-calender.today");
-      },
-      monText() {
-        return t$2("uni-calender.MON");
-      },
-      TUEText() {
-        return t$2("uni-calender.TUE");
-      },
-      WEDText() {
-        return t$2("uni-calender.WED");
-      },
-      THUText() {
-        return t$2("uni-calender.THU");
-      },
-      FRIText() {
-        return t$2("uni-calender.FRI");
-      },
-      SATText() {
-        return t$2("uni-calender.SAT");
-      },
-      SUNText() {
-        return t$2("uni-calender.SUN");
-      }
-    },
-    watch: {
-      date(newVal) {
-        this.init(newVal);
-      },
-      startDate(val) {
-        this.cale.resetSatrtDate(val);
-        this.cale.setDate(this.nowDate.fullDate);
-        this.weeks = this.cale.weeks;
-      },
-      endDate(val) {
-        this.cale.resetEndDate(val);
-        this.cale.setDate(this.nowDate.fullDate);
-        this.weeks = this.cale.weeks;
-      },
-      selected(newVal) {
-        this.cale.setSelectInfo(this.nowDate.fullDate, newVal);
-        this.weeks = this.cale.weeks;
-      }
-    },
-    created() {
-      this.cale = new Calendar({
-        selected: this.selected,
-        startDate: this.startDate,
-        endDate: this.endDate,
-        range: this.range
-      });
-      this.init(this.date);
+      return {};
     },
     methods: {
-      // 取消穿透
-      clean() {
-      },
-      bindDateChange(e2) {
-        const value = e2.detail.value + "-1";
-        this.setDate(value);
-        const { year, month } = this.cale.getDate(value);
-        this.$emit("monthSwitch", {
-          year,
-          month
-        });
-      },
-      /**
-       * 初始化日期显示
-       * @param {Object} date
-       */
-      init(date) {
-        this.cale.setDate(date);
-        this.weeks = this.cale.weeks;
-        this.nowDate = this.calendar = this.cale.getInfo(date);
-      },
-      /**
-       * 打开日历弹窗
-       */
-      open() {
-        if (this.clearDate && !this.insert) {
-          this.cale.cleanMultipleStatus();
-          this.init(this.date);
-        }
-        this.show = true;
-        this.$nextTick(() => {
-          setTimeout(() => {
-            this.aniMaskShow = true;
-          }, 50);
-        });
-      },
-      /**
-       * 关闭日历弹窗
-       */
-      close() {
-        this.aniMaskShow = false;
-        this.$nextTick(() => {
-          setTimeout(() => {
-            this.show = false;
-            this.$emit("close");
-          }, 300);
-        });
-      },
-      /**
-       * 确认按钮
-       */
-      confirm() {
-        this.setEmit("confirm");
-        this.close();
-      },
-      /**
-       * 变化触发
-       */
-      change() {
-        if (!this.insert)
-          return;
-        this.setEmit("change");
-      },
-      /**
-       * 选择月份触发
-       */
-      monthSwitch() {
-        let {
-          year,
-          month
-        } = this.nowDate;
-        this.$emit("monthSwitch", {
-          year,
-          month: Number(month)
-        });
-      },
-      /**
-       * 派发事件
-       * @param {Object} name
-       */
-      setEmit(name) {
-        let {
-          year,
-          month,
-          date,
-          fullDate,
-          lunar,
-          extraInfo
-        } = this.calendar;
-        this.$emit(name, {
-          range: this.cale.multipleStatus,
-          year,
-          month,
-          date,
-          fulldate: fullDate,
-          lunar,
-          extraInfo: extraInfo || {}
-        });
-      },
-      /**
-       * 选择天触发
-       * @param {Object} weeks
-       */
-      choiceDate(weeks) {
-        if (weeks.disable)
-          return;
-        this.calendar = weeks;
-        this.cale.setMultiple(this.calendar.fullDate);
-        this.weeks = this.cale.weeks;
-        this.change();
-      },
-      /**
-       * 回到今天
-       */
-      backToday() {
-        const nowYearMonth = `${this.nowDate.year}-${this.nowDate.month}`;
-        const date = this.cale.getDate(/* @__PURE__ */ new Date());
-        const todayYearMonth = `${date.year}-${date.month}`;
-        if (nowYearMonth !== todayYearMonth) {
-          this.monthSwitch();
-        }
-        this.init(date.fullDate);
-        this.change();
-      },
-      /**
-       * 上个月
-       */
-      pre() {
-        const preDate = this.cale.getDate(this.nowDate.fullDate, -1, "month").fullDate;
-        this.setDate(preDate);
-        this.monthSwitch();
-      },
-      /**
-       * 下个月
-       */
-      next() {
-        const nextDate = this.cale.getDate(this.nowDate.fullDate, 1, "month").fullDate;
-        this.setDate(nextDate);
-        this.monthSwitch();
-      },
-      /**
-       * 设置日期
-       * @param {Object} date
-       */
-      setDate(date) {
-        this.cale.setDate(date);
-        this.weeks = this.cale.weeks;
-        this.nowDate = this.cale.getInfo(date);
+      statusValue() {
+        return 1;
       }
     }
   };
-  function _sfc_render$x(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_calendar_item = vue.resolveComponent("calendar-item");
-    return vue.openBlock(), vue.createElementBlock("view", { class: "uni-calendar" }, [
-      !$props.insert && $data.show ? (vue.openBlock(), vue.createElementBlock(
-        "view",
-        {
-          key: 0,
-          class: vue.normalizeClass(["uni-calendar__mask", { "uni-calendar--mask-show": $data.aniMaskShow }]),
-          onClick: _cache[0] || (_cache[0] = (...args) => $options.clean && $options.clean(...args))
-        },
-        null,
-        2
-        /* CLASS */
-      )) : vue.createCommentVNode("v-if", true),
-      $props.insert || $data.show ? (vue.openBlock(), vue.createElementBlock(
-        "view",
-        {
-          key: 1,
-          class: vue.normalizeClass(["uni-calendar__content", { "uni-calendar--fixed": !$props.insert, "uni-calendar--ani-show": $data.aniMaskShow }])
-        },
-        [
-          !$props.insert ? (vue.openBlock(), vue.createElementBlock("view", {
-            key: 0,
-            class: "uni-calendar__header uni-calendar--fixed-top"
-          }, [
-            vue.createElementVNode("view", {
-              class: "uni-calendar__header-btn-box",
-              onClick: _cache[1] || (_cache[1] = (...args) => $options.close && $options.close(...args))
-            }, [
-              vue.createElementVNode(
-                "text",
-                { class: "uni-calendar__header-text uni-calendar--fixed-width" },
-                vue.toDisplayString($options.cancelText),
-                1
-                /* TEXT */
-              )
+  function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_rate = resolveEasycom(vue.resolveDynamicComponent("uni-rate"), __easycom_0$8);
+    return vue.openBlock(), vue.createElementBlock("view", { class: "collectWrapp" }, [
+      vue.createCommentVNode(" 医院或者医生图片 "),
+      vue.createElementVNode("image", {
+        src: "/static/img/nearHosp/hosp2.png",
+        mode: "",
+        class: "hospIcon"
+      }),
+      vue.createCommentVNode(" 总体右侧的医院或者医生信息 "),
+      vue.createElementVNode("view", { class: "hospOrDocTextContain" }, [
+        vue.createCommentVNode(" 医院或者医生文字信息 "),
+        vue.createElementVNode("view", { class: "hospOrDocText" }, [
+          vue.createElementVNode("text", { class: "hospText1" }, "赣州市第一人民医院"),
+          vue.createElementVNode("text", { class: "hospText2" }, "\\n江西省赣州市章贡区789号")
+        ]),
+        vue.createElementVNode("view", { class: "hopsFucWrapp" }, [
+          vue.createElementVNode("view", { class: "hospRateAndCollect" }, [
+            vue.createCommentVNode(" 评分 "),
+            vue.createElementVNode("view", { class: "rate" }, [
+              vue.createVNode(_component_uni_rate, {
+                readonly: true,
+                value: "4",
+                "uni-rate": "",
+                size: "19",
+                class: "rateSy"
+              })
             ]),
-            vue.createElementVNode("view", {
-              class: "uni-calendar__header-btn-box",
-              onClick: _cache[2] || (_cache[2] = (...args) => $options.confirm && $options.confirm(...args))
-            }, [
-              vue.createElementVNode(
-                "text",
-                { class: "uni-calendar__header-text uni-calendar--fixed-width" },
-                vue.toDisplayString($options.okText),
-                1
-                /* TEXT */
-              )
+            vue.createElementVNode("view", { class: "collectNum" }, [
+              vue.createElementVNode("text", null, "(11)")
             ])
-          ])) : vue.createCommentVNode("v-if", true),
-          vue.createElementVNode("view", { class: "uni-calendar__header" }, [
-            vue.createElementVNode("view", {
-              class: "uni-calendar__header-btn-box",
-              onClick: _cache[3] || (_cache[3] = vue.withModifiers((...args) => $options.pre && $options.pre(...args), ["stop"]))
-            }, [
-              vue.createElementVNode("view", { class: "uni-calendar__header-btn uni-calendar--left" })
-            ]),
-            vue.createElementVNode("picker", {
-              mode: "date",
-              value: $props.date,
-              fields: "month",
-              onChange: _cache[4] || (_cache[4] = (...args) => $options.bindDateChange && $options.bindDateChange(...args))
-            }, [
-              vue.createElementVNode(
-                "text",
-                { class: "uni-calendar__header-text" },
-                vue.toDisplayString(($data.nowDate.year || "") + " / " + ($data.nowDate.month || "")),
-                1
-                /* TEXT */
-              )
-            ], 40, ["value"]),
-            vue.createElementVNode("view", {
-              class: "uni-calendar__header-btn-box",
-              onClick: _cache[5] || (_cache[5] = vue.withModifiers((...args) => $options.next && $options.next(...args), ["stop"]))
-            }, [
-              vue.createElementVNode("view", { class: "uni-calendar__header-btn uni-calendar--right" })
-            ]),
-            vue.createElementVNode(
-              "text",
-              {
-                class: "uni-calendar__backtoday",
-                onClick: _cache[6] || (_cache[6] = (...args) => $options.backToday && $options.backToday(...args))
-              },
-              vue.toDisplayString($options.todayText),
-              1
-              /* TEXT */
-            )
           ]),
-          vue.createElementVNode("view", { class: "uni-calendar__box" }, [
-            $props.showMonth ? (vue.openBlock(), vue.createElementBlock("view", {
+          vue.createCommentVNode(" 是否营业的展示 "),
+          vue.createElementVNode("view", { class: "hospLineWarpp" }, [
+            vue.createCommentVNode(" 展示医院的营业情况 "),
+            $options.statusValue() == 1 ? (vue.openBlock(), vue.createElementBlock("view", {
               key: 0,
-              class: "uni-calendar__box-bg"
-            }, [
-              vue.createElementVNode(
-                "text",
-                { class: "uni-calendar__box-bg-text" },
-                vue.toDisplayString($data.nowDate.month),
-                1
-                /* TEXT */
-              )
-            ])) : vue.createCommentVNode("v-if", true),
-            vue.createElementVNode("view", { class: "uni-calendar__weeks" }, [
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.SUNText),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.monText),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.TUEText),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.WEDText),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.THUText),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.FRIText),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createElementVNode("view", { class: "uni-calendar__weeks-day" }, [
-                vue.createElementVNode(
-                  "text",
-                  { class: "uni-calendar__weeks-day-text" },
-                  vue.toDisplayString($options.SATText),
-                  1
-                  /* TEXT */
-                )
-              ])
-            ]),
-            (vue.openBlock(true), vue.createElementBlock(
-              vue.Fragment,
-              null,
-              vue.renderList($data.weeks, (item, weekIndex) => {
-                return vue.openBlock(), vue.createElementBlock("view", {
-                  class: "uni-calendar__weeks",
-                  key: weekIndex
-                }, [
-                  (vue.openBlock(true), vue.createElementBlock(
-                    vue.Fragment,
-                    null,
-                    vue.renderList(item, (weeks, weeksIndex) => {
-                      return vue.openBlock(), vue.createElementBlock("view", {
-                        class: "uni-calendar__weeks-item",
-                        key: weeksIndex
-                      }, [
-                        vue.createVNode(_component_calendar_item, {
-                          class: "uni-calendar-item--hook",
-                          weeks,
-                          calendar: $data.calendar,
-                          selected: $props.selected,
-                          lunar: $props.lunar,
-                          onChange: $options.choiceDate
-                        }, null, 8, ["weeks", "calendar", "selected", "lunar", "onChange"])
-                      ]);
-                    }),
-                    128
-                    /* KEYED_FRAGMENT */
-                  ))
-                ]);
-              }),
-              128
-              /* KEYED_FRAGMENT */
-            ))
+              class: "hosp-online"
+            }, " 营业 ")) : vue.createCommentVNode("v-if", true),
+            $options.statusValue() == 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+              key: 1,
+              class: "hosp-line"
+            }, " 未开放 ")) : vue.createCommentVNode("v-if", true),
+            vue.createCommentVNode(" 展示医生是否在线 "),
+            $options.statusValue() == 2 ? (vue.openBlock(), vue.createElementBlock("view", {
+              key: 2,
+              class: "hosp-online"
+            }, " 在线 ")) : vue.createCommentVNode("v-if", true),
+            $options.statusValue() == 3 ? (vue.openBlock(), vue.createElementBlock("view", {
+              key: 3,
+              class: "hosp-line"
+            }, " 离线 ")) : vue.createCommentVNode("v-if", true)
           ])
-        ],
-        2
-        /* CLASS */
-      )) : vue.createCommentVNode("v-if", true)
+        ])
+      ])
     ]);
   }
-  const __easycom_0$4 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["render", _sfc_render$x], ["__scopeId", "data-v-b6ab2cfb"], ["__file", "F:/code/qq-doctor/uni_modules/uni-calendar/components/uni-calendar/uni-calendar.vue"]]);
+  const __easycom_1 = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["render", _sfc_render$i], ["__scopeId", "data-v-ccdd5519"], ["__file", "F:/code/qq-doctor/components/collectItem/collectItem.vue"]]);
+  const _sfc_main$i = {
+    data() {
+      return {
+        list: ["1", "2", "3", "4"]
+      };
+    },
+    methods: {}
+  };
+  function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_collectItem = resolveEasycom(vue.resolveDynamicComponent("collectItem"), __easycom_1);
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createElementVNode("view", { class: "collectItemWrapp" }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.list, (item, index) => {
+            return vue.openBlock(), vue.createBlock(_component_collectItem, { key: index });
+          }),
+          128
+          /* KEYED_FRAGMENT */
+        )),
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.list, (item, index) => {
+            return vue.openBlock(), vue.createBlock(_component_collectItem, { key: index });
+          }),
+          128
+          /* KEYED_FRAGMENT */
+        ))
+      ])
+    ]);
+  }
+  const PagesUserCollectCollect = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["render", _sfc_render$h], ["__scopeId", "data-v-32105fc2"], ["__file", "F:/code/qq-doctor/pages/user/collect/collect.vue"]]);
+  const _sfc_main$h = {
+    onLoad() {
+      this.getStorageSize();
+    },
+    data() {
+      return {
+        storageSize: "0M"
+      };
+    },
+    methods: {
+      //获取app的缓存
+      getStorageSize() {
+        let that = this;
+        uni.getStorageInfo({
+          success(res) {
+            let size = res.currentSize;
+            if (size < 1024) {
+              that.storageSize = size + " B";
+            } else if (size / 1024 >= 1 && size / 1024 / 1024 < 1) {
+              that.storageSize = Math.floor(size / 1024 * 100) / 100 + " KB";
+            } else if (size / 1024 / 1024 >= 1) {
+              that.storageSize = Math.floor(size / 1024 / 1024 * 100) / 100 + " M";
+            }
+          }
+        });
+      },
+      //删除 缓存
+      clearStorage: function() {
+        let that = this;
+        uni.showModal({
+          title: "提示",
+          content: "确定清除缓存吗?",
+          confirmText: "立即清除",
+          success(res) {
+            if (res.confirm) {
+              uni.clearStorageSync();
+              that.getStorageSize();
+              uni.showToast({
+                title: "清除成功",
+                icon: "none"
+              });
+              setTimeout(() => {
+                uni.redirectTo({
+                  url: "/pages/login/login",
+                  animationType: "pop-in",
+                  animationDuration: 200
+                });
+              }, 1300);
+            }
+          }
+        });
+      }
+    }
+  };
+  function _sfc_render$g(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createCommentVNode(" 通用 "),
+      vue.createElementVNode("view", { class: "commonWrapp" }, [
+        vue.createElementVNode("view", { class: "commonInformationWrapp" }, [
+          vue.createElementVNode("view", { class: "commonInformation" }, [
+            vue.createElementVNode("text", { class: "commonInformationText1" }, "清空缓存"),
+            vue.createElementVNode("view", { class: "commonTextWrapp" }, [
+              vue.createElementVNode("view", { class: "commonText" }, [
+                vue.createCommentVNode(" 46.77MB "),
+                vue.createTextVNode(
+                  " " + vue.toDisplayString($data.storageSize),
+                  1
+                  /* TEXT */
+                )
+              ]),
+              vue.createCommentVNode(" 箭头 "),
+              vue.createElementVNode("image", {
+                src: "/static/img/user/goRight2.png",
+                mode: "",
+                class: "goRight2Icon",
+                onClick: _cache[0] || (_cache[0] = (...args) => $options.clearStorage && $options.clearStorage(...args))
+              })
+            ])
+          ])
+        ])
+      ])
+    ]);
+  }
+  const PagesUserCommonPageCommonPage = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$g], ["__scopeId", "data-v-b1caa8ca"], ["__file", "F:/code/qq-doctor/pages/user/commonPage/commonPage.vue"]]);
+  const _sfc_main$g = {
+    data() {
+      return {};
+    }
+  };
+  function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createCommentVNode(" 版权信息 "),
+      vue.createElementVNode("view", { class: "CopyrightText1" }, " 版权信息 - 江西理工大学企桥工作室 "),
+      vue.createElementVNode("view", { class: "CopyrightText2" }, " 版权所有 © 江西理工大学企桥工作室. 保留所有权利。 "),
+      vue.createElementVNode("view", { class: "CopyrightText3" }, " 对于企桥工作室创作的全部文字、图片、图形、音频、视频和相关材料，包括但不限于企桥工作室的网站、宣传材料、出版物等等，均受版权法和其他知识产权法律的保护 "),
+      vue.createElementVNode("view", { class: "CopyrightText4" }, " 未经江西理工大学企桥工作室明确授权，任何个人或组织不得以任何形式复制、修改、传播、展示、演示、发布、出售或利用上述作品或内容 "),
+      vue.createElementVNode("view", { class: "CopyrightText5" }, " 除非另有说明，江西理工大学企桥工作室相关作品或内容中涉及的商标、标识和标志等，均受商标法保护，且归江西理工大学企桥工作室所有。 "),
+      vue.createElementVNode("view", { class: "CopyrightText6" }, " 未经江西理工大学企桥工作室书面许可，任何个人或组织不得以任何方式使用江西理工大学企桥工作室的商标、标识和标志。 "),
+      vue.createElementVNode("view", { class: "CopyrightText6" }, " 如需获取或使用江西理工大学企桥工作室作品或内容的许可，请联系企桥工作室或发送电子邮件至[email protected] ")
+    ]);
+  }
+  const PagesUserCopyrightInformationCopyrightInformation = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["render", _sfc_render$f], ["__scopeId", "data-v-7fba5ead"], ["__file", "F:/code/qq-doctor/pages/user/copyrightInformation/copyrightInformation.vue"]]);
+  const _sfc_main$f = {
+    data() {
+      return {
+        list: ["1", "2", "3", "4"],
+        state1: false,
+        state2: true
+      };
+    },
+    methods: {
+      navToCTRes() {
+        uni.navigateTo({
+          url: "/pages/user/inspectionResults/inspectionResults"
+        });
+      }
+    }
+  };
+  function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "CTWrapp" }, [
+      vue.createCommentVNode(" 展示CT检验单列表 "),
+      vue.createElementVNode("view", { class: "CTListWrapp" }, [
+        (vue.openBlock(true), vue.createElementBlock(
+          vue.Fragment,
+          null,
+          vue.renderList($data.list, (item1, index1) => {
+            return vue.openBlock(), vue.createElementBlock("view", {
+              class: "CTOne",
+              key: index1
+            }, [
+              vue.createCommentVNode(" 提交医生 分析状态 "),
+              vue.createElementVNode("view", { class: "CTOneTextWrapp" }, [
+                vue.createCommentVNode(" 分析医生 "),
+                vue.createElementVNode("view", { class: "text1" }, [
+                  vue.createElementVNode("text", null, "提交给赵熙蒙医生的CT图")
+                ]),
+                vue.createCommentVNode(" 分析状态 "),
+                vue.createElementVNode("view", { class: "text2" }, [
+                  $data.state1 ? (vue.openBlock(), vue.createElementBlock("text", { key: 0 }, "分析中")) : vue.createCommentVNode("v-if", true),
+                  $data.state2 ? (vue.openBlock(), vue.createElementBlock("text", {
+                    key: 1,
+                    style: { "color": "#FFBB24" }
+                  }, "已完成")) : vue.createCommentVNode("v-if", true)
+                ])
+              ]),
+              vue.createCommentVNode(" 图片 提交时间 诊断结果按钮 "),
+              vue.createElementVNode("view", { class: "CTOneCentralSectionWrapp" }, [
+                vue.createCommentVNode(" 图片 "),
+                vue.createElementVNode("view", { class: "CTOneIconWrapp" }, [
+                  vue.createElementVNode("image", {
+                    src: "/static/img/user/ct.png",
+                    mode: "",
+                    class: "CTOneIcon"
+                  })
+                ]),
+                vue.createCommentVNode(" 提交时间 检测病变 诊断结果 "),
+                vue.createElementVNode("view", { class: "CTOneCentralSectionRightWrapp" }, [
+                  vue.createCommentVNode("提交时间 检测病变  "),
+                  vue.createElementVNode("view", { class: "CTOneCentralSectionRightText" }, [
+                    vue.createElementVNode("text", null, "提交时间: 2023-10-23 21:36"),
+                    vue.createElementVNode("text", null, "\\n监测病变")
+                  ]),
+                  vue.createCommentVNode(" 诊断结果按钮 "),
+                  vue.createElementVNode("view", { class: "resButtonWrapp" }, [
+                    vue.createElementVNode("view", {
+                      class: "resButton",
+                      onClick: _cache[0] || (_cache[0] = ($event) => $options.navToCTRes())
+                    }, " 诊断结果 ")
+                  ])
+                ])
+              ]),
+              vue.createCommentVNode(" 售后服务 评价 "),
+              vue.createElementVNode("view", { class: "serviceAndRateWrapp" }, [
+                vue.createCommentVNode(" 评价 "),
+                vue.createElementVNode("view", { class: "serviceAndRateText1" }, " 评价 "),
+                vue.createCommentVNode(" 售后服务 "),
+                vue.createElementVNode("view", { class: "serviceAndRateText2" }, "售后服务")
+              ])
+            ]);
+          }),
+          128
+          /* KEYED_FRAGMENT */
+        ))
+      ])
+    ]);
+  }
+  const PagesUserCTInspectionSheetCTInspectionSheet = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$e], ["__scopeId", "data-v-9a76732d"], ["__file", "F:/code/qq-doctor/pages/user/CTInspectionSheet/CTInspectionSheet.vue"]]);
+  const _sfc_main$e = {
+    data() {
+      return {};
+    },
+    methods: {}
+  };
+  function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createElementVNode("view", { class: "" }, " 企业微信 ")
+    ]);
+  }
+  const PagesUserCustomerServiceCustomerService = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$d], ["__file", "F:/code/qq-doctor/pages/user/customerService/customerService.vue"]]);
   const pages = [
     {
       path: "pages/login/start/start",
@@ -7896,6 +8747,16 @@ if (uni.restoreGlobal) {
         navigationBarTitleText: "",
         enablePullDownRefresh: false,
         navigationStyle: "custom",
+        "app-plus": {
+          bounce: "none"
+        }
+      }
+    },
+    {
+      path: "pages/main/messagetable",
+      style: {
+        navigationBarTitleText: "消息",
+        enablePullDownRefresh: false,
         "app-plus": {
           bounce: "none"
         }
@@ -7979,59 +8840,143 @@ if (uni.restoreGlobal) {
       }
     },
     {
-      path: "pages/main/messagetable",
+      path: "pages/main/onlineform",
       style: {
-        navigationBarTitleText: "消息",
+        navigationBarTitleText: "线上表单",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/map/nearHosp/nearHosp",
+      path: "pages/user/addpatient",
       style: {
-        navigationBarTitleText: "附近医院",
-        enablePullDownRefresh: false,
-        scrollIndicator: "none"
-      }
-    },
-    {
-      path: "pages/map/hospDetails/hospDetails",
-      style: {
-        navigationBarTitleText: "医院信息",
+        navigationBarTitleText: "病人信息添加",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/map/depDetails/depDetails",
+      path: "pages/main/onlineorder",
       style: {
-        navigationBarTitleText: "科室信息",
+        navigationBarTitleText: "线上预约订单",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/map/hospAll/hospAll",
+      path: "pages/main/onlineordersuccess",
       style: {
-        navigationBarTitleText: "介绍信息",
+        navigationBarTitleText: "线上预约成功",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/map/depAll/depAll",
+      path: "pages/main/vaccine",
       style: {
-        navigationBarTitleText: "介绍信息",
+        navigationBarTitleText: "疫苗",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/map/docList/docList",
+      path: "components/FuncSelectFront/FuncSelectFront",
+      style: {}
+    },
+    {
+      path: "components/FuncSelectContext/FuncSelectContext",
+      style: {}
+    },
+    {
+      path: "pages/main/vaccinedetail",
       style: {
-        navigationBarTitleText: "医院医生列表",
+        navigationBarTitleText: "",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/main/visitTime/visitTime",
+      path: "pages/main/vaccinedetailaction",
       style: {
-        navigationBarTitleText: "出诊时间",
+        navigationBarTitleText: "",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/article",
+      style: {
+        navigationBarTitleText: "文章",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/diseaseknowledge",
+      style: {
+        navigationBarTitleText: "疾病知识",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/check",
+      style: {
+        navigationBarTitleText: "检查",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/checkdetail",
+      style: {
+        navigationBarTitleText: "默认",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/treatment",
+      style: {
+        navigationBarTitleText: "治疗",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/diseaseknowledgedetail",
+      style: {
+        navigationBarTitleText: "",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/treatmentdetail",
+      style: {
+        navigationBarTitleText: "治疗",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/doctoronline",
+      style: {
+        navigationBarTitleText: "直播大厅",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/isbn",
+      style: {
+        navigationBarTitleText: "科普号",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/main/onlineformtime",
+      style: {
+        navigationBarTitleText: "",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/about/about",
+      style: {
+        navigationBarTitleText: "关于企桥医健",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/businessLicense/businessLicense",
+      style: {
+        navigationBarTitleText: "营业执照",
         enablePullDownRefresh: false
       }
     },
@@ -8043,182 +8988,100 @@ if (uni.restoreGlobal) {
       }
     },
     {
-      path: "pages/user/footprint/footprint",
-      style: {
-        navigationBarTitleText: "足迹",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/user/CTInspectionSheet/CTInspectionSheet",
-      style: {
-        navigationBarTitleText: "CT检验单",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/user/inspectionResults/inspectionResults",
-      style: {
-        navigationBarTitleText: "检验结果",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/user/customerService/customerService",
-      style: {
-        navigationBarTitleText: "客服",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/user/personalInformation/personalInformation",
-      style: {
-        navigationBarTitleText: "个人信息",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/patientInformation/patientInformation",
-      style: {
-        navigationBarTitleText: "病人信息",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/modifyPatientInfo/modifyPatientInfo",
-      style: {
-        navigationBarTitleText: "病人信息修改",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
       path: "pages/user/commonPage/commonPage",
       style: {
-        navigationBarTitleText: "通用",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/privacyManagement/privacyManagement",
-      style: {
-        navigationBarTitleText: "隐私管理",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/privacyPolicy/privacyPolicy",
-      style: {
-        navigationBarTitleText: "隐私政策",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/systemPermissionManagement/systemPermissionManagement",
-      style: {
-        navigationBarTitleText: "系统权限管理",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/personalInformationCollection/personalInformationCollection",
-      style: {
-        navigationBarTitleText: "个人信息收集清单",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/about/about",
-      style: {
-        navigationBarTitleText: "关于企桥医建",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/businessLicense/businessLicense",
-      style: {
-        navigationBarTitleText: "营业执照",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
-      }
-    },
-    {
-      path: "pages/user/reportingInformation/reportingInformation",
-      style: {
-        navigationBarTitleText: "举报信息",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
+        navigationBarTitleText: "同意",
+        enablePullDownRefresh: false
       }
     },
     {
       path: "pages/user/copyrightInformation/copyrightInformation",
       style: {
         navigationBarTitleText: "版权信息",
-        enablePullDownRefresh: false,
-        backgroundColor: "#F7F7F7"
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/CTInspectionSheet/CTInspectionSheet",
+      style: {
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/customerService/customerService",
+      style: {
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/footprint/footprint",
+      style: {
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/inspectionResults/inspectionResults",
+      style: {
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/modifyPatientInfo/modifyPatientInfo",
+      style: {
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
       }
     },
     {
       path: "pages/user/modifyPatientInfo/patienName",
       style: {
-        navigationBarTitleText: "",
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/patientInformation/patientInformation",
+      style: {
+        navigationBarTitleText: "版权信息",
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: "pages/user/personalInformation/personalInformation",
+      style: {
+        navigationBarTitleText: "版权信息",
         enablePullDownRefresh: false
       }
     },
     {
       path: "pages/user/personalInformation/userName",
       style: {
-        navigationBarTitleText: "设置昵称",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/user/personalInformation/modifyPassword",
-      style: {
-        navigationBarTitleText: "修改密码",
+        navigationBarTitleText: "版权信息",
         enablePullDownRefresh: false
       }
     },
     {
       path: "pages/user/personalInformation/modifyPhone",
       style: {
-        navigationBarTitleText: "修改手机号",
+        navigationBarTitleText: "版权信息",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/order/orderDetail/orderDetail",
+      path: "pages/user/personalInformation/modifyPassword",
       style: {
-        navigationBarTitleText: "订单详情",
+        navigationBarTitleText: "版权信息",
         enablePullDownRefresh: false
       }
     },
     {
-      path: "pages/order/evaluativeInformation/evaluativeInformation",
+      path: "pages/user/personalInformationCollection/personalInformationCollection",
       style: {
-        navigationBarTitleText: "评价信息",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/order/evaluateOrders/evaluateOrders",
-      style: {
-        navigationBarTitleText: "评价订单",
-        enablePullDownRefresh: false
-      }
-    },
-    {
-      path: "pages/order/diagnosticResults/diagnosticResults",
-      style: {
-        navigationBarTitleText: "诊断结果",
+        navigationBarTitleText: "版权信息",
         enablePullDownRefresh: false
       }
     }
@@ -8264,11 +9127,22 @@ if (uni.restoreGlobal) {
     ],
     backgroundColor: "#FFFFFF"
   };
+  const condition = {
+    current: 0,
+    list: [
+      {
+        name: "",
+        path: "",
+        query: ""
+      }
+    ]
+  };
   const e = {
     pages,
     globalStyle,
     uniIdRouter,
-    tabBar
+    tabBar,
+    condition
   };
   function t$1(e2) {
     return e2 && e2.__esModule && Object.prototype.hasOwnProperty.call(e2, "default") ? e2.default : e2;
@@ -10948,6 +11822,290 @@ ${i3}
     } }), Ss(Bs), Bs.addInterceptor = N, Bs.removeInterceptor = D, Bs.interceptObject = F;
   })();
   var $s = Bs;
+  const isObject = (val) => val !== null && typeof val === "object";
+  const defaultDelimiters = ["{", "}"];
+  class BaseFormatter {
+    constructor() {
+      this._caches = /* @__PURE__ */ Object.create(null);
+    }
+    interpolate(message, values, delimiters = defaultDelimiters) {
+      if (!values) {
+        return [message];
+      }
+      let tokens = this._caches[message];
+      if (!tokens) {
+        tokens = parse(message, delimiters);
+        this._caches[message] = tokens;
+      }
+      return compile(tokens, values);
+    }
+  }
+  const RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
+  const RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
+  function parse(format, [startDelimiter, endDelimiter]) {
+    const tokens = [];
+    let position = 0;
+    let text = "";
+    while (position < format.length) {
+      let char = format[position++];
+      if (char === startDelimiter) {
+        if (text) {
+          tokens.push({ type: "text", value: text });
+        }
+        text = "";
+        let sub = "";
+        char = format[position++];
+        while (char !== void 0 && char !== endDelimiter) {
+          sub += char;
+          char = format[position++];
+        }
+        const isClosed = char === endDelimiter;
+        const type = RE_TOKEN_LIST_VALUE.test(sub) ? "list" : isClosed && RE_TOKEN_NAMED_VALUE.test(sub) ? "named" : "unknown";
+        tokens.push({ value: sub, type });
+      } else {
+        text += char;
+      }
+    }
+    text && tokens.push({ type: "text", value: text });
+    return tokens;
+  }
+  function compile(tokens, values) {
+    const compiled = [];
+    let index = 0;
+    const mode = Array.isArray(values) ? "list" : isObject(values) ? "named" : "unknown";
+    if (mode === "unknown") {
+      return compiled;
+    }
+    while (index < tokens.length) {
+      const token = tokens[index];
+      switch (token.type) {
+        case "text":
+          compiled.push(token.value);
+          break;
+        case "list":
+          compiled.push(values[parseInt(token.value, 10)]);
+          break;
+        case "named":
+          if (mode === "named") {
+            compiled.push(values[token.value]);
+          } else {
+            {
+              console.warn(`Type of token '${token.type}' and format of value '${mode}' don't match!`);
+            }
+          }
+          break;
+        case "unknown":
+          {
+            console.warn(`Detect 'unknown' type of token!`);
+          }
+          break;
+      }
+      index++;
+    }
+    return compiled;
+  }
+  const LOCALE_ZH_HANS = "zh-Hans";
+  const LOCALE_ZH_HANT = "zh-Hant";
+  const LOCALE_EN = "en";
+  const LOCALE_FR = "fr";
+  const LOCALE_ES = "es";
+  const hasOwnProperty = Object.prototype.hasOwnProperty;
+  const hasOwn = (val, key) => hasOwnProperty.call(val, key);
+  const defaultFormatter = new BaseFormatter();
+  function include(str, parts) {
+    return !!parts.find((part) => str.indexOf(part) !== -1);
+  }
+  function startsWith(str, parts) {
+    return parts.find((part) => str.indexOf(part) === 0);
+  }
+  function normalizeLocale(locale, messages2) {
+    if (!locale) {
+      return;
+    }
+    locale = locale.trim().replace(/_/g, "-");
+    if (messages2 && messages2[locale]) {
+      return locale;
+    }
+    locale = locale.toLowerCase();
+    if (locale === "chinese") {
+      return LOCALE_ZH_HANS;
+    }
+    if (locale.indexOf("zh") === 0) {
+      if (locale.indexOf("-hans") > -1) {
+        return LOCALE_ZH_HANS;
+      }
+      if (locale.indexOf("-hant") > -1) {
+        return LOCALE_ZH_HANT;
+      }
+      if (include(locale, ["-tw", "-hk", "-mo", "-cht"])) {
+        return LOCALE_ZH_HANT;
+      }
+      return LOCALE_ZH_HANS;
+    }
+    let locales = [LOCALE_EN, LOCALE_FR, LOCALE_ES];
+    if (messages2 && Object.keys(messages2).length > 0) {
+      locales = Object.keys(messages2);
+    }
+    const lang = startsWith(locale, locales);
+    if (lang) {
+      return lang;
+    }
+  }
+  class I18n {
+    constructor({ locale, fallbackLocale, messages: messages2, watcher, formater }) {
+      this.locale = LOCALE_EN;
+      this.fallbackLocale = LOCALE_EN;
+      this.message = {};
+      this.messages = {};
+      this.watchers = [];
+      if (fallbackLocale) {
+        this.fallbackLocale = fallbackLocale;
+      }
+      this.formater = formater || defaultFormatter;
+      this.messages = messages2 || {};
+      this.setLocale(locale || LOCALE_EN);
+      if (watcher) {
+        this.watchLocale(watcher);
+      }
+    }
+    setLocale(locale) {
+      const oldLocale = this.locale;
+      this.locale = normalizeLocale(locale, this.messages) || this.fallbackLocale;
+      if (!this.messages[this.locale]) {
+        this.messages[this.locale] = {};
+      }
+      this.message = this.messages[this.locale];
+      if (oldLocale !== this.locale) {
+        this.watchers.forEach((watcher) => {
+          watcher(this.locale, oldLocale);
+        });
+      }
+    }
+    getLocale() {
+      return this.locale;
+    }
+    watchLocale(fn) {
+      const index = this.watchers.push(fn) - 1;
+      return () => {
+        this.watchers.splice(index, 1);
+      };
+    }
+    add(locale, message, override = true) {
+      const curMessages = this.messages[locale];
+      if (curMessages) {
+        if (override) {
+          Object.assign(curMessages, message);
+        } else {
+          Object.keys(message).forEach((key) => {
+            if (!hasOwn(curMessages, key)) {
+              curMessages[key] = message[key];
+            }
+          });
+        }
+      } else {
+        this.messages[locale] = message;
+      }
+    }
+    f(message, values, delimiters) {
+      return this.formater.interpolate(message, values, delimiters).join("");
+    }
+    t(key, locale, values) {
+      let message = this.message;
+      if (typeof locale === "string") {
+        locale = normalizeLocale(locale, this.messages);
+        locale && (message = this.messages[locale]);
+      } else {
+        values = locale;
+      }
+      if (!hasOwn(message, key)) {
+        console.warn(`Cannot translate the value of keypath ${key}. Use the value of keypath as default.`);
+        return key;
+      }
+      return this.formater.interpolate(message[key], values).join("");
+    }
+  }
+  function watchAppLocale(appVm, i18n) {
+    if (appVm.$watchLocale) {
+      appVm.$watchLocale((newLocale) => {
+        i18n.setLocale(newLocale);
+      });
+    } else {
+      appVm.$watch(() => appVm.$locale, (newLocale) => {
+        i18n.setLocale(newLocale);
+      });
+    }
+  }
+  function getDefaultLocale() {
+    if (typeof uni !== "undefined" && uni.getLocale) {
+      return uni.getLocale();
+    }
+    if (typeof global !== "undefined" && global.getLocale) {
+      return global.getLocale();
+    }
+    return LOCALE_EN;
+  }
+  function initVueI18n(locale, messages2 = {}, fallbackLocale, watcher) {
+    if (typeof locale !== "string") {
+      [locale, messages2] = [
+        messages2,
+        locale
+      ];
+    }
+    if (typeof locale !== "string") {
+      locale = getDefaultLocale();
+    }
+    if (typeof fallbackLocale !== "string") {
+      fallbackLocale = typeof __uniConfig !== "undefined" && __uniConfig.fallbackLocale || LOCALE_EN;
+    }
+    const i18n = new I18n({
+      locale,
+      fallbackLocale,
+      messages: messages2,
+      watcher
+    });
+    let t2 = (key, values) => {
+      if (typeof getApp !== "function") {
+        t2 = function(key2, values2) {
+          return i18n.t(key2, values2);
+        };
+      } else {
+        let isWatchedAppLocale = false;
+        t2 = function(key2, values2) {
+          const appVm = getApp().$vm;
+          if (appVm) {
+            appVm.$locale;
+            if (!isWatchedAppLocale) {
+              isWatchedAppLocale = true;
+              watchAppLocale(appVm, i18n);
+            }
+          }
+          return i18n.t(key2, values2);
+        };
+      }
+      return t2(key, values);
+    };
+    return {
+      i18n,
+      f(message, values, delimiters) {
+        return i18n.f(message, values, delimiters);
+      },
+      t(key, values) {
+        return t2(key, values);
+      },
+      add(locale2, message, override = true) {
+        return i18n.add(locale2, message, override);
+      },
+      watch(fn) {
+        return i18n.watchLocale(fn);
+      },
+      getLocale() {
+        return i18n.getLocale();
+      },
+      setLocale(newLocale) {
+        return i18n.setLocale(newLocale);
+      }
+    };
+  }
   const en = {
     "uni-load-more.contentdown": "Pull up to show more",
     "uni-load-more.contentrefresh": "loading...",
@@ -10975,7 +12133,7 @@ ${i3}
   const {
     t
   } = initVueI18n(messages);
-  const _sfc_main$x = {
+  const _sfc_main$d = {
     name: "UniLoadMore",
     emits: ["clickLoadMore"],
     props: {
@@ -11057,7 +12215,7 @@ ${i3}
       }
     }
   };
-  function _sfc_render$w(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", {
       class: "uni-load-more",
       onClick: _cache[0] || (_cache[0] = (...args) => $options.onClick && $options.onClick(...args))
@@ -11132,8 +12290,8 @@ ${i3}
       )) : vue.createCommentVNode("v-if", true)
     ]);
   }
-  const __easycom_0$3 = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["render", _sfc_render$w], ["__scopeId", "data-v-9245e42c"], ["__file", "F:/code/qq-doctor/uni_modules/uni-load-more/components/uni-load-more/uni-load-more.vue"]]);
-  const _sfc_main$w = {
+  const __easycom_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["render", _sfc_render$c], ["__scopeId", "data-v-9245e42c"], ["__file", "F:/code/qq-doctor/uni_modules/uni-load-more/components/uni-load-more/uni-load-more.vue"]]);
+  const _sfc_main$c = {
     // name: 'uniDataChecklist',
     mixins: [$s.mixinDatacom || {}],
     emits: ["input", "update:modelValue", "change"],
@@ -11476,8 +12634,8 @@ ${i3}
       }
     }
   };
-  function _sfc_render$v(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_load_more = resolveEasycom(vue.resolveDynamicComponent("uni-load-more"), __easycom_0$3);
+  function _sfc_render$b(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_load_more = resolveEasycom(vue.resolveDynamicComponent("uni-load-more"), __easycom_0$2);
     return vue.openBlock(), vue.createElementBlock(
       "view",
       {
@@ -11690,239 +12848,8 @@ ${i3}
       /* STYLE */
     );
   }
-  const __easycom_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["render", _sfc_render$v], ["__scopeId", "data-v-497e00d9"], ["__file", "F:/code/qq-doctor/components/timeCheckbox/timeCheckbox.vue"]]);
-  const _sfc_main$v = {
-    data() {
-      return {
-        // 日历的属性
-        info: {
-          lunar: true,
-          range: true,
-          insert: false,
-          selected: []
-        },
-        radio: -1,
-        time1: [{
-          text: "10:00-11:00",
-          value: 0
-        }],
-        time2: [{
-          text: "11:00-12:00",
-          value: 1
-        }],
-        time3: [
-          {
-            text: "16:00-17:00",
-            value: 2
-          }
-        ],
-        time4: [{
-          text: "19:00-20:00",
-          value: 3
-        }]
-      };
-    },
-    methods: {
-      // 日历的方法
-      monthSwitch(e2) {
-        formatAppLog("log", "at pages/main/visitTime/visitTime.vue:119", "monthSwitchs 返回:", e2);
-      },
-      change(e2) {
-        formatAppLog("log", "at pages/main/visitTime/visitTime.vue:122", "change 返回:", e2);
-      }
-    }
-  };
-  function _sfc_render$u(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_calendar = resolveEasycom(vue.resolveDynamicComponent("uni-calendar"), __easycom_0$4);
-    const _component_timeCheckbox = resolveEasycom(vue.resolveDynamicComponent("timeCheckbox"), __easycom_0$2);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 日历 "),
-      vue.createElementVNode("view", { class: "calendarStyleWrapp" }, [
-        vue.createCommentVNode(" 插入模式 "),
-        vue.createVNode(_component_uni_calendar, {
-          class: "calendarStyle",
-          showMonth: true,
-          onChange: $options.change,
-          onMonthSwitch: $options.monthSwitch
-        }, null, 8, ["onChange", "onMonthSwitch"])
-      ]),
-      vue.createCommentVNode(" 上午  下午 "),
-      vue.createElementVNode("view", { class: "time1Wrapp" }, [
-        vue.createElementVNode("view", { class: "timeAM" }, "AM"),
-        vue.createElementVNode("view", { class: "timePM" }, "PM")
-      ]),
-      vue.createCommentVNode(" 具体时间 "),
-      vue.createElementVNode("view", { class: "selectWrapp" }, [
-        vue.createCommentVNode(" AM区域 "),
-        vue.createElementVNode("view", { class: "selectAMWrapp" }, [
-          vue.createElementVNode("view", { class: "time1Wrapp" }, [
-            vue.createVNode(_component_timeCheckbox, {
-              mode: "tag",
-              modelValue: $data.radio,
-              "onUpdate:modelValue": _cache[0] || (_cache[0] = ($event) => $data.radio = $event),
-              localdata: $data.time1,
-              selectedColor: "#8AEEEE"
-            }, null, 8, ["modelValue", "localdata"]),
-            vue.createCommentVNode(' 	<uni-data-checkbox mode="tag" v-model="radio" :localdata="time1"></uni-data-checkbox> ')
-          ]),
-          vue.createElementVNode("view", { class: "time2Wrapp" }, [
-            vue.createVNode(_component_timeCheckbox, {
-              mode: "tag",
-              modelValue: $data.radio,
-              "onUpdate:modelValue": _cache[1] || (_cache[1] = ($event) => $data.radio = $event),
-              localdata: $data.time2,
-              selectedColor: "#8AEEEE"
-            }, null, 8, ["modelValue", "localdata"])
-          ])
-        ]),
-        vue.createCommentVNode(" PM区域 "),
-        vue.createElementVNode("view", { class: "selectPMWrapp" }, [
-          vue.createElementVNode("view", { class: "time3Wrapp" }, [
-            vue.createVNode(_component_timeCheckbox, {
-              mode: "tag",
-              modelValue: $data.radio,
-              "onUpdate:modelValue": _cache[2] || (_cache[2] = ($event) => $data.radio = $event),
-              localdata: $data.time3,
-              selectedColor: "#8AEEEE"
-            }, null, 8, ["modelValue", "localdata"])
-          ]),
-          vue.createElementVNode("view", { class: "time4Wrapp" }, [
-            vue.createVNode(_component_timeCheckbox, {
-              mode: "tag",
-              modelValue: $data.radio,
-              "onUpdate:modelValue": _cache[3] || (_cache[3] = ($event) => $data.radio = $event),
-              localdata: $data.time4,
-              selectedColor: "#8AEEEE"
-            }, null, 8, ["modelValue", "localdata"])
-          ])
-        ])
-      ]),
-      vue.createCommentVNode("空白填充  "),
-      vue.createElementVNode("view", {
-        class: "",
-        style: { "height": "3vh" }
-      }),
-      vue.createCommentVNode(" 医生Id "),
-      vue.createElementVNode("view", { class: "docIdWrapp" }, [
-        vue.createElementVNode("text", null, "医生ID:GZDYRM17")
-      ])
-    ]);
-  }
-  const PagesMainVisitTimeVisitTime = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["render", _sfc_render$u], ["__scopeId", "data-v-a32324a7"], ["__file", "F:/code/qq-doctor/pages/main/visitTime/visitTime.vue"]]);
-  const _sfc_main$u = {
-    props: {
-      item: {
-        hid: "2",
-        pic: "../../static/img/nearHosp/hosp2.png",
-        hospital: "赣州市第二人民医院",
-        distance: 2.5,
-        evaluate: "5",
-        status: "0",
-        address: "江西省赣州市章贡区789号"
-      }
-    },
-    data() {
-      return {};
-    },
-    methods: {
-      statusValue() {
-        return 1;
-      }
-    }
-  };
-  function _sfc_render$t(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_rate = resolveEasycom(vue.resolveDynamicComponent("uni-rate"), __easycom_0$9);
-    return vue.openBlock(), vue.createElementBlock("view", { class: "collectWrapp" }, [
-      vue.createCommentVNode(" 医院或者医生图片 "),
-      vue.createElementVNode("image", {
-        src: "/static/img/nearHosp/hosp2.png",
-        mode: "",
-        class: "hospIcon"
-      }),
-      vue.createCommentVNode(" 总体右侧的医院或者医生信息 "),
-      vue.createElementVNode("view", { class: "hospOrDocTextContain" }, [
-        vue.createCommentVNode(" 医院或者医生文字信息 "),
-        vue.createElementVNode("view", { class: "hospOrDocText" }, [
-          vue.createElementVNode("text", { class: "hospText1" }, "赣州市第一人民医院"),
-          vue.createElementVNode("text", { class: "hospText2" }, "\\n江西省赣州市章贡区789号")
-        ]),
-        vue.createElementVNode("view", { class: "hopsFucWrapp" }, [
-          vue.createElementVNode("view", { class: "hospRateAndCollect" }, [
-            vue.createCommentVNode(" 评分 "),
-            vue.createElementVNode("view", { class: "rate" }, [
-              vue.createVNode(_component_uni_rate, {
-                readonly: true,
-                value: "4",
-                "uni-rate": "",
-                size: "19",
-                class: "rateSy"
-              })
-            ]),
-            vue.createElementVNode("view", { class: "collectNum" }, [
-              vue.createElementVNode("text", null, "(11)")
-            ])
-          ]),
-          vue.createCommentVNode(" 是否营业的展示 "),
-          vue.createElementVNode("view", { class: "hospLineWarpp" }, [
-            vue.createCommentVNode(" 展示医院的营业情况 "),
-            $options.statusValue() == 1 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 0,
-              class: "hosp-online"
-            }, " 营业 ")) : vue.createCommentVNode("v-if", true),
-            $options.statusValue() == 0 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 1,
-              class: "hosp-line"
-            }, " 未开放 ")) : vue.createCommentVNode("v-if", true),
-            vue.createCommentVNode(" 展示医生是否在线 "),
-            $options.statusValue() == 2 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 2,
-              class: "hosp-online"
-            }, " 在线 ")) : vue.createCommentVNode("v-if", true),
-            $options.statusValue() == 3 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 3,
-              class: "hosp-line"
-            }, " 离线 ")) : vue.createCommentVNode("v-if", true)
-          ])
-        ])
-      ])
-    ]);
-  }
-  const __easycom_1 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["render", _sfc_render$t], ["__scopeId", "data-v-ccdd5519"], ["__file", "F:/code/qq-doctor/components/collectItem/collectItem.vue"]]);
-  const _sfc_main$t = {
-    data() {
-      return {
-        list: ["1", "2", "3", "4"]
-      };
-    },
-    methods: {}
-  };
-  function _sfc_render$s(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_collectItem = resolveEasycom(vue.resolveDynamicComponent("collectItem"), __easycom_1);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createElementVNode("view", { class: "collectItemWrapp" }, [
-        (vue.openBlock(true), vue.createElementBlock(
-          vue.Fragment,
-          null,
-          vue.renderList($data.list, (item, index) => {
-            return vue.openBlock(), vue.createBlock(_component_collectItem, { key: index });
-          }),
-          128
-          /* KEYED_FRAGMENT */
-        )),
-        (vue.openBlock(true), vue.createElementBlock(
-          vue.Fragment,
-          null,
-          vue.renderList($data.list, (item, index) => {
-            return vue.openBlock(), vue.createBlock(_component_collectItem, { key: index });
-          }),
-          128
-          /* KEYED_FRAGMENT */
-        ))
-      ])
-    ]);
-  }
-  const PagesUserCollectCollect = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["render", _sfc_render$s], ["__scopeId", "data-v-32105fc2"], ["__file", "F:/code/qq-doctor/pages/user/collect/collect.vue"]]);
-  const _sfc_main$s = {
+  const __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["render", _sfc_render$b], ["__scopeId", "data-v-497e00d9"], ["__file", "F:/code/qq-doctor/components/timeCheckbox/timeCheckbox.vue"]]);
+  const _sfc_main$b = {
     data() {
       return {
         radio: 0,
@@ -11944,8 +12871,8 @@ ${i3}
     },
     methods: {}
   };
-  function _sfc_render$r(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_timeCheckbox = resolveEasycom(vue.resolveDynamicComponent("timeCheckbox"), __easycom_0$2);
+  function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_timeCheckbox = resolveEasycom(vue.resolveDynamicComponent("timeCheckbox"), __easycom_0$1);
     const _component_collectItem = resolveEasycom(vue.resolveDynamicComponent("collectItem"), __easycom_1);
     return vue.openBlock(), vue.createElementBlock("view", null, [
       vue.createCommentVNode(" 选择医院或者医生 "),
@@ -12039,93 +12966,8 @@ ${i3}
       )) : vue.createCommentVNode("v-if", true)
     ]);
   }
-  const PagesUserFootprintFootprint = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["render", _sfc_render$r], ["__scopeId", "data-v-b4912eb6"], ["__file", "F:/code/qq-doctor/pages/user/footprint/footprint.vue"]]);
-  const _sfc_main$r = {
-    data() {
-      return {
-        list: ["1", "2", "3", "4"],
-        state1: false,
-        state2: true
-      };
-    },
-    methods: {
-      navToCTRes() {
-        uni.navigateTo({
-          url: "/pages/user/inspectionResults/inspectionResults"
-        });
-      }
-    }
-  };
-  function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "CTWrapp" }, [
-      vue.createCommentVNode(" 展示CT检验单列表 "),
-      vue.createElementVNode("view", { class: "CTListWrapp" }, [
-        (vue.openBlock(true), vue.createElementBlock(
-          vue.Fragment,
-          null,
-          vue.renderList($data.list, (item1, index1) => {
-            return vue.openBlock(), vue.createElementBlock("view", {
-              class: "CTOne",
-              key: index1
-            }, [
-              vue.createCommentVNode(" 提交医生 分析状态 "),
-              vue.createElementVNode("view", { class: "CTOneTextWrapp" }, [
-                vue.createCommentVNode(" 分析医生 "),
-                vue.createElementVNode("view", { class: "text1" }, [
-                  vue.createElementVNode("text", null, "提交给赵熙蒙医生的CT图")
-                ]),
-                vue.createCommentVNode(" 分析状态 "),
-                vue.createElementVNode("view", { class: "text2" }, [
-                  $data.state1 ? (vue.openBlock(), vue.createElementBlock("text", { key: 0 }, "分析中")) : vue.createCommentVNode("v-if", true),
-                  $data.state2 ? (vue.openBlock(), vue.createElementBlock("text", {
-                    key: 1,
-                    style: { "color": "#FFBB24" }
-                  }, "已完成")) : vue.createCommentVNode("v-if", true)
-                ])
-              ]),
-              vue.createCommentVNode(" 图片 提交时间 诊断结果按钮 "),
-              vue.createElementVNode("view", { class: "CTOneCentralSectionWrapp" }, [
-                vue.createCommentVNode(" 图片 "),
-                vue.createElementVNode("view", { class: "CTOneIconWrapp" }, [
-                  vue.createElementVNode("image", {
-                    src: "/static/img/user/ct.png",
-                    mode: "",
-                    class: "CTOneIcon"
-                  })
-                ]),
-                vue.createCommentVNode(" 提交时间 检测病变 诊断结果 "),
-                vue.createElementVNode("view", { class: "CTOneCentralSectionRightWrapp" }, [
-                  vue.createCommentVNode("提交时间 检测病变  "),
-                  vue.createElementVNode("view", { class: "CTOneCentralSectionRightText" }, [
-                    vue.createElementVNode("text", null, "提交时间: 2023-10-23 21:36"),
-                    vue.createElementVNode("text", null, "\\n监测病变")
-                  ]),
-                  vue.createCommentVNode(" 诊断结果按钮 "),
-                  vue.createElementVNode("view", { class: "resButtonWrapp" }, [
-                    vue.createElementVNode("view", {
-                      class: "resButton",
-                      onClick: _cache[0] || (_cache[0] = ($event) => $options.navToCTRes())
-                    }, " 诊断结果 ")
-                  ])
-                ])
-              ]),
-              vue.createCommentVNode(" 售后服务 评价 "),
-              vue.createElementVNode("view", { class: "serviceAndRateWrapp" }, [
-                vue.createCommentVNode(" 评价 "),
-                vue.createElementVNode("view", { class: "serviceAndRateText1" }, " 评价 "),
-                vue.createCommentVNode(" 售后服务 "),
-                vue.createElementVNode("view", { class: "serviceAndRateText2" }, "售后服务")
-              ])
-            ]);
-          }),
-          128
-          /* KEYED_FRAGMENT */
-        ))
-      ])
-    ]);
-  }
-  const PagesUserCTInspectionSheetCTInspectionSheet = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["render", _sfc_render$q], ["__scopeId", "data-v-9a76732d"], ["__file", "F:/code/qq-doctor/pages/user/CTInspectionSheet/CTInspectionSheet.vue"]]);
-  const _sfc_main$q = {
+  const PagesUserFootprintFootprint = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["render", _sfc_render$a], ["__scopeId", "data-v-b4912eb6"], ["__file", "F:/code/qq-doctor/pages/user/footprint/footprint.vue"]]);
+  const _sfc_main$a = {
     data() {
       return {
         app_height: 0
@@ -12167,7 +13009,7 @@ ${i3}
       });
     }
   };
-  function _sfc_render$p(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock(
       vue.Fragment,
       null,
@@ -12244,251 +13086,14 @@ ${i3}
       /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
     );
   }
-  const PagesUserInspectionResultsInspectionResults = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["render", _sfc_render$p], ["__scopeId", "data-v-581a172f"], ["__file", "F:/code/qq-doctor/pages/user/inspectionResults/inspectionResults.vue"]]);
-  const _sfc_main$p = {
+  const PagesUserInspectionResultsInspectionResults = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$9], ["__scopeId", "data-v-581a172f"], ["__file", "F:/code/qq-doctor/pages/user/inspectionResults/inspectionResults.vue"]]);
+  const _sfc_main$9 = {
     data() {
       return {};
     },
     methods: {}
   };
-  function _sfc_render$o(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createElementVNode("view", { class: "" }, " 企业微信 ")
-    ]);
-  }
-  const PagesUserCustomerServiceCustomerService = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["render", _sfc_render$o], ["__file", "F:/code/qq-doctor/pages/user/customerService/customerService.vue"]]);
-  const _sfc_main$o = {
-    data() {
-      return {};
-    },
-    methods: {
-      navTouserName() {
-        uni.navigateTo({
-          url: "userName"
-        });
-      },
-      navToModifyPassword() {
-        uni.navigateTo({
-          url: "modifyPassword"
-        });
-      },
-      navToModifyPhone() {
-        uni.navigateTo({
-          url: "/pages/user/personalInformation/modifyPhone"
-        });
-      },
-      // 更改头像
-      updateImg() {
-        uni.chooseImage({
-          sourceType: ["album"],
-          //从相册选择
-          success: (chooseImageRes) => {
-            formatAppLog("log", "at pages/user/personalInformation/personalInformation.vue:101", "成功", chooseImageRes);
-            const tempFilePaths = chooseImageRes.tempFilePaths;
-            uni.uploadFile({
-              url: "http://192.168.31.00:7005/file/upload",
-              //仅为示例，非真实的接口地址
-              filePath: tempFilePaths[0],
-              name: "file",
-              header: {
-                accessToken: uni.getStorageSync("accessToken"),
-                platform: 2,
-                type: 1
-              },
-              formData: {
-                category: 3
-              },
-              success: (res) => {
-                let data = JSON.parse(res.data);
-                if (data.msgCode == 200) {
-                  this.updateParams.headImg = JSON.parse(res.data).data;
-                  this.updateUserInfo();
-                }
-                if (data.msgCode == 500) {
-                  this.myToast(data.msgContent, "none");
-                }
-                if (data.msgCode == 311 || data.msgCode == 312) {
-                  myToast(
-                    data.msgContent,
-                    "none",
-                    () => {
-                      const res2 = uni.getStorageInfoSync();
-                      for (let s2 of res2.keys) {
-                        if (s2 === "pwd" || s2 === "lang")
-                          ;
-                        else {
-                          uni.removeStorageSync(s2);
-                        }
-                      }
-                      uni.reLaunch({
-                        url: "/pages/group/index"
-                      });
-                    },
-                    1e3
-                  );
-                }
-              }
-            });
-          },
-          fail: (err) => {
-            this.myToast("图片上传失败", "none");
-          }
-        });
-      }
-    }
-  };
-  function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 个人信息 "),
-      vue.createElementVNode("view", { class: "informationWrapp" }, [
-        vue.createCommentVNode("  "),
-        vue.createElementVNode("view", { class: "information" }, [
-          vue.createElementVNode("view", { class: "informationUp" }, [
-            vue.createElementVNode("text", { class: "informationUpText1" }, "头像"),
-            vue.createElementVNode("view", { class: "headIconWrapp" }, [
-              vue.createCommentVNode(" 头像 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/headSculpture.png",
-                mode: "",
-                class: "headIcon"
-              }),
-              vue.createCommentVNode(" 箭头 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[0] || (_cache[0] = (...args) => $options.updateImg && $options.updateImg(...args))
-              })
-            ])
-          ]),
-          vue.createElementVNode("view", { class: "informationDownWrapp" }, [
-            vue.createElementVNode("view", { class: "informationDown" }, [
-              vue.createElementVNode("view", { class: "informationDownText1" }, " 昵称 "),
-              vue.createElementVNode("view", { class: "informationDownText2" }, [
-                vue.createTextVNode(" simon0414 "),
-                vue.createElementVNode("image", {
-                  src: "/static/img/user/goRight2.png",
-                  mode: "",
-                  class: "goRight2Icon",
-                  onClick: _cache[1] || (_cache[1] = ($event) => $options.navTouserName())
-                })
-              ])
-            ])
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 个人信息 "),
-      vue.createElementVNode("view", { class: "information2Wrapp" }, [
-        vue.createCommentVNode("  "),
-        vue.createElementVNode("view", { class: "information2" }, [
-          vue.createElementVNode("view", { class: "information2Up" }, [
-            vue.createElementVNode("text", { class: "information2UpText1" }, "密码"),
-            vue.createElementVNode("view", { class: "headIcon2Wrapp" }, [
-              vue.createCommentVNode(" 密码 "),
-              vue.createElementVNode("view", { class: "passwordWrapp" }, [
-                vue.createElementVNode("text", null, "******")
-              ]),
-              vue.createCommentVNode(" 箭头 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[2] || (_cache[2] = ($event) => $options.navToModifyPassword())
-              })
-            ])
-          ]),
-          vue.createElementVNode("view", { class: "information2DownWrapp" }, [
-            vue.createElementVNode("view", { class: "information2Down" }, [
-              vue.createElementVNode("view", { class: "information2DownText1" }, " 手机号 "),
-              vue.createElementVNode("view", { class: "information2DownText2" }, [
-                vue.createTextVNode(" 18683927916 "),
-                vue.createElementVNode("image", {
-                  src: "/static/img/user/goRight2.png",
-                  mode: "",
-                  class: "goRight2Icon",
-                  onClick: _cache[3] || (_cache[3] = ($event) => $options.navToModifyPhone())
-                })
-              ])
-            ])
-          ])
-        ])
-      ])
-    ]);
-  }
-  const PagesUserPersonalInformationPersonalInformation = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["render", _sfc_render$n], ["__scopeId", "data-v-77af710c"], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/personalInformation.vue"]]);
-  const _sfc_main$n = {
-    data() {
-      return {
-        list: ["1", "2", "3"]
-      };
-    },
-    methods: {
-      navToModify() {
-        uni.navigateTo({
-          url: "/pages/user/modifyPatientInfo/modifyPatientInfo"
-        });
-      }
-    }
-  };
-  function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 病人信息列表 "),
-      (vue.openBlock(true), vue.createElementBlock(
-        vue.Fragment,
-        null,
-        vue.renderList($data.list, (item, index) => {
-          return vue.openBlock(), vue.createElementBlock("view", {
-            class: "patientInfoListWrapp",
-            key: index
-          }, [
-            vue.createElementVNode("view", { class: "patientInfoList" }, [
-              vue.createCommentVNode(" 头像 姓名 年龄块 "),
-              vue.createElementVNode("view", { class: "patientInfoUp" }, [
-                vue.createElementVNode("view", { class: "headIconWrapp" }, [
-                  vue.createElementVNode("image", {
-                    src: "/static/img/user/headSculpture.png",
-                    mode: "",
-                    class: "headIcon"
-                  })
-                ]),
-                vue.createElementVNode("view", { class: "nameTextWrapp" }, [
-                  vue.createElementVNode("text", { class: "nameText" }, "姓名：周嘉兴"),
-                  vue.createElementVNode("text", { class: "ageText" }, "\\n年龄: 23")
-                ]),
-                vue.createCommentVNode(' 	   <view class="ageTxetWrapp">\r\n						   <text class="ageText">年龄: 23</text>\r\n					   </view> ')
-              ]),
-              vue.createElementVNode("view", { class: "patientInfoDown" }, [
-                vue.createCommentVNode(" 身份证号码 和箭头 "),
-                vue.createElementVNode("view", { class: "idWrapp" }, [
-                  vue.createElementVNode("text", { class: "idText" }, "身份证号：510802********1714"),
-                  vue.createElementVNode("image", {
-                    src: "/static/img/user/goRight2.png",
-                    mode: "",
-                    class: "goRight2Icon",
-                    onClick: _cache[0] || (_cache[0] = ($event) => $options.navToModify())
-                  })
-                ]),
-                vue.createCommentVNode(" 医保 "),
-                vue.createElementVNode("view", { class: "medicalInsuranceWrapp" }, [
-                  vue.createElementVNode("text", { class: "medicalInsuranceText" }, "医保卡号：603365********1349")
-                ])
-              ])
-            ])
-          ]);
-        }),
-        128
-        /* KEYED_FRAGMENT */
-      ))
-    ]);
-  }
-  const PagesUserPatientInformationPatientInformation = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$m], ["__scopeId", "data-v-cbd47988"], ["__file", "F:/code/qq-doctor/pages/user/patientInformation/patientInformation.vue"]]);
-  const _sfc_main$m = {
-    data() {
-      return {};
-    },
-    methods: {}
-  };
-  function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", null, [
       vue.createCommentVNode(" 修改病人信息 "),
       vue.createElementVNode("view", { class: "modifyPatientinformationWrapp" }, [
@@ -12582,518 +13187,242 @@ ${i3}
       ])
     ]);
   }
-  const PagesUserModifyPatientInfoModifyPatientInfo = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["render", _sfc_render$l], ["__scopeId", "data-v-63afc291"], ["__file", "F:/code/qq-doctor/pages/user/modifyPatientInfo/modifyPatientInfo.vue"]]);
-  const _sfc_main$l = {
-    onLoad() {
-      this.getStorageSize();
-    },
-    data() {
-      return {
-        storageSize: "0M"
-      };
-    },
-    methods: {
-      //获取app的缓存
-      getStorageSize() {
-        let that = this;
-        uni.getStorageInfo({
-          success(res) {
-            let size = res.currentSize;
-            if (size < 1024) {
-              that.storageSize = size + " B";
-            } else if (size / 1024 >= 1 && size / 1024 / 1024 < 1) {
-              that.storageSize = Math.floor(size / 1024 * 100) / 100 + " KB";
-            } else if (size / 1024 / 1024 >= 1) {
-              that.storageSize = Math.floor(size / 1024 / 1024 * 100) / 100 + " M";
-            }
-          }
-        });
-      },
-      //删除 缓存
-      clearStorage: function() {
-        let that = this;
-        uni.showModal({
-          title: "提示",
-          content: "确定清除缓存吗?",
-          confirmText: "立即清除",
-          success(res) {
-            if (res.confirm) {
-              uni.clearStorageSync();
-              that.getStorageSize();
-              uni.showToast({
-                title: "清除成功",
-                icon: "none"
-              });
-              setTimeout(() => {
-                uni.redirectTo({
-                  url: "/pages/login/login",
-                  animationType: "pop-in",
-                  animationDuration: 200
-                });
-              }, 1300);
-            }
-          }
-        });
-      }
-    }
-  };
-  function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 通用 "),
-      vue.createElementVNode("view", { class: "commonWrapp" }, [
-        vue.createElementVNode("view", { class: "commonInformationWrapp" }, [
-          vue.createElementVNode("view", { class: "commonInformation" }, [
-            vue.createElementVNode("text", { class: "commonInformationText1" }, "清空缓存"),
-            vue.createElementVNode("view", { class: "commonTextWrapp" }, [
-              vue.createElementVNode("view", { class: "commonText" }, [
-                vue.createCommentVNode(" 46.77MB "),
-                vue.createTextVNode(
-                  " " + vue.toDisplayString($data.storageSize),
-                  1
-                  /* TEXT */
-                )
-              ]),
-              vue.createCommentVNode(" 箭头 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[0] || (_cache[0] = (...args) => $options.clearStorage && $options.clearStorage(...args))
-              })
-            ])
-          ])
-        ])
-      ])
-    ]);
-  }
-  const PagesUserCommonPageCommonPage = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$k], ["__scopeId", "data-v-b1caa8ca"], ["__file", "F:/code/qq-doctor/pages/user/commonPage/commonPage.vue"]]);
-  const _sfc_main$k = {
-    data() {
-      return {};
-    },
-    methods: {
-      navToPP() {
-        uni.navigateTo({
-          url: "/pages/user/privacyPolicy/privacyPolicy"
-        });
-      },
-      navToSPM() {
-        uni.navigateTo({
-          url: "/pages/user/systemPermissionManagement/systemPermissionManagement"
-        });
-      }
-    }
-  };
-  function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 系统权限管理 "),
-      vue.createElementVNode("view", { class: "SystemPermissions" }, [
-        vue.createElementVNode("text", null, "系统权限管理")
-      ]),
-      vue.createCommentVNode(" 系统权限管理 "),
-      vue.createElementVNode("view", { class: "SystemPermissionsWrapp" }, [
-        vue.createElementVNode("view", { class: "SPWrapp" }, [
-          vue.createElementVNode("view", { class: "SystemPermissions2" }, [
-            vue.createElementVNode("view", { class: "SystemPermissionsText" }, [
-              vue.createElementVNode("text", { class: "SystemPermissionsText1" }, "系统权限管理"),
-              vue.createElementVNode("text", { class: "SystemPermissionsText2" }, "\\n管理您已授权在应用的系统权限")
-            ]),
-            vue.createElementVNode("view", { class: "permissionsWrapp" }, [
-              vue.createCommentVNode(" 箭头 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[0] || (_cache[0] = ($event) => $options.navToSPM())
-              })
-            ])
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 推荐管理 "),
-      vue.createElementVNode("view", { class: "SystemPermissions" }, [
-        vue.createElementVNode("text", null, "推荐管理")
-      ]),
-      vue.createCommentVNode(" 通用 "),
-      vue.createElementVNode("view", { class: "SystemPermissionsWrapp" }, [
-        vue.createElementVNode("view", { class: "SPWrapp" }, [
-          vue.createElementVNode("view", { class: "SystemPermissions2" }, [
-            vue.createElementVNode("view", { class: "SystemPermissionsText" }, [
-              vue.createElementVNode("text", { class: "SystemPermissionsText1" }, "病情智能识别分析推荐科类"),
-              vue.createElementVNode("text", { class: "SystemPermissionsText2" }, "\\n病情智能识别分析推荐科类")
-            ]),
-            vue.createElementVNode("view", { class: "permissionsWrapp" }, [
-              vue.createCommentVNode(" 		箭头 "),
-              vue.createCommentVNode(' 	<image src="../../../static/img/user/goRight2.png" mode="" class="goRight2Icon"></image> '),
-              vue.createElementVNode("switch", {
-                checked: "",
-                color: "#FFCC33",
-                style: { "transform": "scale(0.8)" }
-              })
-            ])
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 隐私说明 "),
-      vue.createElementVNode("view", { class: "SystemPermissions" }, [
-        vue.createElementVNode("text", null, "隐私说明")
-      ]),
-      vue.createCommentVNode(" 隐私说明 "),
-      vue.createElementVNode("view", { class: "privacyWrapp" }, [
-        vue.createCommentVNode(" 第一部分 "),
-        vue.createElementVNode("view", { class: "privacyInformation" }, [
-          vue.createElementVNode("view", { class: "privacyInfo" }, [
-            vue.createElementVNode("text", { class: "privacyInfoText1" }, "隐私政策"),
-            vue.createElementVNode("view", { class: "goRightWrapp" }, [
-              vue.createCommentVNode(" 箭头 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[1] || (_cache[1] = ($event) => $options.navToPP())
-              })
-            ])
-          ]),
-          vue.createCommentVNode(" 第二部分  应用权限说明"),
-          vue.createElementVNode("view", { class: "applicationPermissions" }, [
-            vue.createElementVNode("view", { class: "applicationInfo" }, [
-              vue.createElementVNode("view", { class: "applicationInfoText1" }, " 应用权限说明 "),
-              vue.createElementVNode("view", { class: "applicationInfoText2" }, [
-                vue.createElementVNode("image", {
-                  src: "/static/img/user/goRight2.png",
-                  mode: "",
-                  class: "goRight2Icon"
-                })
-              ])
-            ])
-          ])
-        ])
-      ])
-    ]);
-  }
-  const PagesUserPrivacyManagementPrivacyManagement = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$j], ["__scopeId", "data-v-4c2d3f74"], ["__file", "F:/code/qq-doctor/pages/user/privacyManagement/privacyManagement.vue"]]);
-  const _sfc_main$j = {
-    methods: {
-      navToPPM() {
-        uni.navigateTo({
-          url: "/pages/user/privacyManagement/privacyManagement"
-        });
-      }
-    }
-  };
-  function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "privacyPolicy" }, [
-      vue.createElementVNode("view", { class: "title" }, [
-        vue.createElementVNode("view", {
-          class: "titleContent",
-          style: { "height": "100%", "width": "100%" }
-        }, "privacyPolicy")
-      ]),
-      vue.createElementVNode("scroll-view", {
-        class: "content",
-        "scroll-y": ""
-      }, [
-        vue.createElementVNode("view", { class: "privacyPolicy-content" }, " Dr. Little’s vision is to make healthcare more efficient and effective through machine learning technology, connected care, and research products. Naturally, this involves working with data that is important to a hospital. We appreciate the trust placed in us to protect patient’s privacy. Please carefully read this “privacy policy” before using our services. This Privacy Policy applies to data collected or processed by the Dr. Little system via X hospital and alliances devices, applications, software, websites, APIs, and our general dealings with customers through email and other forms of communication regarding our products and services and also our future services (the “Services”). This policy is not applied to the data collected from outside of our system, for example, such as data collected by other applications and websites within each hospital. This policy is a part of the agreement in using our application and receiving treatments at X hospital. By using our application, we assume that you have read and agreed with this policy. This policy explains what data we collect, how we use it, and the measures we take to keep the data safe. The details about this policy will be described as followed. For your medical records, apart from this policy, we will strictly comply with governmental regulations on how we handle it. What kind of data do we collect from patients? We collect data from patients to track medical treatments and services (this includes preventing and following up symptoms). The data we collect is general data and patient data (medical records) essential for medical services. Patients data is data that can identify both directly and indirectly, for example, data that could identify patient, such as name, gender, date of birth, and identification number data concerning patients contact such as an address, phone number, and email data concerning patients emergency contact such as relationship and contact number of a person hospitals could contact in case of emergency data concerning patient physical and mental health data concerning patient allergy of medicines/ food and their side effects data concerning patient feedbacks and comments data concerning patients diagnosis (for medical personnel users) data concerning patient activity log on our application (for medical personnel users) Why data matter to us? It is essential to collect, update, process, and use patient data to provide our services continuously. Our services will include informing patient diagnosis results, providing data concerning patient interests, improving the accuracy of software we use to facilitate diagnosis and legal purposes. This policy will collect, store, update, process, and make use of data (personal data, X-ray pictures, and other relevant data) for medical education and treatments, application improvement, and increasing the accuracy of our software and the ML diagnosis model. How long would we keep patient data? We will keep patient personal data for at least five years since we collect the data or make adjustments/updates. We expect that within this timeframe, we would be able to aid a diagnosis ultimately. However, we may keep the data longer than the expected five years if a patient is still ongoing diagnosis or the laws allow us to keep their data. Your data will be deleted from our database after the set timeframe. Who has access to patient data? Only us and X hospital have access to patient data. To protect the anonymity of this data, we do not send the third parties’ analytics companies any data that identifies the patients. The third parties with whom we share data include our medical alliances and cloud computing providers. We may need to reveal data for legal purposes, which we would inform X hospital every time before handing the data to responsible governmental officials. How do we secure data? We value privacy and will always do our best to protect data. Pattern Health products are designed for use by healthcare organizations subject to the privacy and security standards defined by the U.S. Health Insurance Portability and Accountability Act (HIPAA) and the E.U. General Data Protection Regulation (GDPR) 2016/679. We will store our data by using a cybersecurity company Cloudflare to ensure optimal precautions are taken into account. Additionally, we provide physical, electronic, and procedural safeguards to protect the data we process and maintain. For example, we limit access to authorized employees and contractors who need to know data to operate, develop or improve our products. Please be aware that, although we endeavor to provide excellent security for the data we process and maintain, no security system can prevent all potential security breaches. Should a breach occur, the hospital will be notified within a reasonable time via email and a prominent notice on our website. Future development of our system will incorporate blockchain to decentralize information so that data will not be tied back to the patient. We need to utilize the data to train our ML diagnosis model; however, we want to take the necessary steps to anonymize the scans. Changes This Privacy Policy may be updated from time to time for undisclosed reasons. We will notify the hospital of any changes to our Privacy Policy by posting the new Privacy Policy to https://doctorlittle.org/ and informing via email or within the appliaction. Hospitals are advised to consult this Privacy Policy regularly for any changes. What are user rights? Hospital has the right to access the data, ask for copies, and update the data. Hospital has the right to oppose, suspend, and revoke its consent regarding our collection, use, and data revelation. Hospital has the right to delete, destroy, and reveal the source of data. However, we assume that by suspending and revoking consent, X hospital recognizes that it might affect its access to our services and the quality of treatments received within our system. Your Consent Dr Little and X hospital are the controllers of patient data provided to us, which means determining the purposes and how personal data is processed. Using our Services, X hospital is consenting to our processing of user-provided and automatically collected data. “Processing” means using data in any way, including, but not limited to, collecting, storing, deleting, combining, and disclosing data, all of which activities will take place in Kenya. If X hospital resides outside Kenya, the data will be transferred to Kenya and processed and stored there. Using our products and providing data to us, you consent to such transfer to and processing in Kenya. ")
-      ]),
-      vue.createElementVNode("view", { class: "wrapp" }, [
-        vue.createElementVNode("navigator", {
-          url: "/pages/user/privacyManagement/privacyManagement",
-          style: { "height": "100%", "width": "80%" }
-        }, [
-          vue.createElementVNode("view", { class: "privacyPolicy-button" }, " 同意")
-        ])
-      ])
-    ]);
-  }
-  const PagesUserPrivacyPolicyPrivacyPolicy = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["render", _sfc_render$i], ["__scopeId", "data-v-8c95e091"], ["__file", "F:/code/qq-doctor/pages/user/privacyPolicy/privacyPolicy.vue"]]);
-  const _sfc_main$i = {
-    data() {
-      return {
-        state1: true,
-        state2: true,
-        state3: false,
-        state4: false
-      };
-    }
-  };
-  function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 系统权限管理 "),
-      vue.createElementVNode("view", { class: "spmText1" }, [
-        vue.createElementVNode("text", null, "为了向您提供更好的用户体验"),
-        vue.createElementVNode("text", null, "\\n企桥医健会在特定场景下向您申请以下权限")
-      ]),
-      vue.createCommentVNode(" 相机和存储权限"),
-      vue.createElementVNode("view", { class: "cameraAndStorageWrapp" }, [
-        vue.createCommentVNode(" 第一部分 相机权限"),
-        vue.createElementVNode("view", { class: "cameraInformation" }, [
-          vue.createElementVNode("view", { class: "cameraInfo" }, [
-            vue.createElementVNode("view", { class: "cameraInfoTextWrapp" }, [
-              vue.createElementVNode("text", { class: "cameraInfoText1" }, "相机权限"),
-              vue.createElementVNode("text", { class: "cameraInfoText2" }, "\\n实现您的扫描、拍照、录像等功能")
-            ]),
-            vue.createElementVNode("view", { class: "goRightWrapp" }, [
-              vue.createCommentVNode(" 箭头 "),
-              $data.state1 ? (vue.openBlock(), vue.createElementBlock("text", {
-                key: 0,
-                class: "stateText1"
-              }, "已开启")) : vue.createCommentVNode("v-if", true),
-              !$data.state1 ? (vue.openBlock(), vue.createElementBlock("text", {
-                key: 1,
-                class: "stateText1",
-                style: { "color": "#4485FD" }
-              }, "去设置")) : vue.createCommentVNode("v-if", true),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[0] || (_cache[0] = ($event) => _ctx.navToPP())
-              })
-            ])
-          ]),
-          vue.createCommentVNode(" 第二部分  存储权限"),
-          vue.createElementVNode("view", { class: "storageInformation" }, [
-            vue.createElementVNode("view", { class: "storageInfo" }, [
-              vue.createElementVNode("view", { class: "storageInfoTextWrapp" }, [
-                vue.createElementVNode("text", { class: "storageInfoText1" }, "存储权限"),
-                vue.createElementVNode("text", { class: "storageInfoText2" }, "\\n用于图片或视频的上传和下载")
-              ]),
-              vue.createElementVNode("view", { class: "goRightWrapp" }, [
-                $data.state2 ? (vue.openBlock(), vue.createElementBlock("text", {
-                  key: 0,
-                  class: "stateText2"
-                }, "已开启")) : vue.createCommentVNode("v-if", true),
-                !$data.state2 ? (vue.openBlock(), vue.createElementBlock("text", {
-                  key: 1,
-                  class: "stateText1",
-                  style: { "color": "#4485FD" }
-                }, "去设置")) : vue.createCommentVNode("v-if", true),
-                vue.createElementVNode("image", {
-                  src: "/static/img/user/goRight2.png",
-                  mode: "",
-                  class: "goRight2Icon"
-                })
-              ])
-            ])
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 位置和麦克风权限"),
-      vue.createElementVNode("view", { class: "cameraAndStorageWrapp" }, [
-        vue.createCommentVNode(" 第一部分 位置权限"),
-        vue.createElementVNode("view", { class: "cameraInformation" }, [
-          vue.createElementVNode("view", { class: "cameraInfo" }, [
-            vue.createElementVNode("view", { class: "cameraInfoTextWrapp" }, [
-              vue.createElementVNode("text", { class: "cameraInfoText1" }, "位置信息权限"),
-              vue.createElementVNode("text", { class: "cameraInfoText2" }, "\\n根据您的位置信息为您展示附近医院信息")
-            ]),
-            vue.createElementVNode("view", { class: "goRightWrapp" }, [
-              vue.createCommentVNode(" 箭头 "),
-              $data.state3 ? (vue.openBlock(), vue.createElementBlock("text", {
-                key: 0,
-                class: "stateText1"
-              }, "已开启")) : vue.createCommentVNode("v-if", true),
-              !$data.state4 ? (vue.openBlock(), vue.createElementBlock("text", {
-                key: 1,
-                class: "stateText1",
-                style: { "color": "#4485FD" }
-              }, "去设置")) : vue.createCommentVNode("v-if", true),
-              vue.createElementVNode("image", {
-                src: "/static/img/user/goRight2.png",
-                mode: "",
-                class: "goRight2Icon",
-                onClick: _cache[1] || (_cache[1] = ($event) => _ctx.navToPP())
-              })
-            ])
-          ]),
-          vue.createCommentVNode(" 第二部分  麦克风权限"),
-          vue.createElementVNode("view", { class: "storageInformation" }, [
-            vue.createElementVNode("view", { class: "storageInfo" }, [
-              vue.createElementVNode("view", { class: "storageInfoTextWrapp" }, [
-                vue.createElementVNode("text", { class: "storageInfoText1" }, "麦克风权限"),
-                vue.createElementVNode("text", { class: "storageInfoText2" }, "\\n用于录制有声视频或使用视频服务")
-              ]),
-              vue.createElementVNode("view", { class: "goRightWrapp" }, [
-                $data.state4 ? (vue.openBlock(), vue.createElementBlock("text", {
-                  key: 0,
-                  class: "stateText2"
-                }, "已开启")) : vue.createCommentVNode("v-if", true),
-                !$data.state4 ? (vue.openBlock(), vue.createElementBlock("text", {
-                  key: 1,
-                  class: "stateText2",
-                  style: { "color": "#4485FD" }
-                }, "去设置")) : vue.createCommentVNode("v-if", true),
-                vue.createElementVNode("image", {
-                  src: "/static/img/user/goRight2.png",
-                  mode: "",
-                  class: "goRight2Icon"
-                })
-              ])
-            ])
-          ])
-        ])
-      ])
-    ]);
-  }
-  const PagesUserSystemPermissionManagementSystemPermissionManagement = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["render", _sfc_render$h], ["__scopeId", "data-v-21d66e5c"], ["__file", "F:/code/qq-doctor/pages/user/systemPermissionManagement/systemPermissionManagement.vue"]]);
-  const _sfc_main$h = {
-    data() {
-      return {};
-    }
-  };
-  function _sfc_render$g(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 暂时不知道怎么写 "),
-      vue.createElementVNode("view", { class: "" }, "等后面再完成")
-    ]);
-  }
-  const PagesUserPersonalInformationCollectionPersonalInformationCollection = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$g], ["__file", "F:/code/qq-doctor/pages/user/personalInformationCollection/personalInformationCollection.vue"]]);
-  const _sfc_main$g = {
-    data() {
-      return {};
-    },
-    methods: {
-      navToBusinessLicense() {
-        uni.navigateTo({
-          url: "/pages/user/businessLicense/businessLicense"
-        });
-      },
-      navToReportingInformation() {
-        uni.navigateTo({
-          url: "/pages/user/reportingInformation/reportingInformation"
-        });
-      },
-      navToCopyrightInformation() {
-        uni.navigateTo({
-          url: "/pages/user/copyrightInformation/copyrightInformation"
-        });
-      }
-    }
-  };
-  function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" logo "),
-      vue.createElementVNode("view", { class: "logoAndVersionWrapp" }, [
-        vue.createCommentVNode(" logo "),
-        vue.createElementVNode("view", { class: "logoWrapp" }, [
-          vue.createElementVNode("image", {
-            src: "/static/logo.png",
-            mode: "",
-            class: "logoIcon"
-          })
-        ]),
-        vue.createElementVNode("view", { class: "logoTextWrapp" }, [
-          vue.createElementVNode("text", { class: "logoText" }, "您身边的健康呵护人")
-        ]),
-        vue.createElementVNode("view", { class: "versionTextWrapp" }, [
-          vue.createElementVNode("text", { class: "verisionText" }, "企桥医健V1.0.1 Release")
-        ])
-      ]),
-      vue.createCommentVNode(" 企桥医健资质 "),
-      vue.createElementVNode("view", { class: "qualificationsWrapp" }, [
-        vue.createElementVNode("text", { class: "qualificationsText" }, "企桥医健资质"),
-        vue.createElementVNode("image", {
-          src: "/static/img/user/goRight2.png",
-          mode: "",
-          class: "goRight2Icon",
-          onClick: _cache[0] || (_cache[0] = ($event) => $options.navToBusinessLicense())
-        })
-      ]),
-      vue.createCommentVNode(" 举报信息 "),
-      vue.createElementVNode("view", { class: "qualificationsWrapp" }, [
-        vue.createElementVNode("text", { class: "qualificationsText" }, "举报信息"),
-        vue.createElementVNode("image", {
-          src: "/static/img/user/goRight2.png",
-          mode: "",
-          class: "goRight2Icon",
-          onClick: _cache[1] || (_cache[1] = ($event) => $options.navToReportingInformation())
-        })
-      ]),
-      vue.createCommentVNode(" 版权信息 "),
-      vue.createElementVNode("view", { class: "qualificationsWrapp" }, [
-        vue.createElementVNode("text", { class: "qualificationsText" }, "版权信息"),
-        vue.createElementVNode("image", {
-          src: "/static/img/user/goRight2.png",
-          mode: "",
-          class: "goRight2Icon",
-          onClick: _cache[2] || (_cache[2] = ($event) => $options.navToCopyrightInformation())
-        })
-      ])
-    ]);
-  }
-  const PagesUserAboutAbout = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["render", _sfc_render$f], ["__scopeId", "data-v-d6b522c7"], ["__file", "F:/code/qq-doctor/pages/user/about/about.vue"]]);
-  const _sfc_main$f = {
-    data() {
-      return {};
-    }
-  };
-  function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createTextVNode(" 后面更改 "),
-      vue.createCommentVNode(" 营业执照 "),
-      vue.createElementVNode("view", { class: "businessLicenseWrapp" }, [
-        vue.createElementVNode("image", {
-          src: "/static/img/user/bL.jpg",
-          mode: "",
-          class: "bLIcon"
-        })
-      ])
-    ]);
-  }
-  const PagesUserBusinessLicenseBusinessLicense = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$e], ["__scopeId", "data-v-4d17e3a8"], ["__file", "F:/code/qq-doctor/pages/user/businessLicense/businessLicense.vue"]]);
-  const _sfc_main$e = {
-    data() {
-      return {};
-    }
-  };
-  function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 举报信息 "),
-      vue.createCommentVNode(" 举报电话 "),
-      vue.createElementVNode("view", { class: "phoneWrapp" }, [
-        vue.createElementVNode("view", { class: "phoneText1" }, "1.违法与不良信息举报电话"),
-        vue.createElementVNode("view", { class: "phoneNum" }, " 18683927916 ")
-      ]),
-      vue.createCommentVNode(" 举报邮箱 "),
-      vue.createElementVNode("view", { class: "emailWrapp" }, [
-        vue.createElementVNode("view", { class: "emailText1" }, "2.举报邮箱 "),
-        vue.createElementVNode("view", { class: "emailNum" }, " 815175473@qq.com ")
-      ]),
-      vue.createCommentVNode(" 其他信息 "),
-      vue.createElementVNode("view", { class: "otherTextWrapp" }, [
-        vue.createElementVNode("view", { class: "otherText" }, " 以上渠道可投诉举报互联网违法和不良信息涉及的各类问题。 ")
-      ])
-    ]);
-  }
-  const PagesUserReportingInformationReportingInformation = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$d], ["__scopeId", "data-v-9a3c0da9"], ["__file", "F:/code/qq-doctor/pages/user/reportingInformation/reportingInformation.vue"]]);
-  const _sfc_main$d = {
-    data() {
-      return {};
-    }
-  };
-  function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 版权信息 "),
-      vue.createElementVNode("view", { class: "CopyrightText1" }, " 版权信息 - 江西理工大学企桥工作室 "),
-      vue.createElementVNode("view", { class: "CopyrightText2" }, " 版权所有 © 江西理工大学企桥工作室. 保留所有权利。 "),
-      vue.createElementVNode("view", { class: "CopyrightText3" }, " 对于企桥工作室创作的全部文字、图片、图形、音频、视频和相关材料，包括但不限于企桥工作室的网站、宣传材料、出版物等等，均受版权法和其他知识产权法律的保护 "),
-      vue.createElementVNode("view", { class: "CopyrightText4" }, " 未经江西理工大学企桥工作室明确授权，任何个人或组织不得以任何形式复制、修改、传播、展示、演示、发布、出售或利用上述作品或内容 "),
-      vue.createElementVNode("view", { class: "CopyrightText5" }, " 除非另有说明，江西理工大学企桥工作室相关作品或内容中涉及的商标、标识和标志等，均受商标法保护，且归江西理工大学企桥工作室所有。 "),
-      vue.createElementVNode("view", { class: "CopyrightText6" }, " 未经江西理工大学企桥工作室书面许可，任何个人或组织不得以任何方式使用江西理工大学企桥工作室的商标、标识和标志。 "),
-      vue.createElementVNode("view", { class: "CopyrightText6" }, " 如需获取或使用江西理工大学企桥工作室作品或内容的许可，请联系企桥工作室或发送电子邮件至[email protected] ")
-    ]);
-  }
-  const PagesUserCopyrightInformationCopyrightInformation = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["render", _sfc_render$c], ["__scopeId", "data-v-7fba5ead"], ["__file", "F:/code/qq-doctor/pages/user/copyrightInformation/copyrightInformation.vue"]]);
-  const _sfc_main$c = {
+  const PagesUserModifyPatientInfoModifyPatientInfo = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__scopeId", "data-v-63afc291"], ["__file", "F:/code/qq-doctor/pages/user/modifyPatientInfo/modifyPatientInfo.vue"]]);
+  const _sfc_main$8 = {
     data() {
       return {};
     },
     methods: {}
   };
-  function _sfc_render$b(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view");
   }
-  const PagesUserModifyPatientInfoPatienName = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["render", _sfc_render$b], ["__file", "F:/code/qq-doctor/pages/user/modifyPatientInfo/patienName.vue"]]);
+  const PagesUserModifyPatientInfoPatienName = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$7], ["__file", "F:/code/qq-doctor/pages/user/modifyPatientInfo/patienName.vue"]]);
+  const _sfc_main$7 = {
+    data() {
+      return {
+        list: ["1", "2", "3"]
+      };
+    },
+    methods: {
+      navToModify() {
+        uni.navigateTo({
+          url: "/pages/user/modifyPatientInfo/modifyPatientInfo"
+        });
+      }
+    }
+  };
+  function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createCommentVNode(" 病人信息列表 "),
+      (vue.openBlock(true), vue.createElementBlock(
+        vue.Fragment,
+        null,
+        vue.renderList($data.list, (item, index) => {
+          return vue.openBlock(), vue.createElementBlock("view", {
+            class: "patientInfoListWrapp",
+            key: index
+          }, [
+            vue.createElementVNode("view", { class: "patientInfoList" }, [
+              vue.createCommentVNode(" 头像 姓名 年龄块 "),
+              vue.createElementVNode("view", { class: "patientInfoUp" }, [
+                vue.createElementVNode("view", { class: "headIconWrapp" }, [
+                  vue.createElementVNode("image", {
+                    src: "/static/img/user/headSculpture.png",
+                    mode: "",
+                    class: "headIcon"
+                  })
+                ]),
+                vue.createElementVNode("view", { class: "nameTextWrapp" }, [
+                  vue.createElementVNode("text", { class: "nameText" }, "姓名：周嘉兴"),
+                  vue.createElementVNode("text", { class: "ageText" }, "\\n年龄: 23")
+                ]),
+                vue.createCommentVNode(' 	   <view class="ageTxetWrapp">\r\n						   <text class="ageText">年龄: 23</text>\r\n					   </view> ')
+              ]),
+              vue.createElementVNode("view", { class: "patientInfoDown" }, [
+                vue.createCommentVNode(" 身份证号码 和箭头 "),
+                vue.createElementVNode("view", { class: "idWrapp" }, [
+                  vue.createElementVNode("text", { class: "idText" }, "身份证号：510802********1714"),
+                  vue.createElementVNode("image", {
+                    src: "/static/img/user/goRight2.png",
+                    mode: "",
+                    class: "goRight2Icon",
+                    onClick: _cache[0] || (_cache[0] = ($event) => $options.navToModify())
+                  })
+                ]),
+                vue.createCommentVNode(" 医保 "),
+                vue.createElementVNode("view", { class: "medicalInsuranceWrapp" }, [
+                  vue.createElementVNode("text", { class: "medicalInsuranceText" }, "医保卡号：603365********1349")
+                ])
+              ])
+            ])
+          ]);
+        }),
+        128
+        /* KEYED_FRAGMENT */
+      ))
+    ]);
+  }
+  const PagesUserPatientInformationPatientInformation = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["render", _sfc_render$6], ["__scopeId", "data-v-cbd47988"], ["__file", "F:/code/qq-doctor/pages/user/patientInformation/patientInformation.vue"]]);
+  const _sfc_main$6 = {
+    data() {
+      return {};
+    },
+    methods: {
+      navTouserName() {
+        uni.navigateTo({
+          url: "userName"
+        });
+      },
+      navToModifyPassword() {
+        uni.navigateTo({
+          url: "modifyPassword"
+        });
+      },
+      navToModifyPhone() {
+        uni.navigateTo({
+          url: "/pages/user/personalInformation/modifyPhone"
+        });
+      },
+      // 更改头像
+      updateImg() {
+        uni.chooseImage({
+          sourceType: ["album"],
+          //从相册选择
+          success: (chooseImageRes) => {
+            formatAppLog("log", "at pages/user/personalInformation/personalInformation.vue:101", "成功", chooseImageRes);
+            const tempFilePaths = chooseImageRes.tempFilePaths;
+            uni.uploadFile({
+              url: "http://192.168.31.00:7005/file/upload",
+              //仅为示例，非真实的接口地址
+              filePath: tempFilePaths[0],
+              name: "file",
+              header: {
+                accessToken: uni.getStorageSync("accessToken"),
+                platform: 2,
+                type: 1
+              },
+              formData: {
+                category: 3
+              },
+              success: (res) => {
+                let data = JSON.parse(res.data);
+                if (data.msgCode == 200) {
+                  this.updateParams.headImg = JSON.parse(res.data).data;
+                  this.updateUserInfo();
+                }
+                if (data.msgCode == 500) {
+                  this.myToast(data.msgContent, "none");
+                }
+                if (data.msgCode == 311 || data.msgCode == 312) {
+                  myToast(
+                    data.msgContent,
+                    "none",
+                    () => {
+                      const res2 = uni.getStorageInfoSync();
+                      for (let s2 of res2.keys) {
+                        if (s2 === "pwd" || s2 === "lang")
+                          ;
+                        else {
+                          uni.removeStorageSync(s2);
+                        }
+                      }
+                      uni.reLaunch({
+                        url: "/pages/group/index"
+                      });
+                    },
+                    1e3
+                  );
+                }
+              }
+            });
+          },
+          fail: (err) => {
+            this.myToast("图片上传失败", "none");
+          }
+        });
+      }
+    }
+  };
+  function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, [
+      vue.createCommentVNode(" 个人信息 "),
+      vue.createElementVNode("view", { class: "informationWrapp" }, [
+        vue.createCommentVNode("  "),
+        vue.createElementVNode("view", { class: "information" }, [
+          vue.createElementVNode("view", { class: "informationUp" }, [
+            vue.createElementVNode("text", { class: "informationUpText1" }, "头像"),
+            vue.createElementVNode("view", { class: "headIconWrapp" }, [
+              vue.createCommentVNode(" 头像 "),
+              vue.createElementVNode("image", {
+                src: "/static/img/user/headSculpture.png",
+                mode: "",
+                class: "headIcon"
+              }),
+              vue.createCommentVNode(" 箭头 "),
+              vue.createElementVNode("image", {
+                src: "/static/img/user/goRight2.png",
+                mode: "",
+                class: "goRight2Icon",
+                onClick: _cache[0] || (_cache[0] = (...args) => $options.updateImg && $options.updateImg(...args))
+              })
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "informationDownWrapp" }, [
+            vue.createElementVNode("view", { class: "informationDown" }, [
+              vue.createElementVNode("view", { class: "informationDownText1" }, " 昵称 "),
+              vue.createElementVNode("view", { class: "informationDownText2" }, [
+                vue.createTextVNode(" simon0414 "),
+                vue.createElementVNode("image", {
+                  src: "/static/img/user/goRight2.png",
+                  mode: "",
+                  class: "goRight2Icon",
+                  onClick: _cache[1] || (_cache[1] = ($event) => $options.navTouserName())
+                })
+              ])
+            ])
+          ])
+        ])
+      ]),
+      vue.createCommentVNode(" 个人信息 "),
+      vue.createElementVNode("view", { class: "information2Wrapp" }, [
+        vue.createCommentVNode("  "),
+        vue.createElementVNode("view", { class: "information2" }, [
+          vue.createElementVNode("view", { class: "information2Up" }, [
+            vue.createElementVNode("text", { class: "information2UpText1" }, "密码"),
+            vue.createElementVNode("view", { class: "headIcon2Wrapp" }, [
+              vue.createCommentVNode(" 密码 "),
+              vue.createElementVNode("view", { class: "passwordWrapp" }, [
+                vue.createElementVNode("text", null, "******")
+              ]),
+              vue.createCommentVNode(" 箭头 "),
+              vue.createElementVNode("image", {
+                src: "/static/img/user/goRight2.png",
+                mode: "",
+                class: "goRight2Icon",
+                onClick: _cache[2] || (_cache[2] = ($event) => $options.navToModifyPassword())
+              })
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "information2DownWrapp" }, [
+            vue.createElementVNode("view", { class: "information2Down" }, [
+              vue.createElementVNode("view", { class: "information2DownText1" }, " 手机号 "),
+              vue.createElementVNode("view", { class: "information2DownText2" }, [
+                vue.createTextVNode(" 18683927916 "),
+                vue.createElementVNode("image", {
+                  src: "/static/img/user/goRight2.png",
+                  mode: "",
+                  class: "goRight2Icon",
+                  onClick: _cache[3] || (_cache[3] = ($event) => $options.navToModifyPhone())
+                })
+              ])
+            ])
+          ])
+        ])
+      ])
+    ]);
+  }
+  const PagesUserPersonalInformationPersonalInformation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["render", _sfc_render$5], ["__scopeId", "data-v-77af710c"], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/personalInformation.vue"]]);
   function obj2strClass(obj) {
     let classess = "";
     for (let key in obj) {
@@ -13112,7 +13441,7 @@ ${i3}
     }
     return style;
   }
-  const _sfc_main$b = {
+  const _sfc_main$5 = {
     name: "uni-easyinput",
     emits: ["click", "iconClick", "update:modelValue", "input", "focus", "blur", "confirm", "clear", "eyes", "change", "keyboardheightchange"],
     model: {
@@ -13445,8 +13774,8 @@ ${i3}
       }
     }
   };
-  function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$a);
+  function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$9);
     return vue.openBlock(), vue.createElementBlock(
       "view",
       {
@@ -13566,15 +13895,15 @@ ${i3}
       /* CLASS, STYLE */
     );
   }
-  const __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["render", _sfc_render$a], ["__scopeId", "data-v-09fd5285"], ["__file", "F:/code/qq-doctor/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput.vue"]]);
-  const _sfc_main$a = {
+  const __easycom_0 = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$4], ["__scopeId", "data-v-09fd5285"], ["__file", "F:/code/qq-doctor/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput.vue"]]);
+  const _sfc_main$4 = {
     data() {
       return {};
     },
     methods: {}
   };
-  function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_easyinput = resolveEasycom(vue.resolveDynamicComponent("uni-easyinput"), __easycom_0$1);
+  function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_easyinput = resolveEasycom(vue.resolveDynamicComponent("uni-easyinput"), __easycom_0);
     return vue.openBlock(), vue.createElementBlock("view", null, [
       vue.createVNode(_component_uni_easyinput, {
         modelValue: _ctx.value,
@@ -13585,1778 +13914,44 @@ ${i3}
       vue.createElementVNode("text", { class: "userNameText" }, "限2~12个中文、英文或数字")
     ]);
   }
-  const PagesUserPersonalInformationUserName = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$9], ["__scopeId", "data-v-503a08ca"], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/userName.vue"]]);
-  const _sfc_main$9 = {
-    data() {
-      return {};
-    },
-    methods: {}
-  };
-  function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view");
-  }
-  const PagesUserPersonalInformationModifyPassword = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/modifyPassword.vue"]]);
-  const _sfc_main$8 = {
-    data() {
-      return {};
-    },
-    methods: {}
-  };
-  function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view");
-  }
-  const PagesUserPersonalInformationModifyPhone = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$7], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/modifyPhone.vue"]]);
-  const _sfc_main$7 = {
-    data() {
-      return {
-        state1: false,
-        state2: false,
-        state3: false,
-        state4: false
-      };
-    },
-    methods: {
-      navToEvaInfo() {
-        uni.navigateTo({
-          url: "/pages/order/evaluativeInformation/evaluativeInformation"
-        });
-      }
-    }
-  };
-  function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 订单的状态 "),
-      vue.createElementVNode("view", { class: "orderStateWrapp" }, [
-        !$data.state1 ? (vue.openBlock(), vue.createElementBlock("text", { key: 0 }, "订单已完成")) : vue.createCommentVNode("v-if", true),
-        $data.state2 ? (vue.openBlock(), vue.createElementBlock("text", { key: 1 }, "订单已退款")) : vue.createCommentVNode("v-if", true),
-        $data.state3 ? (vue.openBlock(), vue.createElementBlock("text", { key: 2 }, "订单未使用")) : vue.createCommentVNode("v-if", true)
-      ]),
-      vue.createCommentVNode(" 致电 评价 重新下单 "),
-      vue.createElementVNode("view", { class: "callAndRateWrapp" }, [
-        vue.createElementVNode("view", { class: "callAndRate" }, [
-          vue.createElementVNode("view", { class: "thankTextWrapp" }, " 感谢您对企桥医健的信任,祝愿您身体健康! "),
-          vue.createElementVNode("view", { class: "callRate" }, [
-            vue.createElementVNode("view", { class: "callWrapp" }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/user/customerService.png",
-                mode: "",
-                class: "callIcon"
-              }),
-              vue.createElementVNode("view", { class: "callText" }, " 致电医院 ")
-            ]),
-            vue.createElementVNode("view", { class: "callWrapp" }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/user/customerService.png",
-                mode: "",
-                class: "callIcon"
-              }),
-              vue.createElementVNode("view", { class: "callText" }, " 致电医生 ")
-            ]),
-            !$data.state1 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 0,
-              class: "callWrapp"
-            }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/order/rate.png",
-                mode: "",
-                class: "callIcon"
-              }),
-              vue.createElementVNode("view", {
-                class: "callText",
-                onClick: _cache[0] || (_cache[0] = ($event) => $options.navToEvaInfo())
-              }, " 评价信息 ")
-            ])) : vue.createCommentVNode("v-if", true),
-            $data.state2 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 1,
-              class: "callWrapp"
-            }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/order/afterSales.png",
-                mode: "",
-                class: "callIcon"
-              }),
-              vue.createElementVNode("view", { class: "callText" }, " 重新下单 ")
-            ])) : vue.createCommentVNode("v-if", true)
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 医生医院的基本信息 "),
-      vue.createElementVNode("view", { class: "hospAndDocDescWrapp" }, [
-        vue.createElementVNode("view", { class: "hospAndDocDesc" }, [
-          vue.createElementVNode("view", { class: "hospDescWrapp" }, " 赣州市第一人民医院 "),
-          vue.createElementVNode("view", { class: "docDescTextWrapp" }, " 医生基本信息 "),
-          vue.createCommentVNode(" 医生图片以及详细信息 "),
-          vue.createElementVNode("view", { class: "docIconAndDescWrapp" }, [
-            vue.createCommentVNode(" 医生图片 "),
-            vue.createElementVNode("view", { class: "docIconWrapp" }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/order/docIcon.png",
-                mode: "",
-                class: "docIcon"
-              })
-            ]),
-            vue.createCommentVNode(" 医生详情 "),
-            vue.createElementVNode("view", { class: "docDescWrapp" }, [
-              vue.createElementVNode("text", null, "眼科"),
-              vue.createElementVNode("text", null, "\\n联系电话: "),
-              vue.createElementVNode("text", null, "\\n18683927916"),
-              vue.createElementVNode("text", null, "\\n0888-9661245"),
-              vue.createElementVNode("text", null, "\\n办公室:"),
-              vue.createElementVNode("text", null, "\\n赣州市第一人民医院"),
-              vue.createElementVNode("text", null, "\\n4F208室")
-            ])
-          ])
-        ])
-      ]),
-      vue.createCommentVNode(" 订单信息 "),
-      vue.createElementVNode("view", { class: "orderDescWrapp" }, [
-        vue.createElementVNode("view", { class: "orderDesc" }, [
-          vue.createCommentVNode(" 订单信息文字 "),
-          vue.createElementVNode("view", { class: "orderDescText1" }, " 订单信息 "),
-          vue.createCommentVNode(" 订单详情文字 "),
-          vue.createElementVNode("view", { class: "orderDescText2" }, [
-            vue.createElementVNode("text", null, "订单ID: 4935975230644435337"),
-            vue.createElementVNode("text", null, "\\n创建时间: 2023-10-21 18:56"),
-            vue.createElementVNode("text", null, "\\n完成时间: 2023-10-22 19:00"),
-            !$data.state1 ? (vue.openBlock(), vue.createElementBlock("text", { key: 0 }, "\\n支付方式: 微信支付")) : vue.createCommentVNode("v-if", true),
-            vue.createTextVNode(),
-            $data.state2 ? (vue.openBlock(), vue.createElementBlock("text", { key: 1 }, "\\n支付方式: 微信支付(原路返回)")) : vue.createCommentVNode("v-if", true),
-            vue.createElementVNode("text", null, "\\n姓名: 赵熙蒙"),
-            vue.createElementVNode("text", null, "\\n手机号: 18683927916")
-          ]),
-          vue.createCommentVNode(" 病人信息 以及图片 "),
-          vue.createElementVNode("view", { class: "patientWrapp" }, [
-            vue.createElementVNode("text", null, "病人信息:"),
-            vue.createElementVNode("view", { class: "patientIconWrapp" }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/order/patientIcon.png",
-                mode: "",
-                class: "patientIcon"
-              }),
-              vue.createElementVNode("view", { class: "" }, " 周嘉兴 ")
-            ])
-          ])
-        ])
-      ])
-    ]);
-  }
-  const PagesOrderOrderDetailOrderDetail = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["render", _sfc_render$6], ["__scopeId", "data-v-794c335f"], ["__file", "F:/code/qq-doctor/pages/order/orderDetail/orderDetail.vue"]]);
-  const _sfc_main$6 = {
-    data() {
-      return {
-        rateValue: 5
-      };
-    }
-  };
-  function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_rate = resolveEasycom(vue.resolveDynamicComponent("uni-rate"), __easycom_0$9);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 评价 "),
-      vue.createElementVNode("view", { class: "evaluativeInformationWrapp" }, [
-        vue.createElementVNode("view", { class: "evaluativeInformation" }, [
-          vue.createCommentVNode(" 头像 用户名 和评分 "),
-          vue.createElementVNode("view", { class: "headUserAndRateWrapp" }, [
-            vue.createElementVNode("image", {
-              src: "/static/img/user/headSculpture.png",
-              mode: "",
-              class: "headIcon"
-            }),
-            vue.createElementVNode("view", { class: "userAndRateWrapp" }, [
-              vue.createCommentVNode(" 用户名 "),
-              vue.createElementVNode("text", { class: "userNameText" }, " simon "),
-              vue.createVNode(_component_uni_rate, {
-                readonly: true,
-                value: $data.rateValue,
-                size: "18",
-                style: { "margin-top": "10rpx" }
-              }, null, 8, ["value"])
-            ])
-          ]),
-          vue.createCommentVNode(" 评论 文字和图片 "),
-          vue.createElementVNode("view", { class: "evaluativeInformationTextWrapp" }, [
-            vue.createElementVNode("view", { class: "evaluativeText" }, " 11111111111111111111111111111111111111111111111111111111111111111 11111111111111111 11111 11111111 "),
-            vue.createElementVNode("view", { class: "evaluativeIconWrapp" }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/doctor2.png",
-                mode: "aspectFit",
-                class: "evaluativeIcon"
-              }),
-              vue.createElementVNode("image", {
-                src: "/static/img/doctor2.png",
-                mode: "aspectFit",
-                class: "evaluativeIcon"
-              }),
-              vue.createElementVNode("image", {
-                src: "/static/img/doctor2.png",
-                mode: "aspectFit",
-                class: "evaluativeIcon"
-              }),
-              vue.createElementVNode("image", {
-                src: "/static/img/doctor2.png",
-                mode: "aspectFit",
-                class: "evaluativeIcon"
-              }),
-              vue.createElementVNode("image", {
-                src: "/static/img/doctor2.png",
-                mode: "aspectFit",
-                class: "evaluativeIcon"
-              })
-            ])
-          ])
-        ])
-      ])
-    ]);
-  }
-  const PagesOrderEvaluativeInformationEvaluativeInformation = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["render", _sfc_render$5], ["__scopeId", "data-v-1c1d27be"], ["__file", "F:/code/qq-doctor/pages/order/evaluativeInformation/evaluativeInformation.vue"]]);
-  const ERR_MSG_OK = "chooseAndUploadFile:ok";
-  const ERR_MSG_FAIL = "chooseAndUploadFile:fail";
-  function chooseImage(opts) {
-    const {
-      count,
-      sizeType = ["original", "compressed"],
-      sourceType,
-      extension
-    } = opts;
-    return new Promise((resolve, reject) => {
-      uni.chooseImage({
-        count,
-        sizeType,
-        sourceType,
-        extension,
-        success(res) {
-          resolve(normalizeChooseAndUploadFileRes(res, "image"));
-        },
-        fail(res) {
-          reject({
-            errMsg: res.errMsg.replace("chooseImage:fail", ERR_MSG_FAIL)
-          });
-        }
-      });
-    });
-  }
-  function chooseVideo(opts) {
-    const {
-      camera,
-      compressed,
-      maxDuration,
-      sourceType,
-      extension
-    } = opts;
-    return new Promise((resolve, reject) => {
-      uni.chooseVideo({
-        camera,
-        compressed,
-        maxDuration,
-        sourceType,
-        extension,
-        success(res) {
-          const {
-            tempFilePath,
-            duration,
-            size,
-            height,
-            width
-          } = res;
-          resolve(normalizeChooseAndUploadFileRes({
-            errMsg: "chooseVideo:ok",
-            tempFilePaths: [tempFilePath],
-            tempFiles: [
-              {
-                name: res.tempFile && res.tempFile.name || "",
-                path: tempFilePath,
-                size,
-                type: res.tempFile && res.tempFile.type || "",
-                width,
-                height,
-                duration,
-                fileType: "video",
-                cloudPath: ""
-              }
-            ]
-          }, "video"));
-        },
-        fail(res) {
-          reject({
-            errMsg: res.errMsg.replace("chooseVideo:fail", ERR_MSG_FAIL)
-          });
-        }
-      });
-    });
-  }
-  function chooseAll(opts) {
-    const {
-      count,
-      extension
-    } = opts;
-    return new Promise((resolve, reject) => {
-      let chooseFile = uni.chooseFile;
-      if (typeof wx !== "undefined" && typeof wx.chooseMessageFile === "function") {
-        chooseFile = wx.chooseMessageFile;
-      }
-      if (typeof chooseFile !== "function") {
-        return reject({
-          errMsg: ERR_MSG_FAIL + " 请指定 type 类型，该平台仅支持选择 image 或 video。"
-        });
-      }
-      chooseFile({
-        type: "all",
-        count,
-        extension,
-        success(res) {
-          resolve(normalizeChooseAndUploadFileRes(res));
-        },
-        fail(res) {
-          reject({
-            errMsg: res.errMsg.replace("chooseFile:fail", ERR_MSG_FAIL)
-          });
-        }
-      });
-    });
-  }
-  function normalizeChooseAndUploadFileRes(res, fileType) {
-    res.tempFiles.forEach((item, index) => {
-      if (!item.name) {
-        item.name = item.path.substring(item.path.lastIndexOf("/") + 1);
-      }
-      if (fileType) {
-        item.fileType = fileType;
-      }
-      item.cloudPath = Date.now() + "_" + index + item.name.substring(item.name.lastIndexOf("."));
-    });
-    if (!res.tempFilePaths) {
-      res.tempFilePaths = res.tempFiles.map((file) => file.path);
-    }
-    return res;
-  }
-  function uploadCloudFiles(files, max = 5, onUploadProgress) {
-    files = JSON.parse(JSON.stringify(files));
-    const len = files.length;
-    let count = 0;
-    let self = this;
-    return new Promise((resolve) => {
-      while (count < max) {
-        next();
-      }
-      function next() {
-        let cur = count++;
-        if (cur >= len) {
-          !files.find((item) => !item.url && !item.errMsg) && resolve(files);
-          return;
-        }
-        const fileItem = files[cur];
-        const index = self.files.findIndex((v2) => v2.uuid === fileItem.uuid);
-        fileItem.url = "";
-        delete fileItem.errMsg;
-        $s.uploadFile({
-          filePath: fileItem.path,
-          cloudPath: fileItem.cloudPath,
-          fileType: fileItem.fileType,
-          onUploadProgress: (res) => {
-            res.index = index;
-            onUploadProgress && onUploadProgress(res);
-          }
-        }).then((res) => {
-          fileItem.url = res.fileID;
-          fileItem.index = index;
-          if (cur < len) {
-            next();
-          }
-        }).catch((res) => {
-          fileItem.errMsg = res.errMsg || res.message;
-          fileItem.index = index;
-          if (cur < len) {
-            next();
-          }
-        });
-      }
-    });
-  }
-  function uploadFiles(choosePromise, {
-    onChooseFile,
-    onUploadProgress
-  }) {
-    return choosePromise.then((res) => {
-      if (onChooseFile) {
-        const customChooseRes = onChooseFile(res);
-        if (typeof customChooseRes !== "undefined") {
-          return Promise.resolve(customChooseRes).then((chooseRes) => typeof chooseRes === "undefined" ? res : chooseRes);
-        }
-      }
-      return res;
-    }).then((res) => {
-      if (res === false) {
-        return {
-          errMsg: ERR_MSG_OK,
-          tempFilePaths: [],
-          tempFiles: []
-        };
-      }
-      return res;
-    });
-  }
-  function chooseAndUploadFile(opts = {
-    type: "all"
-  }) {
-    if (opts.type === "image") {
-      return uploadFiles(chooseImage(opts), opts);
-    } else if (opts.type === "video") {
-      return uploadFiles(chooseVideo(opts), opts);
-    }
-    return uploadFiles(chooseAll(opts), opts);
-  }
-  const get_file_ext = (name) => {
-    const last_len = name.lastIndexOf(".");
-    const len = name.length;
-    return {
-      name: name.substring(0, last_len),
-      ext: name.substring(last_len + 1, len)
-    };
-  };
-  const get_extname = (fileExtname) => {
-    if (!Array.isArray(fileExtname)) {
-      let extname = fileExtname.replace(/(\[|\])/g, "");
-      return extname.split(",");
-    } else {
-      return fileExtname;
-    }
-  };
-  const get_files_and_is_max = (res, _extname) => {
-    let filePaths = [];
-    let files = [];
-    if (!_extname || _extname.length === 0) {
-      return {
-        filePaths,
-        files
-      };
-    }
-    res.tempFiles.forEach((v2) => {
-      let fileFullName = get_file_ext(v2.name);
-      const extname = fileFullName.ext.toLowerCase();
-      if (_extname.indexOf(extname) !== -1) {
-        files.push(v2);
-        filePaths.push(v2.path);
-      }
-    });
-    if (files.length !== res.tempFiles.length) {
-      uni.showToast({
-        title: `当前选择了${res.tempFiles.length}个文件 ，${res.tempFiles.length - files.length} 个文件格式不正确`,
-        icon: "none",
-        duration: 5e3
-      });
-    }
-    return {
-      filePaths,
-      files
-    };
-  };
-  const get_file_info = (filepath) => {
-    return new Promise((resolve, reject) => {
-      uni.getImageInfo({
-        src: filepath,
-        success(res) {
-          resolve(res);
-        },
-        fail(err) {
-          reject(err);
-        }
-      });
-    });
-  };
-  const get_file_data = async (files, type = "image") => {
-    let fileFullName = get_file_ext(files.name);
-    const extname = fileFullName.ext.toLowerCase();
-    let filedata = {
-      name: files.name,
-      uuid: files.uuid,
-      extname: extname || "",
-      cloudPath: files.cloudPath,
-      fileType: files.fileType,
-      url: files.path || files.path,
-      size: files.size,
-      //单位是字节
-      image: {},
-      path: files.path,
-      video: {}
-    };
-    if (type === "image") {
-      const imageinfo = await get_file_info(files.path);
-      delete filedata.video;
-      filedata.image.width = imageinfo.width;
-      filedata.image.height = imageinfo.height;
-      filedata.image.location = imageinfo.path;
-    } else {
-      delete filedata.image;
-    }
-    return filedata;
-  };
-  const _sfc_main$5 = {
-    name: "uploadImage",
-    emits: ["uploadFiles", "choose", "delFile"],
-    props: {
-      filesList: {
-        type: Array,
-        default() {
-          return [];
-        }
-      },
-      disabled: {
-        type: Boolean,
-        default: false
-      },
-      disablePreview: {
-        type: Boolean,
-        default: false
-      },
-      limit: {
-        type: [Number, String],
-        default: 9
-      },
-      imageStyles: {
-        type: Object,
-        default() {
-          return {
-            width: "auto",
-            height: "auto",
-            border: {}
-          };
-        }
-      },
-      delIcon: {
-        type: Boolean,
-        default: true
-      },
-      readonly: {
-        type: Boolean,
-        default: false
-      }
-    },
-    computed: {
-      styles() {
-        let styles = {
-          width: "auto",
-          height: "auto",
-          border: {}
-        };
-        return Object.assign(styles, this.imageStyles);
-      },
-      boxStyle() {
-        const {
-          width = "auto",
-          height = "auto"
-        } = this.styles;
-        let obj = {};
-        if (height === "auto") {
-          if (width !== "auto") {
-            obj.height = this.value2px(width);
-            obj["padding-top"] = 0;
-          } else {
-            obj.height = 0;
-          }
-        } else {
-          obj.height = this.value2px(height);
-          obj["padding-top"] = 0;
-        }
-        if (width === "auto") {
-          if (height !== "auto") {
-            obj.width = this.value2px(height);
-          } else {
-            obj.width = "33.3%";
-          }
-        } else {
-          obj.width = this.value2px(width);
-        }
-        let classles = "";
-        for (let i2 in obj) {
-          classles += `${i2}:${obj[i2]};`;
-        }
-        return classles;
-      },
-      borderStyle() {
-        let {
-          border
-        } = this.styles;
-        let obj = {};
-        const widthDefaultValue = 1;
-        const radiusDefaultValue = 3;
-        if (typeof border === "boolean") {
-          obj.border = border ? "1px #eee solid" : "none";
-        } else {
-          let width = border && border.width || widthDefaultValue;
-          width = this.value2px(width);
-          let radius = border && border.radius || radiusDefaultValue;
-          radius = this.value2px(radius);
-          obj = {
-            "border-width": width,
-            "border-style": border && border.style || "solid",
-            "border-color": border && border.color || "#eee",
-            "border-radius": radius
-          };
-        }
-        let classles = "";
-        for (let i2 in obj) {
-          classles += `${i2}:${obj[i2]};`;
-        }
-        return classles;
-      }
-    },
-    methods: {
-      uploadFiles(item, index) {
-        this.$emit("uploadFiles", item);
-      },
-      choose() {
-        this.$emit("choose");
-      },
-      delFile(index) {
-        this.$emit("delFile", index);
-      },
-      prviewImage(img, index) {
-        let urls = [];
-        if (Number(this.limit) === 1 && this.disablePreview && !this.disabled) {
-          this.$emit("choose");
-        }
-        if (this.disablePreview)
-          return;
-        this.filesList.forEach((i2) => {
-          urls.push(i2.url);
-        });
-        uni.previewImage({
-          urls,
-          current: index
-        });
-      },
-      value2px(value) {
-        if (typeof value === "number") {
-          value += "px";
-        } else {
-          if (value.indexOf("%") === -1) {
-            value = value.indexOf("px") !== -1 ? value : value + "px";
-          }
-        }
-        return value;
-      }
-    }
-  };
-  function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "uni-file-picker__container" }, [
-      (vue.openBlock(true), vue.createElementBlock(
-        vue.Fragment,
-        null,
-        vue.renderList($props.filesList, (item, index) => {
-          return vue.openBlock(), vue.createElementBlock(
-            "view",
-            {
-              class: "file-picker__box",
-              key: index,
-              style: vue.normalizeStyle($options.boxStyle)
-            },
-            [
-              vue.createElementVNode(
-                "view",
-                {
-                  class: "file-picker__box-content",
-                  style: vue.normalizeStyle($options.borderStyle)
-                },
-                [
-                  vue.createElementVNode("image", {
-                    class: "file-image",
-                    src: item.url,
-                    mode: "aspectFill",
-                    onClick: vue.withModifiers(($event) => $options.prviewImage(item, index), ["stop"])
-                  }, null, 8, ["src", "onClick"]),
-                  $props.delIcon && !$props.readonly ? (vue.openBlock(), vue.createElementBlock("view", {
-                    key: 0,
-                    class: "icon-del-box",
-                    onClick: vue.withModifiers(($event) => $options.delFile(index), ["stop"])
-                  }, [
-                    vue.createElementVNode("view", { class: "icon-del" }),
-                    vue.createElementVNode("view", { class: "icon-del rotate" })
-                  ], 8, ["onClick"])) : vue.createCommentVNode("v-if", true),
-                  item.progress && item.progress !== 100 || item.progress === 0 ? (vue.openBlock(), vue.createElementBlock("view", {
-                    key: 1,
-                    class: "file-picker__progress"
-                  }, [
-                    vue.createElementVNode("progress", {
-                      class: "file-picker__progress-item",
-                      percent: item.progress === -1 ? 0 : item.progress,
-                      "stroke-width": "4",
-                      backgroundColor: item.errMsg ? "#ff5a5f" : "#EBEBEB"
-                    }, null, 8, ["percent", "backgroundColor"])
-                  ])) : vue.createCommentVNode("v-if", true),
-                  item.errMsg ? (vue.openBlock(), vue.createElementBlock("view", {
-                    key: 2,
-                    class: "file-picker__mask",
-                    onClick: vue.withModifiers(($event) => $options.uploadFiles(item, index), ["stop"])
-                  }, " 点击重试 ", 8, ["onClick"])) : vue.createCommentVNode("v-if", true)
-                ],
-                4
-                /* STYLE */
-              )
-            ],
-            4
-            /* STYLE */
-          );
-        }),
-        128
-        /* KEYED_FRAGMENT */
-      )),
-      $props.filesList.length < $props.limit && !$props.readonly ? (vue.openBlock(), vue.createElementBlock(
-        "view",
-        {
-          key: 0,
-          class: "file-picker__box",
-          style: vue.normalizeStyle($options.boxStyle)
-        },
-        [
-          vue.createElementVNode(
-            "view",
-            {
-              class: "file-picker__box-content is-add",
-              style: vue.normalizeStyle($options.borderStyle),
-              onClick: _cache[0] || (_cache[0] = (...args) => $options.choose && $options.choose(...args))
-            },
-            [
-              vue.renderSlot(_ctx.$slots, "default", {}, () => [
-                vue.createElementVNode("view", { class: "icon-add" }),
-                vue.createElementVNode("view", { class: "icon-add rotate" })
-              ], true)
-            ],
-            4
-            /* STYLE */
-          )
-        ],
-        4
-        /* STYLE */
-      )) : vue.createCommentVNode("v-if", true)
-    ]);
-  }
-  const uploadImage = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$4], ["__scopeId", "data-v-bdfc07e0"], ["__file", "F:/code/qq-doctor/uni_modules/uni-file-picker/components/uni-file-picker/upload-image.vue"]]);
-  const _sfc_main$4 = {
-    name: "uploadFile",
-    emits: ["uploadFiles", "choose", "delFile"],
-    props: {
-      filesList: {
-        type: Array,
-        default() {
-          return [];
-        }
-      },
-      delIcon: {
-        type: Boolean,
-        default: true
-      },
-      limit: {
-        type: [Number, String],
-        default: 9
-      },
-      showType: {
-        type: String,
-        default: ""
-      },
-      listStyles: {
-        type: Object,
-        default() {
-          return {
-            // 是否显示边框
-            border: true,
-            // 是否显示分隔线
-            dividline: true,
-            // 线条样式
-            borderStyle: {}
-          };
-        }
-      },
-      readonly: {
-        type: Boolean,
-        default: false
-      }
-    },
-    computed: {
-      list() {
-        let files = [];
-        this.filesList.forEach((v2) => {
-          files.push(v2);
-        });
-        return files;
-      },
-      styles() {
-        let styles = {
-          border: true,
-          dividline: true,
-          "border-style": {}
-        };
-        return Object.assign(styles, this.listStyles);
-      },
-      borderStyle() {
-        let {
-          borderStyle,
-          border
-        } = this.styles;
-        let obj = {};
-        if (!border) {
-          obj.border = "none";
-        } else {
-          let width = borderStyle && borderStyle.width || 1;
-          width = this.value2px(width);
-          let radius = borderStyle && borderStyle.radius || 5;
-          radius = this.value2px(radius);
-          obj = {
-            "border-width": width,
-            "border-style": borderStyle && borderStyle.style || "solid",
-            "border-color": borderStyle && borderStyle.color || "#eee",
-            "border-radius": radius
-          };
-        }
-        let classles = "";
-        for (let i2 in obj) {
-          classles += `${i2}:${obj[i2]};`;
-        }
-        return classles;
-      },
-      borderLineStyle() {
-        let obj = {};
-        let {
-          borderStyle
-        } = this.styles;
-        if (borderStyle && borderStyle.color) {
-          obj["border-color"] = borderStyle.color;
-        }
-        if (borderStyle && borderStyle.width) {
-          let width = borderStyle && borderStyle.width || 1;
-          let style = borderStyle && borderStyle.style || 0;
-          if (typeof width === "number") {
-            width += "px";
-          } else {
-            width = width.indexOf("px") ? width : width + "px";
-          }
-          obj["border-width"] = width;
-          if (typeof style === "number") {
-            style += "px";
-          } else {
-            style = style.indexOf("px") ? style : style + "px";
-          }
-          obj["border-top-style"] = style;
-        }
-        let classles = "";
-        for (let i2 in obj) {
-          classles += `${i2}:${obj[i2]};`;
-        }
-        return classles;
-      }
-    },
-    methods: {
-      uploadFiles(item, index) {
-        this.$emit("uploadFiles", {
-          item,
-          index
-        });
-      },
-      choose() {
-        this.$emit("choose");
-      },
-      delFile(index) {
-        this.$emit("delFile", index);
-      },
-      value2px(value) {
-        if (typeof value === "number") {
-          value += "px";
-        } else {
-          value = value.indexOf("px") !== -1 ? value : value + "px";
-        }
-        return value;
-      }
-    }
-  };
-  function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "uni-file-picker__files" }, [
-      !$props.readonly ? (vue.openBlock(), vue.createElementBlock("view", {
-        key: 0,
-        class: "files-button",
-        onClick: _cache[0] || (_cache[0] = (...args) => $options.choose && $options.choose(...args))
-      }, [
-        vue.renderSlot(_ctx.$slots, "default", {}, void 0, true)
-      ])) : vue.createCommentVNode("v-if", true),
-      vue.createCommentVNode(` :class="{'is-text-box':showType === 'list'}" `),
-      $options.list.length > 0 ? (vue.openBlock(), vue.createElementBlock(
-        "view",
-        {
-          key: 1,
-          class: "uni-file-picker__lists is-text-box",
-          style: vue.normalizeStyle($options.borderStyle)
-        },
-        [
-          vue.createCommentVNode(" ,'is-list-card':showType === 'list-card' "),
-          (vue.openBlock(true), vue.createElementBlock(
-            vue.Fragment,
-            null,
-            vue.renderList($options.list, (item, index) => {
-              return vue.openBlock(), vue.createElementBlock(
-                "view",
-                {
-                  class: vue.normalizeClass(["uni-file-picker__lists-box", {
-                    "files-border": index !== 0 && $options.styles.dividline
-                  }]),
-                  key: index,
-                  style: vue.normalizeStyle(index !== 0 && $options.styles.dividline && $options.borderLineStyle)
-                },
-                [
-                  vue.createElementVNode("view", { class: "uni-file-picker__item" }, [
-                    vue.createCommentVNode(` :class="{'is-text-image':showType === 'list'}" `),
-                    vue.createCommentVNode(' 	<view class="files__image is-text-image">\r\n						<image class="header-image" :src="item.logo" mode="aspectFit"></image>\r\n					</view> '),
-                    vue.createElementVNode(
-                      "view",
-                      { class: "files__name" },
-                      vue.toDisplayString(item.name),
-                      1
-                      /* TEXT */
-                    ),
-                    $props.delIcon && !$props.readonly ? (vue.openBlock(), vue.createElementBlock("view", {
-                      key: 0,
-                      class: "icon-del-box icon-files",
-                      onClick: ($event) => $options.delFile(index)
-                    }, [
-                      vue.createElementVNode("view", { class: "icon-del icon-files" }),
-                      vue.createElementVNode("view", { class: "icon-del rotate" })
-                    ], 8, ["onClick"])) : vue.createCommentVNode("v-if", true)
-                  ]),
-                  item.progress && item.progress !== 100 || item.progress === 0 ? (vue.openBlock(), vue.createElementBlock("view", {
-                    key: 0,
-                    class: "file-picker__progress"
-                  }, [
-                    vue.createElementVNode("progress", {
-                      class: "file-picker__progress-item",
-                      percent: item.progress === -1 ? 0 : item.progress,
-                      "stroke-width": "4",
-                      backgroundColor: item.errMsg ? "#ff5a5f" : "#EBEBEB"
-                    }, null, 8, ["percent", "backgroundColor"])
-                  ])) : vue.createCommentVNode("v-if", true),
-                  item.status === "error" ? (vue.openBlock(), vue.createElementBlock("view", {
-                    key: 1,
-                    class: "file-picker__mask",
-                    onClick: vue.withModifiers(($event) => $options.uploadFiles(item, index), ["stop"])
-                  }, " 点击重试 ", 8, ["onClick"])) : vue.createCommentVNode("v-if", true)
-                ],
-                6
-                /* CLASS, STYLE */
-              );
-            }),
-            128
-            /* KEYED_FRAGMENT */
-          ))
-        ],
-        4
-        /* STYLE */
-      )) : vue.createCommentVNode("v-if", true)
-    ]);
-  }
-  const uploadFile = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-a54939c6"], ["__file", "F:/code/qq-doctor/uni_modules/uni-file-picker/components/uni-file-picker/upload-file.vue"]]);
+  const PagesUserPersonalInformationUserName = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-503a08ca"], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/userName.vue"]]);
   const _sfc_main$3 = {
-    name: "uniFilePicker",
-    components: {
-      uploadImage,
-      uploadFile
-    },
-    options: {
-      virtualHost: true
-    },
-    emits: ["select", "success", "fail", "progress", "delete", "update:modelValue", "input"],
-    props: {
-      modelValue: {
-        type: [Array, Object],
-        default() {
-          return [];
-        }
-      },
-      disabled: {
-        type: Boolean,
-        default: false
-      },
-      disablePreview: {
-        type: Boolean,
-        default: false
-      },
-      delIcon: {
-        type: Boolean,
-        default: true
-      },
-      // 自动上传
-      autoUpload: {
-        type: Boolean,
-        default: true
-      },
-      // 最大选择个数 ，h5只能限制单选或是多选
-      limit: {
-        type: [Number, String],
-        default: 9
-      },
-      // 列表样式 grid | list | list-card
-      mode: {
-        type: String,
-        default: "grid"
-      },
-      // 选择文件类型  image/video/all
-      fileMediatype: {
-        type: String,
-        default: "image"
-      },
-      // 文件类型筛选
-      fileExtname: {
-        type: [Array, String],
-        default() {
-          return [];
-        }
-      },
-      title: {
-        type: String,
-        default: ""
-      },
-      listStyles: {
-        type: Object,
-        default() {
-          return {
-            // 是否显示边框
-            border: true,
-            // 是否显示分隔线
-            dividline: true,
-            // 线条样式
-            borderStyle: {}
-          };
-        }
-      },
-      imageStyles: {
-        type: Object,
-        default() {
-          return {
-            width: "auto",
-            height: "auto"
-          };
-        }
-      },
-      readonly: {
-        type: Boolean,
-        default: false
-      },
-      returnType: {
-        type: String,
-        default: "array"
-      },
-      sizeType: {
-        type: Array,
-        default() {
-          return ["original", "compressed"];
-        }
-      },
-      sourceType: {
-        type: Array,
-        default() {
-          return ["album", "camera"];
-        }
-      }
-    },
     data() {
-      return {
-        files: [],
-        localValue: []
-      };
+      return {};
     },
-    watch: {
-      modelValue: {
-        handler(newVal, oldVal) {
-          this.setValue(newVal, oldVal);
-        },
-        immediate: true
-      }
-    },
-    computed: {
-      filesList() {
-        let files = [];
-        this.files.forEach((v2) => {
-          files.push(v2);
-        });
-        return files;
-      },
-      showType() {
-        if (this.fileMediatype === "image") {
-          return this.mode;
-        }
-        return "list";
-      },
-      limitLength() {
-        if (this.returnType === "object") {
-          return 1;
-        }
-        if (!this.limit) {
-          return 1;
-        }
-        if (this.limit >= 9) {
-          return 9;
-        }
-        return this.limit;
-      }
-    },
-    created() {
-      if (!($s.config && $s.config.provider)) {
-        this.noSpace = true;
-        $s.chooseAndUploadFile = chooseAndUploadFile;
-      }
-      this.form = this.getForm("uniForms");
-      this.formItem = this.getForm("uniFormsItem");
-      if (this.form && this.formItem) {
-        if (this.formItem.name) {
-          this.rename = this.formItem.name;
-          this.form.inputChildrens.push(this);
-        }
-      }
-    },
-    methods: {
-      /**
-       * 公开用户使用，清空文件
-       * @param {Object} index
-       */
-      clearFiles(index) {
-        if (index !== 0 && !index) {
-          this.files = [];
-          this.$nextTick(() => {
-            this.setEmit();
-          });
-        } else {
-          this.files.splice(index, 1);
-        }
-        this.$nextTick(() => {
-          this.setEmit();
-        });
-      },
-      /**
-       * 公开用户使用，继续上传
-       */
-      upload() {
-        let files = [];
-        this.files.forEach((v2, index) => {
-          if (v2.status === "ready" || v2.status === "error") {
-            files.push(Object.assign({}, v2));
-          }
-        });
-        return this.uploadFiles(files);
-      },
-      async setValue(newVal, oldVal) {
-        const newData = async (v2) => {
-          const reg = /cloud:\/\/([\w.]+\/?)\S*/;
-          let url = "";
-          if (v2.fileID) {
-            url = v2.fileID;
-          } else {
-            url = v2.url;
-          }
-          if (reg.test(url)) {
-            v2.fileID = url;
-            v2.url = await this.getTempFileURL(url);
-          }
-          if (v2.url)
-            v2.path = v2.url;
-          return v2;
-        };
-        if (this.returnType === "object") {
-          if (newVal) {
-            await newData(newVal);
-          } else {
-            newVal = {};
-          }
-        } else {
-          if (!newVal)
-            newVal = [];
-          for (let i2 = 0; i2 < newVal.length; i2++) {
-            let v2 = newVal[i2];
-            await newData(v2);
-          }
-        }
-        this.localValue = newVal;
-        if (this.form && this.formItem && !this.is_reset) {
-          this.is_reset = false;
-          this.formItem.setValue(this.localValue);
-        }
-        let filesData = Object.keys(newVal).length > 0 ? newVal : [];
-        this.files = [].concat(filesData);
-      },
-      /**
-       * 选择文件
-       */
-      choose() {
-        if (this.disabled)
-          return;
-        if (this.files.length >= Number(this.limitLength) && this.showType !== "grid" && this.returnType === "array") {
-          uni.showToast({
-            title: `您最多选择 ${this.limitLength} 个文件`,
-            icon: "none"
-          });
-          return;
-        }
-        this.chooseFiles();
-      },
-      /**
-       * 选择文件并上传
-       */
-      chooseFiles() {
-        const _extname = get_extname(this.fileExtname);
-        $s.chooseAndUploadFile({
-          type: this.fileMediatype,
-          compressed: false,
-          sizeType: this.sizeType,
-          sourceType: this.sourceType,
-          // TODO 如果为空，video 有问题
-          extension: _extname.length > 0 ? _extname : void 0,
-          count: this.limitLength - this.files.length,
-          //默认9
-          onChooseFile: this.chooseFileCallback,
-          onUploadProgress: (progressEvent) => {
-            this.setProgress(progressEvent, progressEvent.index);
-          }
-        }).then((result) => {
-          this.setSuccessAndError(result.tempFiles);
-        }).catch((err) => {
-          formatAppLog("log", "at uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker.vue:371", "选择失败", err);
-        });
-      },
-      /**
-       * 选择文件回调
-       * @param {Object} res
-       */
-      async chooseFileCallback(res) {
-        const _extname = get_extname(this.fileExtname);
-        const is_one = Number(this.limitLength) === 1 && this.disablePreview && !this.disabled || this.returnType === "object";
-        if (is_one) {
-          this.files = [];
-        }
-        let {
-          filePaths,
-          files
-        } = get_files_and_is_max(res, _extname);
-        if (!(_extname && _extname.length > 0)) {
-          filePaths = res.tempFilePaths;
-          files = res.tempFiles;
-        }
-        let currentData = [];
-        for (let i2 = 0; i2 < files.length; i2++) {
-          if (this.limitLength - this.files.length <= 0)
-            break;
-          files[i2].uuid = Date.now();
-          let filedata = await get_file_data(files[i2], this.fileMediatype);
-          filedata.progress = 0;
-          filedata.status = "ready";
-          this.files.push(filedata);
-          currentData.push({
-            ...filedata,
-            file: files[i2]
-          });
-        }
-        this.$emit("select", {
-          tempFiles: currentData,
-          tempFilePaths: filePaths
-        });
-        res.tempFiles = files;
-        if (!this.autoUpload || this.noSpace) {
-          res.tempFiles = [];
-        }
-      },
-      /**
-       * 批传
-       * @param {Object} e
-       */
-      uploadFiles(files) {
-        files = [].concat(files);
-        return uploadCloudFiles.call(this, files, 5, (res) => {
-          this.setProgress(res, res.index, true);
-        }).then((result) => {
-          this.setSuccessAndError(result);
-          return result;
-        }).catch((err) => {
-          formatAppLog("log", "at uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker.vue:437", err);
-        });
-      },
-      /**
-       * 成功或失败
-       */
-      async setSuccessAndError(res, fn) {
-        let successData = [];
-        let errorData = [];
-        let tempFilePath = [];
-        let errorTempFilePath = [];
-        for (let i2 = 0; i2 < res.length; i2++) {
-          const item = res[i2];
-          const index = item.uuid ? this.files.findIndex((p2) => p2.uuid === item.uuid) : item.index;
-          if (index === -1 || !this.files)
-            break;
-          if (item.errMsg === "request:fail") {
-            this.files[index].url = item.path;
-            this.files[index].status = "error";
-            this.files[index].errMsg = item.errMsg;
-            errorData.push(this.files[index]);
-            errorTempFilePath.push(this.files[index].url);
-          } else {
-            this.files[index].errMsg = "";
-            this.files[index].fileID = item.url;
-            const reg = /cloud:\/\/([\w.]+\/?)\S*/;
-            if (reg.test(item.url)) {
-              this.files[index].url = await this.getTempFileURL(item.url);
-            } else {
-              this.files[index].url = item.url;
-            }
-            this.files[index].status = "success";
-            this.files[index].progress += 1;
-            successData.push(this.files[index]);
-            tempFilePath.push(this.files[index].fileID);
-          }
-        }
-        if (successData.length > 0) {
-          this.setEmit();
-          this.$emit("success", {
-            tempFiles: this.backObject(successData),
-            tempFilePaths: tempFilePath
-          });
-        }
-        if (errorData.length > 0) {
-          this.$emit("fail", {
-            tempFiles: this.backObject(errorData),
-            tempFilePaths: errorTempFilePath
-          });
-        }
-      },
-      /**
-       * 获取进度
-       * @param {Object} progressEvent
-       * @param {Object} index
-       * @param {Object} type
-       */
-      setProgress(progressEvent, index, type) {
-        this.files.length;
-        const percentCompleted = Math.round(progressEvent.loaded * 100 / progressEvent.total);
-        let idx = index;
-        if (!type) {
-          idx = this.files.findIndex((p2) => p2.uuid === progressEvent.tempFile.uuid);
-        }
-        if (idx === -1 || !this.files[idx])
-          return;
-        this.files[idx].progress = percentCompleted - 1;
-        this.$emit("progress", {
-          index: idx,
-          progress: parseInt(percentCompleted),
-          tempFile: this.files[idx]
-        });
-      },
-      /**
-       * 删除文件
-       * @param {Object} index
-       */
-      delFile(index) {
-        this.$emit("delete", {
-          tempFile: this.files[index],
-          tempFilePath: this.files[index].url
-        });
-        this.files.splice(index, 1);
-        this.$nextTick(() => {
-          this.setEmit();
-        });
-      },
-      /**
-       * 获取文件名和后缀
-       * @param {Object} name
-       */
-      getFileExt(name) {
-        const last_len = name.lastIndexOf(".");
-        const len = name.length;
-        return {
-          name: name.substring(0, last_len),
-          ext: name.substring(last_len + 1, len)
-        };
-      },
-      /**
-       * 处理返回事件
-       */
-      setEmit() {
-        let data = [];
-        if (this.returnType === "object") {
-          data = this.backObject(this.files)[0];
-          this.localValue = data ? data : null;
-        } else {
-          data = this.backObject(this.files);
-          if (!this.localValue) {
-            this.localValue = [];
-          }
-          this.localValue = [...data];
-        }
-        this.$emit("update:modelValue", this.localValue);
-      },
-      /**
-       * 处理返回参数
-       * @param {Object} files
-       */
-      backObject(files) {
-        let newFilesData = [];
-        files.forEach((v2) => {
-          newFilesData.push({
-            extname: v2.extname,
-            fileType: v2.fileType,
-            image: v2.image,
-            name: v2.name,
-            path: v2.path,
-            size: v2.size,
-            fileID: v2.fileID,
-            url: v2.url,
-            // 修改删除一个文件后不能再上传的bug, #694
-            uuid: v2.uuid,
-            status: v2.status,
-            cloudPath: v2.cloudPath
-          });
-        });
-        return newFilesData;
-      },
-      async getTempFileURL(fileList) {
-        fileList = {
-          fileList: [].concat(fileList)
-        };
-        const urls = await $s.getTempFileURL(fileList);
-        return urls.fileList[0].tempFileURL || "";
-      },
-      /**
-       * 获取父元素实例
-       */
-      getForm(name = "uniForms") {
-        let parent = this.$parent;
-        let parentName = parent.$options.name;
-        while (parentName !== name) {
-          parent = parent.$parent;
-          if (!parent)
-            return false;
-          parentName = parent.$options.name;
-        }
-        return parent;
-      }
-    }
+    methods: {}
   };
   function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_upload_image = vue.resolveComponent("upload-image");
-    const _component_upload_file = vue.resolveComponent("upload-file");
-    return vue.openBlock(), vue.createElementBlock("view", { class: "uni-file-picker" }, [
-      $props.title ? (vue.openBlock(), vue.createElementBlock("view", {
-        key: 0,
-        class: "uni-file-picker__header"
-      }, [
-        vue.createElementVNode(
-          "text",
-          { class: "file-title" },
-          vue.toDisplayString($props.title),
-          1
-          /* TEXT */
-        ),
-        vue.createElementVNode(
-          "text",
-          { class: "file-count" },
-          vue.toDisplayString($options.filesList.length) + "/" + vue.toDisplayString($options.limitLength),
-          1
-          /* TEXT */
-        )
-      ])) : vue.createCommentVNode("v-if", true),
-      $props.fileMediatype === "image" && $options.showType === "grid" ? (vue.openBlock(), vue.createBlock(_component_upload_image, {
-        key: 1,
-        readonly: $props.readonly,
-        "image-styles": $props.imageStyles,
-        "files-list": $options.filesList,
-        limit: $options.limitLength,
-        disablePreview: $props.disablePreview,
-        delIcon: $props.delIcon,
-        onUploadFiles: $options.uploadFiles,
-        onChoose: $options.choose,
-        onDelFile: $options.delFile
-      }, {
-        default: vue.withCtx(() => [
-          vue.renderSlot(_ctx.$slots, "default", {}, () => [
-            vue.createElementVNode("view", { class: "is-add" }, [
-              vue.createElementVNode("view", { class: "icon-add" }),
-              vue.createElementVNode("view", { class: "icon-add rotate" })
-            ])
-          ], true)
-        ]),
-        _: 3
-        /* FORWARDED */
-      }, 8, ["readonly", "image-styles", "files-list", "limit", "disablePreview", "delIcon", "onUploadFiles", "onChoose", "onDelFile"])) : vue.createCommentVNode("v-if", true),
-      $props.fileMediatype !== "image" || $options.showType !== "grid" ? (vue.openBlock(), vue.createBlock(_component_upload_file, {
-        key: 2,
-        readonly: $props.readonly,
-        "list-styles": $props.listStyles,
-        "files-list": $options.filesList,
-        showType: $options.showType,
-        delIcon: $props.delIcon,
-        onUploadFiles: $options.uploadFiles,
-        onChoose: $options.choose,
-        onDelFile: $options.delFile
-      }, {
-        default: vue.withCtx(() => [
-          vue.renderSlot(_ctx.$slots, "default", {}, () => [
-            vue.createElementVNode("button", {
-              type: "primary",
-              size: "mini"
-            }, "选择文件")
-          ], true)
-        ]),
-        _: 3
-        /* FORWARDED */
-      }, 8, ["readonly", "list-styles", "files-list", "showType", "delIcon", "onUploadFiles", "onChoose", "onDelFile"])) : vue.createCommentVNode("v-if", true)
-    ]);
+    return vue.openBlock(), vue.createElementBlock("view");
   }
-  const __easycom_0 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__scopeId", "data-v-6223573f"], ["__file", "F:/code/qq-doctor/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker.vue"]]);
+  const PagesUserPersonalInformationModifyPhone = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/modifyPhone.vue"]]);
   const _sfc_main$2 = {
     data() {
-      return {
-        orderText: ""
-      };
+      return {};
     },
-    methods: {
-      bindTextAreaBlur: function(e2) {
-        formatAppLog("log", "at pages/order/evaluateOrders/evaluateOrders.vue:32", e2.detail.value);
-      },
-      // 获取上传状态
-      select(e2) {
-        formatAppLog("log", "at pages/order/evaluateOrders/evaluateOrders.vue:36", "选择文件：", e2);
-      },
-      // 获取上传进度
-      progress(e2) {
-        formatAppLog("log", "at pages/order/evaluateOrders/evaluateOrders.vue:40", "上传进度：", e2);
-      },
-      // 上传成功
-      success(e2) {
-        formatAppLog("log", "at pages/order/evaluateOrders/evaluateOrders.vue:45", "上传成功");
-      },
-      // 上传失败
-      fail(e2) {
-        formatAppLog("log", "at pages/order/evaluateOrders/evaluateOrders.vue:50", "上传失败：", e2);
-      }
-    }
+    methods: {}
   };
   function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_file_picker = resolveEasycom(vue.resolveDynamicComponent("uni-file-picker"), __easycom_0);
-    return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createElementVNode("textarea", {
-        class: "evaluateOrderText",
-        value: $data.orderText,
-        placeholder: "   请填写您的评价~",
-        onBlur: _cache[0] || (_cache[0] = (...args) => $options.bindTextAreaBlur && $options.bindTextAreaBlur(...args))
-      }, null, 40, ["value"]),
-      vue.createElementVNode("view", {
-        class: "wrapp",
-        style: {}
-      }, [
-        vue.createVNode(_component_uni_file_picker, { limit: "9" }, {
-          default: vue.withCtx(() => [
-            vue.createCommentVNode('     <view class="photoWrapp">\r\n       	  aaa\r\n       	     </view> '),
-            vue.createElementVNode("image", {
-              src: "/static/img/order/photo.png",
-              mode: "",
-              class: "photoIcon"
-            }),
-            vue.createElementVNode("text", null, "添加图片")
-          ]),
-          _: 1
-          /* STABLE */
-        })
-      ])
-    ]);
+    return vue.openBlock(), vue.createElementBlock("view");
   }
-  const PagesOrderEvaluateOrdersEvaluateOrders = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$1], ["__scopeId", "data-v-af4f6b81"], ["__file", "F:/code/qq-doctor/pages/order/evaluateOrders/evaluateOrders.vue"]]);
+  const PagesUserPersonalInformationModifyPassword = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$1], ["__file", "F:/code/qq-doctor/pages/user/personalInformation/modifyPassword.vue"]]);
   const _sfc_main$1 = {
     data() {
-      return {
-        // 订单是否完成
-        state1: true,
-        // 订单是否使用
-        state2: false,
-        //  退款中
-        state3: false,
-        // 待付款
-        state4: false,
-        // 待评价
-        state5: false,
-        keyword: "",
-        // 订单是否支付
-        isPay: false,
-        // 是否退款
-        refund: false,
-        // 查看详情
-        detail: false,
-        list: ["1", "2", "3", "4", "5"]
-      };
+      return {};
     }
   };
   function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", null, [
-      vue.createCommentVNode(" 订单展示 "),
-      vue.createElementVNode("view", { class: "orderOneWrapp" }, [
-        vue.createElementVNode("view", { class: "orderOne" }, [
-          vue.createCommentVNode(" 第一行文字 订单医院和状态 "),
-          vue.createElementVNode("view", { class: "orderHospWrapp" }, [
-            vue.createElementVNode("view", { class: "orderHospText" }, [
-              vue.createTextVNode(" 赣州市第一人民医院 "),
-              vue.createElementVNode("image", {
-                src: "/static/img/order/goRight.png",
-                mode: "",
-                class: "descIcon"
-              })
-            ]),
-            !$data.state1 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 0,
-              class: "orderState"
-            }, " 已完成 ")) : vue.createCommentVNode("v-if", true),
-            $data.state2 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 1,
-              class: "orderState"
-            }, " 未使用 ")) : vue.createCommentVNode("v-if", true),
-            $data.state3 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 2,
-              class: "orderState"
-            }, " 退款 ")) : vue.createCommentVNode("v-if", true),
-            $data.state4 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 3,
-              class: "orderState"
-            }, " 待付款 ")) : vue.createCommentVNode("v-if", true),
-            !$data.state5 ? (vue.openBlock(), vue.createElementBlock("view", {
-              key: 4,
-              class: "orderState"
-            }, " 待评价 ")) : vue.createCommentVNode("v-if", true)
-          ]),
-          vue.createCommentVNode(" 第二部分 "),
-          vue.createElementVNode("view", { class: "orderDescWrapp" }, [
-            vue.createCommentVNode(" 医生照片 "),
-            vue.createElementVNode("view", { class: "docIconWrapp" }, [
-              vue.createElementVNode("image", {
-                src: "/static/img/order/docIcon.png",
-                mode: "",
-                class: "docIcon"
-              })
-            ]),
-            vue.createCommentVNode(" 订单详情 已经诊断结果按钮 "),
-            vue.createElementVNode("view", { class: "orderDescAndButtonWrapp" }, [
-              vue.createElementVNode("view", { class: "creatTimeWrapp" }, " 创建时间: 2023-10-23 21:36 "),
-              vue.createElementVNode("view", { class: "orderWayWrapp" }, [
-                vue.createElementVNode("text", null, "眼科线下挂号")
-              ]),
-              vue.createElementVNode("view", { class: "moneyWrapp" }, [
-                vue.createElementVNode("text", null, "实付: ￥27.00"),
-                $data.state1 ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 0,
-                  class: "resButton",
-                  onClick: _cache[0] || (_cache[0] = ($event) => _ctx.navToCTRes())
-                }, [
-                  vue.createElementVNode("text", { class: "resButtonText" }, "诊断结果")
-                ])) : vue.createCommentVNode("v-if", true)
-              ]),
-              vue.createElementVNode("view", { class: "buttonWrapp" }, [
-                vue.createCommentVNode(" 第一个按钮 "),
-                $data.state1 ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 0,
-                  class: "delButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "删除订单")
-                ])) : vue.createCommentVNode("v-if", true),
-                vue.createCommentVNode("  "),
-                $data.state1 ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 1,
-                  class: "serButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "售后服务")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.isPay ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 2,
-                  class: "serButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "找朋友付")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.refund ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 3,
-                  class: "serButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "退款")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.refund ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 4,
-                  class: "serButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "退款进程")
-                ])) : vue.createCommentVNode("v-if", true),
-                vue.createCommentVNode(" 第三个按钮 "),
-                $data.state1 ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 5,
-                  class: "rateButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "评价")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.state2 ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 6,
-                  class: "rateButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "订单信息")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.state3 ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 7,
-                  class: "rateButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "撤销退款")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.isPay ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 8,
-                  class: "rateButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "继续付款")
-                ])) : vue.createCommentVNode("v-if", true),
-                $data.detail ? (vue.openBlock(), vue.createElementBlock("view", {
-                  key: 9,
-                  class: "rateButton"
-                }, [
-                  vue.createElementVNode("text", { class: "" }, "查看详情")
-                ])) : vue.createCommentVNode("v-if", true)
-              ])
-            ])
-          ])
-        ])
-      ]),
-      vue.createElementVNode("view", { class: "DiaResWrapp" }, [
-        vue.createCommentVNode(" 诊断结果 "),
-        vue.createElementVNode("view", { class: "diagnosticResultsWrapp" }, [
-          vue.createCommentVNode(" 医生图片 以及诊断详情 "),
-          vue.createElementVNode("view", { class: "docIconAndDescWrapp" }, [
-            vue.createElementVNode("view", { class: "docIconWrapp" }, [
-              vue.createElementVNode("image", {
-                class: "docIcon",
-                src: "/static/img/doctor2.png",
-                mode: ""
-              })
-            ]),
-            vue.createElementVNode("view", { class: "DescWrapp" }, [
-              vue.createElementVNode("view", { class: "DescText" }, [
-                vue.createElementVNode("text", { class: "text1" }, "订单号：4935975230644435337"),
-                vue.createElementVNode("text", { class: "text2" }, "\\n企桥医建线上诊断"),
-                vue.createElementVNode("text", { class: "text3" }, "\\n姓名: 赵熙蒙医生"),
-                vue.createElementVNode("text", { class: "text3" }, "\\n医院：赣州市第一人民医院"),
-                vue.createElementVNode("text", { class: "text3" }, "\\n科室：呼吸与危重症医学科")
-              ])
-            ])
-          ]),
-          vue.createCommentVNode(" 医生结论 "),
-          vue.createElementVNode("view", { class: "conclusionWrapp" }, [
-            vue.createElementVNode("text", { class: "conclusionText1" }, "医生结论"),
-            vue.createElementVNode("text", { class: "conclusionText2" }, "\\n病状特征初步分析:"),
-            vue.createElementVNode("text", { class: "conclusionText3" }, "\\n通过病人的病情描述以及远程视频线上诊断我初步断定为感冒症状，无大碍，请病人定时按照药单服用药物，保持充足的睡眠和休息以快速痊愈。")
-          ]),
-          vue.createCommentVNode(" 处方药单 "),
-          vue.createElementVNode("view", { class: "prescriptionWrapp" }, [
-            vue.createElementVNode("text", { class: "prescriptionText1" }, "处方药单"),
-            vue.createElementVNode("text", { class: "prescriptionText3" }, "\\n999感冒灵冲剂 一次两袋 一天三次 \\n阿莫西林胶囊 一次2颗 一天两次")
-          ])
-        ])
-      ])
+      vue.createCommentVNode(" 暂时不知道怎么写 "),
+      vue.createElementVNode("view", { class: "" }, "等后面再完成")
     ]);
   }
-  const PagesOrderDiagnosticResultsDiagnosticResults = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__scopeId", "data-v-982c1a93"], ["__file", "F:/code/qq-doctor/pages/order/diagnosticResults/diagnosticResults.vue"]]);
+  const PagesUserPersonalInformationCollectionPersonalInformationCollection = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "F:/code/qq-doctor/pages/user/personalInformationCollection/personalInformationCollection.vue"]]);
   __definePage("pages/login/start/start", PagesLoginStartStart);
   __definePage("pages/login/register/register", PagesLoginRegisterRegister);
   __definePage("pages/login/passwordLogin/passwordLogin", PagesLoginPasswordLoginPasswordLogin);
   __definePage("pages/login/phoneLogin/phoneLogin", PagesLoginPhoneLoginPhoneLogin);
+  __definePage("pages/main/messagetable", PagesMainMessagetable);
   __definePage("pages/login/userAgreement/userAgreement", PagesLoginUserAgreementUserAgreement);
   __definePage("pages/login/privacyPolicy/privacyPolicy", PagesLoginPrivacyPolicyPrivacyPolicy);
   __definePage("pages/registrationWizard/slideWizard/slideWizard", PagesRegistrationWizardSlideWizardSlideWizard);
@@ -15366,48 +13961,52 @@ ${i3}
   __definePage("pages/order/orderfront", PagesOrderOrderfront);
   __definePage("pages/user/userfront", PagesUserUserfront);
   __definePage("pages/main/doctordetail", PagesMainDoctordetail);
-  __definePage("pages/main/messagetable", PagesMainMessagetable);
-  __definePage("pages/map/nearHosp/nearHosp", PagesMapNearHospNearHosp);
-  __definePage("pages/map/hospDetails/hospDetails", PagesMapHospDetailsHospDetails);
-  __definePage("pages/map/depDetails/depDetails", PagesMapDepDetailsDepDetails);
-  __definePage("pages/map/hospAll/hospAll", PagesMapHospAllHospAll);
-  __definePage("pages/map/depAll/depAll", PagesMapDepAllDepAll);
-  __definePage("pages/map/docList/docList", PagesMapDocListDocList);
-  __definePage("pages/main/visitTime/visitTime", PagesMainVisitTimeVisitTime);
-  __definePage("pages/user/collect/collect", PagesUserCollectCollect);
-  __definePage("pages/user/footprint/footprint", PagesUserFootprintFootprint);
-  __definePage("pages/user/CTInspectionSheet/CTInspectionSheet", PagesUserCTInspectionSheetCTInspectionSheet);
-  __definePage("pages/user/inspectionResults/inspectionResults", PagesUserInspectionResultsInspectionResults);
-  __definePage("pages/user/customerService/customerService", PagesUserCustomerServiceCustomerService);
-  __definePage("pages/user/personalInformation/personalInformation", PagesUserPersonalInformationPersonalInformation);
-  __definePage("pages/user/patientInformation/patientInformation", PagesUserPatientInformationPatientInformation);
-  __definePage("pages/user/modifyPatientInfo/modifyPatientInfo", PagesUserModifyPatientInfoModifyPatientInfo);
-  __definePage("pages/user/commonPage/commonPage", PagesUserCommonPageCommonPage);
-  __definePage("pages/user/privacyManagement/privacyManagement", PagesUserPrivacyManagementPrivacyManagement);
-  __definePage("pages/user/privacyPolicy/privacyPolicy", PagesUserPrivacyPolicyPrivacyPolicy);
-  __definePage("pages/user/systemPermissionManagement/systemPermissionManagement", PagesUserSystemPermissionManagementSystemPermissionManagement);
-  __definePage("pages/user/personalInformationCollection/personalInformationCollection", PagesUserPersonalInformationCollectionPersonalInformationCollection);
+  __definePage("pages/main/onlineform", PagesMainOnlineform);
+  __definePage("pages/user/addpatient", PagesUserAddpatient);
+  __definePage("pages/main/onlineorder", PagesMainOnlineorder);
+  __definePage("pages/main/onlineordersuccess", PagesMainOnlineordersuccess);
+  __definePage("pages/main/vaccine", PagesMainVaccine);
+  __definePage("components/FuncSelectFront/FuncSelectFront", ComponentsFuncSelectFrontFuncSelectFront);
+  __definePage("components/FuncSelectContext/FuncSelectContext", ComponentsFuncSelectContextFuncSelectContext);
+  __definePage("pages/main/vaccinedetail", PagesMainVaccinedetail);
+  __definePage("pages/main/vaccinedetailaction", PagesMainVaccinedetailaction);
+  __definePage("pages/main/article", PagesMainArticle);
+  __definePage("pages/main/diseaseknowledge", PagesMainDiseaseknowledge);
+  __definePage("pages/main/check", PagesMainCheck);
+  __definePage("pages/main/checkdetail", PagesMainCheckdetail);
+  __definePage("pages/main/treatment", PagesMainTreatment);
+  __definePage("pages/main/diseaseknowledgedetail", PagesMainDiseaseknowledgedetail);
+  __definePage("pages/main/treatmentdetail", PagesMainTreatmentdetail);
+  __definePage("pages/main/doctoronline", PagesMainDoctoronline);
+  __definePage("pages/main/isbn", PagesMainIsbn);
+  __definePage("pages/main/onlineformtime", PagesMainOnlineformtime);
   __definePage("pages/user/about/about", PagesUserAboutAbout);
   __definePage("pages/user/businessLicense/businessLicense", PagesUserBusinessLicenseBusinessLicense);
-  __definePage("pages/user/reportingInformation/reportingInformation", PagesUserReportingInformationReportingInformation);
+  __definePage("pages/user/collect/collect", PagesUserCollectCollect);
+  __definePage("pages/user/commonPage/commonPage", PagesUserCommonPageCommonPage);
   __definePage("pages/user/copyrightInformation/copyrightInformation", PagesUserCopyrightInformationCopyrightInformation);
+  __definePage("pages/user/CTInspectionSheet/CTInspectionSheet", PagesUserCTInspectionSheetCTInspectionSheet);
+  __definePage("pages/user/customerService/customerService", PagesUserCustomerServiceCustomerService);
+  __definePage("pages/user/footprint/footprint", PagesUserFootprintFootprint);
+  __definePage("pages/user/inspectionResults/inspectionResults", PagesUserInspectionResultsInspectionResults);
+  __definePage("pages/user/modifyPatientInfo/modifyPatientInfo", PagesUserModifyPatientInfoModifyPatientInfo);
   __definePage("pages/user/modifyPatientInfo/patienName", PagesUserModifyPatientInfoPatienName);
+  __definePage("pages/user/patientInformation/patientInformation", PagesUserPatientInformationPatientInformation);
+  __definePage("pages/user/personalInformation/personalInformation", PagesUserPersonalInformationPersonalInformation);
   __definePage("pages/user/personalInformation/userName", PagesUserPersonalInformationUserName);
-  __definePage("pages/user/personalInformation/modifyPassword", PagesUserPersonalInformationModifyPassword);
   __definePage("pages/user/personalInformation/modifyPhone", PagesUserPersonalInformationModifyPhone);
-  __definePage("pages/order/orderDetail/orderDetail", PagesOrderOrderDetailOrderDetail);
-  __definePage("pages/order/evaluativeInformation/evaluativeInformation", PagesOrderEvaluativeInformationEvaluativeInformation);
-  __definePage("pages/order/evaluateOrders/evaluateOrders", PagesOrderEvaluateOrdersEvaluateOrders);
-  __definePage("pages/order/diagnosticResults/diagnosticResults", PagesOrderDiagnosticResultsDiagnosticResults);
+  __definePage("pages/user/personalInformation/modifyPassword", PagesUserPersonalInformationModifyPassword);
+  __definePage("pages/user/personalInformationCollection/personalInformationCollection", PagesUserPersonalInformationCollectionPersonalInformationCollection);
   const _sfc_main = {
     onLaunch: function() {
-      formatAppLog("log", "at App.vue:4", "App Launch");
+      formatAppLog("warn", "at App.vue:4", "当前组件仅支持 uni_modules 目录结构 ，请升级 HBuilderX 到 3.1.0 版本以上！");
+      formatAppLog("log", "at App.vue:5", "App Launch");
     },
     onShow: function() {
-      formatAppLog("log", "at App.vue:7", "App Show");
+      formatAppLog("log", "at App.vue:8", "App Show");
     },
     onHide: function() {
-      formatAppLog("log", "at App.vue:10", "App Hide");
+      formatAppLog("log", "at App.vue:11", "App Hide");
     }
   };
   const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__file", "F:/code/qq-doctor/App.vue"]]);

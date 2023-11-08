@@ -3,7 +3,7 @@
 		<!--医院名称 -->
 		<view class="hospNameTextWrapp">
 
-			<text class="hospNameText">心血管内科</text>
+			<text class="hospNameText">赣州市第一人民医院</text>
 		</view>
 
 		<!-- 医院详情 -->

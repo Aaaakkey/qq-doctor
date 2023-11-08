@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="doctor-detail">
 		<image :src="item.picurl"></image>
 		<view class="doctor-detail-title">
 			<view class="doctor-detail-name">
@@ -48,10 +48,10 @@
 			<view class="doctor-detail-clicks-1" @click="getConnect(did)">
 				<image src="../../static/img/connect1.png"></image>
 			</view>
-			<view class="doctor-detail-clicks-2">
+			<view class="doctor-detail-clicks-2" @click="getOnlineForm(did)">
 				<view class="doctor-detail-click">线上预约</view>
 			</view>
-			<view class="doctor-detail-clicks-2">
+			<view class="doctor-detail-clicks-2" @click="getAppoint(did)">
 				<view class="doctor-detail-click">挂号预约</view>
 			</view>
 		</view>
@@ -79,10 +79,20 @@
 		onLoad(e) {
 			this.did = e.did
 		},
-		methods:{
-			getConnect(did){
+		methods: {
+			getConnect(did) {
 				uni.navigateTo({
-					url:`/pages/main/messagetable?did=${did}`
+					url: `/pages/main/messagetable?did=${did}`
+				})
+			},
+			getOnlineForm(did) {
+				uni.navigateTo({
+					url: `/pages/main/onlineform?did=${did}&way=online`
+				})
+			},
+			getAppoint(did){
+				uni.navigateTo({
+					url: `/pages/main/onlineform?did=${did}&way=appoint`
 				})
 			}
 		}
@@ -90,159 +100,165 @@
 </script>
 
 <style lang="scss" scoped>
-	image {
-		width: 750rpx;
-		height: 600rpx;
-	}
-
-	.doctor-detail-title {
-		width: 750rpx;
-		height: 100rpx;
-		display: flex;
-		flex-flow: row nowrap;
-
-		.doctor-detail-name {
-			padding: 15rpx;
-			width: 70%;
-			height: 100%;
-			margin-left: 30rpx;
-			font-size: 48rpx;
-			font-weight: 900;
-		}
-
-		.doctor-detail-star {
-			flex: 1;
-			margin-right: 30rpx;
-			display: flex;
-			flex-flow: column nowrap;
-			justify-content: center;
-			align-items: center;
-
-			.doctor-detail-star-image {
-				width: 60%;
-				height: 60%;
-
-				image {
-					width: 100%;
-					height: 100%;
-				}
-
-				;
-
+	.doctor-detail{
+		image {
+				width: 750rpx;
+				height: 600rpx;
 			}
-
-			.doctor-detail-star-content {
-				color: #9E9E9E;
-				font-size: 36rpx;
-
-			}
-		}
-	}
-
-	.doctor-detail-depart {
-		font-size: 32rpx;
-		color: #AAAAAA;
-		margin-left: 45rpx;
-		margin-bottom: 15rpx;
-		height: 50rpx;
-
-		.space {
-			width: 30rpx;
-			display: inline-block;
-		}
-	}
-
-	.doctor-detail-desc {
-		font-size: 32rpx;
-		color: #AAAAAA;
-		height: 300rpx;
-		width: 650rpx;
-		margin-left: 45rpx;
-		text-align: justify;
-	}
-
-	.doctor-detail-conment {
-		margin-left: 45rpx;
-		width: 650rpx;
-		height: 170rpx;
-		display: flex;
-		flex-flow: row nowrap;
-		font-size: 36rpx;
-
-		.doctor-detail-conment-1 {
-			flex: 1;
-			display: flex;
-			flex-flow: column nowrap;
-			align-items: center;
-			border-right: 2px rgba(202, 204, 207, 0.5) solid;
-			height: 80%;
-		}
-
-		.doctor-detail-conment-2 {
-			flex: 1;
-			display: flex;
-			flex-flow: column nowrap;
-			align-items: center;
-			border-right: 2px rgba(202, 204, 207, 0.5) solid;
-			height: 80%;
-		}
-
-		.doctor-detail-conment-3 {
-			flex: 1;
-			display: flex;
-			flex-flow: column nowrap;
-			align-items: center;
-		}
-
-		.doctor-conment-title {
-			font-weight: 900;
-			margin-bottom: 30rpx;
-		}
-
-		.doctor-conment-res {
-			color: #2B92E4;
-			font-weight: 900;
-			font-size: 50rpx;
-
-			.doctor-conment-suffix {
-				font-size: 32rpx;
-				color: #AAAAAA;
-			}
-		}
-	}
-
-	.doctor-detail-clicks {
-		width: 750rpx;
-		height: 150rpx;
-		display: flex;
-		flex-flow: row nowrap;
-		.doctor-detail-clicks-1{
-			margin-right: 20rpx;
-			margin-left: 30rpx;
-			width: 20%;
-			padding: 10px;
-			image{
-				width: 100%;
-				height: 100%;
-			}
-		}
-		.doctor-detail-clicks-2{
-			flex: 1;
-			display: flex;
-			flex-flow: row nowrap;
-			align-items: center;
-			.doctor-detail-click{
-				width: 85%;
-				border-radius: 20rpx;
-				height: 75%;
-				background-color: #00CC6A;
+		
+			.doctor-detail-title {
+				width: 750rpx;
+				height: 100rpx;
 				display: flex;
 				flex-flow: row nowrap;
-				justify-content: center;
-				align-items: center;
-				font-weight: 600;
-				color: #F9F9FA;
+		
+				.doctor-detail-name {
+					padding: 15rpx;
+					width: 70%;
+					height: 100%;
+					margin-left: 30rpx;
+					font-size: 48rpx;
+					font-weight: 900;
+				}
+		
+				.doctor-detail-star {
+					flex: 1;
+					margin-right: 30rpx;
+					display: flex;
+					flex-flow: column nowrap;
+					justify-content: center;
+					align-items: center;
+		
+					.doctor-detail-star-image {
+						width: 60%;
+						height: 60%;
+		
+						image {
+							width: 100%;
+							height: 100%;
+						}
+		
+						;
+		
+					}
+		
+					.doctor-detail-star-content {
+						color: #9E9E9E;
+						font-size: 36rpx;
+		
+					}
+				}
 			}
+		
+			.doctor-detail-depart {
+				font-size: 32rpx;
+				color: #AAAAAA;
+				margin-left: 45rpx;
+				margin-bottom: 15rpx;
+				height: 50rpx;
+		
+				.space {
+					width: 30rpx;
+					display: inline-block;
+				}
+			}
+		
+			.doctor-detail-desc {
+				font-size: 32rpx;
+				color: #AAAAAA;
+				height: 300rpx;
+				width: 650rpx;
+				margin-left: 45rpx;
+				text-align: justify;
+			}
+		
+			.doctor-detail-conment {
+				margin-left: 45rpx;
+				width: 650rpx;
+				height: 170rpx;
+				display: flex;
+				flex-flow: row nowrap;
+				font-size: 36rpx;
+		
+				.doctor-detail-conment-1 {
+					flex: 1;
+					display: flex;
+					flex-flow: column nowrap;
+					align-items: center;
+					border-right: 2px rgba(202, 204, 207, 0.5) solid;
+					height: 80%;
+				}
+		
+				.doctor-detail-conment-2 {
+					flex: 1;
+					display: flex;
+					flex-flow: column nowrap;
+					align-items: center;
+					border-right: 2px rgba(202, 204, 207, 0.5) solid;
+					height: 80%;
+				}
+		
+				.doctor-detail-conment-3 {
+					flex: 1;
+					display: flex;
+					flex-flow: column nowrap;
+					align-items: center;
+				}
+		
+				.doctor-conment-title {
+					font-weight: 900;
+					margin-bottom: 30rpx;
+				}
+		
+				.doctor-conment-res {
+					color: #2B92E4;
+					font-weight: 900;
+					font-size: 50rpx;
+		
+					.doctor-conment-suffix {
+						font-size: 32rpx;
+						color: #AAAAAA;
+					}
+				}
+			}
+		
+			.doctor-detail-clicks {
+				width: 750rpx;
+				height: 150rpx;
+				display: flex;
+				flex-flow: row nowrap;
+		
+				.doctor-detail-clicks-1 {
+					margin-right: 20rpx;
+					margin-left: 30rpx;
+					width: 20%;
+					padding: 10px;
+		
+					image {
+						width: 100%;
+						height: 100%;
+					}
+				}
+		
+				.doctor-detail-clicks-2 {
+					flex: 1;
+					display: flex;
+					flex-flow: row nowrap;
+					align-items: center;
+		
+					.doctor-detail-click {
+						width: 85%;
+						border-radius: 20rpx;
+						height: 75%;
+						background-color: #00CC6A;
+						display: flex;
+						flex-flow: row nowrap;
+						justify-content: center;
+						align-items: center;
+						font-weight: 600;
+						color: #F9F9FA;
+					}
+				}
 		}
 	}
 </style>

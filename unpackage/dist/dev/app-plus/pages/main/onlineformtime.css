@@ -1,0 +1,100 @@
+/* 水平间距 */
+/* 水平间距 */
+.online-time-seleted[data-v-7f0c8ba1] {
+  background-color: #0EBE7F;
+  color: #ffffff;
+}
+.online-form-time[data-v-7f0c8ba1] {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.online-form-time .online-doctor-block[data-v-7f0c8ba1] {
+  margin-left: 0.78125rem;
+  margin-top: 1.5625rem;
+  background-color: #ffffff;
+  width: 21.875rem;
+  height: 6.25rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-radius: 0.625rem;
+}
+.online-form-time .online-doctor-block .online-doctor-image[data-v-7f0c8ba1] {
+  height: 100%;
+  width: 30%;
+}
+.online-form-time .online-doctor-block .online-doctor-image uni-image[data-v-7f0c8ba1] {
+  margin-left: 1.09375rem;
+  margin-top: 0.9375rem;
+  height: 4.375rem;
+  width: 4.375rem;
+}
+.online-form-time .online-doctor-block .online-doctor-text[data-v-7f0c8ba1] {
+  height: 50%;
+  width: 60%;
+}
+.online-form-time .online-doctor-block .online-doctor-text .online-doctor-name[data-v-7f0c8ba1] {
+  font-size: 1.125rem;
+}
+.online-form-time .online-doctor-block .online-doctor-text .online-doctor-dep[data-v-7f0c8ba1] {
+  font-size: 0.8125rem;
+  color: #AAAAAA;
+}
+.online-form-time .online-time-select[data-v-7f0c8ba1] {
+  margin-top: 1.5625rem;
+  width: 21.875rem;
+  height: 3.75rem;
+  white-space: nowrap;
+  margin-left: 0.78125rem;
+  margin-bottom: 1.5625rem;
+}
+.online-form-time .online-time-select .online-time-select-block[data-v-7f0c8ba1] {
+  font-weight: 300;
+  border-radius: 0.3125rem;
+  width: 9.375rem;
+  height: 3.75rem;
+  border: 1px rgba(103, 114, 148, 0.1) solid;
+  margin-right: 0.625rem;
+  display: inline-block;
+  text-align: center;
+}
+.online-time-change[data-v-7f0c8ba1] {
+  width: 21.875rem;
+  height: 8.4375rem;
+  margin-left: 1.5625rem;
+  display: flex;
+  flex-flow: column;
+}
+.online-time-change .online-time-select-area[data-v-7f0c8ba1] {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+}
+.online-time-block[data-v-7f0c8ba1] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.6875rem;
+  height: 2.5rem;
+  border-radius: 0.625rem;
+  background-color: rgba(14, 190, 127, 0.08);
+  margin-right: 0.625rem;
+  margin-top: 0.625rem;
+  color: #0EBE7F;
+}
+.online-time-block-seleted[data-v-7f0c8ba1] {
+  background-color: #0EBE7F;
+  color: #ffffff;
+}
+.online-time-clock-select[data-v-7f0c8ba1] {
+  margin-left: 8.46875rem;
+  width: 6.5625rem;
+  height: 3.5rem;
+  background-color: #00CC6A;
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
