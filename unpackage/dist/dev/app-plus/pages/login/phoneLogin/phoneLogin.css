@@ -60,7 +60,7 @@
   display: flex;
   flex: row;
   height: 3.40625rem;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .content .i2 .i21[data-v-44c963fe] {

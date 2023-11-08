@@ -1,0 +1,250 @@
+/* 水平间距 */
+/* 水平间距 */
+.select-front[data-v-759a3c2f] {
+  background-color: #ffffff;
+  position: fixed;
+  width: 23.4375rem;
+  height: 5.625rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 9999;
+  padding-bottom: 0.46875rem;
+}
+.select-front .left-image[data-v-759a3c2f] {
+  margin-bottom: 0.15625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.select-front .select-block[data-v-759a3c2f] {
+  margin-right: 0.625rem;
+  border-radius: 0.9375rem;
+  width: 17.5rem;
+  height: 2.8125rem;
+  background-color: #f6f6f5;
+  display: flex;
+  align-items: center;
+}
+.select-front .select-block .context[data-v-759a3c2f] {
+  font-size: 0.75rem;
+  color: #cccccc;
+}
+.select-front .right-image[data-v-759a3c2f] {
+  margin-bottom: 0.46875rem;
+  margin-right: 0.625rem;
+  width: 1.875rem;
+  height: 1.875rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.today-order[data-v-8878a3e9] {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.today-order .today-block[data-v-8878a3e9] {
+  box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.15), inset 12px 12px 22px 0px #FFFFFF;
+  width: 22.5rem;
+  height: 11.75rem;
+  background-color: #F5FDFF;
+  border-radius: 3.75rem;
+  display: flex;
+  flex-flow: nowrap row;
+}
+.today-order .today-block .today-block-left[data-v-8878a3e9] {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.today-order .today-block .today-block-left .today-image[data-v-8878a3e9] {
+  height: 80%;
+  width: 60%;
+}
+.today-order .today-block .today-block-right[data-v-8878a3e9] {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.today-order .today-block .today-block-right .today-right-up[data-v-8878a3e9] {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.today-order .today-block .today-block-right .today-right-up .today-name[data-v-8878a3e9] {
+  width: 60%;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.today-order .today-block .today-block-right .today-right-up .today-depart[data-v-8878a3e9] {
+  width: 40%;
+  font-size: 0.8125rem;
+}
+.today-order .today-block .today-block-right .today-right-down[data-v-8878a3e9] {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.today-order .today-block .today-block-right .today-right-down .today-right-content[data-v-8878a3e9] {
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.today-order .today-block .today-block-right .today-right-down .today-right-content uni-image[data-v-8878a3e9] {
+  width: 15%;
+  height: 60%;
+}
+.today-order .today-block .today-block-right .today-right-down .today-right-content uni-text[data-v-8878a3e9] {
+  padding-left: 10%;
+  font-size: 0.8125rem;
+  color: #13227a;
+}
+/* 水平间距 */
+/* 水平间距 */
+.func-select[data-v-b5005949] {
+  width: 5.625rem;
+  height: 6.25rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.func-select uni-image[data-v-b5005949] {
+  width: 3.4375rem;
+  height: 3.4375rem;
+}
+.func-select uni-text[data-v-b5005949] {
+  font-size: 0.8125rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.doctor-info[data-v-ea8344e9] {
+  padding-left: 0.78125rem;
+  width: 23.4375rem;
+  height: 6.25rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.doctor-info uni-image[data-v-ea8344e9] {
+  width: 30%;
+  height: 80%;
+}
+.doctor-info .doctor-info-detail[data-v-ea8344e9] {
+  margin-left: 0.9375rem;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-title[data-v-ea8344e9] {
+  margin-top: 0.1875rem;
+  width: 100%;
+  height: 30%;
+  font-size: 1.125rem;
+  font-weight: 900;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-content[data-v-ea8344e9] {
+  width: 100%;
+  height: 30%;
+  font-size: 1rem;
+  color: #aaaaaa;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-footer[data-v-ea8344e9] {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-footer uni-image[data-v-ea8344e9] {
+  height: 80%;
+  width: 10%;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-footer uni-text[data-v-ea8344e9] {
+  margin-top: 0.3125rem;
+  height: 80%;
+  width: 20%;
+  color: #aaaaaa;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-footer .doctor-online[data-v-ea8344e9] {
+  margin-left: 0.3125rem;
+  width: 25%;
+  height: 100%;
+  background-color: #CCF5E1;
+  border-radius: 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #00CC6A;
+}
+.doctor-info .doctor-info-detail .doctor-info-detail-footer .doctor-line[data-v-ea8344e9] {
+  margin-left: 0.3125rem;
+  width: 25%;
+  height: 100%;
+  color: #CC4900;
+  background-color: #F7E4D9;
+  border-radius: 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 900;
+}
+/* 水平间距 */
+/* 水平间距 */
+.nullblock[data-v-c9934975] {
+  width: 23.4375rem;
+  height: 5.3125rem;
+}
+.title[data-v-c9934975] {
+  margin-top: 0.3125rem;
+  padding-left: 0.78125rem;
+  width: 23.4375rem;
+  height: 4.0625rem;
+}
+.title .time-title[data-v-c9934975] {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 900;
+}
+.title .notime-title[data-v-c9934975] {
+  font-size: 1.25rem;
+  line-height: 2.1875rem;
+  font-weight: 400;
+}
+.title .title-word[data-v-c9934975] {
+  font-size: 0.875rem;
+}
+.func-block[data-v-c9934975] {
+  width: 23.4375rem;
+  height: 12.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.mid-word[data-v-c9934975] {
+  padding-left: 0.78125rem;
+  padding-right: 0.78125rem;
+  width: 23.4375rem;
+  height: 1.5625rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.mid-word .mid-word1[data-v-c9934975] {
+  font-size: 1.125rem;
+  font-weight: 900;
+}
+.mid-word .mid-word2[data-v-c9934975] {
+  font-size: 0.8125rem;
+  color: #4485FD;
+}

@@ -1,0 +1,172 @@
+/* 水平间距 */
+/* 水平间距 */
+.online-day-block[data-v-e7af92e1] {
+  width: 23.4375rem;
+  height: 4.6875rem;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 0.9375rem;
+}
+.online-day-block-select[data-v-e7af92e1] {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.online-day-block-select-block[data-v-e7af92e1] {
+  border-radius: 0.3125rem;
+  width: 2.5rem;
+  height: 4.0625rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.selected-day[data-v-e7af92e1] {
+  background-color: #8aeeee;
+  color: white;
+}
+/* 水平间距 */
+/* 水平间距 */
+.online-on[data-v-2504236a] {
+  width: 11.71875rem;
+  height: 10rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.online-on .online-on-title[data-v-2504236a] {
+  text-align: center;
+  margin-left: 0.625rem;
+  width: 3.75rem;
+  height: 1.25rem;
+  background-color: blue;
+  border-radius: 0.15625rem;
+  background-color: #e36761;
+  color: #d8d8d8;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+.online-on .online-on-context[data-v-2504236a] {
+  margin-left: 0.625rem;
+  border-radius: 0.3125rem;
+  width: 10.625rem;
+  height: 7.8125rem;
+  background-color: #fbf3f3;
+  border: #e67786 solid 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.online-on .online-on-context uni-image[data-v-2504236a] {
+  margin-top: 0.3125rem;
+  border-radius: 3.125rem;
+  border: #e36761 2px solid;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.online-before[data-v-c2298192] {
+  width: 11.71875rem;
+  height: 10rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.online-before .online-before-title[data-v-c2298192] {
+  text-align: center;
+  margin-left: 0.625rem;
+  width: 3.75rem;
+  height: 1.25rem;
+  background-color: blue;
+  border-radius: 0.15625rem;
+  background-color: #6775ec;
+  color: #d8d8d8;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+.online-before .online-before-context[data-v-c2298192] {
+  margin-left: 0.625rem;
+  border-radius: 0.3125rem;
+  width: 10.625rem;
+  height: 7.8125rem;
+  background-color: #fef9eb;
+  border: #f8d58a solid 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.online-before .online-before-context uni-image[data-v-c2298192] {
+  margin-top: 0.3125rem;
+  margin-right: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.online-before .online-before-context .online-before-context-top[data-v-c2298192] {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.online-before .online-before-context .online-before-context-top .online-before-context-top-right[data-v-c2298192] {
+  margin-left: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.online-after[data-v-e2f30d3b] {
+  width: 11.71875rem;
+  height: 10rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.online-after .online-after-title[data-v-e2f30d3b] {
+  text-align: center;
+  margin-left: 0.625rem;
+  width: 3.75rem;
+  height: 1.25rem;
+  background-color: blue;
+  border-radius: 0.15625rem;
+  background-color: #979eb5;
+  color: #d8d8d8;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+.online-after .online-after-context[data-v-e2f30d3b] {
+  margin-left: 0.625rem;
+  border-radius: 0.3125rem;
+  width: 10.625rem;
+  height: 7.8125rem;
+  background-color: #edf6fe;
+  border: #4485fd solid 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.online-after .online-after-context uni-image[data-v-e2f30d3b] {
+  margin-top: 0.3125rem;
+  margin-right: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.online-after .online-after-context .online-after-context-top[data-v-e2f30d3b] {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.online-after .online-after-context .online-after-context-top .online-after-context-top-right[data-v-e2f30d3b] {
+  margin-left: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+.online-after .online-after-context .online-after-context-bottom[data-v-e2f30d3b] {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+/* 水平间距 */
+/* 水平间距 */
+.doctoronline {
+  display: flex;
+  flex-flow: row wrap;
+}

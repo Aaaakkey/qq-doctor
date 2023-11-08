@@ -86,3 +86,44 @@ export function getGreeting() {
     return 2;
   }
 }
+
+//获取日期的号数list
+export function getDateList() {
+  const dateList = [];
+  const today = new Date(); // 当前日期
+  today.setHours(0, 0, 0, 0); // 设置时间为 00:00:00，用于去除时分秒的影响
+  
+  for (let i = -1; i <= 6; i++) { // -1 表示昨天，0 表示今天，1 表示明天，依此类推
+    const date = new Date(today); // 创建一个新的日期对象以避免修改原始日期
+    date.setDate(date.getDate() + i); // 设置日期
+    
+    const day = date.getDate(); // 获取日期中的号数
+    dateList.push(day);
+  }
+  return dateList;
+}
+
+export function getTodayDate() {
+    var today = new Date();
+    var day = today.getDate();
+    return day;
+}
+//获取未来（包含今日）三天的日期
+export function getThreeDate(){
+	
+	// 获取今天的日期
+	const today = new Date();
+	// 创建一个空数组，用于存储三天的月和日
+	const threeDays = [];
+	
+	// 依次添加今天、明天和后天的月和日到数组中
+	for (let i = 0; i < 3; i++) {
+	  const date = new Date(today);
+	  date.setDate(today.getDate() + i);
+	  // 月份从0开始，需要加1
+	  const month = date.getMonth() + 1;
+	  const day = date.getDate();
+	  threeDays.push(`${month}月${day}日`);
+	}
+	return threeDays;
+}

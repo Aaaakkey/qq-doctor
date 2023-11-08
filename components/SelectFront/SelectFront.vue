@@ -1,5 +1,5 @@
 <template>
-	<view class="container">
+	<view class="select-front">
 		<image src="../../static/img/select-image1.png" mode="aspectFill" class="left-image"></image>
 		<view class="select-block">
 			<text class="context">
@@ -26,7 +26,7 @@
 </script>
 
 <style lang="scss" scoped>
-.container{
+.select-front{
 	background-color: #ffffff;
 	position: fixed;
 	width: 750rpx;

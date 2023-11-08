@@ -1,0 +1,23 @@
+/* 水平间距 */
+/* 水平间距 */
+.func-selelct-front {
+  width: 23.4375rem;
+  height: 4.375rem;
+  padding: 0.9375rem 0.9375rem;
+}
+.func-selelct-front .func-select-block {
+  width: 21.5625rem;
+  height: 2.5rem;
+  background-color: #f6f6f5;
+  border-radius: 0.625rem;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+}
+.func-selelct-front .func-select-block .func-select-block-image uni-image {
+  margin-top: 0.3125rem;
+  margin-left: 0.625rem;
+  margin-right: 0.3125rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}

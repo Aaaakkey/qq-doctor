@@ -135,7 +135,7 @@
 			display: flex;
 			flex: row;
 			height: 109rpx;
-			justify-content: start;
+			justify-content: flex-start;
 			align-items: center;
 
 			.i21 {

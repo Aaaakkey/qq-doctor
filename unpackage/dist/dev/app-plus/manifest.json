@@ -34,9 +34,13 @@
     },
     "popGesture": "close",
     "launchwebview": {
-      "render": "always",
       "id": "1",
       "kernel": "WKWebview"
+    },
+    "safearea": {
+      "bottom": {
+        "offset": "none"
+      }
     },
     "usingComponents": true,
     "nvueCompiler": "uni-app",
@@ -73,13 +77,14 @@
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "dark",
-      "background": "#F8F8F8"
+      "background": "#8AEEEE"
     },
+    "arguments": "{\"path\":\"pages/main/onlineformtime\"}",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
       "control": "uni-v3",
       "vueVersion": "3",
-      "compilerVersion": "3.94",
+      "compilerVersion": "3.8.12",
       "nvueCompiler": "uni-app",
       "renderer": "auto",
       "nvue": {
@@ -89,6 +94,47 @@
       "webView": {
         "minUserAgentVersion": "49.0"
       }
+    },
+    "tabBar": {
+      "position": "bottom",
+      "color": "#999",
+      "selectedColor": "#007aff",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "blurEffect": "none",
+      "fontSize": "10px",
+      "iconWidth": "24px",
+      "spacing": "3px",
+      "height": "50px",
+      "list": [
+        {
+          "pagePath": "pages/main/mainfront",
+          "iconPath": "/static/img/home.png",
+          "selectedIconPath": "/static/img/homes.png"
+        },
+        {
+          "pagePath": "pages/medical/medicalfront",
+          "iconPath": "/static/img/heart.png",
+          "selectedIconPath": "/static/img/hearts.png"
+        },
+        {
+          "pagePath": "pages/map/mapfront",
+          "iconPath": "/static/img/hospital.png",
+          "selectedIconPath": "/static/img/hospitals.png"
+        },
+        {
+          "pagePath": "pages/order/orderfront",
+          "iconPath": "/static/img/order.png",
+          "selectedIconPath": "/static/img/orders.png"
+        },
+        {
+          "pagePath": "pages/user/userfront",
+          "iconPath": "/static/img/my.png",
+          "selectedIconPath": "/static/img/mys.png"
+        }
+      ],
+      "backgroundColor": "#FFFFFF",
+      "selectedIndex": 0,
+      "shown": true
     }
   },
   "launch_path": "__uniappview.html"

@@ -1,104 +1,88 @@
 {
-	"pages": [
-		{
-		    "path" : "pages/login/start/start",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false,
+	"pages": [{
+			"path": "pages/login/start/start",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
 				"disableSwipeBack": true,
-				"app-plus": {//app平台
-						"bounce": "none"//禁止滚动
-						
-					}
-		    }
-		    
-		}   
-        ,{
-            "path" : "pages/login/register/register",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false,
+				"app-plus": {
+					//app平台
+					"bounce": "none" //禁止滚动
+				}
+			}
+		},
+		{
+			"path": "pages/main/messagetable",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
-				"app-plus": {//app平台
-						"bounce": "none"//禁止滚动
-					
-					
-					}
-            }
-            
-        }
-        ,{
-            "path" : "pages/login/passwordLogin/passwordLogin",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false,
+				"app-plus": {
+					//app平台
+					"bounce": "none" //禁止滚动
+				}
+			}
+		},
+		{
+			"path": "pages/login/passwordLogin/passwordLogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
-				"app-plus": {//app平台
-						"bounce": "none",//禁止滚动
-						"animationType": "none",
-								"animationDuration": 300
-					
-					}
-            }
-            
-        }
-        ,{
-            "path" : "pages/login/phoneLogin/phoneLogin",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false,
+				"app-plus": {
+					//app平台
+					"bounce": "none", //禁止滚动
+					"animationType": "none",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/login/phoneLogin/phoneLogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
-				"app-plus": {//app平台
-						"bounce": "none"//禁止滚动
-						
-					
-						
-					}
-            }
-            
-        }
-        ,{
-            "path" : "pages/login/userAgreement/userAgreement",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-			
-            }
-            
-        }
-        ,{
-            "path" : "pages/login/privacyPolicy/privacyPolicy",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-			
-            }
-            
-        }
-
-        ,{
-            "path" : "pages/registrationWizard/slideWizard/slideWizard",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false,
+				"app-plus": {
+					//app平台
+					"bounce": "none" //禁止滚动
+				}
+			}
+		},
+		{
+			"path": "pages/login/userAgreement/userAgreement",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/privacyPolicy/privacyPolicy",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/registrationWizard/slideWizard/slideWizard",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
-				"app-plus": {//app平台
-						"bounce": "none"//禁止滚动
-						
-					
-						
-					}
-            }
-            
-        },
+				"app-plus": {
+					//app平台
+					"bounce": "none" //禁止滚动
+				}
+			}
+		},
 		{
 			"path": "pages/main/mainfront",
 			"style": {
@@ -107,8 +91,8 @@
 				"navigationBarBackgroundColor": "#ffffff",
 				"navigationStyle": "custom"
 			}
-		
-		}, {
+		},
+		{
 			"path": "pages/map/mapfront",
 			"style": {
 				"navigationBarTitleText": "",
@@ -116,8 +100,8 @@
 				"navigationBarBackgroundColor": "#ffffff",
 				"navigationStyle": "custom"
 			}
-		
-		}, {
+		},
+		{
 			"path": "pages/medical/medicalfront",
 			"style": {
 				"navigationBarTitleText": "",
@@ -125,8 +109,8 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			},
 			"navigationStyle": "custom"
-		
-		}, {
+		},
+		{
 			"path": "pages/order/orderfront",
 			"style": {
 				"navigationBarTitleText": "",
@@ -134,8 +118,8 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			},
 			"navigationStyle": "custom"
-		
-		}, {
+		},
+		{
 			"path": "pages/user/userfront",
 			"style": {
 				"navigationBarTitleText": "",
@@ -143,33 +127,170 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			},
 			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/main/doctordetail",
+			"style": {
+				"navigationBarTitleText": "医生详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/onlineform",
+			"style": {
+				"navigationBarTitleText": "线上表单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/addpatient",
+			"style": {
+				"navigationBarTitleText": "病人信息添加",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/onlineorder",
+			"style": {
+				"navigationBarTitleText": "线上预约订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/onlineordersuccess",
+			"style": {
+				"navigationBarTitleText": "线上预约成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/main/vaccine",
+			"style": {
+				"navigationBarTitleText": "疫苗",
+				"enablePullDownRefresh": false
+
+				
+			}
+		},
+		{
+			"path": "components/FuncSelectFront/FuncSelectFront",
+			"style": {}
+		},
+		{
+			"path": "components/FuncSelectContext/FuncSelectContext",
+			"style": {}
+		}, {
+			"path": "pages/main/vaccinedetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/vaccinedetailaction",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/article",
+			"style": {
+				"navigationBarTitleText": "文章",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/diseaseknowledge",
+			"style": {
+				"navigationBarTitleText": "疾病知识",
+				"enablePullDownRefresh": false
+		
+				
+				
+			}
+
+		}, {
+			"path": "pages/main/check",
+			"style": {
+				"navigationBarTitleText": "检查",
+				"enablePullDownRefresh": false
+			
+				
+			}
+
+		}, {
+			"path": "pages/main/checkdetail",
+			"style": {
+				"navigationBarTitleText": "默认",
+				"enablePullDownRefresh": false
+			}
+
 		}
-		,{
-		    "path" : "pages/main/doctordetail",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "医生详情",
-		        "enablePullDownRefresh": false
-		    } 
-		}
-		,{
-		    "path" : "pages/main/messagetable",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "消息",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		}
+	    ,{
+            "path" : "pages/main/treatment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "治疗",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/diseaseknowledgedetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/treatmentdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "治疗",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/doctoronline",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "直播大厅",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/isbn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "科普号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    
+        
+        ,{
+            "path" : "pages/main/onlineformtime",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#8AEEEE",
-		"scrollIndicator": "none" ,
+		"scrollIndicator": "none",
 		"app-plus": {
-			"scrollIndicator": "none" ,// 在APP平台都不显示滚动条
-			"softinputMode" : "adjustResize"
+			"scrollIndicator": "none" // 在APP平台都不显示滚动条
 		}
 	},
 	"uniIdRouter": {},
@@ -201,5 +322,15 @@
 			}
 		],
 		"backgroundColor": "#FFFFFF"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
 	}
 }

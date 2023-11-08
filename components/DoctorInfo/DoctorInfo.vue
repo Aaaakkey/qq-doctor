@@ -22,14 +22,19 @@
 	export default {
 		props: {
 			item:{
-				id :"1",
-				pic: "../../static/img/doctor2.png",
-				name: "赵熙蒙",
-				depart: "眼科",
-				hospital: "赣州市第一人民医院",
-				evaluate: "5",
-				evaluatenum: "762",
-				status: "0"
+				type : Object,
+				default(){
+					return{
+						id :"1",
+						pic: "../../static/img/doctor2.png",
+						name: "赵熙蒙",
+						depart: "眼科",
+						hospital: "赣州市第一人民医院",
+						evaluate: "5",
+						evaluatenum: "762",
+						status: "0"
+					}
+				}
 			}
 		},
 		data() {
@@ -62,7 +67,6 @@
 		padding-left: 25rpx;
 		width: 750rpx;
 		height: 200rpx;
-		background-color: #f7f7f7;
 		display: flex;
 		flex-flow: row nowrap;
 		align-items: center;
